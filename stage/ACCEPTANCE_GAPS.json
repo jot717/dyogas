@@ -1,0 +1,176 @@
+{
+  "auditPass": true,
+  "humanPass": true,
+  "restartPass": true,
+  "gaps": [
+    "GAP-04c Binary document upload not implemented (paste placeholder only)"
+  ],
+  "mvpGaps": [],
+  "rows": [
+    {
+      "step": "1. Open application",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "UI 200; health 200"
+    },
+    {
+      "step": "2. User identity / authentication",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PARTIAL",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "PARTIAL",
+      "notes": "Demo local login (cookie session); not Supabase Auth"
+    },
+    {
+      "step": "3. Workspace creation and isolation",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "A capture 201; B knowledge leak=false; B count=0"
+    },
+    {
+      "step": "4. Capture knowledge input (URL/text/document)",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "text=201 doc=201 url=201 empty=400; binary file upload not supported"
+    },
+    {
+      "step": "5. External source processing (Jina Reader)",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "PARTIAL",
+      "notes": "URL capture produced content"
+    },
+    {
+      "step": "6. AI extraction / transformation (Gemini)",
+      "backend": true,
+      "frontend": false,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "Pending title=Text capture; Gemini may fallback locally on 503"
+    },
+    {
+      "step": "7. Approval workflow",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "approve=200 reject=200 bad=400"
+    },
+    {
+      "step": "8. Knowledge storage",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "stored=true; items=1"
+    },
+    {
+      "step": "9. Knowledge browsing experience",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "List+detail+search UI OK"
+    },
+    {
+      "step": "10. Search / retrieval",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "GET /api/search + /api/knowledge?q=; hits=1"
+    },
+    {
+      "step": "11. Ask My Brain",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "ask=200 citations=1 empty=400"
+    },
+    {
+      "step": "12. Citation / source traceability",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PARTIAL",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "Citations returned with knowledgeId/title"
+    },
+    {
+      "step": "13. Persistence after restart (re-login / reload workspace)",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "N/A",
+      "notes": "File snapshot restored on re-login"
+    },
+    {
+      "step": "14. Error handling",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "N/A",
+      "understandable": "PARTIAL",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "API returns JSON errors; UI shows message strings; no global toast system"
+    },
+    {
+      "step": "15. Empty state handling",
+      "backend": true,
+      "frontend": true,
+      "api": "PASS",
+      "persisted": "PASS",
+      "understandable": "PASS",
+      "automatedTest": true,
+      "failureHandled": "PASS",
+      "notes": "knowledge=0 pending=0; UI empty copy=true"
+    }
+  ]
+}

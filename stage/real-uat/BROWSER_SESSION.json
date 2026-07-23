@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1. Start application",
+    "result": "PASS",
+    "ms": 30,
+    "detail": "{\"ok\":true,\"service\":\"personal-brain\"}"
+  },
+  {
+    "id": "2-3. Open browser / page loads without hanging",
+    "result": "PASS",
+    "ms": 304,
+    "detail": "loadMs=101"
+  },
+  {
+    "id": "4. Login/authentication flow exists",
+    "result": "PASS",
+    "ms": 406,
+    "detail": "dashboard after login"
+  },
+  {
+    "id": "5. User workspace exists",
+    "result": "PASS",
+    "ms": 6,
+    "detail": "Knowledge0 Pending0 WorkspaceReal UAT Brain"
+  },
+  {
+    "id": "6. Capture flow",
+    "result": "PASS",
+    "ms": 857,
+    "detail": "Queued for approval: Real UAT Capture\nReal UAT note: Personal Brain stores owner-approved knowledge for Ask My Brain."
+  },
+  {
+    "id": "7. Approval flow (capture pending)",
+    "result": "PASS",
+    "ms": 355,
+    "detail": "capture approve/reject controls worked"
+  },
+  {
+    "id": "8. Knowledge experience",
+    "result": "PASS",
+    "ms": 390,
+    "detail": "detailChars=222"
+  },
+  {
+    "id": "9. Ask My Brain human approval workflow",
+    "result": "PASS",
+    "ms": 29044,
+    "detail": "propose→evidence→edit→approve→learn OK"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "name": "@dyogas/personal-brain",
+  "version": "0.2.0",
+  "private": true,
+  "description": "DYOGAS Personal Second Brain core + connection layer (MOD-PERSONAL-BRAIN)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "API.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts",
+    "check-env": "tsx scripts/check-env.ts",
+    "test-external-connections": "tsx scripts/test-external-connections.ts"
+  },
+  "dependencies": {
+    "@dyogas/graph-engine": "file:../graph",
+    "@dyogas/kernel": "file:../kernel",
+    "@dyogas/knowledge-engine": "file:../knowledge",
+    "@dyogas/markdown-engine": "file:../markdown",
+    "@dyogas/research-engine": "file:../research",
+    "@dyogas/trust": "file:../trust"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
