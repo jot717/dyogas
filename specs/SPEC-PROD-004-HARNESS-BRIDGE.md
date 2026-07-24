@@ -3,12 +3,12 @@
 **Spec ID:** SPEC-PROD-004-HARNESS-BRIDGE  
 **Title:** Personal Brain ↔ Execution Harness Bridge  
 **Module:** MOD-PERSONAL-BRAIN  
-**Status:** `draft` — revised after Architecture Review REQUEST CHANGES (awaiting re-review)  
+**Status:** `accepted` — Architecture Review APPROVE · `no_arch_impact` · Founder business APPROVE ([`DL-PB-HARNESS-BRIDGE-001`](../../docs/decision-log/DL-PB-HARNESS-BRIDGE-001.md)) · entry path aligned to ADR-0010 / Execution Host  
 **Parent SSOT:** [`SPEC-PRODUCT-MASTER.md`](./SPEC-PRODUCT-MASTER.md)  
 **Trace ID:** TRACE-PB-BRIDGE-001  
-**Related:** Constitution Art. III, XIII · `/harness/HARNESS_SPECIFICATION.md` · `/pipelines/knowledge-ingestion.md` · ADR-0009 · Runtime (SPEC-RT-002) · Agent SDK (SPEC-RT-003)  
-**Non-modification:** This SPEC does **not** authorize changes to Runtime, SDK, or Harness **implementation**. It defines the **product contract** Personal Brain must honor when requesting governed agent work.  
-**Duplicate check:** Does **not** invent a second orchestrator or parallel ingestion pipeline. Consumes existing Execution Harness path `knowledge-ingestion` and existing contracts/artifacts.
+**Related:** Constitution Art. III, XIII · `/harness/HARNESS_SPECIFICATION.md` · `/pipelines/knowledge-ingestion.md` · ADR-0009 · ADR-0010 · Execution Host (SPEC-EXECUTION-HOST-001) · Runtime (SPEC-RT-002) · Agent SDK (SPEC-RT-003)  
+**Non-modification:** This SPEC does **not** authorize changes to Runtime, SDK, Harness, or Execution Host **implementation**. It defines the **product contract** Personal Brain must honor when requesting governed agent work.  
+**Duplicate check:** Does **not** invent a second orchestrator or parallel ingestion pipeline. Consumes existing **Execution Host** path for pinned `knowledge-ingestion` under Execution Harness law.
 
 ---
 
@@ -32,10 +32,10 @@ Founder Approval (business)
 
 | State | Meaning |
 |-------|---------|
-| **Draft** | Spec authored / revised (current) |
+| **Draft** | Spec authored / revised |
 | **Review** | Engineering Agent + Architecture Review in progress |
-| **Approved** | Spec `accepted`; Founder business APPROVE recorded |
-| **Implemented** | Bridge behavior delivered per this contract (future sprint) |
+| **Approved** | Spec `accepted`; Founder business APPROVE recorded (**current**) |
+| **Implemented** | Bridge behavior delivered per this contract (sprint / follow-on) |
 | **Verified** | Acceptance Criteria AC-1..AC-8 evidenced |
 
 ---
@@ -47,7 +47,7 @@ Founder Approval (business)
 | **Who** | Personal Brain owners (and platform operators) who need professional or thematic research turned into **trusted personal knowledge** |
 | **How it hurts** | Multi-agent research cannot be claimed as Constitution-compliant: no Harness-admitted run, weak audit lineage, risk of product-local agent orchestration |
 | **Frequency** | Every professional exploration request (e.g. “Research AI Agent market”) |
-| **Current workaround** | (a) Manual research outside DYOGAS, or (b) product-local capture/AI assist without Execution Harness admission |
+| **Current workaround** | (a) Manual research outside DYOGAS, or (b) product-local capture/AI assist without **Execution Host** `createRun` under Execution Harness law |
 | **Why workaround fails** | Manual work loses platform provenance/gates; product-local orchestration is a **shadow Harness** (Art. XIII) and cannot issue proper apply-token / Human Approval Gate semantics for SoR |
 
 ---
@@ -58,8 +58,8 @@ Personal Brain needs a **Harness Bridge** so that multi-agent research and knowl
 
 The Bridge is the product-facing contract that:
 
-1. Turns a personal research intent into a **Research Brief** suitable for Harness admission.  
-2. Requests **Execution Harness** (via Runtime) to run the **existing** agent pipeline.  
+1. Turns a personal research intent into a **Research Brief** suitable for Host/Harness bootstrap.  
+2. Requests **Execution Host** (`createRun`) to run the **existing** pinned `knowledge-ingestion` pipeline under Harness law.  
 3. Surfaces **Human Approval** to the workspace owner before anything becomes personal trusted knowledge.  
 4. Receives **Verified Knowledge** and **Graph** outcomes with lineage intact.
 
@@ -77,8 +77,8 @@ Without the Bridge, Personal Brain can capture and locally process material but 
 
 ### Missing
 
-- A governed **multi-agent research workflow** admitted by the Execution Harness.  
-- Explicit product contract: Personal Brain **requests** pipelines; it does **not** execute agents itself.  
+- A governed **multi-agent research workflow** requested via **Execution Host** under Execution Harness law.  
+- Explicit product contract: Personal Brain **requests** Host/`createRun`; it does **not** execute agents itself.  
 - End-to-end lineage from user research request → brief → agents → human gate → sealed personal knowledge → graph.
 
 ### Pain
@@ -104,7 +104,7 @@ Personal Brain Harness Bridge **consumes existing**:
 |------------|-------------|
 | Research request | Owner-initiated intent (natural language or structured) within a personal workspace |
 | Research Brief | Conceptual artifact that bootstraps a Harness pipeline run |
-| Agent pipeline request | Admission request to Execution Harness / Runtime for pinned pipeline **`knowledge-ingestion`** |
+| Agent pipeline request | Request to **Execution Host** `createRun` for pinned pipeline **`knowledge-ingestion`** (Host composes Runtime) |
 | Human review | Owner-attributable Human Approval Gate outcomes before trusted knowledge |
 | Knowledge acceptance | Only approved outcomes become **Verified Personal Knowledge** |
 | Graph update | Post-acceptance connection of verified knowledge in the Knowledge Graph |
@@ -140,8 +140,9 @@ This SPEC explicitly excludes:
 
 | Surface | Use |
 |---------|-----|
-| **Runtime admission** | Admit pipeline runs / invocations per SPEC-RT-002 |
-| **Execution Harness pipeline execution** | Law in `/harness/HARNESS_SPECIFICATION.md`; topology `knowledge-ingestion` |
+| **Execution Host** | Product entry: `createRun` / Human Gate resume / authorize apply — SPEC-EXECUTION-HOST-001 · ADR-0010 |
+| **Runtime primitives** | Consumed **by Host** (admit, transitions, handoff) per SPEC-RT-002 — Personal Brain does not call Runtime as pipeline orchestrator |
+| **Execution Harness law** | Law in `/harness/HARNESS_SPECIFICATION.md`; topology `knowledge-ingestion` |
 | **Existing agent contracts** | `/contracts/agents/*` (Research, Source Validation, Proposal, Knowledge Review, Markdown, Knowledge Graph, Embedding, Memory, …) |
 | **Existing artifacts and schemas** | `/artifacts`, `/schemas` — see Artifact Mapping |
 | **Knowledge Engine** | Authorized SoR apply after Human Approval / apply token |
@@ -151,8 +152,8 @@ This SPEC explicitly excludes:
 
 | Forbidden creation | Statement |
 |--------------------|-----------|
-| New orchestrator | Personal Brain must not become a second Harness |
-| New pipeline engine | No parallel engine beside Runtime / Harness law |
+| New orchestrator | Personal Brain must not become a second Harness / Host |
+| New pipeline engine | No parallel engine beside Execution Host + Harness law |
 | New approval semantics | Uses existing Human Approval Gate outcomes (`approved`, `rejected`, `request_changes`, … per Harness §9) |
 | New SoR write path | No writes outside Knowledge Engine apply rules |
 
@@ -165,34 +166,34 @@ This SPEC explicitly excludes:
 **Example user intent:** “Research AI Agent market.”
 
 ```text
-Request
-   ↓
-Research Brief
-   ↓
-Execution Harness Admission (Runtime)
-   ↓
-knowledge-ingestion pipeline
-   ↓
-Research Agent
-   ↓
-Validation
-   ↓
-Knowledge Proposal
-   ↓
-Human Review (owner) — Harness Human Approval Gate
-   ↓
-Verified Knowledge
-   ↓
-Graph Connection
+Experience Product (Personal Brain)
+        ↓
+ExecutionHost.createRun()
+        ↓
+Execution Host
+        ↓
+Runtime.admitRun() (primitives)
+        ↓
+SDK
+        ↓
+Agents
+        ↓
+Human Approval
+        ↓
+Knowledge
+        ↓
+Graph
 ```
+
+Pinned pipeline topology (unchanged): `knowledge-ingestion` — Research → Validation → Proposal → Human Review → Markdown → Graph → Embedding → Memory.
 
 ### Narrative
 
 1. **Request** — Owner states a research intent in their Personal Brain workspace.  
 2. **Research Brief** — Personal Brain maps intent + workspace tenancy + constraints into a Brief suitable for pipeline bootstrap.  
-3. **Admission** — Personal Brain **requests** Execution Harness admission (Runtime) for **`knowledge-ingestion`**. Agents do not self-admit.  
-4. **Research → Validation → Proposal** — Contracted agents produce sealed-stage artifacts under Harness state machine, handoffs, and Review Gates.  
-5. **Human Review** — Owner decides **accept / reject / modify** mapped to Harness §9 outcomes (`approved` / `rejected` / `request_changes`) at the Human Approval Gate.  
+3. **Host createRun** — Personal Brain **requests** **Execution Host** `createRun` for pinned **`knowledge-ingestion`**. Host admits via Runtime; agents do not self-admit.  
+4. **Research → Validation → Proposal** — Contracted agents produce sealed-stage artifacts under Host-driven stages + Harness state machine, handoffs, and Review Gates.  
+5. **Human Review** — Owner decides **accept / reject / modify** mapped to Harness §9 outcomes (`approved` / `rejected` / `request_changes`) at the Human Approval Gate (surfaced by product; enforced by Host).  
 6. **Verified Knowledge** — Only on attributable approval does knowledge become personal trusted knowledge (Knowledge Plane apply under platform rules).  
 7. **Graph Connection** — Graph stage connects verified knowledge for later retrieval and decision support.
 
@@ -295,15 +296,19 @@ Supporting agents (Notification, Learning, Embedding, Memory, etc.) follow `know
 **Personal Brain does not execute agents directly.**
 
 ```text
-Personal Brain (product layer)
-        ↓  request (Brief + tenancy + pipeline pin = knowledge-ingestion)
-Execution Harness admission (Runtime)
+Personal Brain (Experience Product)
         ↓
-Pipeline knowledge-ingestion + State Machine + Artifacts + Handoffs
+ExecutionHost.createRun()
+        ↓
+Execution Host
+        ↓
+Runtime.admitRun() (primitives) → SDK → Agents
+        ↓
+Pipeline knowledge-ingestion + Harness State Machine + Artifacts + Handoffs
         ↓
 Review Gates + Human Approval Gate
         ↓
-Audit Trail + Sealed / Verified Knowledge (+ GraphUpdate)
+Knowledge → Graph
         ↓  outcomes / references
 Personal Brain (indexes, retrieval, future Decision Model)
 ```
@@ -312,10 +317,11 @@ Personal Brain (indexes, retrieval, future Decision Model)
 
 | Party | Obligation |
 |-------|------------|
-| **Personal Brain** | Form Brief; request admission to **`knowledge-ingestion`**; present human gate to owner; consume outcomes; never self-admit agents; never shadow-orchestrate multi-agent SoR writes |
-| **Execution Harness** | Sole admitting authority; enforce lifecycle, state, handoffs, retries, gates, audit |
-| **Runtime** | Enforce Harness semantics (consume, do not rewrite under this SPEC) |
-| **SDK** | Bind agents to contracts; emit candidates for Harness seal (consume, do not rewrite) |
+| **Personal Brain** | Form Brief; call **Execution Host** `createRun` / surface Human Gate; consume outcomes; never self-admit agents; never shadow-orchestrate multi-agent SoR writes |
+| **Execution Host** | Pipeline Engine implementation; admit via Runtime; drive stages; enforce Host Human Gate overlay under Harness law |
+| **Execution Harness** | Sole execution **law** (states, gates, handoffs, retries, audit semantics) |
+| **Runtime** | Execution primitives only (consume, do not rewrite under this SPEC) |
+| **SDK** | Bind agents to contracts; emit candidates (consume, do not rewrite; never orchestrate) |
 
 ### Development vs Execution
 
@@ -332,7 +338,7 @@ Measurable conditions for declaring the Bridge **product-contract complete** (im
 | # | Criterion |
 |---|-----------|
 | AC-1 | A Personal Brain research request can be expressed as a **Research Brief** (`ResearchBrief`) with workspace tenancy and correlation to the owner. |
-| AC-2 | The Brief becomes a **governed pipeline request** admitted by Execution Harness / Runtime for pinned **`knowledge-ingestion`** (no product-local agent swarm; no new pipeline topology). |
+| AC-2 | The Brief becomes a **governed pipeline request** via **Execution Host** `createRun` for pinned **`knowledge-ingestion`** (no product-local agent swarm; no new pipeline topology; Runtime used only through Host). |
 | AC-3 | **Human Approval** exists as a mandatory gate before any research-derived content becomes **Verified Personal Knowledge**. |
 | AC-4 | Owner decisions support **accept / reject / modify** mapped to Harness outcomes (`approved` / `rejected` / `request_changes`) with attributable identity. |
 | AC-5 | **Knowledge lineage** is preserved: Verified Knowledge traces to Brief, run, proposal, and approval. |
@@ -385,7 +391,7 @@ Human judgment (always)
 
 | State | Action |
 |-------|--------|
-| Now | Spec **revised** for Architecture Review REQUEST CHANGES — still **no implementation** |
-| Next | Re-run Architecture Review → Engineering Agent chain → Founder business approval → optional implementation sprint |
+| Now | Spec **`accepted`**. Product entry = **`ExecutionHost.createRun()`** → Host → `Runtime.admitRun()` primitives → SDK → Agents (ADR-0010). |
+| Next | Execute authorized `SPRINT-PB-HARNESS-BRIDGE-001` under Host entry (consume-only; no Runtime/SDK/Harness/Host rewrite). Implementation only per sprint gates — not authorized by this sync alone. |
 
 **End of SPEC-PROD-004-HARNESS-BRIDGE**
