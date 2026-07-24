@@ -1,6 +1,8 @@
 # @dyogas/personal-brain
 
-MOD-PERSONAL-BRAIN — Personal Second Brain **core + external connection layer** (SPEC-PROD-001 / ADR-0009).
+MOD-PERSONAL-BRAIN — Personal Second Brain **core + external connection layer**.
+
+**Product SSOT:** [`specs/SPEC-PRODUCT-MASTER.md`](./specs/SPEC-PRODUCT-MASTER.md) (ADR-0009).
 
 Consumes Knowledge + Graph. Does not modify Kernel, Runtime, Trust, or Research.
 

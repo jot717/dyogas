@@ -1,6 +1,6 @@
 /**
  * @dyogas/personal-brain — MOD-PERSONAL-BRAIN core + connection layer
- * (SPEC-PROD-001 / SPEC-PROD-002 / SPEC-PROD-003). Product UI layer removed.
+ * Product SSOT: specs/SPEC-PRODUCT-MASTER.md. Product UI layer removed.
  */
 
 export {

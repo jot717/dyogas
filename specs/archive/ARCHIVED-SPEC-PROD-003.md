@@ -1,6 +1,8 @@
-# SPEC-PROD-003 — Ask My Brain Human Approval Workflow
+# ARCHIVED — SPEC-PROD-003 — Ask My Brain Human Approval Workflow
 
-**Status:** Accepted (Founder APPROVE 2026-07-23)  
+> **ARCHIVED / SUPERSEDED** by [`../SPEC-PRODUCT-MASTER.md`](../SPEC-PRODUCT-MASTER.md). Historical only — not product SSOT.
+
+**Former status:** Accepted (Founder APPROVE 2026-07-23)  
 **Module:** MOD-PERSONAL-BRAIN only  
 **Parent:** SPEC-PROD-002 / ADR-0009  
 **Requirements:** REQ-PB-ASK-01..06  

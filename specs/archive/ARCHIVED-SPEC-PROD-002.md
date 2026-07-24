@@ -1,6 +1,8 @@
-# SPEC-PROD-002 — Personal Brain Product MVP (Enrichment)
+# ARCHIVED — SPEC-PROD-002 — Personal Brain Product MVP (Enrichment)
 
-**Status:** Accepted (Harness Execution Engine command 2026-07-23)  
+> **ARCHIVED / SUPERSEDED** by [`../SPEC-PRODUCT-MASTER.md`](../SPEC-PRODUCT-MASTER.md). Historical only — not product SSOT.
+
+**Former status:** Accepted (Harness Execution Engine command 2026-07-23)  
 **Module:** MOD-PERSONAL-BRAIN only  
 **Parent:** SPEC-PROD-001 / ADR-0009  
 **Package:** `@dyogas/personal-brain@0.2.0`

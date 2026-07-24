@@ -1,6 +1,8 @@
-# SPEC-PROD-001 — Personal Second Brain (MOD-PERSONAL-BRAIN)
+# ARCHIVED — SPEC-PROD-001 — Personal Second Brain (MOD-PERSONAL-BRAIN)
 
-**Status:** Accepted (Founder command — Harness Execution Engine 2026-07-23)  
+> **ARCHIVED / SUPERSEDED** by [`../SPEC-PRODUCT-MASTER.md`](../SPEC-PRODUCT-MASTER.md). Historical only — not product SSOT.
+
+**Former status:** Accepted (Founder command — Harness Execution Engine 2026-07-23)  
 **Module:** MOD-PERSONAL-BRAIN  
 **Phase:** Product Layer — Personal Second Brain MVP  
 **Package:** `@dyogas/personal-brain`  
