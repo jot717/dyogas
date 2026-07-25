@@ -38,3 +38,13 @@ export {
 export { PersonalBrainProduct } from "./product/app.js";
 export { buildMarkdownArtifact, parseFrontmatter } from "./knowledge/markdown-artifact.js";
 export { loadEnv } from "./env.js";
+
+/** Bridge → Host createRun pipeline pin (SPEC-PROD-004 / T-B2). */
+export {
+  APPROVED_PIPELINE_ID,
+  APPROVED_PIPELINE_VERSION,
+  KNOWLEDGE_INGESTION_EXECUTION_INTENT,
+  approvedPipelinePinForCreateRun,
+  selectApprovedPipelineForCreateRun,
+  type ApprovedPipelinePin,
+} from "./bridge/pipeline-pin.js";
