@@ -5,7 +5,7 @@
 **Trace:** TRACE-PB-BRIDGE-001  
 **Spec:** SPEC-PROD-004-HARNESS-BRIDGE (`accepted`)  
 **Created:** 2026-07-24  
-**Last updated:** 2026-07-25 (T-G2 — sprint COMPLETE / exit PASS)  
+**Last updated:** 2026-07-25 (SPRINT-PB-BRIDGE-CODING-001 COMPLETE PASS; GAP-BR-019 remains OPEN P0)
 **Mode:** Implementation Mode — **register only** (do not fix gaps here)
 
 ---
@@ -327,6 +327,22 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | **Decision Required** | Policy enforce vs future schema `required` — Spec/ADR if schema changes. |
 | **Blocking Current Sprint?** | **NO** |
 
+### GAP-BR-019
+
+| Field | Content |
+|-------|---------|
+| **GAP ID** | GAP-BR-019 |
+| **Source Task** | **C-04** (SPRINT-PB-BRIDGE-CODING-001) |
+| **Description** | Execution Host stage executor binds the Research Agent contract (`bindStage`) then seals a **synthetic** artifact id into lineage kind `ResearchReport` without invoking research-engine skill handlers or returning a schema-valid ResearchReport **payload** via public Host API (`HostRun` exposes refs only). |
+| **Impact** | Personal Brain can prove Host Stage 1 path + ResearchReport **lineage ref**, but cannot consume a real ResearchReport body without Host hardening (or forbidden product-side Runtime/SDK/research-engine orchestration). |
+| **Priority** | **P0** — blocks real Stage-1 Research execution and canonical ResearchReport production |
+| **Severity** | Critical for executable Bridge acceptance; Host createRun/lineage-only smoke remains available |
+| **Owner Area** | Execution Host / Platform |
+| **Status** | **OPEN** |
+| **Planned Resolution** | `SPRINT-HOST-RESEARCH-INTEGRATION-001` (pending Founder approval): Host → existing Research Engine → schema-valid ResearchReport → existing Runtime seal/handoff → HostRun lineage. |
+| **Decision Required** | Founder approval of the planned Host implementation sprint; **do not** implement in Personal Brain. |
+| **Blocking Current Sprint?** | **YES** for real/schema-body ResearchReport acceptance; **NO** for lineage-only Host smoke |
+
 ---
 
 ## Index
@@ -353,8 +369,9 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | **GAP-BR-016** | **OPEN** | **NO** |
 | **GAP-BR-017** | **OPEN** | **NO** |
 | **GAP-BR-018** | **OPEN** | **NO** |
+| **GAP-BR-019** | **OPEN · P0** | **YES** (real ResearchReport) |
 
-**Sprint blockers from this register:** none. Sprint **COMPLETE** (design PASS) — see G2 exit. Open GAPs remain for coding follow-up.
+**Design sprint status:** `SPRINT-PB-HARNESS-BRIDGE-001` remains COMPLETE (design PASS). **GAP-BR-019 P0 blocks real ResearchReport implementation acceptance** and is assigned to the planned Execution Platform sprint.
 
 ---
 
@@ -381,6 +398,14 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | 2026-07-24 | T-F4 minimal Host test harness definition — **no new GAPs**; Host public APIs only; executable suite deferred |
 | 2026-07-25 | T-G1 SPEC-PROD-004 `accepted` + MODULE_STATUS hygiene — **no new GAPs**; path note only (canonical SPEC-PROD-004-HARNESS-BRIDGE) |
 | 2026-07-25 | T-G2 sprint exit **PASS** — **no GAPs resolved**; all remain OPEN/DEFERRED/REFERENCED; coding follow-up **YES** |
+| 2026-07-25 | C-01 Research Request Builder — **no new GAPs**; product defaults cite GAP-BR-002…005; `run_id` stamp deferred (GAP-BR-005) |
+| 2026-07-25 | C-02 createRun integration — **no new GAPs**; Host public API only; GAP-BR-012 ambient Kernel workaround evidenced in C-02-T5 |
+| 2026-07-25 | C-03 Host Research Agent path — **no new GAPs**; Host-owned bind; PB observe-only; SPEC-AGT-001 via Host stage map |
+| 2026-07-25 | C-04 execute Research via Host — **GAP-BR-019 OPEN** (Host MVP lineage seal, no ResearchReport body via public API) |
+| 2026-07-25 | Planning audit — **GAP-BR-019 promoted to P0**; planned resolution `SPRINT-HOST-RESEARCH-INTEGRATION-001` (pending Founder approval) |
+| 2026-07-25 | C-05 persist ResearchReport reference — **no new GAPs; none closed**; product stores Host ref + lineage/ownership/tenancy only; GAP-BR-019 remains OPEN P0 |
+| 2026-07-25 | C-06 smoke — **PASS** on Host MVP lineage-seal path; **no new GAPs; none closed**; GAP-BR-019 / GAP-EH-003 / GAP-BR-012 / GAP-BR-005 / GAP-BR-002…004 remain OPEN |
+| 2026-07-25 | C-07 / `SPRINT-PB-BRIDGE-CODING-001` **COMPLETE · PASS** — **no new GAPs; none closed**; GAP-BR-019 remains **OPEN · P0** |
 
 ---
 

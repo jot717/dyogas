@@ -48,3 +48,69 @@ export {
   selectApprovedPipelineForCreateRun,
   type ApprovedPipelinePin,
 } from "./bridge/pipeline-pin.js";
+
+/** Bridge Research Request → Brief bootstrap (C-01). */
+export {
+  ALLOWED_SOURCE_CLASS_VALUES,
+  DEFAULT_ALLOWED_SOURCE_CLASSES,
+  DEFAULT_BUDGET_MAX_ITEMS,
+  buildResearchBriefBootstrap,
+  stampBootstrapRunId,
+  type AllowedSourceClass,
+  type ResearchRequest,
+  type ResearchBriefBootstrap,
+  type BridgeCreateRunIdentity,
+  type BuiltResearchBrief,
+} from "./bridge/research-request.js";
+
+/** Bridge → ExecutionHost.createRun (C-02). */
+export {
+  createBridgeRun,
+  type BridgeExecutionHost,
+  type CreateBridgeRunOptions,
+  type BridgeCreateRunResult,
+} from "./bridge/create-run.js";
+
+/** Bridge Host Research Agent path observe (C-03). */
+export {
+  STAGE1_RESEARCH_PRODUCER,
+  STAGE1_RESEARCH_AGENT_ID,
+  STAGE1_RESEARCH_CONTRACT_VERSION,
+  hostResearchAgentContractPin,
+  assertHostSelectsResearchAgentContract,
+  observeResearchAgentPath,
+  assertResearchAgentPathReached,
+  type ResearchAgentPathObservation,
+} from "./bridge/research-agent-path.js";
+
+/** Bridge execute Research via Host (C-04). */
+export {
+  RESEARCH_REPORT_ARTIFACT_TYPE,
+  assertHostResearchReport,
+  executeResearchViaHost,
+  type ResearchReportProductionMode,
+  type HostResearchReportRef,
+  type ExecuteResearchViaHostResult,
+} from "./bridge/execute-research.js";
+
+/** Persist Host ResearchReport references only (C-05). */
+export {
+  persistResearchReportReference,
+  executeAndPersistResearchViaHost,
+  type ExecuteAndPersistResearchOptions,
+} from "./bridge/persist-research-report.js";
+
+export {
+  createFileResearchReportReferenceStore,
+  type StoredResearchReportReference,
+  type PersistResearchReportDisposition,
+  type PersistResearchReportResult,
+  type ResearchReportReferenceStore,
+} from "./persist/research-report-ref-store.js";
+
+export type {
+  CreateRunRequest,
+  HostRun,
+  HostRunStatus,
+  LineageSnapshot,
+} from "@dyogas/execution-host";
