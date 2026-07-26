@@ -1,0 +1,525 @@
+{
+  "A": {
+    "requestId": "USER-REQUEST-001",
+    "userIntent": "I want to decide whether to build an AI startup in Tokyo in 2026",
+    "decisionQuestion": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+    "constraints": {
+      "location": "Tokyo Japan",
+      "founderType": "solo technical founder",
+      "timeframe": "2026",
+      "budget": "limited",
+      "goal": "find billion-dollar potential opportunity"
+    },
+    "requiredEvidence": [
+      "market trends",
+      "existing competitors",
+      "customer pain points",
+      "technology feasibility"
+    ]
+  },
+  "B": {
+    "taskPlan": {
+      "plan_id": "tp-011e3cd3a9",
+      "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+      "title": "Research: Which AI startup opportunity has the highest probability of success for a solo f",
+      "objective": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "tenant_id": "validation-tokyo-2026",
+      "run_id": "USER-REQUEST-001",
+      "sprint_id": "VALIDATION-USER-REQUEST-001",
+      "steps": [
+        {
+          "step_id": "step-research-01",
+          "title": "Collect research evidence",
+          "agent_id": "research-agent",
+          "depends_on": [],
+          "objective": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?"
+        }
+      ],
+      "package_fields": {
+        "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+        "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+        "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+        "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+        "expectedEvidence": "docs/task-agent/evidence/TA-WHICH-AI-STARTUP-OPPORTU.json",
+        "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+        "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+        "executionMode": "Implementation Mode",
+        "dependencies": []
+      },
+      "requires_human_approval": true,
+      "routed_agent_ids": [
+        "research-agent"
+      ],
+      "research_brief": {
+        "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+        "scope": "I want to decide whether to build an AI startup in Tokyo in 2026; location=Tokyo Japan; founderType=solo technical founder; timeframe=2026; budget=limited; goal=find billion-dollar potential opportunity; requiredEvidence=market trends|existing competitors|customer pain points|technology feasibility",
+        "allowed_source_classes": [
+          "web",
+          "github",
+          "reddit"
+        ],
+        "budget": {
+          "max_items": 6,
+          "max_seconds": 30
+        }
+      }
+    },
+    "executionPackage": {
+      "taskId": "TA-WHICH-AI-STARTUP-OPPORTU",
+      "title": "Research: Which AI startup opportunity has the highest probability of success for a solo f",
+      "objective": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "dependencies": [],
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-WHICH-AI-STARTUP-OPPORTU.json",
+      "executionMode": "Implementation Mode",
+      "sprintId": "VALIDATION-USER-REQUEST-001",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE | BLOCKED"
+    }
+  },
+  "C": {
+    "brief_id": "brief-USER-REQUEST-001",
+    "brief": {
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "scope": "I want to decide whether to build an AI startup in Tokyo in 2026; location=Tokyo Japan; founderType=solo technical founder; timeframe=2026; budget=limited; goal=find billion-dollar potential opportunity; requiredEvidence=market trends|existing competitors|customer pain points|technology feasibility",
+      "allowedSourceClasses": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "maxItems": 6,
+      "maxSeconds": 30
+    }
+  },
+  "D": {
+    "requestId": "USER-REQUEST-001",
+    "researchArtifactId": "brief-USER-REQUEST-001",
+    "taskId": "81a06e154c8f38b98bfe44b62458fa07",
+    "tenantId": "validation-tokyo-2026",
+    "candidate": {
+      "brief_ref": {
+        "brief_id": "brief-USER-REQUEST-001",
+        "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?"
+      },
+      "evidence_items": [
+        {
+          "evidence_id": "fixture-web-0",
+          "source_class": "web",
+          "title": "Fixture web result 1",
+          "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://web/0",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        },
+        {
+          "evidence_id": "fixture-web-1",
+          "source_class": "web",
+          "title": "Fixture web result 2",
+          "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://web/1",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        },
+        {
+          "evidence_id": "fixture-github-0",
+          "source_class": "github",
+          "title": "Fixture github result 1",
+          "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://github/0",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        },
+        {
+          "evidence_id": "fixture-github-1",
+          "source_class": "github",
+          "title": "Fixture github result 2",
+          "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://github/1",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        },
+        {
+          "evidence_id": "fixture-reddit-0",
+          "source_class": "reddit",
+          "title": "Fixture reddit result 1",
+          "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://reddit/0",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        },
+        {
+          "evidence_id": "fixture-reddit-1",
+          "source_class": "reddit",
+          "title": "Fixture reddit result 2",
+          "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "provenance": {
+            "pointer": "fixture://reddit/1",
+            "retrieved_at": "2026-07-26T09:12:10.068Z"
+          },
+          "signal_tier": "unknown"
+        }
+      ],
+      "coverage_gaps": [],
+      "open_questions": []
+    },
+    "evidence": [
+      {
+        "evidenceId": "fixture-web-0",
+        "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "web",
+          "title": "Fixture web result 1",
+          "pointer": "fixture://web/0",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      },
+      {
+        "evidenceId": "fixture-web-1",
+        "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "web",
+          "title": "Fixture web result 2",
+          "pointer": "fixture://web/1",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      },
+      {
+        "evidenceId": "fixture-github-0",
+        "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "github",
+          "title": "Fixture github result 1",
+          "pointer": "fixture://github/0",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      },
+      {
+        "evidenceId": "fixture-github-1",
+        "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "github",
+          "title": "Fixture github result 2",
+          "pointer": "fixture://github/1",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      },
+      {
+        "evidenceId": "fixture-reddit-0",
+        "excerpt": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "reddit",
+          "title": "Fixture reddit result 1",
+          "pointer": "fixture://reddit/0",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      },
+      {
+        "evidenceId": "fixture-reddit-1",
+        "excerpt": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "metadata": {
+          "sourceClass": "reddit",
+          "title": "Fixture reddit result 2",
+          "pointer": "fixture://reddit/1",
+          "retrievedAt": "2026-07-26T09:12:10.068Z",
+          "adapter": "fixture-source-v1"
+        }
+      }
+    ],
+    "runEvidence": {
+      "kind": "research-collection-run-evidence",
+      "version": "1.0.0",
+      "generatedAt": "2026-07-26T09:12:10.068Z",
+      "briefId": "brief-USER-REQUEST-001",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "collectorAdapterId": "fixture-source-v1",
+      "allowedSourceClasses": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "maxItems": 6,
+        "maxSeconds": 30,
+        "itemsCollected": 6,
+        "truncatedByItems": false,
+        "truncatedByTime": false,
+        "elapsedMs": 0
+      },
+      "coverageGaps": [],
+      "openQuestions": [],
+      "evidence": [
+        {
+          "evidenceId": "fixture-web-0",
+          "sourceClass": "web",
+          "pointer": "fixture://web/0",
+          "title": "Fixture web result 1",
+          "adapter": "fixture-source-v1"
+        },
+        {
+          "evidenceId": "fixture-web-1",
+          "sourceClass": "web",
+          "pointer": "fixture://web/1",
+          "title": "Fixture web result 2",
+          "adapter": "fixture-source-v1"
+        },
+        {
+          "evidenceId": "fixture-github-0",
+          "sourceClass": "github",
+          "pointer": "fixture://github/0",
+          "title": "Fixture github result 1",
+          "adapter": "fixture-source-v1"
+        },
+        {
+          "evidenceId": "fixture-github-1",
+          "sourceClass": "github",
+          "pointer": "fixture://github/1",
+          "title": "Fixture github result 2",
+          "adapter": "fixture-source-v1"
+        },
+        {
+          "evidenceId": "fixture-reddit-0",
+          "sourceClass": "reddit",
+          "pointer": "fixture://reddit/0",
+          "title": "Fixture reddit result 1",
+          "adapter": "fixture-source-v1"
+        },
+        {
+          "evidenceId": "fixture-reddit-1",
+          "sourceClass": "reddit",
+          "pointer": "fixture://reddit/1",
+          "title": "Fixture reddit result 2",
+          "adapter": "fixture-source-v1"
+        }
+      ]
+    }
+  },
+  "E": {
+    "asset_id": "da-efde5c6bfd67",
+    "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+    "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+    "summary": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: brief-USER-REQUEST-001",
+    "claims": [
+      {
+        "claim_id": "claim-000",
+        "text": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-web-0"
+      },
+      {
+        "claim_id": "claim-001",
+        "text": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-web-1"
+      },
+      {
+        "claim_id": "claim-002",
+        "text": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-github-0"
+      },
+      {
+        "claim_id": "claim-003",
+        "text": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-github-1"
+      },
+      {
+        "claim_id": "claim-004",
+        "text": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-reddit-0"
+      },
+      {
+        "claim_id": "claim-005",
+        "text": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidence_id": "fixture-reddit-1"
+      }
+    ],
+    "evidence_ids": [
+      "fixture-web-0",
+      "fixture-web-1",
+      "fixture-github-0",
+      "fixture-github-1",
+      "fixture-reddit-0",
+      "fixture-reddit-1"
+    ],
+    "research_artifact_id": "brief-USER-REQUEST-001",
+    "tenant_id": "validation-tokyo-2026",
+    "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+    "execution_package_task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+    "status": "draft",
+    "requires_human_approval": true,
+    "decisionOptions": [
+      {
+        "optionId": "option-01",
+        "claimId": "claim-000",
+        "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-web-0",
+        "evidencePointer": "fixture://web/0"
+      },
+      {
+        "optionId": "option-02",
+        "claimId": "claim-001",
+        "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-web-1",
+        "evidencePointer": "fixture://web/1"
+      },
+      {
+        "optionId": "option-03",
+        "claimId": "claim-002",
+        "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-github-0",
+        "evidencePointer": "fixture://github/0"
+      },
+      {
+        "optionId": "option-04",
+        "claimId": "claim-003",
+        "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-github-1",
+        "evidencePointer": "fixture://github/1"
+      },
+      {
+        "optionId": "option-05",
+        "claimId": "claim-004",
+        "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-reddit-0",
+        "evidencePointer": "fixture://reddit/0"
+      },
+      {
+        "optionId": "option-06",
+        "claimId": "claim-005",
+        "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "evidenceRef": "fixture-reddit-1",
+        "evidencePointer": "fixture://reddit/1"
+      }
+    ],
+    "knowledgeContentPreview": {
+      "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+      "body": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: brief-USER-REQUEST-001\n\nquestion: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?\nasset_id: da-efde5c6bfd67\nexecution_package_task_id: TA-WHICH-AI-STARTUP-OPPORTU\n\n## Claims\n### claim-000\nevidenceId: fixture-web-0\n\nFixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-001\nevidenceId: fixture-web-1\n\nFixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-002\nevidenceId: fixture-github-0\n\nFixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-003\nevidenceId: fixture-github-1\n\nFixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-004\nevidenceId: fixture-reddit-0\n\nFixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-005\nevidenceId: fixture-reddit-1\n\nFixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f"
+    }
+  },
+  "F": {
+    "requestId": "USER-REQUEST-001",
+    "status": "pending",
+    "autoApproved": false,
+    "approved": false,
+    "gate": {
+      "gateId": "43cbfb36e4896a30b184b9951c4f73d3",
+      "tenantId": "validation-tokyo-2026",
+      "proposalId": "da-efde5c6bfd67",
+      "researchArtifactId": "brief-USER-REQUEST-001",
+      "painStatement": "I want to decide whether to build an AI startup in Tokyo in 2026",
+      "decision": "pending",
+      "createdAt": "2026-07-26T09:12:10.071Z"
+    },
+    "receipts": [
+      {
+        "receiptId": "e51946c7bddf6c6500d426267467cac2",
+        "eventId": "5c5b5fd65f196f684fe21f6b3560a5a4",
+        "channel": "in-app",
+        "status": "delivered",
+        "detail": "mock in-app delivery",
+        "deliveredAt": "2026-07-26T09:12:10.071Z"
+      }
+    ],
+    "applyPresent": false,
+    "awaiting": {
+      "required": [
+        "decision",
+        "actorId"
+      ],
+      "note": "Human must approve or reject — engines never self-approve"
+    },
+    "reviewPackage": {
+      "decisionQuestion": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "decisionAssetId": "da-efde5c6bfd67",
+      "evidenceIds": [
+        "fixture-web-0",
+        "fixture-web-1",
+        "fixture-github-0",
+        "fixture-github-1",
+        "fixture-reddit-0",
+        "fixture-reddit-1"
+      ],
+      "decisionOptions": [
+        {
+          "optionId": "option-01",
+          "claimId": "claim-000",
+          "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-web-0",
+          "evidencePointer": "fixture://web/0"
+        },
+        {
+          "optionId": "option-02",
+          "claimId": "claim-001",
+          "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-web-1",
+          "evidencePointer": "fixture://web/1"
+        },
+        {
+          "optionId": "option-03",
+          "claimId": "claim-002",
+          "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-github-0",
+          "evidencePointer": "fixture://github/0"
+        },
+        {
+          "optionId": "option-04",
+          "claimId": "claim-003",
+          "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-github-1",
+          "evidencePointer": "fixture://github/1"
+        },
+        {
+          "optionId": "option-05",
+          "claimId": "claim-004",
+          "statement": "Fixture evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-reddit-0",
+          "evidencePointer": "fixture://reddit/0"
+        },
+        {
+          "optionId": "option-06",
+          "claimId": "claim-005",
+          "statement": "Fixture evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+          "evidenceRef": "fixture-reddit-1",
+          "evidencePointer": "fixture://reddit/1"
+        }
+      ],
+      "executionPackageTaskId": "TA-WHICH-AI-STARTUP-OPPORTU"
+    }
+  },
+  "G": {
+    "outDir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001",
+    "filesCreated": [
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\A-original-request.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\B-task-plan.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\C-research-input.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\D-research-evidence.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\E-decision-asset.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\F-human-approval-payload.json",
+      "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\validation\\USER-REQUEST-001\\H-missing-integration-points.json"
+    ]
+  },
+  "H": [
+    "No single product façade API composing Task→Research→DecisionAsset→Gate (composed in this validation runner)",
+    "DecisionAsset schema has claims, not first-class decisionOptions (options derived at validation boundary from claims)",
+    "Research used fixture collector (Band A offline) — live Stage-1 egress not invoked in this run",
+    "Execution Host createRun / seal / lineage not invoked (Host redesign / Host call out of this validation scope)",
+    "Knowledge SoR + Decision Graph persist skipped because human gate is pending (by design)",
+    "personal-brain Product UI not wired to this pipeline"
+  ]
+}

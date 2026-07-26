@@ -1,0 +1,10 @@
+{
+  "executionId": "4862a6c5d7919c9465d702f38289ac3f",
+  "correlationId": "USER-REQUEST-001",
+  "hostStatusOnSubmit": "waiting_human",
+  "hostStatusOnApprove": "succeeded",
+  "pin": {
+    "pipeline_id": "knowledge-ingestion",
+    "pipeline_version": "2.0.0"
+  }
+}

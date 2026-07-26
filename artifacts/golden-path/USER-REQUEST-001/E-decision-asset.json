@@ -1,0 +1,52 @@
+{
+  "asset_id": "da-49f88e2c4a99",
+  "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+  "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+  "summary": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-github-0"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-github-1"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-reddit-0"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidence_id": "mock-reddit-1"
+    }
+  ],
+  "evidence_ids": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "research_artifact_id": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+  "execution_package_task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

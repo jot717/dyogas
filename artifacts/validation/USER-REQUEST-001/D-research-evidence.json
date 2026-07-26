@@ -1,0 +1,148 @@
+{
+  "research_report_ref": "330588616fe632326f1b5a228435cac8@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-001@1.0.0",
+  "evidence": [
+    {
+      "evidenceId": "mock-web-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 1",
+        "pointer": "mock://web/0",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-web-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 2",
+        "pointer": "mock://web/1",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 1",
+        "pointer": "mock://github/0",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 2",
+        "pointer": "mock://github/1",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 1",
+        "pointer": "mock://reddit/0",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 2",
+        "pointer": "mock://reddit/1",
+        "retrievedAt": "2026-07-26T11:51:20.454Z",
+        "adapter": "execution-host-stage1"
+      }
+    }
+  ],
+  "sealedCandidate": {
+    "brief_ref": {
+      "brief_id": "brief-USER-REQUEST-001",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "mock-web-0",
+        "source_class": "web",
+        "title": "Mock web result 1",
+        "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://web/0",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-web-1",
+        "source_class": "web",
+        "title": "Mock web result 2",
+        "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://web/1",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-github-0",
+        "source_class": "github",
+        "title": "Mock github result 1",
+        "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://github/0",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-github-1",
+        "source_class": "github",
+        "title": "Mock github result 2",
+        "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://github/1",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-reddit-0",
+        "source_class": "reddit",
+        "title": "Mock reddit result 1",
+        "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://reddit/0",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-reddit-1",
+        "source_class": "reddit",
+        "title": "Mock reddit result 2",
+        "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+        "provenance": {
+          "pointer": "mock://reddit/1",
+          "retrieved_at": "2026-07-26T11:51:20.454Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [],
+    "open_questions": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "missingIntegrationPoints": [
+    "No single product façade API composing Task→Research→DecisionAsset→Gate (composed in this validation runner)",
+    "DecisionAsset schema has claims, not first-class decisionOptions (options derived at validation boundary from claims)",
+    "Research used fixture collector (Band A offline) — live Stage-1 egress not invoked in this run",
+    "Execution Host createRun / seal / lineage not invoked (Host redesign / Host call out of this validation scope)",
+    "Knowledge SoR + Decision Graph persist skipped because human gate is pending (by design)",
+    "personal-brain Product UI not wired to this pipeline"
+  ]
+}

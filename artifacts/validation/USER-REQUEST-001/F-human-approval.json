@@ -1,0 +1,32 @@
+{
+  "onSubmit": {
+    "proposalId": "da-b3ab1fbea21c",
+    "gateId": "7ff54f95e67f4f4a46b4036fb4eb0dcb",
+    "decision": "pending",
+    "autoApproved": false,
+    "gate": {
+      "gateId": "7ff54f95e67f4f4a46b4036fb4eb0dcb",
+      "tenantId": "validation-tokyo-2026",
+      "proposalId": "da-b3ab1fbea21c",
+      "researchArtifactId": "330588616fe632326f1b5a228435cac8@1.0.0",
+      "painStatement": "I want to decide whether to build an AI startup in Tokyo in 2026",
+      "decision": "pending",
+      "createdAt": "2026-07-26T11:51:20.457Z"
+    },
+    "receipts": [
+      {
+        "receiptId": "02c8e0f10e88c88ed101c1c5ede7bf5b",
+        "eventId": "aa76d4d5135b56732edabfc2d03f7cf8",
+        "channel": "in-app",
+        "status": "delivered",
+        "detail": "mock in-app delivery",
+        "deliveredAt": "2026-07-26T11:51:20.457Z"
+      }
+    ]
+  },
+  "onApprove": {
+    "proposalId": "da-b3ab1fbea21c",
+    "decision": "approved",
+    "actorId": "founder"
+  }
+}

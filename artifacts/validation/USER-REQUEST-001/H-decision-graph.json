@@ -1,0 +1,484 @@
+{
+  "persisted": true,
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "330588616fe632326f1b5a228435cac8@1.0.0",
+      "evidenceIds": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "taskId": "TA-WHICH-AI-STARTUP-OPPORTU",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "3e88c59ff8cb2a5f912cad0e41f59a26",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 8,
+      "edgeCount": 13,
+      "consistencyOk": true
+    }
+  },
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "3e88c59ff8cb2a5f912cad0e41f59a26",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_d82cfc6cfecb",
+        "label": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#body"
+        ]
+      },
+      {
+        "node_id": "node_15f0b2bcbd76",
+        "label": "Decision from Decision Asset: Which AI startup opportunity has the highest proba",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "node_id": "node_a34089f256d3",
+        "label": "mock-web-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-web-0",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-web-0"
+        ]
+      },
+      {
+        "node_id": "node_d646953263af",
+        "label": "mock-web-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-web-1",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-web-1"
+        ]
+      },
+      {
+        "node_id": "node_68be4bc526d4",
+        "label": "mock-github-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-github-0",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-github-0"
+        ]
+      },
+      {
+        "node_id": "node_497123146f3f",
+        "label": "mock-github-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-github-1",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-github-1"
+        ]
+      },
+      {
+        "node_id": "node_ae25547b8c5b",
+        "label": "mock-reddit-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-reddit-0",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-reddit-0"
+        ]
+      },
+      {
+        "node_id": "node_ebe0c843428a",
+        "label": "mock-reddit-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:mock-reddit-1",
+          "330588616fe632326f1b5a228435cac8@1.0.0#mock-reddit-1"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_c6157d8df256",
+        "from": "node_d82cfc6cfecb",
+        "to": "node_15f0b2bcbd76",
+        "relation": "decides",
+        "provenance": [
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_b7fdc0a54269",
+        "from": "node_a34089f256d3",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_00232e93a2f1",
+        "from": "node_a34089f256d3",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-web-0",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_f0c46604d000",
+        "from": "node_d646953263af",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_f1ee1be51d1d",
+        "from": "node_d646953263af",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-web-1",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_b446c1604fe3",
+        "from": "node_68be4bc526d4",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-github-0"
+        ]
+      },
+      {
+        "edge_id": "edge_a825fb5f4bdd",
+        "from": "node_68be4bc526d4",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-github-0",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_9ddb63ae3a60",
+        "from": "node_497123146f3f",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-github-1"
+        ]
+      },
+      {
+        "edge_id": "edge_831a83b24d47",
+        "from": "node_497123146f3f",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-github-1",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_93c33d8a3816",
+        "from": "node_ae25547b8c5b",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-reddit-0"
+        ]
+      },
+      {
+        "edge_id": "edge_43f6651b2113",
+        "from": "node_ae25547b8c5b",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-reddit-0",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      },
+      {
+        "edge_id": "edge_5e4c8af4aba7",
+        "from": "node_ebe0c843428a",
+        "to": "node_d82cfc6cfecb",
+        "relation": "supports",
+        "provenance": [
+          "evidence:mock-reddit-1"
+        ]
+      },
+      {
+        "edge_id": "edge_6e4e06608e29",
+        "from": "node_ebe0c843428a",
+        "to": "node_d82cfc6cfecb",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:mock-reddit-1",
+          "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "nodes": [
+    {
+      "node_id": "node_d82cfc6cfecb",
+      "label": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+      "types": [
+        "Knowledge"
+      ],
+      "provenance": [
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#body"
+      ]
+    },
+    {
+      "node_id": "node_15f0b2bcbd76",
+      "label": "Decision from Decision Asset: Which AI startup opportunity has the highest proba",
+      "types": [
+        "Decision"
+      ],
+      "provenance": [
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "node_id": "node_a34089f256d3",
+      "label": "mock-web-0",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-web-0",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-web-0"
+      ]
+    },
+    {
+      "node_id": "node_d646953263af",
+      "label": "mock-web-1",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-web-1",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-web-1"
+      ]
+    },
+    {
+      "node_id": "node_68be4bc526d4",
+      "label": "mock-github-0",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-github-0",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-github-0"
+      ]
+    },
+    {
+      "node_id": "node_497123146f3f",
+      "label": "mock-github-1",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-github-1",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-github-1"
+      ]
+    },
+    {
+      "node_id": "node_ae25547b8c5b",
+      "label": "mock-reddit-0",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-reddit-0",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-reddit-0"
+      ]
+    },
+    {
+      "node_id": "node_ebe0c843428a",
+      "label": "mock-reddit-1",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:mock-reddit-1",
+        "330588616fe632326f1b5a228435cac8@1.0.0#mock-reddit-1"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_c6157d8df256",
+      "from": "node_d82cfc6cfecb",
+      "to": "node_15f0b2bcbd76",
+      "relation": "decides",
+      "provenance": [
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_b7fdc0a54269",
+      "from": "node_a34089f256d3",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-web-0"
+      ]
+    },
+    {
+      "edge_id": "edge_00232e93a2f1",
+      "from": "node_a34089f256d3",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-web-0",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_f0c46604d000",
+      "from": "node_d646953263af",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-web-1"
+      ]
+    },
+    {
+      "edge_id": "edge_f1ee1be51d1d",
+      "from": "node_d646953263af",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-web-1",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_b446c1604fe3",
+      "from": "node_68be4bc526d4",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-github-0"
+      ]
+    },
+    {
+      "edge_id": "edge_a825fb5f4bdd",
+      "from": "node_68be4bc526d4",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-github-0",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_9ddb63ae3a60",
+      "from": "node_497123146f3f",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-github-1"
+      ]
+    },
+    {
+      "edge_id": "edge_831a83b24d47",
+      "from": "node_497123146f3f",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-github-1",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_93c33d8a3816",
+      "from": "node_ae25547b8c5b",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-reddit-0"
+      ]
+    },
+    {
+      "edge_id": "edge_43f6651b2113",
+      "from": "node_ae25547b8c5b",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-reddit-0",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    },
+    {
+      "edge_id": "edge_5e4c8af4aba7",
+      "from": "node_ebe0c843428a",
+      "to": "node_d82cfc6cfecb",
+      "relation": "supports",
+      "provenance": [
+        "evidence:mock-reddit-1"
+      ]
+    },
+    {
+      "edge_id": "edge_6e4e06608e29",
+      "from": "node_ebe0c843428a",
+      "to": "node_d82cfc6cfecb",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:mock-reddit-1",
+        "3e88c59ff8cb2a5f912cad0e41f59a26#title"
+      ]
+    }
+  ]
+}

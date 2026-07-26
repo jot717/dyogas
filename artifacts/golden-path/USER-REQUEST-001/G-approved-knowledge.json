@@ -1,0 +1,23 @@
+{
+  "knowledgeId": "f46996422948e0fdfd56a5f9b1a3f943",
+  "tenantId": "validation-tokyo-2026",
+  "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+  "body": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0\n\nquestion: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?\nasset_id: da-49f88e2c4a99\nexecution_package_task_id: TA-WHICH-AI-STARTUP-OPPORTU\n\n## Claims\n### claim-000\nevidenceId: mock-web-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-001\nevidenceId: mock-web-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-002\nevidenceId: mock-github-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-003\nevidenceId: mock-github-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-004\nevidenceId: mock-reddit-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-005\nevidenceId: mock-reddit-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+  "version": 1,
+  "approvalState": "applied",
+  "provenance": {
+    "researchArtifactId": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+    "taskId": "TA-WHICH-AI-STARTUP-OPPORTU",
+    "evidenceIds": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "capturedAt": "2026-07-26T11:56:38.353Z"
+  },
+  "createdAt": "2026-07-26T11:56:38.353Z",
+  "updatedAt": "2026-07-26T11:56:38.353Z"
+}

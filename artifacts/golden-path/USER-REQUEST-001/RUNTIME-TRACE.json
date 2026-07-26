@@ -1,0 +1,25 @@
+{
+  "runtimeTrace": [
+    "submitDecisionRequest(USER-REQUEST-001)",
+    "ExecutionHost.createRun → waiting_human",
+    "TaskAgent.createTaskPlan + ExecutionPackage",
+    "Host.getSealedArtifact → Research Evidence",
+    "DecisionAsset.fromResearchEvidence",
+    "HumanGate pending (autoApproved=false)",
+    "approveDecisionRequest({ decision: approved, actorId: founder })",
+    "HumanGate validated → Knowledge SoR apply",
+    "Decision Graph persist",
+    "Host.resumeHuman → applyKnowledgeAuthorized → applyGraphAuthorized",
+    "Host seal complete (status=succeeded)"
+  ],
+  "apiBoundary": {
+    "submit": "personal-brain/src/bridge/decision-request.ts#submitDecisionRequest",
+    "approve": "personal-brain/src/bridge/decision-request.ts#approveDecisionRequest",
+    "host": "@dyogas/execution-host",
+    "forbidden": [
+      "direct graph write without approval",
+      "knowledge SoR write without approval",
+      "auto-approve on submit"
+    ]
+  }
+}

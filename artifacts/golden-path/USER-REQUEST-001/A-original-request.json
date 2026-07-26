@@ -1,0 +1,21 @@
+{
+  "requestId": "USER-REQUEST-001",
+  "userIntent": "I want to decide whether to build an AI startup in Tokyo in 2026",
+  "decisionQuestion": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "founderType": "solo technical founder",
+    "timeframe": "2026",
+    "budget": "limited",
+    "goal": "find billion-dollar potential opportunity"
+  },
+  "requiredEvidence": [
+    "market trends",
+    "existing competitors",
+    "customer pain points",
+    "technology feasibility"
+  ],
+  "tenant_id": "validation-tokyo-2026",
+  "workspace_id": "ws-tokyo-ai",
+  "owner_id": "founder"
+}

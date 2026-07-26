@@ -1,7 +1,7 @@
 {
   "sprintId": "SPRINT-TASK-AGENT-FOUNDATION-001",
   "trace": "TRACE-TASK-AGENT-FOUNDATION-001",
-  "generatedAt": "2026-07-26T08:28:39.073Z",
+  "generatedAt": "2026-07-26T11:56:52.778Z",
   "plan": {
     "plan_id": "tp-487c2b902b",
     "task_id": "TA-WHAT-ARE-LOCAL-FIRST-KNO",
@@ -27,7 +27,7 @@
     "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE | BLOCKED"
   },
   "approval": {
-    "gateId": "e2c175a2ff378a5aa7c31bd37f699858",
+    "gateId": "04ae643e0f08c437c9f169f694c84d67",
     "decision": "approved",
     "approved": true
   },

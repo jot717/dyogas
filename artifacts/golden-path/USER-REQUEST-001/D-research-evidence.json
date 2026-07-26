@@ -1,0 +1,72 @@
+{
+  "research_report_ref": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-001@1.0.0",
+  "evidence": [
+    {
+      "evidenceId": "mock-web-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 1",
+        "pointer": "mock://web/0",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-web-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 2",
+        "pointer": "mock://web/1",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 1",
+        "pointer": "mock://github/0",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 2",
+        "pointer": "mock://github/1",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-0",
+      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 1",
+        "pointer": "mock://reddit/0",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-1",
+      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 2",
+        "pointer": "mock://reddit/1",
+        "retrievedAt": "2026-07-26T11:56:38.348Z",
+        "adapter": "execution-host-stage1"
+      }
+    }
+  ]
+}
