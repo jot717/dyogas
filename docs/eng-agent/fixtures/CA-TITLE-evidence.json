@@ -24,14 +24,14 @@
         "sdk/",
         "execution-host/",
         "personal-brain/",
-        "knowledge/",
-        "graph/",
         "kernel/",
         "web-ui/",
         "harness/",
+        "knowledge/",
+        "graph/",
         "research/"
       ],
-      "prompt": "# Coding Task CA-TITLE\n\nYou are the Implementation Agent for the DYOGAS Development Harness.\nSprint: SPRINT-ENG-AGENT-CODING-ADAPTER-001\n\n## Objective\nModify tools/dev-orch/src/util/title-case.ts so toTitleCase works correctly. Do not modify the test file unless necessary. Implement: trim, collapse whitespace, capitalize each word; empty string returns empty string.\n\n## Acceptance Criteria\ntoTitleCase(\"hello world\") === \"Hello World\"; empty → \"\"; coding tests pass\n\n## Test Requirements\nnode --import tsx --test tests/coding/title-case.test.ts (cwd: tools/dev-orch)\n\n## Allowed paths (ONLY modify these)\n- tools/dev-orch/src/util/\n- tools/dev-orch/tests/coding/\n- docs/eng-agent/\n\n## Target files\n- tools/dev-orch/src/util/title-case.ts\n\n## Forbidden\n- runtime/\n- sdk/\n- execution-host/\n- personal-brain/\n- knowledge/\n- graph/\n- kernel/\n- web-ui/\n- harness/\n- research/\n- Do not invent PASS for tests.\n- Do not modify files outside the allowed paths.\n- Do not create a new MOD-* or agents/ module tree.\n\n## Required actions\n1. Implement the missing/incorrect behavior in the target source file(s).\n2. Ensure the verify command will pass: node --import tsx --test tests/coding/title-case.test.ts\n3. Keep changes minimal and focused.\n",
+      "prompt": "# Coding Task CA-TITLE\n\nYou are the Implementation Agent for the DYOGAS Development Harness.\nSprint: SPRINT-ENG-AGENT-CODING-ADAPTER-001\n\n## Objective\nModify tools/dev-orch/src/util/title-case.ts so toTitleCase works correctly. Do not modify the test file unless necessary. Implement: trim, collapse whitespace, capitalize each word; empty string returns empty string.\n\n## Acceptance Criteria\ntoTitleCase(\"hello world\") === \"Hello World\"; empty → \"\"; coding tests pass\n\n## Test Requirements\nnode --import tsx --test tests/coding/title-case.test.ts (cwd: tools/dev-orch)\n\n## Allowed paths (ONLY modify these)\n- tools/dev-orch/src/util/\n- tools/dev-orch/tests/coding/\n- docs/eng-agent/\n\n## Target files\n- tools/dev-orch/src/util/title-case.ts\n\n## Forbidden\n- runtime/\n- sdk/\n- execution-host/\n- personal-brain/\n- kernel/\n- web-ui/\n- harness/\n- knowledge/\n- graph/\n- research/\n- Do not invent PASS for tests.\n- Do not modify files outside the allowed paths.\n- Do not create a new MOD-* or agents/ module tree.\n\n## Required actions\n1. Implement the missing/incorrect behavior in the target source file(s).\n2. Ensure the verify command will pass: node --import tsx --test tests/coding/title-case.test.ts\n3. Keep changes minimal and focused.\n",
       "targetFiles": [
         "tools/dev-orch/src/util/title-case.ts"
       ],
@@ -49,11 +49,12 @@
     },
     "instructionDelivered": true,
     "agentStatus": "finished",
-    "runId": "run-1f1a1607-a0a2-4143-b282-722528fcd898",
+    "runId": "run-4fd410e0-639e-4855-b030-cf57caa42b2d",
     "changedFiles": [
       "docs/eng-agent/fixtures/AE-FIX-01-evidence.json",
       "docs/eng-agent/fixtures/CA-TITLE-evidence.json",
-      "tools/dev-orch/src/util/title-case.ts"
+      "docs/eng-agent/production/RA-05-evidence.json",
+      "docs/eng-agent/production/RA-07-evidence.json"
     ],
     "changeDetection": "git-diff",
     "verifyCommand": {
@@ -66,8 +67,8 @@
       ],
       "exitCode": 0,
       "stdout": "",
-      "stderr": "(node:5848) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
-      "durationMs": 74
+      "stderr": "(node:12612) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+      "durationMs": 72
     },
     "evidencePath": "docs/eng-agent/fixtures/CA-TITLE-evidence.json",
     "evidenceExistsOnDisk": true
@@ -83,7 +84,7 @@
       {
         "id": "SOURCE_CHANGES",
         "pass": true,
-        "message": "changed files (git-diff): docs/eng-agent/fixtures/AE-FIX-01-evidence.json, docs/eng-agent/fixtures/CA-TITLE-evidence.json, tools/dev-orch/src/util/title-case.ts"
+        "message": "changed files (git-diff): docs/eng-agent/fixtures/AE-FIX-01-evidence.json, docs/eng-agent/fixtures/CA-TITLE-evidence.json, docs/eng-agent/production/RA-05-evidence.json, docs/eng-agent/production/RA-07-evidence.json"
       },
       {
         "id": "TEST_EXIT",
@@ -104,5 +105,5 @@
     "failedCheckIds": [],
     "trustsCallerFacts": false
   },
-  "generatedAt": "2026-07-26T06:23:47.876Z"
+  "generatedAt": "2026-07-26T08:15:47.351Z"
 }

@@ -6,6 +6,10 @@
  * when `allowedPaths` includes `research/src/` or `research/tests/`, the blanket
  * `research/` forbid is replaced by `research/other/` so those prefixes are not
  * contradicted in the prompt. Runtime / SDK / Execution Host remain forbidden.
+ *
+ * Scoped production exception (SPRINT-DECISION-GRAPH-FOUNDATION-001 / DL D-3):
+ * when `allowedPaths` includes graph/knowledge/human-gate approved prefixes,
+ * blanket `knowledge/` / `graph/` forbids are replaced by module `/other/` markers.
  */
 
 import type {
@@ -13,17 +17,25 @@ import type {
   CodingInstructionPackage,
 } from "./types.js";
 
-/** Always-forbidden product / platform roots. */
-const BASE_FORBIDDEN = [
+/** Always-forbidden product / platform roots (minus liftable module forbids). */
+const CORE_FORBIDDEN = [
   "runtime/",
   "sdk/",
   "execution-host/",
   "personal-brain/",
-  "knowledge/",
-  "graph/",
   "kernel/",
   "web-ui/",
   "harness/",
+] as const;
+
+const KNOWLEDGE_BLANKET = "knowledge/";
+const GRAPH_BLANKET = "graph/";
+
+/** Always-forbidden product / platform roots. */
+const BASE_FORBIDDEN = [
+  ...CORE_FORBIDDEN,
+  KNOWLEDGE_BLANKET,
+  GRAPH_BLANKET,
 ] as const;
 
 /** Blanket research forbid — lifted only for approved prefixes below. */
@@ -35,16 +47,32 @@ export const RESEARCH_WRITE_EXCEPTIONS = [
   "research/tests/",
 ] as const;
 
+/** Approved Coding Agent write exceptions for Decision Graph foundation. */
+export const DECISION_GRAPH_WRITE_EXCEPTIONS = [
+  "graph/src/",
+  "graph/tests/",
+  "knowledge/src/",
+  "knowledge/tests/",
+  "human-gate/src/",
+  "human-gate/tests/",
+  "ingestion-e2e/tests/",
+] as const;
+
 /** Explicit forbid retained when the research exception is active. */
 const RESEARCH_OTHER_FORBIDDEN = "research/other/";
+const KNOWLEDGE_OTHER_FORBIDDEN = "knowledge/other/";
+const GRAPH_OTHER_FORBIDDEN = "graph/other/";
 
 function toPosix(p: string): string {
   return p.replace(/\\/g, "/");
 }
 
-function hasResearchWriteException(allowedPaths: readonly string[]): boolean {
+function hasPathException(
+  allowedPaths: readonly string[],
+  exceptions: readonly string[],
+): boolean {
   const allowed = allowedPaths.map(toPosix);
-  return RESEARCH_WRITE_EXCEPTIONS.some((ex) =>
+  return exceptions.some((ex) =>
     allowed.some(
       (a) =>
         a === ex ||
@@ -55,18 +83,42 @@ function hasResearchWriteException(allowedPaths: readonly string[]): boolean {
   );
 }
 
+function hasResearchWriteException(allowedPaths: readonly string[]): boolean {
+  return hasPathException(allowedPaths, RESEARCH_WRITE_EXCEPTIONS);
+}
+
+function hasDecisionGraphWriteException(
+  allowedPaths: readonly string[],
+): boolean {
+  return hasPathException(allowedPaths, DECISION_GRAPH_WRITE_EXCEPTIONS);
+}
+
 /**
  * Resolve forbidden path prefixes for a coding instruction.
  * `research/src/` and `research/tests/` win over the blanket `research/` forbid
- * when present in `allowedPaths`.
+ * when present in `allowedPaths`. Decision Graph exceptions lift knowledge/graph.
  */
 export function resolveCodingForbiddenPaths(
   allowedPaths: readonly string[],
 ): string[] {
-  if (hasResearchWriteException(allowedPaths)) {
-    return [...BASE_FORBIDDEN, RESEARCH_OTHER_FORBIDDEN];
+  const researchLift = hasResearchWriteException(allowedPaths);
+  const dgLift = hasDecisionGraphWriteException(allowedPaths);
+
+  const forbidden: string[] = [...CORE_FORBIDDEN];
+
+  if (dgLift) {
+    forbidden.push(KNOWLEDGE_OTHER_FORBIDDEN, GRAPH_OTHER_FORBIDDEN);
+  } else {
+    forbidden.push(KNOWLEDGE_BLANKET, GRAPH_BLANKET);
   }
-  return [...BASE_FORBIDDEN, RESEARCH_BLANKET];
+
+  if (researchLift) {
+    forbidden.push(RESEARCH_OTHER_FORBIDDEN);
+  } else {
+    forbidden.push(RESEARCH_BLANKET);
+  }
+
+  return forbidden;
 }
 
 export function buildCodingInstruction(

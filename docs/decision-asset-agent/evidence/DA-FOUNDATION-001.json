@@ -1,0 +1,21 @@
+{
+  "sprintId": "SPRINT-DECISION-ASSET-AGENT-FOUNDATION-001",
+  "trace": "TRACE-DECISION-ASSET-AGENT-FOUNDATION-001",
+  "generatedAt": "2026-07-26T09:02:23.882Z",
+  "asset": {
+    "asset_id": "da-ab199a343cf6",
+    "status": "applied",
+    "evidence_ids": [
+      "mock-web-0",
+      "mock-web-1"
+    ],
+    "execution_package_task_id": "TA-SHOULD-WE-SHIP-DECISION-"
+  },
+  "knowledgeId": "e507ce51223c4123588a5de37629ea49",
+  "graph": {
+    "persisted": true,
+    "nodeCount": 4,
+    "edgeCount": 5
+  },
+  "verdict": "PASS"
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/task-agent.schema.json",
+  "title": "TaskAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Task Agent (supporting / meta). See /contracts/agents/task-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": {
+      "const": "1.0.0",
+      "description": "Wire version — document Contract Version is 2.0.0."
+    },
+    "input": {
+      "type": "object",
+      "description": "User Research Request admitting the Task Agent.",
+      "required": ["request", "scope", "tenant_id", "run_id", "sprint_id"],
+      "additionalProperties": false,
+      "properties": {
+        "request": { "type": "string", "minLength": 1 },
+        "scope": { "type": "string", "minLength": 1 },
+        "tenant_id": { "type": "string", "minLength": 1 },
+        "run_id": { "type": "string", "minLength": 1 },
+        "sprint_id": { "type": "string", "minLength": 1 },
+        "constraints": { "type": "object" },
+        "allowed_agent_ids": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "allowed_source_classes": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["youtube", "github", "reddit", "web"] }
+        },
+        "budget": {
+          "type": "object",
+          "properties": {
+            "max_items": { "type": "integer", "minimum": 1 },
+            "max_seconds": { "type": "integer", "minimum": 1 }
+          }
+        }
+      }
+    },
+    "output": {
+      "$ref": "../artifacts/task-plan.schema.json"
+    }
+  }
+}

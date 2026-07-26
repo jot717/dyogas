@@ -8,5 +8,5 @@
 |-------|--------|
 | Specification → Module Complete | **YES — COMPLETE** |
 
-**Tests:** see CI / local `npm test`  
+**Tests:** 5/5 PASS · Decision Graph approval gate wrapper complete  
 **Next:** MOD-MARKDOWN (B12) / MOD-WEB-UI (B16)

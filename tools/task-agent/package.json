@@ -1,0 +1,30 @@
+{
+  "name": "@dyogas/task-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DYOGAS Task Agent foundation — supporting/meta planning agent tooling (DL-TASK-AGENT-FOUNDATION-001). Not a Platform Module.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "MODULE_STATUS.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@dyogas/dev-orch": "file:../dev-orch",
+    "@dyogas/human-gate": "file:../../human-gate",
+    "@dyogas/kernel": "file:../../kernel",
+    "@dyogas/trust": "file:../../trust"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

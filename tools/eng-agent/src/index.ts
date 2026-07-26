@@ -136,6 +136,7 @@ export {
   resolveApiKey,
   resolveCodingForbiddenPaths,
   RESEARCH_WRITE_EXCEPTIONS,
+  DECISION_GRAPH_WRITE_EXCEPTIONS,
   runCodingCycle,
   verifyCodingObservation,
 } from "./coding-agent/index.js";

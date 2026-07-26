@@ -1,10 +1,11 @@
 # ADR-0002: Cloud AI Compute / Egress Boundary
 
-**Status:** Accepted  
+**Status:** Superseded by ADR-0011 (scoped Research Stage-1 source-fetch allow-path only; deny-default remains for all other egress)  
 **Date:** 2026-07-23  
 **Accepted:** 2026-07-23  
+**Superseded:** 2026-07-26 by [`ADR-0011`](./0011-research-agent-stage1-egress-allow-path.md)  
 **Deciders:** Engineering Agents (Process Mode, all approve) · Founder business approval GRANTED 2026-07-23 (MOD-TRUST Module Complete command)  
-**Related:** Constitution Art. VIII, XI; MASTER Build Order B3/B6; SPEC-RT-004; SPEC-ADR-PLANNED-002; ADR-0001; TRACE-TRUST-001
+**Related:** Constitution Art. VIII, XI; MASTER Build Order B3/B6; SPEC-RT-004; SPEC-ADR-PLANNED-002; ADR-0001; TRACE-TRUST-001; ADR-0011
 
 ## Context
 

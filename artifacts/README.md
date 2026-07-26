@@ -83,6 +83,8 @@ Every pipeline stage in DYOGAS produces exactly one primary artifact type and co
 | Graph Update | `GraphUpdate` | Knowledge Graph Agent | Embedding Agent (optional), Knowledge Plane graph store | [graph-update.md](./graph-update.md) | [schema](../schemas/artifacts/graph-update.schema.json) |
 | Embedding Job | `EmbeddingJob` | Embedding Agent | Memory Agent / vector index subsystem | [embedding-job.md](./embedding-job.md) | [schema](../schemas/artifacts/embedding-job.schema.json) |
 | Memory Update | `MemoryUpdate` | Memory Agent | Audit / future recall | [memory-update.md](./memory-update.md) | [schema](../schemas/artifacts/memory-update.schema.json) |
+| Task Plan | `TaskPlan` | Task Agent (supporting) | Execution Package emitter / Human Approval Gate | [task-plan.md](./task-plan.md) | [schema](../schemas/artifacts/task-plan.schema.json) |
+| Decision Asset | `DecisionAsset` | Decision Asset Agent (supporting) | Human Approval Gate → Knowledge / Decision Graph | [decision-asset.md](./decision-asset.md) | [schema](../schemas/artifacts/decision-asset.schema.json) |
 
 Envelope (shared by all): [`../schemas/common/artifact-envelope.schema.json`](../schemas/common/artifact-envelope.schema.json)
 

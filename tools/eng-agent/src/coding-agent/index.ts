@@ -14,6 +14,7 @@ export {
   buildCodingInstruction,
   resolveCodingForbiddenPaths,
   RESEARCH_WRITE_EXCEPTIONS,
+  DECISION_GRAPH_WRITE_EXCEPTIONS,
 } from "./instruction.js";
 export {
   collectChangedFiles,

@@ -10,4 +10,4 @@
 |-------|--------|
 | Specification → Module Complete | **YES — COMPLETE** |
 
-**Tests:** 9/9 PASS · Next: durable graph DB / cloud embeddings remain deferred
+**Tests:** 12/12 PASS · Decision Graph Foundation (`ontology-decision-graph-1.0.0`) complete · Next: durable graph DB / cloud embeddings remain deferred

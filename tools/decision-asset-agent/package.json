@@ -1,0 +1,33 @@
+{
+  "name": "@dyogas/decision-asset-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DYOGAS Decision Asset Agent foundation (DL-DECISION-ASSET-AGENT-FOUNDATION-001). Not a Platform Module.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "MODULE_STATUS.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@dyogas/graph-engine": "file:../../graph",
+    "@dyogas/human-gate": "file:../../human-gate",
+    "@dyogas/kernel": "file:../../kernel",
+    "@dyogas/knowledge-engine": "file:../../knowledge",
+    "@dyogas/research-engine": "file:../../research",
+    "@dyogas/task-agent": "file:../task-agent",
+    "@dyogas/trust": "file:../../trust"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

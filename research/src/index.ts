@@ -19,6 +19,15 @@ export {
 } from "./sources.js";
 
 export {
+  LIVE_STAGE1_ADAPTER_ID,
+  type LiveFetch,
+  type LiveStage1CollectorOptions,
+  type TrustEgressMeta,
+  createLiveStage1SourceCollector,
+  isLiveStage1AdapterId,
+} from "./live-sources.js";
+
+export {
   type BudgetOutcome,
   type CollectionRunEvidence,
   type CollectUnderBudgetInput,

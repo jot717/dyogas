@@ -16,6 +16,7 @@ import {
   requireTrustIdentity,
   TrustIdentityError,
   AuditError,
+  RESEARCH_STAGE1_EGRESS_PURPOSE,
 } from "../src/index.js";
 
 beforeEach(() => {
@@ -42,7 +43,7 @@ test("secrets redact and never expose raw in dump", () => {
   assert.equal(v.redactDump().API_SECRET, "[REDACTED]");
 });
 
-test("egress deny-by-default 100%", () => {
+test("egress deny-by-default for non-Stage-1 purposes", () => {
   propagate(createTenancyContext(createTenantId("t1")));
   const audit = createMemoryAuditSink();
   const r = evaluateEgress(
@@ -52,11 +53,67 @@ test("egress deny-by-default 100%", () => {
   assert.equal(r.decision, "deny");
   assert.throws(
     () =>
-      assertEgressAllowed({ destination: "https://example.com", purpose: "x" }, audit),
+      assertEgressAllowed(
+        { destination: "https://example.com", purpose: "x" },
+        audit,
+      ),
     EgressDeniedError,
   );
   assert.ok(audit.list().every((e) => e.decision === "deny"));
   assert.ok(audit.list().length >= 2);
+});
+
+test("egress ADR-0011 Stage-1 allow-path for web/github/reddit https", () => {
+  propagate(createTenancyContext(createTenantId("t1")));
+  const audit = createMemoryAuditSink();
+  for (const sourceClass of ["web", "github", "reddit"] as const) {
+    const r = evaluateEgress(
+      {
+        destination: "https://example.com/resource",
+        purpose: RESEARCH_STAGE1_EGRESS_PURPOSE,
+        sourceClass,
+      },
+      audit,
+    );
+    assert.equal(r.decision, "allow", sourceClass);
+  }
+  assert.doesNotThrow(() =>
+    assertEgressAllowed(
+      {
+        destination: "https://api.github.com/search/repositories?q=dyogas",
+        purpose: RESEARCH_STAGE1_EGRESS_PURPOSE,
+        sourceClass: "github",
+      },
+      audit,
+    ),
+  );
+});
+
+test("egress ADR-0011 still denies http and youtube and missing class", () => {
+  propagate(createTenancyContext(createTenantId("t1")));
+  assert.equal(
+    evaluateEgress({
+      destination: "http://example.com",
+      purpose: RESEARCH_STAGE1_EGRESS_PURPOSE,
+      sourceClass: "web",
+    }).decision,
+    "deny",
+  );
+  assert.equal(
+    evaluateEgress({
+      destination: "https://example.com",
+      purpose: RESEARCH_STAGE1_EGRESS_PURPOSE,
+      sourceClass: "youtube",
+    }).decision,
+    "deny",
+  );
+  assert.equal(
+    evaluateEgress({
+      destination: "https://example.com",
+      purpose: RESEARCH_STAGE1_EGRESS_PURPOSE,
+    }).decision,
+    "deny",
+  );
 });
 
 test("audit append-only rejects overwrite", () => {

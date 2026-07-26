@@ -32,6 +32,8 @@ export type CollectionRunEvidence = {
     readonly sourceClass: SourceClass;
     readonly pointer: string;
     readonly title?: string;
+    readonly adapter?: string;
+    readonly trustDecision?: string;
   }[];
 };
 
@@ -209,6 +211,8 @@ export function buildCollectionRunEvidence(input: {
       sourceClass: e.metadata.sourceClass,
       pointer: e.metadata.pointer,
       title: e.metadata.title,
+      adapter: e.metadata.adapter,
+      trustDecision: e.metadata.trust?.decision,
     })),
   };
 }

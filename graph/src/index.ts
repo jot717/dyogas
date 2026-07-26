@@ -1,8 +1,4 @@
-/**
- * @dyogas/graph-engine — MOD-GRAPH / SPEC-ENGIN-004
- */
-
-export { GraphError, DEFAULT_ONTOLOGY, resolveOntology, type OntologyProfile } from "./ontology.js";
+export { GraphError, DEFAULT_ONTOLOGY, DECISION_GRAPH_ONTOLOGY, resolveOntology, type OntologyProfile } from "./ontology.js";
 
 export type {
   ArtifactRef,
@@ -42,3 +38,25 @@ export {
   type RunGraphEngineOptions,
   type GraphEngineResult,
 } from "./run.js";
+
+export {
+  DECISION_GRAPH_CONTRACT_ID,
+  DECISION_GRAPH_CONTRACT_VERSION,
+  DECISION_GRAPH_CONTRACT,
+  type DecisionGraphStage,
+  type DecisionGraphContractMeta,
+  type EvidenceStageRef,
+  type KnowledgeStageRef,
+  type DecisionStageRef,
+  type DecisionGraphFoundationRecord,
+} from "./decision-graph-contract.js";
+
+export {
+  extractDecisionGraphDelta,
+} from "./decision-graph-extract.js";
+
+export {
+  persistApprovedKnowledgeToDecisionGraph,
+  type PersistDecisionGraphOptions,
+  type PersistDecisionGraphResult,
+} from "./decision-graph-persist.js";

@@ -24,8 +24,33 @@ export const DEFAULT_ONTOLOGY: OntologyProfile = Object.freeze({
   ]),
 });
 
+/**
+ * Decision Graph Foundation ontology — Evidence → Knowledge → Decision.
+ * Additive profile; does not replace ontology-general-1.0.0.
+ */
+export const DECISION_GRAPH_ONTOLOGY: OntologyProfile = Object.freeze({
+  ontologyProfileId: "ontology-decision-graph-1.0.0",
+  nodeTypes: Object.freeze([
+    "Evidence",
+    "Knowledge",
+    "Decision",
+    "Concept",
+    "Claim",
+    "Entity",
+  ]),
+  relations: Object.freeze([
+    "supports",
+    "approved_as",
+    "decides",
+    "derived_from",
+    "mentions",
+    "related_to",
+  ]),
+});
+
 const REGISTRY = new Map<string, OntologyProfile>([
   [DEFAULT_ONTOLOGY.ontologyProfileId, DEFAULT_ONTOLOGY],
+  [DECISION_GRAPH_ONTOLOGY.ontologyProfileId, DECISION_GRAPH_ONTOLOGY],
 ]);
 
 export function resolveOntology(ontologyProfileId: string): OntologyProfile {

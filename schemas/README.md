@@ -66,7 +66,8 @@ schemas/
 │   ├── knowledge.schema.json
 │   ├── graph-update.schema.json
 │   ├── embedding-job.schema.json
-│   └── memory-update.schema.json
+│   ├── memory-update.schema.json
+│   └── task-plan.schema.json
 └── agents/
     ├── research-agent.schema.json
     ├── source-validation-agent.schema.json
@@ -77,7 +78,8 @@ schemas/
     ├── embedding-agent.schema.json
     ├── learning-agent.schema.json
     ├── notification-agent.schema.json
-    └── memory-agent.schema.json
+    ├── memory-agent.schema.json
+    └── task-agent.schema.json
 ```
 
 One payload schema file per artifact type; one contract bundle file per agent; exactly one shared envelope. No parallel or duplicate schema files for the same capability (Constitution Article VI).

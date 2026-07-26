@@ -94,7 +94,7 @@ Agents in this tree are bound, in canonical order, to the **Knowledge Ingestion*
 Research → Validation → Proposal → Human Review → Markdown → Graph → Embedding → Memory
 ```
 
-Notification Agent and Learning Agent are **supporting agents**: they observe, notify, or branch off the canonical pipeline but never replace a numbered stage, and never gain a shortcut around Human Approval.
+Notification Agent, Learning Agent, Task Agent, and Decision Asset Agent are **supporting agents**: they observe, notify, plan/route, synthesize decision assets, or branch off the canonical pipeline but never replace a numbered stage, and never gain a shortcut around Human Approval.
 
 ---
 
@@ -112,6 +112,8 @@ Notification Agent and Learning Agent are **supporting agents**: they observe, n
 | 8 | Memory | Memory Agent | [agents/memory-agent.md](./agents/memory-agent.md) | [schema](../schemas/agents/memory-agent.schema.json) | `MemoryUpdate` |
 | — | Supporting (cross-cutting) | Learning Agent | [agents/learning-agent.md](./agents/learning-agent.md) | [schema](../schemas/agents/learning-agent.schema.json) | `Proposal` (`kind=lesson`) |
 | — | Supporting (cross-cutting) | Notification Agent | [agents/notification-agent.md](./agents/notification-agent.md) | [schema](../schemas/agents/notification-agent.schema.json) | `NotificationReceipt[]` (non-SoR) |
+| — | Supporting (meta / planning) | Task Agent | [agents/task-agent.md](./agents/task-agent.md) | [schema](../schemas/agents/task-agent.schema.json) | `TaskPlan` |
+| — | Supporting (meta / decision) | Decision Asset Agent | [agents/decision-asset-agent.md](./agents/decision-asset-agent.md) | [schema](../schemas/agents/decision-asset-agent.schema.json) | `DecisionAsset` |
 
 ---
 

@@ -1,0 +1,45 @@
+{
+  "taskId": "RA-05",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "adr": "ADR-0011 Accepted",
+  "architectureReview": "ARCH-RESEARCH-AGENT-EGRESS-001 APPROVE",
+  "decisionLog": "DL-RESEARCH-AGENT-EGRESS-001 APPROVED",
+  "invocation": {
+    "timestamp": "2026-07-26T07:00:00.000Z",
+    "note": "Live Stage-1 collectors implemented under ADR-0011; Trust egress allow-path; no Runtime/SDK/Host/Product edits."
+  },
+  "changedFiles": [
+    "trust/src/egress/gate.ts",
+    "trust/src/index.ts",
+    "trust/tests/trust.test.ts",
+    "research/src/live-sources.ts",
+    "research/src/sources.ts",
+    "research/src/collection.ts",
+    "research/src/index.ts",
+    "research/tests/live-stage1.test.ts"
+  ],
+  "allowedSources": ["web", "github", "reddit"],
+  "adapterId": "live-stage1-v1",
+  "tests": [
+    { "cwd": "trust", "command": "npm test", "exitCode": 0, "summary": "9 pass" },
+    { "cwd": "research", "command": "npm test", "exitCode": 0, "summary": "28 pass" },
+    { "cwd": "personal-brain", "command": "npm test", "exitCode": 0, "summary": "48 pass" }
+  ],
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      { "id": "LIVE_ADAPTER", "pass": true, "message": "adapter live-stage1-v1 ≠ mock/fixture" },
+      { "id": "TRUST_EGRESS", "pass": true, "message": "assertEgressAllowed before fetch; audit allow events" },
+      { "id": "PROVENANCE", "pass": true, "message": "https pointers + retrievedAt + trust metadata" },
+      { "id": "FAIL_CLOSED", "pass": true, "message": "youtube refused; unbound tenancy refuses" },
+      { "id": "NO_RUNTIME_SDK_HOST", "pass": true, "message": "forbidden trees unmodified" }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T07:00:00.000Z"
+}

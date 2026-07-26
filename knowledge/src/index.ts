@@ -32,3 +32,10 @@ export {
   type ApplyApprovedKnowledgeOptions,
   applyApprovedKnowledge,
 } from "./apply.js";
+
+export {
+  EvidenceIngestError,
+  ingestResearchEvidence,
+  type ResearchEvidenceIngestInput,
+  type EvidenceIngestPackage,
+} from "./evidence-ingest.js";

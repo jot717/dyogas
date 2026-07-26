@@ -1,0 +1,48 @@
+{
+  "sprintId": "SPRINT-TASK-AGENT-FOUNDATION-001",
+  "trace": "TRACE-TASK-AGENT-FOUNDATION-001",
+  "generatedAt": "2026-07-26T08:28:39.073Z",
+  "plan": {
+    "plan_id": "tp-487c2b902b",
+    "task_id": "TA-WHAT-ARE-LOCAL-FIRST-KNO",
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "requires_human_approval": true
+  },
+  "executionPackage": {
+    "taskId": "TA-WHAT-ARE-LOCAL-FIRST-KNO",
+    "title": "Research: What are local-first knowledge ingestion practices?",
+    "objective": "What are local-first knowledge ingestion practices?",
+    "dependencies": [],
+    "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+    "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+    "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+    "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+    "expectedEvidence": "docs/task-agent/evidence/TA-WHAT-ARE-LOCAL-FIRST-KNO.json",
+    "executionMode": "Implementation Mode",
+    "sprintId": "SPRINT-TASK-AGENT-FOUNDATION-001",
+    "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+    "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+    "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE | BLOCKED"
+  },
+  "approval": {
+    "gateId": "e2c175a2ff378a5aa7c31bd37f699858",
+    "decision": "approved",
+    "approved": true
+  },
+  "hostCompatible": {
+    "research_brief": {
+      "question": "What are local-first knowledge ingestion practices?",
+      "scope": "decision-graph-foundation",
+      "allowed_source_classes": [
+        "web"
+      ],
+      "budget": {
+        "max_items": 5
+      }
+    },
+    "note": "ResearchBrief-shaped fields for Execution Host Stage-1 bootstrap — no Host redesign this sprint"
+  },
+  "verdict": "PASS"
+}

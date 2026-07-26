@@ -19,6 +19,7 @@ export {
   type EgressResult,
   type EgressDecision,
   EgressDeniedError,
+  RESEARCH_STAGE1_EGRESS_PURPOSE,
   evaluateEgress,
   assertEgressAllowed,
 } from "./egress/gate.js";

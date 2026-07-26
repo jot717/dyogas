@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/decision-asset-agent.schema.json",
+  "title": "DecisionAssetAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Decision Asset Agent. See /contracts/agents/decision-asset-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "required": [
+        "question",
+        "tenant_id",
+        "task_id",
+        "research_artifact_id",
+        "evidence"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "question": { "type": "string", "minLength": 1 },
+        "tenant_id": { "type": "string", "minLength": 1 },
+        "task_id": { "type": "string", "minLength": 1 },
+        "research_artifact_id": { "type": "string", "minLength": 1 },
+        "execution_package_task_id": { "type": "string" },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["evidenceId", "excerpt", "metadata"],
+            "properties": {
+              "evidenceId": { "type": "string" },
+              "excerpt": { "type": "string" },
+              "metadata": { "type": "object" }
+            }
+          }
+        }
+      }
+    },
+    "output": {
+      "$ref": "../artifacts/decision-asset.schema.json"
+    }
+  }
+}

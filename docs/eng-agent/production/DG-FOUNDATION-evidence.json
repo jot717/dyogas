@@ -1,0 +1,31 @@
+{
+  "sprintId": "SPRINT-DECISION-GRAPH-FOUNDATION-001",
+  "trace": "TRACE-DECISION-GRAPH-FOUNDATION-001",
+  "taskId": "DG-01…DG-06",
+  "generatedAt": "2026-07-26T08:16:00.000Z",
+  "verdict": "PASS",
+  "contract": {
+    "id": "decision-graph-foundation",
+    "version": "1.0.0",
+    "ontologyProfileId": "ontology-decision-graph-1.0.0"
+  },
+  "tests": {
+    "knowledge": { "pass": 9, "fail": 0 },
+    "graph": { "pass": 12, "fail": 0 },
+    "human-gate": { "pass": 5, "fail": 0 },
+    "ingestion-e2e": { "pass": 2, "fail": 0 }
+  },
+  "deliverables": [
+    "docs/decision-graph/DG-01-contract.md",
+    "graph/src/decision-graph-contract.ts",
+    "graph/src/decision-graph-extract.ts",
+    "graph/src/decision-graph-persist.ts",
+    "graph/src/ontology.ts (DECISION_GRAPH_ONTOLOGY)",
+    "schemas/artifacts/decision-graph-foundation.schema.json",
+    "knowledge/src/evidence-ingest.ts",
+    "human-gate/src/decision-graph-gate.ts",
+    "ingestion-e2e/tests/decision-graph-foundation.test.ts"
+  ],
+  "forbiddenScopeChanges": 0,
+  "notes": "In-memory SoR + graph store only; durable DB deferred. personal-brain/ untouched."
+}

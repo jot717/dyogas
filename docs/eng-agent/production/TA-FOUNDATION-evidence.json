@@ -1,0 +1,26 @@
+{
+  "sprintId": "SPRINT-TASK-AGENT-FOUNDATION-001",
+  "trace": "TRACE-TASK-AGENT-FOUNDATION-001",
+  "taskId": "TA-01…TA-07",
+  "generatedAt": "2026-07-26T08:30:00.000Z",
+  "verdict": "PASS",
+  "package": "@dyogas/task-agent@0.1.0",
+  "location": "tools/task-agent/",
+  "platformModule": false,
+  "tests": { "pass": 8, "fail": 0 },
+  "deliverables": [
+    "contracts/agents/task-agent.md",
+    "schemas/agents/task-agent.schema.json",
+    "schemas/artifacts/task-plan.schema.json",
+    "artifacts/task-plan.md",
+    "tools/task-agent/src/**",
+    "docs/task-agent/evidence/TA-FOUNDATION-001.json"
+  ],
+  "forbiddenScopeChanges": 0,
+  "deferred": [
+    "Execution Host stage-map registration",
+    "Additional agent routes beyond research-agent",
+    "Decision Model",
+    "Product UI"
+  ]
+}

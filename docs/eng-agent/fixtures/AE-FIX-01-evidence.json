@@ -40,8 +40,8 @@
           ],
           "exitCode": 0,
           "stdout": "",
-          "stderr": "(node:15896) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
-          "durationMs": 166
+          "stderr": "(node:28560) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+          "durationMs": 137
         }
       }
     ],
@@ -87,5 +87,5 @@
     "failedCheckIds": [],
     "trustsCallerFacts": false
   },
-  "generatedAt": "2026-07-26T06:23:19.363Z"
+  "generatedAt": "2026-07-26T08:15:26.892Z"
 }

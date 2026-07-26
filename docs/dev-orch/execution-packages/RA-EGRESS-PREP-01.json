@@ -1,0 +1,20 @@
+{
+  "taskId": "RA-EGRESS-PREP-01",
+  "title": "Prepare egress-enabled Research Agent policy package",
+  "objective": "Produce Founder Decision Log proposal for external source access (Band B / OOS-RE-001) under ADR-0002 deny-default. Define allowed sources, provenance, evidence, independent verification, and rollback. Do not enable network. Do not implement live collectors. Do not modify Runtime, Agent SDK, or Execution Host.",
+  "dependencies": [
+    "RA-08"
+  ],
+  "acceptanceCriteria": "DL-RESEARCH-AGENT-EGRESS-001 exists with PENDING_FOUNDER_APPROVAL; cites ADR-0002; defines allowed sources, provenance, evidence, verification flow, rollback R1–R6; Implementation authorization NO; network authorization NO; RA-05 and RA-07 remain BLOCKED.",
+  "testRequirements": "Governance / documentation only — no code change; existing suites need not re-run for this package alone.",
+  "allowedScope": "docs/decision-log/; docs/dev-orch/execution-packages/; docs/research-agent/",
+  "forbiddenScope": "research/src/; research/tests/; runtime/; sdk/; execution-host/; kernel/; trust/; personal-brain/; network enablement; live collectors; new MOD-*; agents/research-agent/",
+  "expectedEvidence": "docs/decision-log/DL-RESEARCH-AGENT-EGRESS-001.md",
+  "executionMode": "Planning Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001; ADR-0002; contracts/agents/research-agent.md; TASK-REGISTRY-RESEARCH-AGENT-MVP-001",
+  "gapRegistry": "OOS-RE-001; OOS-T-002",
+  "statusTransition": "PREPARED → PENDING_FOUNDER_APPROVAL (no READY implementation task until DL APPROVED + superseding ADR Accepted)",
+  "networkAccess": false,
+  "implementationAuthorized": false
+}

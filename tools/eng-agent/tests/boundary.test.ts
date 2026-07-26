@@ -145,3 +145,17 @@ test("boundary: coding instruction research exception is scoped", () => {
   assert.equal(withTests.includes("research/"), false);
   assert.ok(withTests.includes("research/other/"));
 });
+
+test("boundary: decision-graph write exception lifts knowledge/ and graph/", () => {
+  const without = resolveCodingForbiddenPaths(["docs/eng-agent/"]);
+  assert.ok(without.includes("knowledge/"));
+  assert.ok(without.includes("graph/"));
+
+  const withDg = resolveCodingForbiddenPaths(["graph/src/", "knowledge/src/"]);
+  assert.equal(withDg.includes("knowledge/"), false);
+  assert.equal(withDg.includes("graph/"), false);
+  assert.ok(withDg.includes("knowledge/other/"));
+  assert.ok(withDg.includes("graph/other/"));
+  assert.ok(withDg.includes("runtime/"));
+  assert.ok(withDg.includes("personal-brain/"));
+});

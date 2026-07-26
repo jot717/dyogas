@@ -10,4 +10,4 @@
 |-------|--------|
 | Specification → Module Complete | **YES — COMPLETE** |
 
-**Tests:** 6/6 PASS · Next: MOD-MARKDOWN / Graph Engine (contracts only for now)
+**Tests:** 9/9 PASS · Evidence ingest adapter (Decision Graph Foundation) complete · Next: durable SoR deferred

@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/decision-graph-foundation.schema.json",
+  "title": "DecisionGraphFoundation",
+  "description": "Evidence → Knowledge → Decision graph foundation record (SPRINT-DECISION-GRAPH-FOUNDATION-001).",
+  "type": "object",
+  "required": ["meta", "evidence", "knowledge", "decision"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "contractId",
+        "contractVersion",
+        "stages",
+        "requiresHumanApproval",
+        "researchMayWriteSoR",
+        "ontologyProfileId"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "contractId": { "const": "decision-graph-foundation" },
+        "contractVersion": { "type": "string", "const": "1.0.0" },
+        "stages": {
+          "type": "array",
+          "items": { "type": "string", "enum": ["evidence", "knowledge", "decision"] },
+          "minItems": 3,
+          "maxItems": 3
+        },
+        "requiresHumanApproval": { "const": true },
+        "researchMayWriteSoR": { "const": false },
+        "ontologyProfileId": {
+          "type": "string",
+          "const": "ontology-decision-graph-1.0.0"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["stage", "researchArtifactId", "evidenceIds", "taskId", "tenantId"],
+      "additionalProperties": false,
+      "properties": {
+        "stage": { "const": "evidence" },
+        "researchArtifactId": { "type": "string" },
+        "evidenceIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+        "taskId": { "type": "string" },
+        "tenantId": { "type": "string" }
+      }
+    },
+    "knowledge": {
+      "type": "object",
+      "required": ["stage", "knowledgeId", "version", "approvalState"],
+      "additionalProperties": false,
+      "properties": {
+        "stage": { "const": "knowledge" },
+        "knowledgeId": { "type": "string" },
+        "version": { "type": "integer", "minimum": 1 },
+        "approvalState": { "const": "applied" }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "required": [
+        "stage",
+        "graphUpdateMode",
+        "nodeCount",
+        "edgeCount",
+        "consistencyOk"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "stage": { "const": "decision" },
+        "graphUpdateMode": { "type": "string", "enum": ["propose", "apply"] },
+        "nodeCount": { "type": "integer", "minimum": 0 },
+        "edgeCount": { "type": "integer", "minimum": 0 },
+        "consistencyOk": { "type": "boolean" }
+      }
+    }
+  }
+}

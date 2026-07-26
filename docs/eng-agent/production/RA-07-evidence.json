@@ -1,0 +1,71 @@
+{
+  "taskId": "RA-07",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "adr": "ADR-0011 Accepted",
+  "flow": "External source → Collector (live-stage1-v1) → Research execute() → CollectionRunEvidence → Independent checks → PASS",
+  "invocation": {
+    "timestamp": "2026-07-26T07:05:00.000Z",
+    "liveNetworkSmoke": {
+      "command": "npx tsx scripts/live-net-smoke.ts",
+      "adapter": "live-stage1-v1",
+      "pointer": "https://example.com/?q=typescript",
+      "trustDecision": "allow",
+      "items": 1
+    }
+  },
+  "changedFiles": [
+    "research/tests/live-stage1.test.ts",
+    "research/scripts/live-net-smoke.ts",
+    "docs/eng-agent/production/RA-07-evidence.json"
+  ],
+  "proofs": {
+    "noMockFallback": true,
+    "evidenceGenerated": true,
+    "provenanceValid": true,
+    "verifierIndependent": true,
+    "failClosed": true
+  },
+  "tests": [
+    {
+      "cwd": "research",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "28 pass including RA-07 live E2E + anti-mock"
+    },
+    {
+      "cwd": "tools/eng-agent",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "53 pass"
+    },
+    {
+      "cwd": "tools/dev-orch",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "64 pass"
+    },
+    {
+      "cwd": "personal-brain",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "48 pass"
+    }
+  ],
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      { "id": "NO_MOCK", "pass": true, "message": "live-stage1-v1 required; mock claim fails independent check" },
+      { "id": "EVIDENCE", "pass": true, "message": "CollectionRunEvidence emitted by execute()" },
+      { "id": "PROVENANCE", "pass": true, "message": "all pointers https + trust.allow" },
+      { "id": "LIVE_NET", "pass": true, "message": "scripts/live-net-smoke.ts retrieved https://example.com" },
+      { "id": "INDEPENDENT", "pass": true, "message": "adapter id + item counts checked without agent self-report" }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T07:05:00.000Z"
+}

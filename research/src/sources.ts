@@ -6,6 +6,13 @@ export interface SourceMetadata {
   readonly pointer: string;
   readonly retrievedAt: string;
   readonly adapter: string;
+  /** Trust egress metadata when collected via live Stage-1 path (ADR-0011). */
+  readonly trust?: {
+    readonly decision: "allow";
+    readonly purpose: string;
+    readonly sourceClass: SourceClass;
+    readonly destination: string;
+  };
 }
 
 export interface EvidenceItem {

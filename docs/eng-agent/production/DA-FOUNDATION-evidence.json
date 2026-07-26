@@ -1,0 +1,25 @@
+{
+  "sprintId": "SPRINT-DECISION-ASSET-AGENT-FOUNDATION-001",
+  "trace": "TRACE-DECISION-ASSET-AGENT-FOUNDATION-001",
+  "taskId": "DA-01…DA-07",
+  "generatedAt": "2026-07-26T09:00:00.000Z",
+  "verdict": "PASS",
+  "package": "@dyogas/decision-asset-agent@0.1.0",
+  "location": "tools/decision-asset-agent/",
+  "platformModule": false,
+  "tests": { "pass": 4, "fail": 0 },
+  "pipeline": "Evidence → Decision Asset → Human Approval → Knowledge / Decision Graph",
+  "deliverables": [
+    "contracts/agents/decision-asset-agent.md",
+    "schemas/agents/decision-asset-agent.schema.json",
+    "schemas/artifacts/decision-asset.schema.json",
+    "tools/decision-asset-agent/src/**",
+    "docs/decision-asset-agent/evidence/DA-FOUNDATION-001.json"
+  ],
+  "forbiddenScopeChanges": 0,
+  "deferred": [
+    "Host stage-map registration",
+    "Decision Model UI",
+    "Multi-option comparative assets"
+  ]
+}
