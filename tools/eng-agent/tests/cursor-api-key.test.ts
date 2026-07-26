@@ -90,7 +90,14 @@ test("resolveApiKey: eng-agent .env.local preferred over workspace root", () => 
 test("resolveApiKey: fail closed when unavailable", () => {
   delete process.env.CURSOR_API_KEY;
   const root = makeWorkspace();
-  assert.equal(resolveApiKey(undefined, root), null);
+  // Isolate from ambient tools/eng-agent/.env.local via process.cwd()
+  const prevCwd = process.cwd();
+  try {
+    process.chdir(root);
+    assert.equal(resolveApiKey(undefined, root), null);
+  } finally {
+    process.chdir(prevCwd);
+  }
 });
 
 test("envLocalCandidates: includes eng-agent and workspace root", () => {
