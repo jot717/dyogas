@@ -5,7 +5,7 @@
 **Trace:** TRACE-PB-BRIDGE-001  
 **Spec:** SPEC-PROD-004-HARNESS-BRIDGE (`accepted`)  
 **Created:** 2026-07-24  
-**Last updated:** 2026-07-25 (SPRINT-PB-BRIDGE-CODING-001 COMPLETE PASS; GAP-BR-019 remains OPEN P0)
+**Last updated:** 2026-07-25 (GAP-BR-019 CLOSED via SPRINT-HOST-RESEARCH-INTEGRATION-001 PASS)
 **Mode:** Implementation Mode — **register only** (do not fix gaps here)
 
 ---
@@ -332,16 +332,16 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | Field | Content |
 |-------|---------|
 | **GAP ID** | GAP-BR-019 |
-| **Source Task** | **C-04** (SPRINT-PB-BRIDGE-CODING-001) |
+| **Source Task** | **C-04** (SPRINT-PB-BRIDGE-CODING-001) · closed by **H-01…H-06** |
 | **Description** | Execution Host stage executor binds the Research Agent contract (`bindStage`) then seals a **synthetic** artifact id into lineage kind `ResearchReport` without invoking research-engine skill handlers or returning a schema-valid ResearchReport **payload** via public Host API (`HostRun` exposes refs only). |
 | **Impact** | Personal Brain can prove Host Stage 1 path + ResearchReport **lineage ref**, but cannot consume a real ResearchReport body without Host hardening (or forbidden product-side Runtime/SDK/research-engine orchestration). |
-| **Priority** | **P0** — blocks real Stage-1 Research execution and canonical ResearchReport production |
+| **Priority** | **P0** (resolved) |
 | **Severity** | Critical for executable Bridge acceptance; Host createRun/lineage-only smoke remains available |
 | **Owner Area** | Execution Host / Platform |
-| **Status** | **OPEN** |
-| **Planned Resolution** | `SPRINT-HOST-RESEARCH-INTEGRATION-001` (pending Founder approval): Host → existing Research Engine → schema-valid ResearchReport → existing Runtime seal/handoff → HostRun lineage. |
-| **Decision Required** | Founder approval of the planned Host implementation sprint; **do not** implement in Personal Brain. |
-| **Blocking Current Sprint?** | **YES** for real/schema-body ResearchReport acceptance; **NO** for lineage-only Host smoke |
+| **Status** | **CLOSED** (2026-07-25) |
+| **Resolution** | `SPRINT-HOST-RESEARCH-INTEGRATION-001` **PASS**: Host → `ResearchEngine.execute()` → schema-valid ResearchReport → Runtime seal/handoff → Host sealed-store + HostRun lineage. Evidence: `execution-host/stage/H06-sprint-exit-host-research-integration-001.md`. |
+| **Decision Required** | — |
+| **Blocking Current Sprint?** | **NO** |
 
 ---
 
@@ -369,9 +369,9 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | **GAP-BR-016** | **OPEN** | **NO** |
 | **GAP-BR-017** | **OPEN** | **NO** |
 | **GAP-BR-018** | **OPEN** | **NO** |
-| **GAP-BR-019** | **OPEN · P0** | **YES** (real ResearchReport) |
+| **GAP-BR-019** | **CLOSED** | **NO** |
 
-**Design sprint status:** `SPRINT-PB-HARNESS-BRIDGE-001` remains COMPLETE (design PASS). **GAP-BR-019 P0 blocks real ResearchReport implementation acceptance** and is assigned to the planned Execution Platform sprint.
+**Design sprint status:** `SPRINT-PB-HARNESS-BRIDGE-001` remains COMPLETE (design PASS). **GAP-BR-019 CLOSED** by `SPRINT-HOST-RESEARCH-INTEGRATION-001` (Host Stage-1 Research Engine path).
 
 ---
 
@@ -406,6 +406,8 @@ Superseded local IDs (A2): GAP-A2-01…05 → mapped into GAP-BR-* below (see A4
 | 2026-07-25 | C-05 persist ResearchReport reference — **no new GAPs; none closed**; product stores Host ref + lineage/ownership/tenancy only; GAP-BR-019 remains OPEN P0 |
 | 2026-07-25 | C-06 smoke — **PASS** on Host MVP lineage-seal path; **no new GAPs; none closed**; GAP-BR-019 / GAP-EH-003 / GAP-BR-012 / GAP-BR-005 / GAP-BR-002…004 remain OPEN |
 | 2026-07-25 | C-07 / `SPRINT-PB-BRIDGE-CODING-001` **COMPLETE · PASS** — **no new GAPs; none closed**; GAP-BR-019 remains **OPEN · P0** |
+| 2026-07-25 | `SPRINT-HOST-RESEARCH-INTEGRATION-001` **COMPLETE · PASS** — **GAP-BR-019 CLOSED**; **GAP-EH-003 CLOSED**; no Personal Brain source changes |
+| 2026-07-25 | Residual hygiene — Tests 1–6 strengthened (engine call counter + PB consumer read via Host); ROADMAP synced; sprint remains **COMPLETE** (not reopened) |
 
 ---
 

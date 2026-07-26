@@ -21,12 +21,12 @@
 | External Connection Layer | Present |
 | Product UI Layer | **REMOVED** |
 | Harness Bridge (design) | Spec **`accepted`**; design sprint **COMPLETE** |
-| Harness Bridge (coding) | `SPRINT-PB-BRIDGE-CODING-001` **COMPLETE** · Exit **PASS** · mode `host_mvp_lineage_seal` · GAP-BR-019 **OPEN P0** |
+| Harness Bridge (coding) | `SPRINT-PB-BRIDGE-CODING-001` **COMPLETE** · Exit **PASS**; Host Stage-1 now real Research Engine (`SPRINT-HOST-RESEARCH-INTEGRATION-001`); **GAP-BR-019 CLOSED** |
 
 **Entry path (binding):** Personal Brain → **`ExecutionHost.createRun()`** → Host → Runtime primitives → SDK → Agents (ADR-0010). Product must not call Runtime as orchestrator; product must not bind agents.
 
 **Shipped slice:** Research Request → Brief → `createRun` → Host Stage 1 → ResearchReport **reference** → Persist (no fabricated Report body; no Runtime/SDK/Research Engine bypass).
 
-**Next:** Platform `SPRINT-HOST-RESEARCH-INTEGRATION-001` (**PENDING_FOUNDER_APPROVAL**) to resolve GAP-BR-019 / GAP-EH-003 before PB HA/Knowledge consume. UI / Decision Intelligence remain future.
+**Next:** Platform Stage-1 Research Engine integration **COMPLETE** (`SPRINT-HOST-RESEARCH-INTEGRATION-001`). PB may consume sealed ResearchReport refs/bodies via Host without further PB redesign for Stage 1. UI / Decision Intelligence remain future.
 
 **Evidence:** `stage/bridge/C07-sprint-exit-coding-001.md` · `stage/bridge/C06-smoke-test-evidence.md` · `docs/decision-log/DL-PB-BRIDGE-CODING-001.md`
