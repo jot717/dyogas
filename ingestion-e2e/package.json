@@ -1,0 +1,25 @@
+{
+  "name": "@dyogas/ingestion-e2e",
+  "version": "0.1.0",
+  "private": true,
+  "description": "B15 knowledge-ingestion non-prod green path",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@dyogas/kernel": "file:../kernel",
+    "@dyogas/trust": "file:../trust",
+    "@dyogas/research-engine": "file:../research",
+    "@dyogas/human-gate": "file:../human-gate",
+    "@dyogas/knowledge-engine": "file:../knowledge",
+    "@dyogas/markdown-engine": "file:../markdown",
+    "@dyogas/graph-engine": "file:../graph"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

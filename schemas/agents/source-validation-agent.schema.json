@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/source-validation-agent.schema.json",
+  "title": "SourceValidationAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Source Validation Agent (Stage 2 — Validation). See /contracts/agents/source-validation-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Source Validation Agent with a sealed ResearchReport reference and a rubric to apply.",
+      "required": ["research_report_ref", "rubric_id"],
+      "properties": {
+        "research_report_ref": {
+          "type": "object",
+          "description": "Pointer to the sealed ResearchReport under judgment, digest-verified before use.",
+          "required": ["artifact_id", "artifact_version", "digest"]
+        },
+        "rubric_id": { "type": "string", "description": "Identifier of the versioned ValidationRubric to apply.", "examples": ["rubric-general-source-credibility-1.2.0"] }
+      }
+    },
+    "output": { "$ref": "../artifacts/validation-report.schema.json" }
+  }
+}

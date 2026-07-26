@@ -1,0 +1,14 @@
+{
+  "name": "@dyogas/agent-sdk-consumer-fixture",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "tsc -p tsconfig.json" },
+  "dependencies": {
+    "@dyogas/kernel": "file:../../../kernel",
+    "@dyogas/trust": "file:../../../trust",
+    "@dyogas/runtime": "file:../../../runtime",
+    "@dyogas/agent-sdk": "file:../.."
+  },
+  "devDependencies": { "typescript": "^5.7.2" }
+}

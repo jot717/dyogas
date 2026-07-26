@@ -1,0 +1,473 @@
+name: dyogas-ci
+
+on:
+  push:
+    paths:
+      - "kernel/**"
+      - "trust/**"
+      - "runtime/**"
+      - "sdk/**"
+      - "research/**"
+      - "knowledge/**"
+      - "graph/**"
+      - "markdown/**"
+      - "human-gate/**"
+      - "web-ui/**"
+      - "ingestion-e2e/**"
+      - "personal-brain/**"
+      - "schemas/**"
+      - "tools/schema-ci/**"
+      - "tools/dev-orch/**"
+      - "tools/eng-agent/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "kernel/**"
+      - "trust/**"
+      - "runtime/**"
+      - "sdk/**"
+      - "research/**"
+      - "knowledge/**"
+      - "graph/**"
+      - "markdown/**"
+      - "human-gate/**"
+      - "web-ui/**"
+      - "ingestion-e2e/**"
+      - "personal-brain/**"
+      - "schemas/**"
+      - "tools/schema-ci/**"
+      - "tools/dev-orch/**"
+      - "tools/eng-agent/**"
+      - ".github/workflows/ci.yml"
+
+jobs:
+  schemas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: tools/schema-ci/package-lock.json
+      - working-directory: tools/schema-ci
+        run: npm ci
+      - working-directory: tools/schema-ci
+        run: npm run validate
+
+  kernel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: kernel/package-lock.json
+      - working-directory: kernel
+        run: npm ci
+      - working-directory: kernel
+        run: npm test
+      - working-directory: kernel
+        run: npm run build
+      - working-directory: kernel/fixtures/consumer
+        run: npm ci && npm run build
+
+  trust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci
+      - working-directory: trust
+        run: npm test
+      - working-directory: trust
+        run: npm run build
+      - working-directory: trust/fixtures/consumer
+        run: npm ci && npm run build
+
+  runtime:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci
+      - working-directory: runtime
+        run: npm test
+      - working-directory: runtime
+        run: npm run build
+      - working-directory: runtime/fixtures/consumer
+        run: npm ci && npm run build
+
+  agent-sdk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci
+      - working-directory: sdk
+        run: npm test
+      - working-directory: sdk
+        run: npm run build
+      - working-directory: sdk/fixtures/consumer
+        run: npm ci && npm run build
+
+  research-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci
+      - working-directory: research
+        run: npm test
+      - working-directory: research
+        run: npm run build
+      - working-directory: research/fixtures/consumer
+        run: npm ci && npm run build
+
+  knowledge-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci
+      - working-directory: knowledge
+        run: npm test
+      - working-directory: knowledge
+        run: npm run build
+      - working-directory: knowledge/fixtures/consumer
+        run: npm ci && npm run build
+
+  graph-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            graph/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: graph
+        run: npm ci
+      - working-directory: graph
+        run: npm test
+      - working-directory: graph
+        run: npm run build
+      - working-directory: graph/fixtures/consumer
+        run: npm ci && npm run build
+
+  markdown-engine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            markdown/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: markdown
+        run: npm ci
+      - working-directory: markdown
+        run: npm test
+      - working-directory: markdown
+        run: npm run build
+      - working-directory: markdown/fixtures/consumer
+        run: npm ci && npm run build
+
+  human-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            human-gate/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: human-gate
+        run: npm ci
+      - working-directory: human-gate
+        run: npm test
+      - working-directory: human-gate
+        run: npm run build
+
+  web-ui:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            human-gate/package-lock.json
+            web-ui/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: human-gate
+        run: npm ci && npm run build
+      - working-directory: web-ui
+        run: npm ci
+      - working-directory: web-ui
+        run: npm test
+      - working-directory: web-ui
+        run: npm run build
+
+  ingestion-e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            human-gate/package-lock.json
+            markdown/package-lock.json
+            graph/package-lock.json
+            ingestion-e2e/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: human-gate
+        run: npm ci && npm run build
+      - working-directory: markdown
+        run: npm ci && npm run build
+      - working-directory: graph
+        run: npm ci && npm run build
+      - working-directory: ingestion-e2e
+        run: npm ci
+      - working-directory: ingestion-e2e
+        run: npm test
+
+  personal-brain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: |
+            kernel/package-lock.json
+            trust/package-lock.json
+            runtime/package-lock.json
+            sdk/package-lock.json
+            research/package-lock.json
+            knowledge/package-lock.json
+            graph/package-lock.json
+            personal-brain/package-lock.json
+      - working-directory: kernel
+        run: npm ci && npm run build
+      - working-directory: trust
+        run: npm ci && npm run build
+      - working-directory: runtime
+        run: npm ci && npm run build
+      - working-directory: sdk
+        run: npm ci && npm run build
+      - working-directory: research
+        run: npm ci && npm run build
+      - working-directory: knowledge
+        run: npm ci && npm run build
+      - working-directory: graph
+        run: npm ci && npm run build
+      - working-directory: personal-brain
+        run: npm ci
+      - working-directory: personal-brain
+        run: npm test
+      - working-directory: personal-brain
+        run: npm run build
+
+  dev-orch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: tools/dev-orch/package-lock.json
+      - working-directory: tools/dev-orch
+        run: npm ci
+      - working-directory: tools/dev-orch
+        run: npm test
+      - working-directory: tools/dev-orch
+        run: npm run build
+
+  eng-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: tools/eng-agent/package-lock.json
+      - working-directory: tools/eng-agent
+        run: npm ci
+      - working-directory: tools/eng-agent
+        run: npm test
+      - working-directory: tools/eng-agent
+        run: npm run build

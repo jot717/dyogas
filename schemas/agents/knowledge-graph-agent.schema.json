@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/knowledge-graph-agent.schema.json",
+  "title": "KnowledgeGraphAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Knowledge Graph Agent (Stage 6 — Graph). See /contracts/agents/knowledge-graph-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Knowledge Graph Agent with a sealed Knowledge reference, the ontology profile to use, and the delta mode.",
+      "required": ["knowledge_ref", "ontology_profile_id"],
+      "properties": {
+        "knowledge_ref": { "type": "object", "required": ["artifact_id", "artifact_version"], "description": "Pointer to the sealed Knowledge to derive from." },
+        "ontology_profile_id": { "type": "string", "description": "Governed ontology/schema profile.", "examples": ["ontology-general-1.0.0"] },
+        "mode": { "type": "string", "description": "propose stages the delta; apply requires authorization to mutate the live graph.", "enum": ["propose", "apply"] }
+      }
+    },
+    "output": { "$ref": "../artifacts/graph-update.schema.json" }
+  }
+}

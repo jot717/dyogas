@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/markdown-agent.schema.json",
+  "title": "MarkdownAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Markdown Agent (Stage 5 — Markdown). See /contracts/agents/markdown-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Markdown Agent only with an approved HumanReviewDecision, its subject Proposal, a valid single-use apply_token, and a resolved template.",
+      "required": ["approval_ref", "proposal_ref", "apply_token", "template_id"],
+      "properties": {
+        "approval_ref": { "type": "object", "required": ["artifact_id", "artifact_version"], "description": "Pointer to the approved HumanReviewDecision." },
+        "proposal_ref": { "type": "object", "required": ["artifact_id", "artifact_version"], "description": "Pointer to the sealed Proposal to draft from." },
+        "apply_token": { "type": "string", "minLength": 1, "description": "Single-use token bound to the exact Proposal artifact_id@version." },
+        "template_id": { "type": "string", "description": "Identifier of the front-matter/body template to use." }
+      }
+    },
+    "output": { "$ref": "../artifacts/knowledge.schema.json" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/embedding-agent.schema.json",
+  "title": "EmbeddingAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Embedding Agent (Stage 7 — Embedding). See /contracts/agents/embedding-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Embedding Agent with sealed source artifacts and the authorized embedding profile to use.",
+      "required": ["source_refs", "profile_id"],
+      "properties": {
+        "source_refs": { "type": "array", "minItems": 1, "description": "Sealed Knowledge (primary) and optionally GraphUpdate references to embed." },
+        "profile_id": { "type": "string", "description": "Authorized embedding profile identifier.", "examples": ["embed-profile-text-embed-v3-1.0.0"] }
+      }
+    },
+    "output": { "$ref": "../artifacts/embedding-job.schema.json" }
+  }
+}

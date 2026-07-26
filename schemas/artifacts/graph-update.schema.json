@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/graph-update.schema.json",
+  "title": "GraphUpdate",
+  "description": "Proposed or authorized delta to the knowledge graph derived from sealed Knowledge. See /artifacts/graph-update.md.",
+  "type": "object",
+  "required": [
+    "knowledge_ref",
+    "ontology_profile_id",
+    "nodes",
+    "edges",
+    "consistency_report",
+    "mode"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "knowledge_ref": {
+      "type": "object",
+      "description": "Pointer to the sealed Knowledge this delta derives from.",
+      "required": ["artifact_id", "artifact_version"],
+      "properties": {
+        "artifact_id": { "type": "string" },
+        "artifact_version": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "ontology_profile_id": {
+      "type": "string",
+      "description": "Governed ontology/schema profile used to type nodes and relations.",
+      "examples": ["ontology-general-1.0.0"]
+    },
+    "nodes": {
+      "type": "array",
+      "description": "Graph nodes derived from the referenced Knowledge. Every node must carry provenance.",
+      "items": {
+        "type": "object",
+        "required": ["node_id", "label", "provenance"],
+        "properties": {
+          "node_id": { "type": "string", "examples": ["n-retry-backoff-guideline"] },
+          "label": { "type": "string" },
+          "types": { "type": "array", "items": { "type": "string" } },
+          "provenance": { "type": "array", "items": { "type": "string" }, "description": "Pointers back to Knowledge spans/claims." }
+        },
+        "additionalProperties": false
+      }
+    },
+    "edges": {
+      "type": "array",
+      "description": "Graph edges derived from the referenced Knowledge. Every edge must carry provenance (minItems: 1).",
+      "items": {
+        "type": "object",
+        "required": ["edge_id", "from", "to", "relation", "provenance"],
+        "properties": {
+          "edge_id": { "type": "string" },
+          "from": { "type": "string", "description": "node_id of the source node." },
+          "to": { "type": "string", "description": "node_id of the target node." },
+          "relation": { "type": "string", "examples": ["recommends"] },
+          "provenance": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "consistency_report": {
+      "type": "object",
+      "description": "The agent's own self-check against ontology and identity-collision rules before emission.",
+      "required": ["ok", "issues"],
+      "properties": {
+        "ok": { "type": "boolean" },
+        "issues": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": false
+    },
+    "mode": {
+      "type": "string",
+      "description": "propose stages the delta for review; apply is authorized to mutate the live graph store.",
+      "enum": ["propose", "apply"]
+    }
+  },
+  "examples": [
+    {
+      "knowledge_ref": { "artifact_id": "kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9", "artifact_version": "1.0.0" },
+      "ontology_profile_id": "ontology-general-1.0.0",
+      "nodes": [
+        { "node_id": "n-retry-backoff-guideline", "label": "Retry Backoff Guideline", "types": ["Guideline"], "provenance": ["kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9#title"] }
+      ],
+      "edges": [
+        { "edge_id": "e-guideline-recommends-technique", "from": "n-retry-backoff-guideline", "to": "n-jittered-exponential-backoff", "relation": "recommends", "provenance": ["kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9#claim-01"] }
+      ],
+      "consistency_report": { "ok": true, "issues": [] },
+      "mode": "propose"
+    }
+  ]
+}

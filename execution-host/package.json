@@ -1,0 +1,37 @@
+{
+  "name": "@dyogas/execution-host",
+  "version": "0.0.1",
+  "private": true,
+  "description": "DYOGAS Pipeline Execution Host — composes Runtime + Agent SDK + /pipelines under Harness law (MOD-EXECUTION-HOST / SPRINT-EXECUTION-HOST-001)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "API.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@dyogas/agent-sdk": "file:../sdk",
+    "@dyogas/kernel": "file:../kernel",
+    "@dyogas/research-engine": "file:../research",
+    "@dyogas/runtime": "file:../runtime",
+    "@dyogas/trust": "file:../trust"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

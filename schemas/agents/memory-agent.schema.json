@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/memory-agent.schema.json",
+  "title": "MemoryAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Memory Agent (Stage 8 — Memory). Governs working vs durable memory transactions; prevents covert per-agent durable stores. See /contracts/agents/memory-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "The memory operation request, its grounding source artifacts, retention policy, and an apply_token if required by policy for a material persist.",
+      "required": ["op", "source_refs", "retention_policy_id"],
+      "properties": {
+        "op": { "type": "string", "enum": ["stage", "persist", "forget", "seal", "recall"], "description": "Only ops allowed by the current stage are permitted." },
+        "source_refs": { "type": "array", "description": "Upstream artifacts this transaction is grounded in (typically Knowledge + EmbeddingJob)." },
+        "retention_policy_id": { "type": "string", "description": "Governed retention policy applied to this transaction.", "examples": ["retention-knowledge-linked-indefinite-1.0.0"] },
+        "apply_token": { "type": "string", "description": "Required for material persist operations when policy demands a valid, version-bound token." }
+      }
+    },
+    "output": { "$ref": "../artifacts/memory-update.schema.json" }
+  }
+}

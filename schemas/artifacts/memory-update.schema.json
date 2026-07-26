@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/memory-update.schema.json",
+  "title": "MemoryUpdate",
+  "description": "Result of an authorized memory transaction (persist/forget/seal/etc.) for a pipeline run. See /artifacts/memory-update.md.",
+  "type": "object",
+  "required": ["op", "result", "memory_ids", "retention_policy_id", "source_refs"],
+  "additionalProperties": false,
+  "properties": {
+    "op": {
+      "type": "string",
+      "description": "The memory operation performed.",
+      "enum": ["stage", "persist", "forget", "seal", "recall"]
+    },
+    "result": {
+      "type": "string",
+      "description": "Transaction outcome. Must be explicit; partial forgets must never be reported as succeeded.",
+      "enum": ["succeeded", "denied", "partial"]
+    },
+    "memory_ids": {
+      "type": "array",
+      "description": "Identifiers of the memory records affected by this operation. Opaque handles into the memory subsystem.",
+      "items": { "type": "string" }
+    },
+    "retention_policy_id": {
+      "type": "string",
+      "description": "Identifier of the governed retention policy applied to this transaction.",
+      "examples": ["retention-knowledge-linked-indefinite-1.0.0"]
+    },
+    "source_refs": {
+      "type": "array",
+      "description": "Upstream artifacts this memory transaction is grounded in (typically sealed Knowledge and EmbeddingJob).",
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "artifact_version"],
+        "properties": {
+          "artifact_id": { "type": "string" },
+          "artifact_version": { "type": "string" },
+          "artifact_type": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "denial_reason": {
+      "type": "string",
+      "description": "Required when result=denied; explains exactly why the transaction did not proceed."
+    },
+    "incomplete_forget_ids": {
+      "type": "array",
+      "description": "Populated when a forget operation could not fully complete; names the specific memory_ids still outstanding.",
+      "items": { "type": "string" }
+    }
+  },
+  "examples": [
+    {
+      "op": "persist",
+      "result": "succeeded",
+      "memory_ids": ["mem-01J8ZE6G7H8I9J0K1L2M3N4O5P"],
+      "retention_policy_id": "retention-knowledge-linked-indefinite-1.0.0",
+      "source_refs": [
+        { "artifact_id": "kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9", "artifact_version": "1.0.0", "artifact_type": "Knowledge" }
+      ]
+    },
+    {
+      "op": "forget",
+      "result": "partial",
+      "memory_ids": ["mem-01J8ZF7H8I9J0K1L2M3N4O5P6Q"],
+      "retention_policy_id": "retention-erasure-request-1.0.0",
+      "source_refs": [],
+      "incomplete_forget_ids": ["mem-01J8ZF7H8I9J0K1L2M3N4O5P6Q-replica-eu-west"]
+    }
+  ]
+}

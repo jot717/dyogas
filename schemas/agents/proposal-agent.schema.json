@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/proposal-agent.schema.json",
+  "title": "ProposalAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Proposal Agent (Stage 3 — Proposal). See /contracts/agents/proposal-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Proposal Agent with a sealed ValidationReport reference and the pain statement to address.",
+      "required": ["validation_report_ref", "pain_statement"],
+      "properties": {
+        "validation_report_ref": {
+          "type": "object",
+          "description": "Pointer to the sealed ValidationReport whose accepted evidence may be cited.",
+          "required": ["artifact_id", "artifact_version"]
+        },
+        "pain_statement": { "type": "string", "minLength": 1, "description": "Who hurts and how — required by Constitution Article XII." },
+        "constraints": { "type": "object", "description": "Additional producer-defined constraints on the proposal." }
+      }
+    },
+    "output": { "$ref": "../artifacts/proposal.schema.json" }
+  }
+}

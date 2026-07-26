@@ -1,0 +1,91 @@
+{
+  "taskId": "AE-FIX1",
+  "sprintId": "SPRINT-ENG-AGENT-AUTONOMOUS-EXECUTION-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "observation": {
+    "taskId": "AE-FIX1",
+    "mode": "apply",
+    "steps": [
+      {
+        "index": 0,
+        "step": {
+          "type": "writeFile",
+          "path": "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js",
+          "contents": "import { test } from \"node:test\";\nimport assert from \"node:assert/strict\";\n\ntest(\"fixture generated file works\", () => {\n  assert.equal(1 + 1, 2);\n});\n"
+        },
+        "ok": true,
+        "write": {
+          "path": "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js",
+          "bytesWritten": 151,
+          "existedAfter": true
+        }
+      },
+      {
+        "index": 1,
+        "step": {
+          "type": "runTest",
+          "targets": [
+            "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js"
+          ],
+          "cwd": "."
+        },
+        "ok": true,
+        "command": {
+          "command": "node",
+          "args": [
+            "--test",
+            "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js"
+          ],
+          "exitCode": 0,
+          "stdout": "",
+          "stderr": "(node:24404) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+          "durationMs": 84
+        }
+      }
+    ],
+    "commandExitCodes": [
+      0
+    ],
+    "writtenPaths": [
+      "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js"
+    ],
+    "evidencePath": "docs/eng-agent/fixtures/AE-FIX-01-evidence.json",
+    "evidenceExistsOnDisk": true,
+    "allStepsOk": true
+  },
+  "verifier": {
+    "recommendation": "PASS",
+    "checks": [
+      {
+        "id": "STEPS",
+        "pass": true,
+        "message": "all executor steps ok"
+      },
+      {
+        "id": "COMMAND_EXIT",
+        "pass": true,
+        "message": "all exit codes 0: [0]"
+      },
+      {
+        "id": "WRITES_ON_DISK",
+        "pass": true,
+        "message": "all written files exist on disk"
+      },
+      {
+        "id": "EVIDENCE_ON_DISK",
+        "pass": true,
+        "message": "evidence present: docs/eng-agent/fixtures/AE-FIX-01-evidence.json"
+      },
+      {
+        "id": "NO_CALLER_FACTS",
+        "pass": true,
+        "message": "verifier used ExecutorObservation only (trustsCallerFacts=false)"
+      }
+    ],
+    "failedCheckIds": [],
+    "trustsCallerFacts": false
+  },
+  "generatedAt": "2026-07-26T05:12:12.755Z"
+}

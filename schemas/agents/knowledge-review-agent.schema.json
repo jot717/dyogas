@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/knowledge-review-agent.schema.json",
+  "title": "KnowledgeReviewAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Knowledge Review Agent (Stage 4 — Human Review, automated package preparation). See /contracts/agents/knowledge-review-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Knowledge Review Agent with a sealed Proposal reference and the checklist to apply.",
+      "required": ["proposal_ref", "checklist_id"],
+      "properties": {
+        "proposal_ref": {
+          "type": "object",
+          "description": "Pointer to the sealed Proposal under review.",
+          "required": ["artifact_id", "artifact_version"]
+        },
+        "checklist_id": { "type": "string", "description": "Identifier of the governed review checklist.", "examples": ["checklist-knowledge-approval-1.0.0"] }
+      }
+    },
+    "output": { "$ref": "../artifacts/human-review-decision.schema.json" }
+  }
+}

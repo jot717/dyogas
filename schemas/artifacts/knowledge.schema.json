@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/knowledge.schema.json",
+  "title": "Knowledge",
+  "description": "Review-ready, approval-authorized knowledge unit destined for the local-first Knowledge Plane SoR. See /artifacts/knowledge.md.",
+  "type": "object",
+  "required": [
+    "title",
+    "format",
+    "body",
+    "front_matter",
+    "claim_provenance",
+    "proposal_ref",
+    "approval_ref"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable title for the knowledge unit.",
+      "examples": ["Retry Backoff Guideline: Jittered Exponential Backoff Defaults"]
+    },
+    "format": {
+      "type": "string",
+      "description": "Content format of body.",
+      "enum": ["markdown"]
+    },
+    "body": {
+      "type": "string",
+      "description": "The Markdown content, authored faithfully from the approved Proposal's citations only."
+    },
+    "front_matter": {
+      "type": "object",
+      "description": "Structured metadata (tags, category, audience, etc.) governed by the Markdown Agent's template."
+    },
+    "claim_provenance": {
+      "type": "array",
+      "description": "Maps each factual claim to its supporting citation_keys. Under strict policy, every factual claim in body must have an entry here.",
+      "items": {
+        "type": "object",
+        "required": ["claim_id", "citation_keys"],
+        "properties": {
+          "claim_id": { "type": "string", "examples": ["claim-01"] },
+          "citation_keys": { "type": "array", "items": { "type": "string" }, "description": "Must match citation_key values from the referenced Proposal.citations[]." },
+          "span_hint": { "type": "string", "description": "Locator hint (e.g. heading + ordinal position) for traceability.", "examples": ["## Rationale, paragraph 1, sentence 1"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "proposal_ref": {
+      "type": "object",
+      "description": "Pointer to the sealed Proposal this knowledge was drafted from.",
+      "required": ["artifact_id", "artifact_version"],
+      "properties": {
+        "artifact_id": { "type": "string" },
+        "artifact_version": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "approval_ref": {
+      "type": "object",
+      "description": "Pointer to the HumanReviewDecision that authorized this exact content. outcome must be the literal 'approved'.",
+      "required": ["artifact_id", "artifact_version", "outcome"],
+      "properties": {
+        "artifact_id": { "type": "string" },
+        "artifact_version": { "type": "string" },
+        "outcome": { "type": "string", "const": "approved" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "examples": [
+    {
+      "title": "Retry Backoff Guideline: Jittered Exponential Backoff Defaults",
+      "format": "markdown",
+      "body": "## Guideline\n\nAll agent-to-agent retries SHOULD use jittered exponential backoff with a capped ceiling per failure class.\n",
+      "front_matter": { "category": "engineering-guideline", "tags": ["retry", "resilience", "backoff"], "audience": "engineering", "slug": "retry-backoff-guideline" },
+      "claim_provenance": [{ "claim_id": "claim-01", "citation_keys": ["cit-01"], "span_hint": "## Rationale, paragraph 1, sentence 1" }],
+      "proposal_ref": { "artifact_id": "pr-01J8Z5S6T7U8V9W0X1Y2Z3A4B5", "artifact_version": "1.0.0" },
+      "approval_ref": { "artifact_id": "hrd-01J8Z7U8V9W0X1Y2Z3A4B5C6D7", "artifact_version": "1.1.0", "outcome": "approved" }
+    }
+  ]
+}

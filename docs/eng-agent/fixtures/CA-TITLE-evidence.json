@@ -1,0 +1,106 @@
+{
+  "taskId": "CA-TITLE",
+  "sprintId": "SPRINT-ENG-AGENT-CODING-ADAPTER-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-sdk-agent-prompt",
+  "observation": {
+    "taskId": "CA-TITLE",
+    "mode": "apply",
+    "instruction": {
+      "taskId": "CA-TITLE",
+      "sprintId": "SPRINT-ENG-AGENT-CODING-ADAPTER-001",
+      "objective": "Modify tools/dev-orch/src/util/title-case.ts so toTitleCase works correctly. Do not modify the test file unless necessary. Implement: trim, collapse whitespace, capitalize each word; empty string returns empty string.",
+      "acceptanceCriteria": "toTitleCase(\"hello world\") === \"Hello World\"; empty → \"\"; coding tests pass",
+      "testRequirements": "node --import tsx --test tests/coding/title-case.test.ts (cwd: tools/dev-orch)",
+      "allowedPaths": [
+        "tools/dev-orch/src/util/",
+        "tools/dev-orch/tests/coding/",
+        "docs/eng-agent/"
+      ],
+      "forbiddenPaths": [
+        "runtime/",
+        "sdk/",
+        "execution-host/",
+        "personal-brain/",
+        "research/",
+        "knowledge/",
+        "graph/",
+        "kernel/",
+        "web-ui/",
+        "harness/"
+      ],
+      "prompt": "# Coding Task CA-TITLE\n\nYou are the Implementation Agent for the DYOGAS Development Harness.\nSprint: SPRINT-ENG-AGENT-CODING-ADAPTER-001\n\n## Objective\nModify tools/dev-orch/src/util/title-case.ts so toTitleCase works correctly. Do not modify the test file unless necessary. Implement: trim, collapse whitespace, capitalize each word; empty string returns empty string.\n\n## Acceptance Criteria\ntoTitleCase(\"hello world\") === \"Hello World\"; empty → \"\"; coding tests pass\n\n## Test Requirements\nnode --import tsx --test tests/coding/title-case.test.ts (cwd: tools/dev-orch)\n\n## Allowed paths (ONLY modify these)\n- tools/dev-orch/src/util/\n- tools/dev-orch/tests/coding/\n- docs/eng-agent/\n\n## Target files\n- tools/dev-orch/src/util/title-case.ts\n\n## Forbidden\n- runtime/\n- sdk/\n- execution-host/\n- personal-brain/\n- research/\n- knowledge/\n- graph/\n- kernel/\n- web-ui/\n- harness/\n- Do not invent PASS for tests.\n- Do not modify files outside the allowed paths.\n\n## Required actions\n1. Implement the missing/incorrect behavior in the target source file(s).\n2. Ensure the verify command will pass: node --import tsx --test tests/coding/title-case.test.ts\n3. Keep changes minimal and focused.\n",
+      "targetFiles": [
+        "tools/dev-orch/src/util/title-case.ts"
+      ],
+      "verifyCommand": {
+        "command": "node",
+        "args": [
+          "--import",
+          "tsx",
+          "--test",
+          "tests/coding/title-case.test.ts"
+        ],
+        "cwd": "tools/dev-orch"
+      },
+      "evidencePath": "docs/eng-agent/fixtures/CA-TITLE-evidence.json"
+    },
+    "instructionDelivered": true,
+    "agentStatus": "finished",
+    "runId": "run-19fbebea-c862-45a5-84c3-0ee3fb6d9857",
+    "changedFiles": [
+      "tools/dev-orch/src/util/title-case.ts"
+    ],
+    "changeDetection": "content-snapshot",
+    "verifyCommand": {
+      "command": "node",
+      "args": [
+        "--import",
+        "tsx",
+        "--test",
+        "tests/coding/title-case.test.ts"
+      ],
+      "exitCode": 0,
+      "stdout": "",
+      "stderr": "(node:24372) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+      "durationMs": 139
+    },
+    "evidencePath": "docs/eng-agent/fixtures/CA-TITLE-evidence.json",
+    "evidenceExistsOnDisk": true
+  },
+  "verifier": {
+    "recommendation": "PASS",
+    "checks": [
+      {
+        "id": "INSTRUCTION_DELIVERED",
+        "pass": true,
+        "message": "coding instruction delivered to agent"
+      },
+      {
+        "id": "SOURCE_CHANGES",
+        "pass": true,
+        "message": "changed files (content-snapshot): tools/dev-orch/src/util/title-case.ts"
+      },
+      {
+        "id": "TEST_EXIT",
+        "pass": true,
+        "message": "verify command exit code 0"
+      },
+      {
+        "id": "EVIDENCE_ON_DISK",
+        "pass": true,
+        "message": "evidence present: docs/eng-agent/fixtures/CA-TITLE-evidence.json"
+      },
+      {
+        "id": "NO_CALLER_FACTS",
+        "pass": true,
+        "message": "verifier used CodingAgentObservation only (trustsCallerFacts=false)"
+      }
+    ],
+    "failedCheckIds": [],
+    "trustsCallerFacts": false
+  },
+  "generatedAt": "2026-07-26T05:07:06.993Z"
+}

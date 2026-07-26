@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/learning-agent.schema.json",
+  "title": "LearningAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Learning Agent (proposes durable lessons, re-entering the pipeline at Stage 3/4 as Proposal kind=lesson). See /contracts/agents/learning-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "Admits the Learning Agent with a scoped learning objective and the evidence (run audits, human corrections, eval results) it may draw from.",
+      "required": ["learning_objective", "evidence_refs"],
+      "properties": {
+        "learning_objective": { "type": "string", "description": "Scoped objective for the lesson-learning pass." },
+        "evidence_refs": { "type": "array", "minItems": 1, "description": "References to run audit summaries, human corrections, or eval results." }
+      }
+    },
+    "output": { "$ref": "../artifacts/proposal.schema.json" }
+  }
+}

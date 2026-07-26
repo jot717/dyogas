@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/common/artifact-envelope.schema.json",
+  "title": "DYOGAS Artifact Envelope",
+  "description": "Shared wrapper for every DYOGAS artifact instance. Carries identity, lineage, provenance, and tenancy metadata around a type-specific payload. See /artifacts/README.md#6-shared-envelope for full meaning.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "artifact_version",
+    "artifact_type",
+    "run_id",
+    "produced_by",
+    "created_at",
+    "digest",
+    "tenancy",
+    "schema_version",
+    "payload"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identity for this artifact's lineage. Immutable for the life of the lineage; never encodes a version. Conventionally prefixed by artifact type (e.g. 'kn-' for Knowledge). See /artifacts/README.md#8-naming-convention.",
+      "examples": ["kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9", "rr-01J8Z1A2B3C4D5E6F7G8H9J0K1"]
+    },
+    "artifact_version": {
+      "type": "string",
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "description": "Semver (MAJOR.MINOR.PATCH) identifying one immutable sealed snapshot of artifact_id. A new version is always a new snapshot, never an in-place edit. See /artifacts/README.md#9-versioning.",
+      "examples": ["1.0.0", "1.1.0", "2.0.0"]
+    },
+    "artifact_type": {
+      "type": "string",
+      "description": "The artifact's type, matching one of the eight canonical Knowledge Ingestion pipeline artifacts.",
+      "enum": [
+        "ResearchReport",
+        "ValidationReport",
+        "Proposal",
+        "HumanReviewDecision",
+        "Knowledge",
+        "GraphUpdate",
+        "EmbeddingJob",
+        "MemoryUpdate"
+      ],
+      "examples": ["Knowledge"]
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Identifier of the pipeline run that produced this artifact version. Stable across every stage of that run.",
+      "examples": ["run-01J8Z0X9W8V7U6T5S4R3Q2P1O0"]
+    },
+    "produced_by": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Producing agent identity and contract version, formatted as '{agent-name}@{contract_version}'.",
+      "examples": ["markdown-agent@1.0.0", "harness@human-approval-gate"]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "RFC 3339 timestamp at which the Harness sealed this artifact version.",
+      "examples": ["2026-07-22T10:45:12Z"]
+    },
+    "digest": {
+      "type": "string",
+      "minLength": 8,
+      "description": "Content-addressed hash of the canonicalized payload, used for tamper-evidence and idempotent handoff verification.",
+      "examples": ["sha256:4f2c9a7e1b0d6c3a8e5f2d1c0b9a8e7f6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a"]
+    },
+    "tenancy": {
+      "type": "object",
+      "description": "Tenancy scope for this artifact. Cross-tenant references anywhere in the artifact graph are a fail-closed violation.",
+      "required": ["tenant_id"],
+      "properties": {
+        "tenant_id": { "type": "string", "description": "Owning tenant identifier.", "examples": ["tn-acme"] },
+        "workspace_id": { "type": "string", "description": "Optional workspace scope within the tenant.", "examples": ["ws-research"] }
+      },
+      "additionalProperties": false,
+      "examples": [{ "tenant_id": "tn-acme", "workspace_id": "ws-research" }]
+    },
+    "schema_version": {
+      "type": "string",
+      "description": "The payload schema version pinned at emission time. The Harness rejects a handoff if the consumer's pinned compatible range excludes it.",
+      "examples": ["1.0.0"]
+    },
+    "parents": {
+      "type": "array",
+      "description": "Authoritative lineage list of every upstream artifact consumed to produce this one, in addition to any inline *_ref fields inside payload.",
+      "items": {
+        "type": "object",
+        "required": ["artifact_id", "artifact_version"],
+        "properties": {
+          "artifact_id": { "type": "string", "description": "Identifier of the parent artifact." },
+          "artifact_version": { "type": "string", "description": "Sealed version of the parent artifact consumed." },
+          "artifact_type": { "type": "string", "description": "Type of the parent artifact, for readability." }
+        },
+        "additionalProperties": false
+      },
+      "examples": [
+        [{ "artifact_id": "pr-01J8Z5S6T7U8V9W0X1Y2Z3A4B5", "artifact_version": "1.0.0", "artifact_type": "Proposal" }]
+      ]
+    },
+    "payload": {
+      "type": "object",
+      "description": "Artifact-type-specific body, validated against the corresponding schema in /schemas/artifacts."
+    }
+  },
+  "examples": [
+    {
+      "artifact_id": "kn-01J8Z9X0Y1Z2A3B4C5D6E7F8G9",
+      "artifact_version": "1.0.0",
+      "artifact_type": "Knowledge",
+      "run_id": "run-01J8Z0X9W8V7U6T5S4R3Q2P1O0",
+      "produced_by": "markdown-agent@1.0.0",
+      "created_at": "2026-07-22T10:45:12Z",
+      "digest": "sha256:4f2c9a7e1b0d6c3a8e5f2d1c0b9a8e7f6d5c4b3a2f1e0d9c8b7a6f5e4d3c2b1a",
+      "tenancy": { "tenant_id": "tn-acme", "workspace_id": "ws-research" },
+      "schema_version": "1.0.0",
+      "parents": [
+        { "artifact_id": "pr-01J8Z5S6T7U8V9W0X1Y2Z3A4B5", "artifact_version": "1.0.0", "artifact_type": "Proposal" }
+      ],
+      "payload": {}
+    }
+  ]
+}

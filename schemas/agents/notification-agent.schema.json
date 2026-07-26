@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/notification-agent.schema.json",
+  "title": "NotificationAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Notification Agent. Delivers permissioned, low-noise notifications for run status, gates, and failures; never invents events. See /contracts/agents/notification-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0" },
+    "input": {
+      "type": "object",
+      "description": "A Harness NotificationEvent. Never authored ad hoc by an agent — always sourced from an authenticated Harness event.",
+      "required": ["event_type", "severity", "audience", "run_id"],
+      "properties": {
+        "event_type": { "type": "string", "description": "The Harness event class, e.g. 'human_review_pending', 'run_succeeded', 'stage_failed'." },
+        "severity": { "type": "string", "enum": ["low", "medium", "high", "critical"] },
+        "audience": { "type": "array", "items": { "type": "string" }, "description": "Authorized recipients/roles for this notification." },
+        "run_id": { "type": "string" },
+        "artifact_refs": { "type": "array", "description": "Sealed artifacts referenced by id only, never full payload." },
+        "channel_hints": { "type": "array", "items": { "type": "string" }, "description": "Suggested delivery channels; subject to redaction/authorization policy." }
+      }
+    },
+    "output": {
+      "type": "object",
+      "description": "Delivery receipts. Never a Knowledge Plane SoR artifact — a side-channel audit record only.",
+      "required": ["receipts"],
+      "properties": {
+        "receipts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["channel", "status"],
+            "properties": {
+              "channel": { "type": "string" },
+              "status": { "type": "string", "enum": ["delivered", "suppressed", "failed"] },
+              "detail": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

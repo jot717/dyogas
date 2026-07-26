@@ -1,0 +1,30 @@
+{
+  "name": "@dyogas/research-engine",
+  "version": "0.2.0",
+  "private": true,
+  "description": "DYOGAS Research Engine (MOD-RESEARCH / SPEC-ENGIN-001 + B10 Validation/Proposal)",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": ["dist", "README.md", "API.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "@dyogas/kernel": "file:../kernel",
+    "@dyogas/trust": "file:../trust",
+    "@dyogas/runtime": "file:../runtime",
+    "@dyogas/agent-sdk": "file:../sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

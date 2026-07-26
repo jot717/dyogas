@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/agents/research-agent.schema.json",
+  "title": "ResearchAgentContractSchemas",
+  "description": "Input/output contract schema bundle for the Research Agent (Stage 1 — Research). See /contracts/agents/research-agent.md.",
+  "type": "object",
+  "required": ["contract_version", "input", "output"],
+  "properties": {
+    "contract_version": { "const": "1.0.0", "description": "Must match /contracts/agents/research-agent.md Version exactly." },
+    "input": {
+      "type": "object",
+      "description": "ResearchBrief — the run-bootstrap input admitting the Research Agent to Stage 1.",
+      "required": ["question", "scope", "allowed_source_classes", "budget", "run_id", "tenancy"],
+      "properties": {
+        "question": { "type": "string", "minLength": 1, "description": "The research question to answer.", "examples": ["What are the current best practices for retry backoff in multi-agent pipelines?"] },
+        "scope": { "type": "string", "description": "Bounds on what the research should cover." },
+        "constraints": { "type": "object", "description": "Additional producer-defined constraints." },
+        "allowed_source_classes": {
+          "type": "array",
+          "description": "Source classes the agent may retrieve from; enforced by the Egress/Policy Gate.",
+          "items": { "type": "string", "enum": ["youtube", "github", "reddit", "web"] }
+        },
+        "budget": {
+          "type": "object",
+          "description": "Bounds on research effort.",
+          "required": ["max_items"],
+          "properties": {
+            "max_items": { "type": "integer", "minimum": 1, "description": "Maximum evidence items to collect." },
+            "max_seconds": { "type": "integer", "minimum": 1, "description": "Maximum wall-clock seconds for the invocation." }
+          }
+        },
+        "run_id": { "type": "string", "description": "Pipeline run identifier." },
+        "tenancy": { "type": "object", "required": ["tenant_id"], "description": "Tenancy scope for this brief." }
+      }
+    },
+    "output": {
+      "$ref": "../artifacts/research-report.schema.json"
+    }
+  }
+}

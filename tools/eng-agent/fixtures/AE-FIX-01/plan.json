@@ -1,0 +1,18 @@
+{
+  "taskId": "AE-FIX1",
+  "evidencePath": "docs/eng-agent/fixtures/AE-FIX-01-evidence.json",
+  "steps": [
+    {
+      "type": "writeFile",
+      "path": "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js",
+      "contents": "import { test } from \"node:test\";\nimport assert from \"node:assert/strict\";\n\ntest(\"fixture generated file works\", () => {\n  assert.equal(1 + 1, 2);\n});\n"
+    },
+    {
+      "type": "runTest",
+      "targets": [
+        "tools/eng-agent/fixtures/AE-FIX-01/sandbox/generated.test.js"
+      ],
+      "cwd": "."
+    }
+  ]
+}

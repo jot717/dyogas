@@ -1,0 +1,37 @@
+{
+  "name": "@dyogas/dev-orch",
+  "version": "0.0.0",
+  "private": true,
+  "description": "DYOGAS Development Orchestrator tooling — engineering Process Mode tool under MOD-ENGINEERING (SPEC-DEV-ORCH-001). Not a Platform Module.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "dev-orch": "./dist/cli/main.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/*.test.ts tests/autonomous-e2e.test.ts",
+    "test:coding": "tsx --test tests/coding/**/*.test.ts",
+    "dev-orch": "tsx src/cli/main.ts"
+  },
+  "dependencies": {
+    "@dyogas/eng-agent": "file:../eng-agent"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

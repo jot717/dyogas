@@ -1,0 +1,31 @@
+{
+  "name": "@dyogas/eng-agent",
+  "version": "0.0.0",
+  "private": true,
+  "description": "DYOGAS Development Harness Engineering Agent — MOD-ENGINEERING tooling (DL-ENG-AGENT-IMPLEMENTATION-001). Not a Platform Module. Not Hosted MOD-ENG-AGENTS / B17.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsx --test tests/**/*.test.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cursor/sdk": "^1.0.24",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
