@@ -10,7 +10,11 @@ export type {
   CodingAgentResult,
   CodingInstructionPackage,
 } from "./types.js";
-export { buildCodingInstruction } from "./instruction.js";
+export {
+  buildCodingInstruction,
+  resolveCodingForbiddenPaths,
+  RESEARCH_WRITE_EXCEPTIONS,
+} from "./instruction.js";
 export {
   collectChangedFiles,
   diffSnapshots,

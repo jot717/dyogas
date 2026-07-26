@@ -7,6 +7,10 @@ import {
   isForbiddenWritePath,
   isWriteAllowed,
 } from "../src/evidence/allowlist.ts";
+import {
+  resolveCodingForbiddenPaths,
+  RESEARCH_WRITE_EXCEPTIONS,
+} from "../src/coding-agent/instruction.ts";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -109,4 +113,35 @@ test("boundary: package.json has no forbidden deps", () => {
   for (const f of FORBIDDEN_PACKAGES) {
     assert.equal(all[f], undefined, f);
   }
+});
+
+test("boundary: coding instruction forbids runtime/sdk/execution-host always", () => {
+  for (const allowed of [
+    ["tools/dev-orch/src/util/"],
+    ["research/src/"],
+    ["research/tests/"],
+  ]) {
+    const forbidden = resolveCodingForbiddenPaths(allowed);
+    assert.ok(forbidden.includes("runtime/"), String(allowed));
+    assert.ok(forbidden.includes("sdk/"), String(allowed));
+    assert.ok(forbidden.includes("execution-host/"), String(allowed));
+  }
+});
+
+test("boundary: coding instruction research exception is scoped", () => {
+  assert.deepEqual(
+    [...RESEARCH_WRITE_EXCEPTIONS],
+    ["research/src/", "research/tests/"],
+  );
+  const without = resolveCodingForbiddenPaths(["docs/eng-agent/"]);
+  assert.ok(without.includes("research/"));
+  assert.equal(without.includes("research/other/"), false);
+
+  const withSrc = resolveCodingForbiddenPaths(["research/src/"]);
+  assert.equal(withSrc.includes("research/"), false);
+  assert.ok(withSrc.includes("research/other/"));
+
+  const withTests = resolveCodingForbiddenPaths(["research/tests/"]);
+  assert.equal(withTests.includes("research/"), false);
+  assert.ok(withTests.includes("research/other/"));
 });

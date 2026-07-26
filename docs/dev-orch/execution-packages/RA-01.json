@@ -1,0 +1,16 @@
+{
+  "taskId": "RA-01",
+  "title": "Research Agent MVP specification",
+  "objective": "Author MVP specification under docs/research-agent/ tracing requirements to contracts/agents/research-agent.md v2.0.0; record Band A/B split.",
+  "dependencies": [],
+  "acceptanceCriteria": "Every MVP requirement cites a contract clause; no contract drift; no new artifact/schema; Band B egress dependency stated.",
+  "testRequirements": "Documentation task — existing research suite remains green",
+  "allowedScope": "docs/research-agent/",
+  "forbiddenScope": "Any source change; contract or schema edits",
+  "expectedEvidence": "docs/research-agent/RA-01-mvp-spec.md",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001",
+  "gapRegistry": "OOS-RE-001 (Band B)",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

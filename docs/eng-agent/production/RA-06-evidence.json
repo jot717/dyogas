@@ -1,0 +1,43 @@
+{
+  "taskId": "RA-06",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "invocation": {
+    "timestamp": "2026-07-26T06:17:00.000Z",
+    "note": "CURSOR_API_KEY absent; RA-06 completed in-session. Independent verifier checks in research mvp-guards + eng-agent verifier suite.",
+    "executionPackageId": "RA-06",
+    "executionPackagePath": "docs/dev-orch/execution-packages/RA-06.json"
+  },
+  "changedFiles": [
+    "research/tests/mvp-guards.test.ts"
+  ],
+  "tests": [
+    {
+      "cwd": "research",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "21 pass including SAC-8 negative independence test"
+    },
+    {
+      "cwd": "tools/eng-agent",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "52 pass · verifier independence PASS · 1 skipped live e2e"
+    }
+  ],
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      { "id": "SAC_8", "pass": true, "message": "negative test: agent self-report vs observed evidence mismatch → not independent PASS" },
+      { "id": "ENG_VERIFIER_INDEPENDENCE", "pass": true, "message": "eng-agent verifier independence tests PASS" },
+      { "id": "TEST_EXIT", "pass": true, "message": "research + eng-agent exit 0" },
+      { "id": "NO_CALLER_FACTS", "pass": true, "message": "trustsCallerFacts=false" }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T06:17:00.000Z"
+}

@@ -15,7 +15,21 @@ export {
   type EvidenceItem,
   type SourceCollector,
   createMockSourceCollector,
+  createFixtureSourceCollector,
 } from "./sources.js";
+
+export {
+  type BudgetOutcome,
+  type CollectionRunEvidence,
+  type CollectUnderBudgetInput,
+  type CollectUnderBudgetResult,
+  CollectionGuardError,
+  isResolvablePointer,
+  assertAllowedSourceClass,
+  sanitizeBatch,
+  collectUnderBudget,
+  buildCollectionRunEvidence,
+} from "./collection.js";
 
 export {
   type EvidenceLedger,

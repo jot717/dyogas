@@ -1,0 +1,16 @@
+{
+  "taskId": "HFP-01",
+  "title": "Enforce fail-closed ambient Kernel tenancy in createBridgeRun",
+  "objective": "Resolve GAP-BR-012: before ExecutionHost.createRun, assert ambient Kernel tenancy via requireTenant(); fail closed when unbound or ambient tenant ≠ request tenant_id; preserve matching happy path; extend C-02 tests; produce Harness evidence.",
+  "dependencies": [],
+  "acceptanceCriteria": "Unbound ambient refuses before Host call; ambient ≠ request tenant refuses before Host call; matching tenant preserves happy path; identity↔bootstrap check remains; personal-brain npm test/build pass; eng-agent and dev-orch suites remain green; no Runtime/SDK/Host edits.",
+  "testRequirements": "npx tsx --test tests/bridge-create-run.test.ts; npm test; npm run build (personal-brain); npm test/build (tools/eng-agent, tools/dev-orch)",
+  "allowedScope": "personal-brain/src/bridge/; personal-brain/tests/; docs/eng-agent/; docs/dev-orch/execution-packages/",
+  "forbiddenScope": "runtime/; sdk/; execution-host/; new MOD-*; architecture change; Host-side tenant assert",
+  "expectedEvidence": "docs/eng-agent/production/HFP-01-evidence.json",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-HARNESS-FIRST-PRODUCTION-TASK-001",
+  "ssotReferences": "DL-HARNESS-FIRST-PRODUCTION-TASK-001",
+  "gapRegistry": "personal-brain/stage/bridge/GAP-REGISTRY-PB-HARNESS-BRIDGE-001.md#GAP-BR-012",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

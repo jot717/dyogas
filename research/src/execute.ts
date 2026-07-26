@@ -4,6 +4,9 @@
  *
  * Emits a ResearchReport **candidate payload** only (schema-shaped).
  * Host validates, SDK-emits, seals, and lineages.
+ *
+ * Band A (SPRINT-RESEARCH-AGENT-MVP-001): pluggable collector, budget/provenance/
+ * allowlist guards, machine-readable CollectionRunEvidence. No network egress.
  */
 
 import { getClock } from "@dyogas/kernel";
@@ -13,7 +16,11 @@ import {
   type EvidenceItem,
   type SourceCollector,
 } from "./sources.js";
-import { createEvidenceLedger } from "./evidence.js";
+import {
+  buildCollectionRunEvidence,
+  collectUnderBudget,
+  type CollectionRunEvidence,
+} from "./collection.js";
 
 /** Schema-aligned ResearchReport candidate (schemas/artifacts/research-report.schema.json). */
 export type ResearchReportCandidate = {
@@ -40,7 +47,10 @@ export type ExecuteResearchOptions = {
   readonly brief: ResearchBrief;
   /** Bootstrap Brief id for brief_ref (Host lineage). */
   readonly brief_id: string;
+  /** Injected collector — defaults to mock (no network). */
   readonly collector?: SourceCollector;
+  /** Injectable clock (ms) for budget tests. */
+  readonly nowMs?: () => number;
 };
 
 export type ResearchExecuteResult = {
@@ -48,6 +58,8 @@ export type ResearchExecuteResult = {
   readonly evidence: readonly EvidenceItem[];
   /** Unsealed ResearchReport candidate payload — Host must validate before seal. */
   readonly candidate: ResearchReportCandidate;
+  /** Runtime-generated collection evidence (SAC-7). */
+  readonly runEvidence: CollectionRunEvidence;
 };
 
 function toSchemaSourceClass(
@@ -61,6 +73,8 @@ function toResearchReportCandidate(
   briefId: string,
   brief: ResearchBrief,
   evidence: readonly EvidenceItem[],
+  coverageGaps: readonly string[],
+  openQuestions: readonly string[],
 ): ResearchReportCandidate {
   return {
     brief_ref: {
@@ -78,11 +92,8 @@ function toResearchReportCandidate(
       },
       signal_tier: "unknown" as const,
     })),
-    coverage_gaps:
-      evidence.length === 0
-        ? (["no evidence collected"] as const)
-        : ([] as const),
-    open_questions: [] as const,
+    coverage_gaps: [...coverageGaps],
+    open_questions: [...openQuestions],
   };
 }
 
@@ -91,6 +102,7 @@ function toResearchReportCandidate(
  *
  * Does **not** call Runtime admit/start/succeed or SDK emitCandidate.
  * Does **not** create a shadow pipeline run.
+ * Does **not** perform network egress (Band A).
  */
 export async function execute(
   opts: ExecuteResearchOptions,
@@ -99,28 +111,43 @@ export async function execute(
     throw new Error("brief_id required");
   }
   const clock = getClock();
-  let task = createResearchTask(opts.brief, clock.nowIso());
+  const nowIso = clock.nowIso();
+  let task = createResearchTask(opts.brief, nowIso);
   const collector = opts.collector ?? createMockSourceCollector();
-  const ledger = createEvidenceLedger();
   task = { ...task, status: "collecting" };
 
-  for (const sourceClass of opts.brief.allowedSourceClasses) {
-    const batch = await collector.collect({
-      question: opts.brief.question,
-      sourceClass,
-      limit: opts.brief.maxItems,
-      nowIso: clock.nowIso(),
-    });
-    ledger.add(batch);
-  }
+  const collected = await collectUnderBudget({
+    brief: opts.brief,
+    collector,
+    nowIso,
+    nowMs: opts.nowMs,
+  });
 
-  const evidence = ledger.list().slice(0, opts.brief.maxItems);
   const candidate = toResearchReportCandidate(
     opts.brief_id,
     opts.brief,
-    evidence,
+    collected.evidence,
+    collected.coverageGaps,
+    collected.openQuestions,
   );
+
+  const runEvidence = buildCollectionRunEvidence({
+    briefId: opts.brief_id,
+    brief: opts.brief,
+    collectorAdapterId: collector.adapterId,
+    generatedAt: nowIso,
+    evidence: collected.evidence,
+    coverageGaps: collected.coverageGaps,
+    openQuestions: collected.openQuestions,
+    budget: collected.budget,
+  });
+
   task = { ...task, status: "ready_for_review" };
 
-  return { task, evidence, candidate };
+  return {
+    task,
+    evidence: collected.evidence,
+    candidate,
+    runEvidence,
+  };
 }

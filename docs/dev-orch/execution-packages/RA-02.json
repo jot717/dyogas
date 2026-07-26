@@ -1,0 +1,16 @@
+{
+  "taskId": "RA-02",
+  "title": "Task Registry integration",
+  "objective": "Verify TASK-REGISTRY-RESEARCH-AGENT-MVP-001 parses under dev-orch; emit Execution Package for RA-03 with scope round-trip.",
+  "dependencies": ["RA-01"],
+  "acceptanceCriteria": "dev-orch loads registry; Execution Package for RA-03; scope fields intact; no auto-created tasks.",
+  "testRequirements": "npm test && npm run build in tools/dev-orch",
+  "allowedScope": "docs/dev-orch/execution-packages/",
+  "forbiddenScope": "tools/dev-orch/src/; tools/eng-agent/src/",
+  "expectedEvidence": "docs/dev-orch/execution-packages/RA-03.json",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001",
+  "gapRegistry": "none",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

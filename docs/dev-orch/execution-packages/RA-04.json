@@ -1,0 +1,16 @@
+{
+  "taskId": "RA-04",
+  "title": "Evidence generation",
+  "objective": "Emit machine-readable CollectionRunEvidence from execute() runtime — collector id, budget outcome, coverage gaps, per-item provenance.",
+  "dependencies": ["RA-03"],
+  "acceptanceCriteria": "SAC-7; evidence JSON schema-stable; test asserts content matches actual run.",
+  "testRequirements": "npm test && npm run build in research",
+  "allowedScope": "research/src/; research/tests/; docs/research-agent/",
+  "forbiddenScope": "Runtime; SDK; Execution Host; hand-authored evidence as runtime output",
+  "expectedEvidence": "docs/eng-agent/production/RA-04-evidence.json",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001",
+  "gapRegistry": "none",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

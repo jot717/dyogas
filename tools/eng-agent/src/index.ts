@@ -134,6 +134,8 @@ export {
   DEFAULT_MODEL_ID,
   invokeCodingAgent,
   resolveApiKey,
+  resolveCodingForbiddenPaths,
+  RESEARCH_WRITE_EXCEPTIONS,
   runCodingCycle,
   verifyCodingObservation,
 } from "./coding-agent/index.js";

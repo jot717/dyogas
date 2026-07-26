@@ -1,0 +1,95 @@
+{
+  "taskId": "HFP-01",
+  "sprintId": "SPRINT-HARNESS-FIRST-PRODUCTION-TASK-001",
+  "gapId": "GAP-BR-012",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "invocation": {
+    "timestamp": "2026-07-26T05:39:00.000Z",
+    "note": "CURSOR_API_KEY not set in this shell; HFP-01 implemented by Cursor Coding Agent in-session under Founder READY_FOR_EXECUTION directive. Live @cursor/sdk Agent.prompt not used.",
+    "executionPackageId": "HFP-01",
+    "executionPackagePath": "docs/dev-orch/execution-packages/HFP-01.json"
+  },
+  "changedFiles": [
+    "personal-brain/src/bridge/create-run.ts",
+    "personal-brain/tests/bridge-create-run.test.ts",
+    "personal-brain/tests/bridge-research-agent-path.test.ts",
+    "personal-brain/tests/bridge-execute-research.test.ts",
+    "personal-brain/tests/bridge-persist-research-report.test.ts"
+  ],
+  "tests": [
+    {
+      "cwd": "personal-brain",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "48 pass · 0 fail"
+    },
+    {
+      "cwd": "personal-brain",
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "cwd": "tools/eng-agent",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "39 pass · 0 fail · 1 skipped (live coding e2e without CURSOR_API_KEY)"
+    },
+    {
+      "cwd": "tools/eng-agent",
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "cwd": "tools/dev-orch",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "64 pass · 0 fail"
+    },
+    {
+      "cwd": "tools/dev-orch",
+      "command": "npm run build",
+      "exitCode": 0
+    }
+  ],
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      {
+        "id": "SOURCE_CHANGES",
+        "pass": true,
+        "message": "create-run.ts now calls requireTenant and fail-closes on unbound/mismatch"
+      },
+      {
+        "id": "TEST_EXIT",
+        "pass": true,
+        "message": "personal-brain, eng-agent, and dev-orch tests/builds exit 0"
+      },
+      {
+        "id": "GAP_BR_012_UNBOUND",
+        "pass": true,
+        "message": "C-02-T6 refuses before Host call when ambient unbound"
+      },
+      {
+        "id": "GAP_BR_012_MISMATCH",
+        "pass": true,
+        "message": "C-02-T7 refuses before Host call when ambient ≠ request tenant"
+      },
+      {
+        "id": "GAP_BR_012_MATCH",
+        "pass": true,
+        "message": "C-02-T5 matching ambient happy path preserved"
+      },
+      {
+        "id": "FORBIDDEN_SCOPE",
+        "pass": true,
+        "message": "No runtime/, sdk/, or execution-host/ modifications"
+      }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T05:45:00.000Z"
+}

@@ -7,6 +7,8 @@ export interface ResearchBrief {
   readonly scope?: string;
   readonly allowedSourceClasses: readonly SourceClass[];
   readonly maxItems: number;
+  /** Optional hard wall-clock budget in seconds (contract §6 / V8). */
+  readonly maxSeconds?: number;
 }
 
 export interface ResearchTask {
@@ -39,6 +41,9 @@ export function createResearchTask(
   }
   if (!brief.question.trim()) throw new ResearchError("question required");
   if (brief.maxItems < 1) throw new ResearchError("maxItems must be >= 1");
+  if (brief.maxSeconds != null && brief.maxSeconds < 1) {
+    throw new ResearchError("maxSeconds must be >= 1 when provided");
+  }
   if (brief.allowedSourceClasses.length === 0) {
     throw new ResearchError("allowedSourceClasses required");
   }

@@ -48,3 +48,34 @@ export function createMockSourceCollector(): SourceCollector {
     },
   };
 }
+
+/**
+ * Offline fixture collector — proves SourceCollector substitutability (Band A).
+ * No network. Deterministic pointers under fixture://.
+ */
+export function createFixtureSourceCollector(
+  opts: { readonly itemsPerClass?: number } = {},
+): SourceCollector {
+  const perClass = opts.itemsPerClass ?? 3;
+  return {
+    adapterId: "fixture-source-v1",
+    collect({ question, sourceClass, limit, nowIso }) {
+      const n = Math.min(limit, perClass);
+      const items: EvidenceItem[] = [];
+      for (let i = 0; i < n; i++) {
+        items.push({
+          evidenceId: `fixture-${sourceClass}-${i}`,
+          excerpt: `Fixture evidence ${i + 1} for: ${question.slice(0, 80)}`,
+          metadata: {
+            sourceClass,
+            title: `Fixture ${sourceClass} result ${i + 1}`,
+            pointer: `fixture://${sourceClass}/${i}`,
+            retrievedAt: nowIso,
+            adapter: "fixture-source-v1",
+          },
+        });
+      }
+      return items;
+    },
+  };
+}

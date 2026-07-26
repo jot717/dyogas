@@ -1,0 +1,55 @@
+{
+  "taskId": "RA-04",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "invocation": {
+    "timestamp": "2026-07-26T06:16:00.000Z",
+    "note": "CURSOR_API_KEY absent; RA-04 completed in-session. CollectionRunEvidence emitted by execute() runtime.",
+    "executionPackageId": "RA-04",
+    "executionPackagePath": "docs/dev-orch/execution-packages/RA-04.json"
+  },
+  "changedFiles": [
+    "research/src/collection.ts",
+    "research/src/execute.ts",
+    "research/src/index.ts",
+    "research/tests/mvp-guards.test.ts"
+  ],
+  "tests": [
+    {
+      "cwd": "research",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "21 pass including SAC-7 runEvidence test"
+    },
+    {
+      "cwd": "research",
+      "command": "npm run build",
+      "exitCode": 0
+    }
+  ],
+  "runtimeEvidenceShape": {
+    "kind": "research-collection-run-evidence",
+    "version": "1.0.0",
+    "fields": [
+      "collectorAdapterId",
+      "budget",
+      "coverageGaps",
+      "openQuestions",
+      "evidence[].pointer"
+    ]
+  },
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      { "id": "SAC_7", "pass": true, "message": "runEvidence produced by execute and matches run" },
+      { "id": "TEST_EXIT", "pass": true, "message": "research npm test exit 0" },
+      { "id": "NO_CALLER_FACTS", "pass": true, "message": "content asserted by test, not narrative alone" }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T06:16:00.000Z"
+}

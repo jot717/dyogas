@@ -1,0 +1,16 @@
+{
+  "taskId": "RA-03",
+  "title": "Research execution flow",
+  "objective": "Implement governed collection in research/src/: pluggable SourceCollector; max_items/max_seconds hard stops; mandatory provenance.pointer; refuse classes outside allowed_source_classes; explicit coverage_gaps.",
+  "dependencies": ["RA-02"],
+  "acceptanceCriteria": "SAC-3, SAC-4, SAC-5, SAC-6; candidate validates against research-report schema; existing MOD-RESEARCH tests green; no network.",
+  "testRequirements": "npm test && npm run build in research; regression npm test in personal-brain, tools/eng-agent, tools/dev-orch",
+  "allowedScope": "research/src/; research/tests/",
+  "forbiddenScope": "runtime/; sdk/; execution-host/; kernel/; trust/; contracts/; schemas/; new agents/ tree",
+  "expectedEvidence": "docs/eng-agent/production/RA-03-evidence.json",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001; docs/research-agent/RA-01-mvp-spec.md",
+  "gapRegistry": "OOS-RE-001 deferred Band B",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

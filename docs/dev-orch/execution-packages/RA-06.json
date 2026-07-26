@@ -1,0 +1,16 @@
+{
+  "taskId": "RA-06",
+  "title": "Verification tests",
+  "objective": "Prove independent verification of Research Agent outcomes without trusting agent self-report; contract-conformance and fail-closed suites.",
+  "dependencies": ["RA-04"],
+  "acceptanceCriteria": "SAC-8; negative test proves FAIL when agent claims success but evidence does not match.",
+  "testRequirements": "npm test in research and tools/eng-agent",
+  "allowedScope": "research/tests/; docs/research-agent/",
+  "forbiddenScope": "Weakening Verifier; asserting PASS from caller-supplied facts",
+  "expectedEvidence": "docs/eng-agent/production/RA-06-evidence.json",
+  "executionMode": "Implementation Mode",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "ssotReferences": "DL-RESEARCH-AGENT-MVP-001",
+  "gapRegistry": "none",
+  "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE"
+}

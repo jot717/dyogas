@@ -1,0 +1,66 @@
+{
+  "taskId": "RA-03",
+  "sprintId": "SPRINT-RESEARCH-AGENT-MVP-001",
+  "mode": "apply",
+  "recommendation": "PASS",
+  "trustsCallerFacts": false,
+  "integration": "cursor-session-coding-agent",
+  "invocation": {
+    "timestamp": "2026-07-26T06:15:00.000Z",
+    "note": "CURSOR_API_KEY not set in this shell; RA-03 implemented by Cursor Coding Agent in-session under Founder APPROVED FULL AUTONOMOUS HARNESS EXECUTION directive. Live @cursor/sdk Agent.prompt not used.",
+    "executionPackageId": "RA-03",
+    "executionPackagePath": "docs/dev-orch/execution-packages/RA-03.json"
+  },
+  "changedFiles": [
+    "research/src/collection.ts",
+    "research/src/execute.ts",
+    "research/src/sources.ts",
+    "research/src/task.ts",
+    "research/src/index.ts",
+    "research/tests/mvp-guards.test.ts"
+  ],
+  "tests": [
+    {
+      "cwd": "research",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "21 pass · 0 fail"
+    },
+    {
+      "cwd": "research",
+      "command": "npm run build",
+      "exitCode": 0
+    },
+    {
+      "cwd": "personal-brain",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "48 pass · 0 fail"
+    },
+    {
+      "cwd": "tools/eng-agent",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "52 pass · 0 fail · 1 skipped"
+    },
+    {
+      "cwd": "tools/dev-orch",
+      "command": "npm test",
+      "exitCode": 0,
+      "summary": "64 pass · 0 fail"
+    }
+  ],
+  "verifier": {
+    "recommendation": "PASS",
+    "trustsCallerFacts": false,
+    "checks": [
+      { "id": "SOURCE_CHANGES", "pass": true, "message": "research/src and research/tests modified" },
+      { "id": "TEST_EXIT", "pass": true, "message": "research npm test exit 0" },
+      { "id": "SAC_3_6", "pass": true, "message": "mvp-guards tests cover SAC-3..SAC-6" },
+      { "id": "NO_NETWORK", "pass": true, "message": "fixture/mock collectors only; no egress" },
+      { "id": "NO_CALLER_FACTS", "pass": true, "message": "verifier used observed tests and files" }
+    ],
+    "failedCheckIds": []
+  },
+  "generatedAt": "2026-07-26T06:15:00.000Z"
+}

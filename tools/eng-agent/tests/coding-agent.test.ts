@@ -3,7 +3,10 @@
  */
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { buildCodingInstruction } from "../src/coding-agent/instruction.ts";
+import {
+  buildCodingInstruction,
+  resolveCodingForbiddenPaths,
+} from "../src/coding-agent/instruction.ts";
 import { verifyCodingObservation } from "../src/coding-agent/verify.ts";
 import { diffSnapshots } from "../src/coding-agent/changes.ts";
 import type { CodingAgentObservation } from "../src/coding-agent/types.ts";
@@ -117,4 +120,55 @@ test("snapshot diff detects changes", () => {
   const before = new Map([["a.ts", "aaa"]]);
   const after = new Map([["a.ts", "bbb"]]);
   assert.deepEqual(diffSnapshots(before, after), ["a.ts"]);
+});
+
+test("coding scope: default forbids blanket research/", () => {
+  const forbidden = resolveCodingForbiddenPaths(["tools/dev-orch/src/util/"]);
+  assert.ok(forbidden.includes("research/"));
+  assert.ok(forbidden.includes("runtime/"));
+  assert.ok(forbidden.includes("sdk/"));
+  assert.ok(forbidden.includes("execution-host/"));
+  assert.equal(forbidden.includes("research/other/"), false);
+});
+
+test("coding scope: research/src/ exception lifts blanket research/", () => {
+  const forbidden = resolveCodingForbiddenPaths(["research/src/"]);
+  assert.equal(forbidden.includes("research/"), false);
+  assert.ok(forbidden.includes("research/other/"));
+  assert.ok(forbidden.includes("runtime/"));
+  assert.ok(forbidden.includes("sdk/"));
+  assert.ok(forbidden.includes("execution-host/"));
+});
+
+test("coding scope: research/tests/ exception lifts blanket research/", () => {
+  const forbidden = resolveCodingForbiddenPaths(["research/tests/"]);
+  assert.equal(forbidden.includes("research/"), false);
+  assert.ok(forbidden.includes("research/other/"));
+});
+
+test("coding instruction: research exception does not contradict allowedPaths", () => {
+  const researchPkg: ExecutionPackageView = {
+    ...pkg,
+    taskId: "RA-03",
+    allowedScope: "research/src/; research/tests/",
+    sprintId: "SPRINT-RESEARCH-AGENT-MVP-001",
+  };
+  const ins = buildCodingInstruction({
+    pkg: researchPkg,
+    targetFiles: ["research/src/execute.ts", "research/tests/execute.test.ts"],
+    allowedPaths: ["research/src/", "research/tests/"],
+    verifyCommand: {
+      command: "npm",
+      args: ["test"],
+      cwd: "research",
+    },
+    evidencePath: "docs/eng-agent/production/RA-03-evidence.json",
+  });
+  assert.ok(ins.allowedPaths.includes("research/src/"));
+  assert.ok(ins.allowedPaths.includes("research/tests/"));
+  assert.equal(ins.forbiddenPaths.includes("research/"), false);
+  assert.ok(ins.forbiddenPaths.includes("research/other/"));
+  assert.match(ins.prompt, /research\/src\//);
+  assert.match(ins.prompt, /research\/other\//);
+  assert.doesNotMatch(ins.prompt, /^- research\/$/m);
 });
