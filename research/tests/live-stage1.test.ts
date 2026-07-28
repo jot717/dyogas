@@ -47,7 +47,12 @@ test("RA-05: live web collect requires Trust allow and records provenance + trus
   const audit = createMemoryAuditSink();
   const collector = createLiveStage1SourceCollector({
     audit,
-    fetchImpl: stubFetch("<html>local-first knowledge page</html>"),
+    fetchImpl: stubFetch([
+      "local-first knowledge",
+      ["Local-first software"],
+      ["Knowledge that stays on your device"],
+      ["https://en.wikipedia.org/wiki/Local-first_software"],
+    ]),
   });
   const out = await execute({
     brief_id: "brief-live-web",
@@ -62,6 +67,7 @@ test("RA-05: live web collect requires Trust allow and records provenance + trus
   assert.ok(out.evidence.length >= 1);
   const item = out.evidence[0]!;
   assert.ok(item.metadata.pointer.startsWith("https://"));
+  assert.equal(item.metadata.pointer.includes("example.com"), false);
   assert.equal(item.metadata.adapter, LIVE_STAGE1_ADAPTER_ID);
   assert.ok(item.metadata.retrievedAt);
   assert.equal(item.metadata.trust?.decision, "allow");
@@ -183,10 +189,13 @@ test("RA-07: live E2E path with Trust-gated fetch produces evidence artifact", a
   const collector = createLiveStage1SourceCollector({
     audit,
     fetchImpl: async (url) => {
-      if (url.includes("example.com")) {
-        return stubFetch("<html>external source body for dyogas research</html>")(
-          url,
-        );
+      if (url.includes("wikipedia.org")) {
+        return stubFetch([
+          "dyogas",
+          ["Decision support system"],
+          ["Systems that support business decision-making"],
+          ["https://en.wikipedia.org/wiki/Decision_support_system"],
+        ])(url);
       }
       if (url.includes("api.github.com")) {
         return stubFetch({

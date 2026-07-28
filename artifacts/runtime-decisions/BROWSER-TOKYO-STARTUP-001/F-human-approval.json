@@ -1,0 +1,14 @@
+{
+  "approval_id": "ha-f9db992f8540",
+  "decision_asset_id": "da-4e8474e34cfb",
+  "selected_option_id": "opt-pursue-build",
+  "rationale": "Tokyo startup e2e human approve",
+  "actor_id": "tokyo-founder",
+  "timestamp": "2026-07-27T22:44:52.014Z",
+  "evidence_refs": [
+    "live-github-2",
+    "live-github-3",
+    "live-github-5",
+    "live-github-7"
+  ]
+}

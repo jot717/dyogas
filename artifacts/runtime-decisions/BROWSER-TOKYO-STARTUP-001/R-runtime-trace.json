@@ -1,0 +1,38 @@
+{
+  "request_id": "BROWSER-TOKYO-STARTUP-001",
+  "execution_id": "7aa3dcfbace0d0b7268ea57d3ec20686",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human",
+    "HumanApproval|approved",
+    "Knowledge|apply",
+    "DecisionGraph|apply",
+    "DecisionModel|snapshot",
+    "DecisionMemory|record"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\BROWSER-TOKYO-STARTUP-001",
+  "waiting_human": false,
+  "auto_approved": false,
+  "created_at": "2026-07-27T22:44:51.997Z",
+  "host_status_after_approve": "succeeded",
+  "lineage": {
+    "correlation_id": "BROWSER-TOKYO-STARTUP-001",
+    "research_brief_ref": "brief-BROWSER-TOKYO-STARTUP-001@1.0.0",
+    "research_report_ref": "9243bc6f794e30834957d0d55950af12@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0",
+    "knowledge_ref": "kn-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0",
+    "graph_update_ref": "gu-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0"
+  },
+  "approved_at": "2026-07-27T22:44:52.029Z"
+}

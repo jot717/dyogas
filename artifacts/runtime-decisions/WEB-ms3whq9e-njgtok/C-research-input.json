@@ -1,0 +1,67 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms3whq9e-njgtok@1.0.0",
+  "research_report_ref": "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0",
+  "research_started_at": "2026-07-28T00:11:28.946Z",
+  "research_elapsed_ms": 5868,
+  "question": "how to make italian coffee",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "coffee_preparation",
+    "user_goal": "learn_how_to",
+    "research_factors": [
+      "brewing method",
+      "ingredients",
+      "equipment",
+      "technique"
+    ],
+    "source_requirements": [
+      "how_to_guides",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "business decision",
+      "career",
+      "startup",
+      "labor market"
+    ]
+  },
+  "decision_domain": "coffee_preparation",
+  "user_goal": "learn_how_to",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "business decision",
+    "career",
+    "startup",
+    "labor market"
+  ],
+  "decision_factors": [
+    "brewing method",
+    "ingredients",
+    "equipment",
+    "technique"
+  ],
+  "research_intents": [
+    "coffee recipes",
+    "Italian coffee preparation",
+    "barista methods"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "correlation_id": "WEB-ms3whq9e-njgtok",
+  "research_brief_ref": "brief-WEB-ms3whq9e-njgtok@1.0.0",
+  "research_report_ref": "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0",
+  "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+  "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+  "human_decision_ref": "hrd-51b2fff5ecca759b3801815fd90f5c57@1.0.0",
+  "knowledge_ref": "kn-51b2fff5ecca759b3801815fd90f5c57@1.0.0",
+  "graph_update_ref": "gu-51b2fff5ecca759b3801815fd90f5c57@1.0.0"
+}

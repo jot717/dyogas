@@ -1,0 +1,55 @@
+{
+  "task_id": "TA-SHOULD-I-LEAVE-MY-TOKYO-",
+  "task_plan": {
+    "plan_id": "tp-65e32f68fc",
+    "task_id": "TA-SHOULD-I-LEAVE-MY-TOKYO-",
+    "title": "Research: Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "objective": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "f096a856f22ab91a4ec8aa580ef32060",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "Should I leave my Tokyo employment this year to start a solo AI product company?"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-LEAVE-MY-TOKYO-.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "scope": "I need a researched, human-approved decision on employment vs founding in Tokyo; decision_domain=startup_decision; decision_factors=market opportunity|customer pain|competition|technology feasibility|Japan/Tokyo ecosystem maturity|capital and runway constraints; research_intents=career market conditions|salary and compensation opportunity|industry hiring demand|professional mobility and transition risk|Japan local labor market context|foreign professional mobility in Japan|AI industry demand signals|technical ecosystem maturity; constraints={\"location\":\"Tokyo\",\"timeframe\":\"2026\",\"capital\":\"limited personal runway\",\"risk_tolerance\":\"moderate\",\"desired_outcome\":\"Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside\"}; requiredEvidence=market demand signals|solo founder risk factors|employment opportunity cost",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 8,
+        "max_seconds": 45
+      }
+    }
+  },
+  "execution_package": {
+    "taskId": "TA-SHOULD-I-LEAVE-MY-TOKYO-",
+    "routed_agent_ids": [
+      "research-agent"
+    ]
+  }
+}

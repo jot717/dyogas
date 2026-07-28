@@ -1,0 +1,22 @@
+{
+  "asset_id": "da-d02598fb37c2",
+  "title": "Decision Asset: Should I change my career in Japan?",
+  "question": "Should I change my career in Japan?",
+  "summary": "Decision-ready synthesis for: Should I change my career in Japan? Derived from 1 evidence item(s); provenance retained. researchArtifactId: ee4baea1cee6beb6eed64e2a0f7c1c3a@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+      "evidence_id": "live-web-0"
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0"
+  ],
+  "research_artifact_id": "ee4baea1cee6beb6eed64e2a0f7c1c3a@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "execution_package_task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

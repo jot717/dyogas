@@ -49,7 +49,7 @@
     },
     "instructionDelivered": true,
     "agentStatus": "finished",
-    "runId": "run-d0c3083f-79d2-4ebf-8832-42630f3d478d",
+    "runId": "run-a1750cf2-a286-4acc-88da-71c696f443d4",
     "changedFiles": [
       "docs/eng-agent/fixtures/AE-FIX-01-evidence.json",
       "docs/eng-agent/fixtures/CA-TITLE-evidence.json",
@@ -66,8 +66,8 @@
       ],
       "exitCode": 0,
       "stdout": "",
-      "stderr": "(node:384) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
-      "durationMs": 77
+      "stderr": "(node:10056) Warning: node:test run() is being called recursively within a test file. skipping running files.\n(Use `node --trace-warnings ...` to show where the warning was created)\n",
+      "durationMs": 69
     },
     "evidencePath": "docs/eng-agent/fixtures/CA-TITLE-evidence.json",
     "evidenceExistsOnDisk": true
@@ -104,5 +104,5 @@
     "failedCheckIds": [],
     "trustsCallerFacts": false
   },
-  "generatedAt": "2026-07-26T11:57:21.630Z"
+  "generatedAt": "2026-07-26T22:47:37.280Z"
 }

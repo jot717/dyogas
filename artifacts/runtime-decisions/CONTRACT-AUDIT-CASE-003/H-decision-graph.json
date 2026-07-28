@@ -1,0 +1,270 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "8b9497871fed367d697068ea102ce431",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_9347a7bd9597",
+        "label": "Decision Asset: how to make italian coffee",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "8b9497871fed367d697068ea102ce431#title",
+          "8b9497871fed367d697068ea102ce431#body"
+        ]
+      },
+      {
+        "node_id": "node_c0daf11f842f",
+        "label": "Decision from Decision Asset: how to make italian coffee",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "node_id": "node_c3eb52163ae7",
+        "label": "live-web-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-0",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-0"
+        ]
+      },
+      {
+        "node_id": "node_926cb1a64def",
+        "label": "live-web-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-1",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-1"
+        ]
+      },
+      {
+        "node_id": "node_714a8a79458a",
+        "label": "live-web-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-2",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-2"
+        ]
+      },
+      {
+        "node_id": "node_dea292703f5b",
+        "label": "live-web-3",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-3",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-3"
+        ]
+      },
+      {
+        "node_id": "node_fecc94c72637",
+        "label": "live-web-4",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-4",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-4"
+        ]
+      },
+      {
+        "node_id": "node_8e64a8d71d27",
+        "label": "live-web-5",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-5",
+          "e82d1166efcb112316e936f9d179d3b3@1.0.0#live-web-5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_b3c0042cf02a",
+        "from": "node_9347a7bd9597",
+        "to": "node_c0daf11f842f",
+        "relation": "decides",
+        "provenance": [
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_6b73633cd5a1",
+        "from": "node_c3eb52163ae7",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_8ac9ac8d9681",
+        "from": "node_c3eb52163ae7",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-0",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_43abb0bad3ce",
+        "from": "node_926cb1a64def",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_8fa922ea3ee0",
+        "from": "node_926cb1a64def",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-1",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_fe1fb7dafd6b",
+        "from": "node_714a8a79458a",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-2"
+        ]
+      },
+      {
+        "edge_id": "edge_a0b7bd6b20d9",
+        "from": "node_714a8a79458a",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-2",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_3f399aede1e0",
+        "from": "node_dea292703f5b",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-3"
+        ]
+      },
+      {
+        "edge_id": "edge_34c82e8eada2",
+        "from": "node_dea292703f5b",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-3",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_c2a038bf4c68",
+        "from": "node_fecc94c72637",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-4"
+        ]
+      },
+      {
+        "edge_id": "edge_e89c9c8546e2",
+        "from": "node_fecc94c72637",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-4",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      },
+      {
+        "edge_id": "edge_c351c58ea2fc",
+        "from": "node_8e64a8d71d27",
+        "to": "node_9347a7bd9597",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-5"
+        ]
+      },
+      {
+        "edge_id": "edge_62e58516aa15",
+        "from": "node_8e64a8d71d27",
+        "to": "node_9347a7bd9597",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-5",
+          "8b9497871fed367d697068ea102ce431#title"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "e82d1166efcb112316e936f9d179d3b3@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ],
+      "taskId": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "8b9497871fed367d697068ea102ce431",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 8,
+      "edgeCount": 13,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

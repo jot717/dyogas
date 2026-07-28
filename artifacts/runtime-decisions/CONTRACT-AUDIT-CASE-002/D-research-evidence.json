@@ -1,0 +1,804 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "timestamp": "2026-07-27T05:30:29.392Z",
+      "extracted_claim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "timestamp": "2026-07-27T05:30:29.392Z",
+      "extracted_claim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "title": "gregfontaine/jobs",
+      "timestamp": "2026-07-27T05:30:29.392Z",
+      "extracted_claim": "AI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-7",
+      "source_url": "https://github.com/maiko326/japan-portfolio-resources",
+      "source_class": "github",
+      "title": "maiko326/japan-portfolio-resources",
+      "timestamp": "2026-07-27T05:30:29.392Z",
+      "extracted_claim": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/maiko326/japan-portfolio-resources",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-github-2",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "source_alignment_score": 0.38,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "financial risk"
+      ]
+    },
+    {
+      "evidence_id": "live-github-3",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "intelligence": {
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "startup opportunity landscape"
+      ],
+      "matched_factors": [
+        "Tokyo ecosystem"
+      ]
+    },
+    {
+      "evidence_id": "live-github-5",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "source_alignment_score": 0.56,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    },
+    {
+      "evidence_id": "live-github-7",
+      "sourceUrl": "https://github.com/maiko326/japan-portfolio-resources",
+      "sourceClass": "github",
+      "title": "maiko326/japan-portfolio-resources",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/maiko326/japan-portfolio-resources",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "startup opportunity landscape",
+      "solo founder feasibility"
+    ],
+    "decision_domain": "startup_decision",
+    "decision_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "key_findings": [
+      "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. → Affects whether timing favors acting now versus deferring.",
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. → Affects whether timing favors acting now versus deferring.",
+      "AI exposure analysis of Japanese job market (~556 occupations). → Affects whether timing favors acting now versus deferring.",
+      "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. → Affects whether timing favors acting now versus deferring."
+    ],
+    "market_signals": [
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now."
+    ],
+    "risks": [
+      "Factor to stress-test: financial risk.",
+      "Factor to stress-test: opportunity cost.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build."
+    ],
+    "evidence_count": 4,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+    "decision_domain": "startup_decision",
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "research_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "key_findings": [
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. 竊・Affects whether timing favors acting now versus deferring.",
+      "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. 竊・Affects whether timing favors acting now versus deferring.",
+      "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. 竊・Affects whether timing favors acting now versus deferring."
+    ],
+    "key_factors": [
+      {
+        "factor": "market opportunity",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-7",
+          "live-github-2"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "financial risk",
+        "why_matters": "Directly affects cash flow, runway, and whether the choice is financially sustainable.",
+        "evidence_ids": [
+          "live-github-2"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring. Transition risk should be staged, not binary."
+      },
+      {
+        "factor": "opportunity cost",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-3",
+          "live-github-7"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-github-3",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.67,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-7",
+        "title": "maiko326/japan-portfolio-resources",
+        "source_url": "https://github.com/maiko326/japan-portfolio-resources",
+        "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.67,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-2",
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.66,
+        "confidence": 0.64
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-github-3",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.67,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-7",
+        "title": "maiko326/japan-portfolio-resources",
+        "source_url": "https://github.com/maiko326/japan-portfolio-resources",
+        "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.67,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-2",
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.66,
+        "confidence": 0.64
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "benefits": [
+          "Records the build-now tradeoff with evidence provenance",
+          "Surfaces financial risk and opportunity cost explicitly"
+        ],
+        "risks": [
+          "Market crowding and distribution remain uncertain",
+          "Runway may be shorter than expected"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "benefits": [
+          "Preserves employment baseline while validating demand",
+          "Records evidence gaps before irreversible commitment"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Split focus can dilute execution"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "why_consider": "Consider if ecosystem signals and founder fit justify committing build cycles now.",
+        "advantages": [
+          "Records the build-now tradeoff with evidence provenance",
+          "Surfaces financial risk and opportunity cost explicitly"
+        ],
+        "risks": [
+          "Market crowding and distribution remain uncertain",
+          "Runway may be shorter than expected"
+        ],
+        "unknowns": [
+          "First paying customer and job-to-be-done",
+          "Personal runway versus time-to-revenue"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Preserves employment baseline while validating demand",
+          "Records evidence gaps before irreversible commitment"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Split focus can dilute execution"
+        ],
+        "unknowns": [
+          "How long validation should run before go/no-go",
+          "Whether consulting demand maps to a product wedge"
+        ]
+      }
+    ],
+    "unknowns": [
+      "First paying customer and job-to-be-done",
+      "Personal runway versus time-to-revenue",
+      "How long validation should run before go/no-go",
+      "Whether consulting demand maps to a product wedge"
+    ],
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Tokyo AI startup vs employment decision",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 4,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.67,
+      "avg_authority": 0.52,
+      "factor_coverage_ratio": 0.8,
+      "covered_factors": [
+        "market opportunity",
+        "financial risk",
+        "opportunity cost",
+        "Tokyo ecosystem"
+      ],
+      "gaps": [
+        "personal constraints"
+      ],
+      "source_classes": [
+        "github"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 4,
+      "warning": "Source diversity is limited (classes: github). Known evidence gaps remain for: personal constraints.",
+      "block_reason": null
+    },
+    "confidence_warning": "Source diversity is limited (classes: github). Known evidence gaps remain for: personal constraints.",
+    "evidence_gaps": [
+      "personal constraints"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "source_class": "github"
+      },
+      {
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "source_class": "github"
+      },
+      {
+        "title": "gregfontaine/jobs",
+        "source_url": "https://github.com/gregfontaine/jobs",
+        "source_class": "github"
+      },
+      {
+        "title": "maiko326/japan-portfolio-resources",
+        "source_url": "https://github.com/maiko326/japan-portfolio-resources",
+        "source_class": "github"
+      }
+    ],
+    "missing_information": [
+      "personal constraints",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.66,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-7",
+      "source_url": "https://github.com/maiko326/japan-portfolio-resources",
+      "sourceUrl": "https://github.com/maiko326/japan-portfolio-resources",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "maiko326/japan-portfolio-resources",
+      "retrievedAt": "2026-07-27T05:30:29.392Z",
+      "extractedClaim": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.52,
+      "relevance_score": 0.67,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/maiko326/japan-portfolio-resources",
+        "retrieved_at": "2026-07-27T05:30:29.392Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-CONTRACT-AUDIT-CASE-002",
+      "question": "Should I build an AI startup in Tokyo or continue employment?\n[decision-plan: domain=startup_decision; goal=make_decision; factors=market opportunity|financial risk|opportunity cost|Tokyo ecosystem|personal constraints; queries=Startup ecosystem in Japan|Venture capital in Japan|Labor market of Japan|tokyo AI startup|japan job market|quit job startup Tokyo; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "excerpt": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, and competitive landscape. The market analysts and researchers have done extensive analysis of the global Clinical Laboratory Services market with the help of research methodologies ",
+        "provenance": {
+          "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "rmakioka/COVID-labor-Japan",
+        "excerpt": "This is a project on the effects of COVID-19 on labor markets in Japan",
+        "provenance": {
+          "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+        "provenance": {
+          "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-3",
+        "source_class": "github",
+        "title": "Srakawichi/park-whisperer-ai",
+        "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+        "provenance": {
+          "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-4",
+        "source_class": "github",
+        "title": "Pragaty/Places-To-Visit-In-Dehradun",
+        "excerpt": "The Serene Doon Valley  In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. It is idyllically located in the Garhwal region which is bestowed with natural abundance. The city is located 236 kilometers north of India's capital New Delhi. Being located on the foothills of the Himalayas the city h",
+        "provenance": {
+          "pointer": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-5",
+        "source_class": "github",
+        "title": "gregfontaine/jobs",
+        "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+        "provenance": {
+          "pointer": "https://github.com/gregfontaine/jobs",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-6",
+        "source_class": "github",
+        "title": "hall0-kitty/bilingual-job-navigator",
+        "excerpt": "A web application for bilingual professionals navigating the Japanese international tech market.",
+        "provenance": {
+          "pointer": "https://github.com/hall0-kitty/bilingual-job-navigator",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-7",
+        "source_class": "github",
+        "title": "maiko326/japan-portfolio-resources",
+        "excerpt": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料",
+        "provenance": {
+          "pointer": "https://github.com/maiko326/japan-portfolio-resources",
+          "retrieved_at": "2026-07-27T05:30:29.392Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class web",
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

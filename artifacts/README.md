@@ -85,6 +85,11 @@ Every pipeline stage in DYOGAS produces exactly one primary artifact type and co
 | Memory Update | `MemoryUpdate` | Memory Agent | Audit / future recall | [memory-update.md](./memory-update.md) | [schema](../schemas/artifacts/memory-update.schema.json) |
 | Task Plan | `TaskPlan` | Task Agent (supporting) | Execution Package emitter / Human Approval Gate | [task-plan.md](./task-plan.md) | [schema](../schemas/artifacts/task-plan.schema.json) |
 | Decision Asset | `DecisionAsset` | Decision Asset Agent (supporting) | Human Approval Gate → Knowledge / Decision Graph | [decision-asset.md](./decision-asset.md) | [schema](../schemas/artifacts/decision-asset.schema.json) |
+| Decision Model | `DecisionModel` | Product composition (Approved Decision Asset + Human Approval) — not an Agent | Golden Path / Decision Intelligence consumers | [decision-model.md](./decision-model.md) | [schema](../schemas/artifacts/decision-model.schema.json) |
+| Decision DNA | `DecisionDNA` | Product composition (`extractDecisionDna`) — not an Agent | Decision Intelligence Query | [decision-dna.md](./decision-dna.md) | [schema](../schemas/artifacts/decision-dna.schema.json) |
+| Decision Intelligence Query | `DecisionIntelligenceQueryResult` | Product composition (`queryDecisionIntelligence`) — assist only | Human (final approval) | [decision-intelligence-query.md](./decision-intelligence-query.md) | [schema](../schemas/artifacts/decision-intelligence-query.schema.json) |
+| Decision Request Input | `DecisionRequestInput` | Real-user product boundary v0.2 | `createDecisionRequest` | [decision-request-input.md](./decision-request-input.md) | [schema](../schemas/artifacts/decision-request-input.schema.json) |
+| Decision Outcome | `DecisionOutcome` | Placeholder (schema only; no learning) | Future feedback loop | [decision-outcome.md](./decision-outcome.md) | [schema](../schemas/artifacts/decision-outcome.schema.json) |
 
 Envelope (shared by all): [`../schemas/common/artifact-envelope.schema.json`](../schemas/common/artifact-envelope.schema.json)
 

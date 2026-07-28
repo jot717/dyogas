@@ -1,0 +1,86 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 2,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://example.com/?q=Which%20AI%20startup%20opportunity%20has%20the%20highest%20probability%20of%20success",
+      "source_class": "web",
+      "timestamp": "2026-07-27T02:19:53.245Z",
+      "provenance": {
+        "pointer": "https://example.com/?q=Which%20AI%20startup%20opportunity%20has%20the%20highest%20probability%20of%20success",
+        "retrieved_at": "2026-07-27T02:19:53.245Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:19:53.245Z",
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T02:19:53.245Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "evidence": [
+    {
+      "evidenceId": "live-web-0",
+      "excerpt": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "example.com live retrieval",
+        "pointer": "https://example.com/?q=Which%20AI%20startup%20opportunity%20has%20the%20highest%20probability%20of%20success",
+        "retrievedAt": "2026-07-27T02:19:53.245Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-github-0",
+      "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge fo",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Srakawichi/park-whisperer-ai",
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrievedAt": "2026-07-27T02:19:53.245Z",
+        "adapter": "live-stage1-v1"
+      }
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-USER-REQUEST-LIVE-001",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026?"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "example.com live retrieval",
+        "excerpt": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+        "provenance": {
+          "pointer": "https://example.com/?q=Which%20AI%20startup%20opportunity%20has%20the%20highest%20probability%20of%20success",
+          "retrieved_at": "2026-07-27T02:19:53.245Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "Srakawichi/park-whisperer-ai",
+        "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge fo",
+        "provenance": {
+          "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+          "retrieved_at": "2026-07-27T02:19:53.245Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

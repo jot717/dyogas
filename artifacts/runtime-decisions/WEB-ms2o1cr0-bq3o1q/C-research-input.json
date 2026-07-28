@@ -1,0 +1,23 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms2o1cr0-bq3o1q@1.0.0",
+  "research_report_ref": "0ee85b36d62defa2d17ca6f9ed9a3836@1.0.0",
+  "research_started_at": "2026-07-27T03:27:01.839Z",
+  "research_elapsed_ms": 990,
+  "question": "Should I change my career in Japan?",
+  "research_intents": [
+    "career market conditions",
+    "salary and compensation opportunity",
+    "industry hiring demand",
+    "professional mobility and transition risk",
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "career change risk factors",
+    "opportunity cost of switching"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

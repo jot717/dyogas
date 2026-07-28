@@ -1,0 +1,76 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms33aovq-hstf46@1.0.0",
+  "research_report_ref": "d1a0e0311d5eeb761f279af1e5513102@1.0.0",
+  "research_started_at": "2026-07-27T10:34:11.704Z",
+  "research_elapsed_ms": 5875,
+  "question": "how to apply japan highly skilled visa",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "japan_immigration",
+    "goal": "learn_how_to",
+    "research_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "source_requirements_note": "Stage-1 collectors receive [decision-plan] annotation with domain/factors/queries/exclude",
+    "constraints": {
+      "location": "Tokyo",
+      "timeframe": "2026"
+    },
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "football",
+      "soccer",
+      "politician",
+      "language learning",
+      "coffee",
+      "espresso",
+      "startup",
+      "career change"
+    ]
+  },
+  "decision_domain": "japan_immigration",
+  "user_goal": "learn_how_to",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "football",
+    "soccer",
+    "politician",
+    "language learning",
+    "coffee",
+    "espresso",
+    "startup",
+    "career change"
+  ],
+  "decision_factors": [
+    "eligibility",
+    "points_calculation",
+    "required_documents",
+    "application_procedure"
+  ],
+  "research_intents": [
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "visa and foreign professional constraints"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

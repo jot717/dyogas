@@ -1,0 +1,886 @@
+{
+  "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+  "sealedPayload": {
+    "brief_ref": {
+      "brief_id": "brief-USER-REQUEST-REAL-001",
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?\n[decision-plan: domain=startup_decision; goal=make_decision; factors=market opportunity|customer pain|competition|technology feasibility|Japan/Tokyo ecosystem maturity|capital and runway constraints; queries=Startup ecosystem in Japan|Venture capital in Japan|Economy of Tokyo|tokyo AI startup|japan machine learning|tokyo startup founder; preferred=startup ecosystem|venture capital|Tokyo market|AI startup funding; classes=web|github|reddit; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|multi-criteria decision|coffee|espresso]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "mock-web-0",
+        "source_class": "web",
+        "title": "Mock web result 1",
+        "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://web/0",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-web-1",
+        "source_class": "web",
+        "title": "Mock web result 2",
+        "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://web/1",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-github-0",
+        "source_class": "github",
+        "title": "Mock github result 1",
+        "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://github/0",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-github-1",
+        "source_class": "github",
+        "title": "Mock github result 2",
+        "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://github/1",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-reddit-0",
+        "source_class": "reddit",
+        "title": "Mock reddit result 1",
+        "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://reddit/0",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "mock-reddit-1",
+        "source_class": "reddit",
+        "title": "Mock reddit result 2",
+        "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "provenance": {
+          "pointer": "mock://reddit/1",
+          "retrieved_at": "2026-07-27T10:48:15.726Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [],
+    "open_questions": []
+  },
+  "evidence": [
+    {
+      "evidenceId": "mock-web-0",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 1",
+        "pointer": "mock://web/0",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    },
+    {
+      "evidenceId": "mock-web-1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Mock web result 2",
+        "pointer": "mock://web/1",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-0",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 1",
+        "pointer": "mock://github/0",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    },
+    {
+      "evidenceId": "mock-github-1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "Mock github result 2",
+        "pointer": "mock://github/1",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-0",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 1",
+        "pointer": "mock://reddit/0",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    },
+    {
+      "evidenceId": "mock-reddit-1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "metadata": {
+        "sourceClass": "reddit",
+        "title": "Mock reddit result 2",
+        "pointer": "mock://reddit/1",
+        "retrievedAt": "2026-07-27T10:48:15.726Z",
+        "adapter": "mock-source-v1"
+      }
+    }
+  ],
+  "collector_adapter_id": "mock-source-v1",
+  "research_started_at": "2026-07-27T10:48:15.725Z",
+  "research_elapsed_ms": 3,
+  "evidence_views": [
+    {
+      "evidence_id": "mock-web-0",
+      "source_url": "mock://web/0",
+      "source_class": "web",
+      "title": "Mock web result 1",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.49,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected because it addresses “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://web/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    },
+    {
+      "evidence_id": "mock-web-1",
+      "source_url": "mock://web/1",
+      "source_class": "web",
+      "title": "Mock web result 2",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.49,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected because it addresses “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://web/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    },
+    {
+      "evidence_id": "mock-github-0",
+      "source_url": "mock://github/0",
+      "source_class": "github",
+      "title": "Mock github result 1",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://github/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    },
+    {
+      "evidence_id": "mock-github-1",
+      "source_url": "mock://github/1",
+      "source_class": "github",
+      "title": "Mock github result 2",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://github/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    },
+    {
+      "evidence_id": "mock-reddit-0",
+      "source_url": "mock://reddit/0",
+      "source_class": "reddit",
+      "title": "Mock reddit result 1",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.56,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as practitioner signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://reddit/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    },
+    {
+      "evidence_id": "mock-reddit-1",
+      "source_url": "mock://reddit/1",
+      "source_class": "reddit",
+      "title": "Mock reddit result 2",
+      "timestamp": "2026-07-27T10:48:15.726Z",
+      "extracted_claim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.56,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as practitioner signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "mock://reddit/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "mock-web-0",
+      "sourceUrl": "mock://web/0",
+      "sourceClass": "web",
+      "title": "Mock web result 1",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.49,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected because it addresses “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://web/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    },
+    {
+      "evidence_id": "mock-web-1",
+      "sourceUrl": "mock://web/1",
+      "sourceClass": "web",
+      "title": "Mock web result 2",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.49,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected because it addresses “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://web/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    },
+    {
+      "evidence_id": "mock-github-0",
+      "sourceUrl": "mock://github/0",
+      "sourceClass": "github",
+      "title": "Mock github result 1",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://github/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    },
+    {
+      "evidence_id": "mock-github-1",
+      "sourceUrl": "mock://github/1",
+      "sourceClass": "github",
+      "title": "Mock github result 2",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://github/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    },
+    {
+      "evidence_id": "mock-reddit-0",
+      "sourceUrl": "mock://reddit/0",
+      "sourceClass": "reddit",
+      "title": "Mock reddit result 1",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.56,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as practitioner signal for “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://reddit/0",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    },
+    {
+      "evidence_id": "mock-reddit-1",
+      "sourceUrl": "mock://reddit/1",
+      "sourceClass": "reddit",
+      "title": "Mock reddit result 2",
+      "retrievedAt": "2026-07-27T10:48:15.726Z",
+      "extractedClaim": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.56,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as practitioner signal for “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "mock://reddit/1",
+        "retrieved_at": "2026-07-27T10:48:15.726Z"
+      },
+      "adapter": "mock-source-v1",
+      "excerpt": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "matched_intents": [],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "AI industry demand signals",
+      "technical ecosystem maturity"
+    ],
+    "decision_domain": "startup_decision",
+    "decision_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "key_findings": [
+      "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. → Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. → Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. → Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. → Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. → Affects whether timing favors acting now versus deferring."
+    ],
+    "market_signals": [
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now."
+    ],
+    "risks": [
+      "Factor to stress-test: capital and runway constraints.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build."
+    ],
+    "evidence_count": 6,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+    "decision_domain": "startup_decision",
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "research_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "key_findings": [
+      "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. 竊・Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. 竊・Affects whether timing favors acting now versus deferring.",
+      "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. 竊・Affects whether timing favors acting now versus deferring."
+    ],
+    "key_factors": [
+      {
+        "factor": "market opportunity",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "customer pain",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "competition",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "mock-reddit-0",
+        "title": "Mock reddit result 1",
+        "source_url": "mock://reddit/0",
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.56,
+        "relevance_score": 0.63,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "mock-reddit-1",
+        "title": "Mock reddit result 2",
+        "source_url": "mock://reddit/1",
+        "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.56,
+        "relevance_score": 0.63,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "mock-github-0",
+        "title": "Mock github result 1",
+        "source_url": "mock://github/0",
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.63,
+        "confidence": 0.63
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "mock-reddit-0",
+        "title": "Mock reddit result 1",
+        "source_url": "mock://reddit/0",
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.56,
+        "relevance_score": 0.63,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "mock-reddit-1",
+        "title": "Mock reddit result 2",
+        "source_url": "mock://reddit/1",
+        "fact": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.56,
+        "relevance_score": 0.63,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "mock-github-0",
+        "title": "Mock github result 1",
+        "source_url": "mock://github/0",
+        "fact": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.63,
+        "confidence": 0.63
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "benefits": [
+          "Records the build-now tradeoff with evidence provenance",
+          "Surfaces financial risk and opportunity cost explicitly"
+        ],
+        "risks": [
+          "Market crowding and distribution remain uncertain",
+          "Runway may be shorter than expected"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "benefits": [
+          "Preserves employment baseline while validating demand",
+          "Records evidence gaps before irreversible commitment"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Split focus can dilute execution"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "why_consider": "Consider if ecosystem signals and founder fit justify committing build cycles now.",
+        "advantages": [
+          "Records the build-now tradeoff with evidence provenance",
+          "Surfaces financial risk and opportunity cost explicitly"
+        ],
+        "risks": [
+          "Market crowding and distribution remain uncertain",
+          "Runway may be shorter than expected"
+        ],
+        "unknowns": [
+          "First paying customer and job-to-be-done",
+          "Personal runway versus time-to-revenue"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Preserves employment baseline while validating demand",
+          "Records evidence gaps before irreversible commitment"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Split focus can dilute execution"
+        ],
+        "unknowns": [
+          "How long validation should run before go/no-go",
+          "Whether consulting demand maps to a product wedge"
+        ]
+      }
+    ],
+    "unknowns": [
+      "First paying customer and job-to-be-done",
+      "Personal runway versus time-to-revenue",
+      "How long validation should run before go/no-go",
+      "Whether consulting demand maps to a product wedge"
+    ],
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Tokyo AI startup vs employment decision",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 6,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.63,
+      "avg_authority": 0.52,
+      "avg_alignment": 0.53,
+      "avg_freshness": 0.9,
+      "factor_coverage_ratio": 0.17,
+      "covered_factors": [
+        "Japan/Tokyo ecosystem maturity"
+      ],
+      "gaps": [
+        "market opportunity",
+        "customer pain",
+        "competition",
+        "technology feasibility",
+        "capital and runway constraints"
+      ],
+      "source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "source_diversity": 3,
+      "evidence_count": 6,
+      "warning": "Source authority is limited (0.52) — verify with primary sources. Research factor coverage is incomplete (1/6). Gaps: market opportunity, customer pain, competition. Known evidence gaps remain for: market opportunity, customer pain, competition, technology feasibility.",
+      "block_reason": null
+    },
+    "confidence_warning": "Source authority is limited (0.52) — verify with primary sources. Research factor coverage is incomplete (1/6). Gaps: market opportunity, customer pain, competition. Known evidence gaps remain for: market opportunity, customer pain, competition, technology feasibility.",
+    "evidence_gaps": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "capital and runway constraints"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Mock web result 1",
+        "source_url": "mock://web/0",
+        "source_class": "web"
+      },
+      {
+        "title": "Mock web result 2",
+        "source_url": "mock://web/1",
+        "source_class": "web"
+      },
+      {
+        "title": "Mock github result 1",
+        "source_url": "mock://github/0",
+        "source_class": "github"
+      },
+      {
+        "title": "Mock github result 2",
+        "source_url": "mock://github/1",
+        "source_class": "github"
+      },
+      {
+        "title": "Mock reddit result 1",
+        "source_url": "mock://reddit/0",
+        "source_class": "reddit"
+      },
+      {
+        "title": "Mock reddit result 2",
+        "source_url": "mock://reddit/1",
+        "source_class": "reddit"
+      }
+    ],
+    "missing_information": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "capital and runway constraints",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence_quality": {
+    "status": "MEDIUM",
+    "avg_relevance": 0.63,
+    "avg_authority": 0.52,
+    "avg_alignment": 0.53,
+    "avg_freshness": 0.9,
+    "factor_coverage_ratio": 0.17,
+    "covered_factors": [
+      "Japan/Tokyo ecosystem maturity"
+    ],
+    "gaps": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "capital and runway constraints"
+    ],
+    "source_classes": [
+      "web",
+      "github",
+      "reddit"
+    ],
+    "source_diversity": 3,
+    "evidence_count": 6,
+    "warning": "Source authority is limited (0.52) — verify with primary sources. Research factor coverage is incomplete (1/6). Gaps: market opportunity, customer pain, competition. Known evidence gaps remain for: market opportunity, customer pain, competition, technology feasibility.",
+    "block_reason": null
+  }
+}

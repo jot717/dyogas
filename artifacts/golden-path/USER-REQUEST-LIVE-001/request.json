@@ -1,0 +1,23 @@
+{
+  "requestId": "USER-REQUEST-LIVE-001",
+  "userIntent": "I want live researched evidence for a solo AI founder opportunity decision in Tokyo 2026",
+  "decisionQuestion": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026?",
+  "constraints": {
+    "location": "Tokyo",
+    "founderType": "solo technical founder",
+    "timeframe": "2026",
+    "required_sources": [
+      "web",
+      "github",
+      "reddit"
+    ]
+  },
+  "requiredEvidence": [
+    "web",
+    "github",
+    "reddit"
+  ],
+  "tenant_id": "validation-tokyo-2026",
+  "workspace_id": "ws-tokyo-live",
+  "owner_id": "founder"
+}

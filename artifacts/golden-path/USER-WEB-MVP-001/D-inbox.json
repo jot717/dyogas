@@ -1,0 +1,14 @@
+[
+  {
+    "requestId": "USER-WEB-MVP-001",
+    "proposalId": "da-c528c9370867",
+    "decisionQuestion": "Should I build an AI startup in Tokyo or continue employment?",
+    "status": "waiting_human",
+    "createdAt": "2026-07-27T01:05:20.235Z",
+    "requiredHumanAction": "approve_or_reject",
+    "tenant_id": "validation-tokyo-2026",
+    "user_id": "web-mvp-user",
+    "executionId": "6d4d0a1d2fa1ddaec05534fe555a16a5",
+    "autoApproved": false
+  }
+]

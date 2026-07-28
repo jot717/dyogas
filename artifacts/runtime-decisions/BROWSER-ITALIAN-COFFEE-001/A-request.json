@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "BROWSER-ITALIAN-COFFEE-001",
+  "user_id": "browser-e2e-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "how to make italian coffee",
+  "constraints": {
+    "topic": "coffee",
+    "cuisine": "italian"
+  },
+  "desired_outcome": "Learn a correct method for Italian coffee",
+  "user_intent": "how to make italian coffee",
+  "workspace_id": "ws-web-browser-e2e-user"
+}

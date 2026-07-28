@@ -1,0 +1,68 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-BROWSER-TOKYO-HOUSE-001@1.0.0",
+  "research_report_ref": "7e2faa4cbc026d680f7759df23ac9302@1.0.0",
+  "research_started_at": "2026-07-27T11:38:12.253Z",
+  "research_elapsed_ms": 3087,
+  "question": "Should I buy a house in Tokyo?",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "real_estate",
+    "goal": "make_decision",
+    "research_factors": [
+      "affordability and financing",
+      "property market timing",
+      "liquidity and resale risk",
+      "Tokyo neighborhood price dynamics",
+      "interest rate and mortgage exposure"
+    ],
+    "source_requirements_note": "Stage-1 collectors receive [decision-plan] annotation with domain/factors/queries/exclude",
+    "constraints": {
+      "location": "Tokyo",
+      "decision_type": "real_estate"
+    },
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "decision_domain": "real_estate",
+  "user_goal": "make_decision",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "coffee",
+    "espresso"
+  ],
+  "decision_factors": [
+    "affordability and financing",
+    "property market timing",
+    "liquidity and resale risk",
+    "Tokyo neighborhood price dynamics",
+    "interest rate and mortgage exposure"
+  ],
+  "research_intents": [
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "housing affordability and financing",
+    "local property market conditions",
+    "long-term ownership risk and liquidity"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

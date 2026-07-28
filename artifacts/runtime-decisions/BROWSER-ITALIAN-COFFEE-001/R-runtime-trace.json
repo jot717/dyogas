@@ -1,0 +1,38 @@
+{
+  "request_id": "BROWSER-ITALIAN-COFFEE-001",
+  "execution_id": "e73667d003ccb844580143eacdf413b2",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human",
+    "HumanApproval|approved",
+    "Knowledge|apply",
+    "DecisionGraph|apply",
+    "DecisionModel|snapshot",
+    "DecisionMemory|record"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 6,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\BROWSER-ITALIAN-COFFEE-001",
+  "waiting_human": false,
+  "auto_approved": false,
+  "created_at": "2026-07-27T11:42:05.601Z",
+  "host_status_after_approve": "succeeded",
+  "lineage": {
+    "correlation_id": "BROWSER-ITALIAN-COFFEE-001",
+    "research_brief_ref": "brief-BROWSER-ITALIAN-COFFEE-001@1.0.0",
+    "research_report_ref": "0caa09862064200f8d5b8595d5058d8d@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-e73667d003ccb844580143eacdf413b2@1.0.0",
+    "knowledge_ref": "kn-e73667d003ccb844580143eacdf413b2@1.0.0",
+    "graph_update_ref": "gu-e73667d003ccb844580143eacdf413b2@1.0.0"
+  },
+  "approved_at": "2026-07-27T11:42:05.705Z"
+}

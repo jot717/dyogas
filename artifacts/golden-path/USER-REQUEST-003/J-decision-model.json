@@ -1,0 +1,94 @@
+{
+  "model_id": "dm-9460dc3d183a",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-2d817ce6ab55",
+  "question": "Should I invest my next year building my own startup or continue employment?",
+  "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "goal": "maximize long term entrepreneurial opportunity"
+  },
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "approved_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "alternative_options": [
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "rationale": "Product Alpha validation — founder approved startup vs employment package",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "knowledge_refs": [
+    "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0"
+  ],
+  "knowledge_ref": "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+  "approval_ref": "ha-ef3855d1ea23",
+  "actor_id": "founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T11:37:56.428Z",
+  "version": "0.1.0",
+  "provenance": {
+    "decision_asset_id": "da-2d817ce6ab55",
+    "human_approval_id": "ha-ef3855d1ea23",
+    "research_artifact_id": "dd840ebe41e9988334e0460cf8efe86a@1.0.0"
+  },
+  "decision_asset_ref": "da-2d817ce6ab55",
+  "user_id": "founder",
+  "lineage": {
+    "correlation_id": "USER-REQUEST-003",
+    "research_brief_ref": "brief-USER-REQUEST-003@1.0.0",
+    "research_report_ref": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+    "knowledge_ref": "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+    "graph_update_ref": "gu-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0"
+  },
+  "graph_update_ref": "gu-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0"
+}

@@ -1,0 +1,55 @@
+{
+  "task_id": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+  "task_plan": {
+    "plan_id": "tp-9d33b7bb28",
+    "task_id": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+    "title": "Research: how to make italian coffee",
+    "objective": "how to make italian coffee",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "e73667d003ccb844580143eacdf413b2",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "how to make italian coffee"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-HOW-TO-MAKE-ITALIAN-COFF.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "how to make italian coffee",
+      "scope": "how to make italian coffee; decision_domain=coffee_preparation; decision_factors=brewing method|ingredients|equipment|technique; research_intents=coffee recipes|Italian coffee preparation|barista methods; constraints={\"topic\":\"coffee\",\"cuisine\":\"italian\",\"desired_outcome\":\"Learn a correct method for Italian coffee\"}",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 8,
+        "max_seconds": 45
+      }
+    }
+  },
+  "execution_package": {
+    "taskId": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+    "routed_agent_ids": [
+      "research-agent"
+    ]
+  }
+}

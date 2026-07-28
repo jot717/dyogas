@@ -1,0 +1,42 @@
+{
+  "proposalId": "da-9f94c43456db",
+  "requestId": "USER-REQUEST-REAL-001",
+  "user_id": "real-user-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "status": "waiting_human",
+  "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+  "decision_asset_id": "da-9f94c43456db",
+  "evidence_refs": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "patterns": {
+    "query_id": "diq-c10f07344176",
+    "tenant_id": "validation-tokyo-2026",
+    "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "constraints": {
+      "location": "Tokyo",
+      "timeframe": "2026",
+      "capital": "limited personal runway",
+      "risk_tolerance": "moderate",
+      "desired_outcome": "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside"
+    },
+    "similar_past_decisions": [],
+    "dna_signals": [],
+    "evidence_refs": [],
+    "human_approval_required": true,
+    "automatic_decision": false,
+    "recommendation": false,
+    "created_at": "2026-07-27T10:48:15.748Z",
+    "version": "0.1.0"
+  },
+  "human_approval_required": true,
+  "automatic_decision": false,
+  "recommendation": false
+}

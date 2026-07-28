@@ -1,0 +1,16 @@
+{
+  "approval_id": "ha-3d3330875e62",
+  "decision_asset_id": "da-93d3dc2a0559",
+  "selected_option_id": "opt-record-method",
+  "rationale": "Approved option opt-record-method in browser MVP",
+  "actor_id": "demo-tokyo-founder",
+  "timestamp": "2026-07-28T00:12:28.248Z",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-web-4",
+    "live-web-5"
+  ]
+}

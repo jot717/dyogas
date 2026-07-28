@@ -1,0 +1,112 @@
+{
+  "model_id": "dm-9aa0b1ee8915",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-93d3dc2a0559",
+  "question": "how to make italian coffee",
+  "context": "You asked a how-to question in domain \"coffee_preparation\". Approving creates Knowledge from researched evidence (DYOGAS will not decide for you).",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "desired_outcome": "italian coffee"
+  },
+  "options": [
+    {
+      "option_id": "opt-record-method",
+      "statement": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ]
+    },
+    {
+      "option_id": "opt-try-alternate",
+      "statement": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ]
+    }
+  ],
+  "approved_option": {
+    "option_id": "opt-record-method",
+    "statement": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2",
+      "live-web-3",
+      "live-web-4",
+      "live-web-5"
+    ]
+  },
+  "alternative_options": [
+    {
+      "option_id": "opt-try-alternate",
+      "statement": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-record-method",
+    "statement": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2",
+      "live-web-3",
+      "live-web-4",
+      "live-web-5"
+    ]
+  },
+  "rationale": "Approved option opt-record-method in browser MVP",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-web-4",
+    "live-web-5"
+  ],
+  "knowledge_refs": [
+    "kn-51b2fff5ecca759b3801815fd90f5c57@1.0.0"
+  ],
+  "knowledge_ref": "kn-51b2fff5ecca759b3801815fd90f5c57@1.0.0",
+  "approval_ref": "ha-3d3330875e62",
+  "actor_id": "demo-tokyo-founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-28T00:12:28.251Z",
+  "version": "0.1.0",
+  "provenance": {
+    "decision_asset_id": "da-93d3dc2a0559",
+    "human_approval_id": "ha-3d3330875e62",
+    "research_artifact_id": "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0"
+  },
+  "decision_asset_ref": "da-93d3dc2a0559",
+  "user_id": "demo-tokyo-founder",
+  "lineage": {
+    "correlation_id": "WEB-ms3whq9e-njgtok",
+    "research_brief_ref": "brief-WEB-ms3whq9e-njgtok@1.0.0",
+    "research_report_ref": "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-51b2fff5ecca759b3801815fd90f5c57@1.0.0",
+    "knowledge_ref": "kn-51b2fff5ecca759b3801815fd90f5c57@1.0.0",
+    "graph_update_ref": "gu-51b2fff5ecca759b3801815fd90f5c57@1.0.0"
+  },
+  "graph_update_ref": "gu-51b2fff5ecca759b3801815fd90f5c57@1.0.0"
+}

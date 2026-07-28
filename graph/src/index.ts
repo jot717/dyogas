@@ -53,6 +53,7 @@ export {
 
 export {
   extractDecisionGraphDelta,
+  type ProductGraphLineage,
 } from "./decision-graph-extract.js";
 
 export {

@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "CONTRACT-AUDIT-CASE-003",
+  "user_id": "audit-case-003",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "how to make italian coffee",
+  "constraints": {},
+  "desired_outcome": "Contract audit CASE-003",
+  "user_intent": "how to make italian coffee",
+  "workspace_id": "ws-web-audit-case-003"
+}

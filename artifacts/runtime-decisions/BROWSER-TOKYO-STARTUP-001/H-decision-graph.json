@@ -1,0 +1,384 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "37104c5032bc9a21575025922f250af2",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_08bc82af1bf7",
+        "label": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title",
+          "37104c5032bc9a21575025922f250af2#body"
+        ]
+      },
+      {
+        "node_id": "node_0a0e9ce683c8",
+        "label": "Decision from Decision Asset: Should I build an AI startup in Tokyo or continue ",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "node_id": "node_373e81b9cec8",
+        "label": "Should I build an AI startup in Tokyo or continue employment?",
+        "types": [
+          "Question"
+        ],
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title",
+          "question:Should I build an AI startup in Tokyo or continue employment?"
+        ]
+      },
+      {
+        "node_id": "node_75715adcbb5d",
+        "label": "da-4e8474e34cfb",
+        "types": [
+          "DecisionAsset"
+        ],
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title",
+          "decision_asset:da-4e8474e34cfb"
+        ]
+      },
+      {
+        "node_id": "node_e31811b3cd5a",
+        "label": "ha-f9db992f8540",
+        "types": [
+          "HumanApproval"
+        ],
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title",
+          "human_approval:ha-f9db992f8540"
+        ]
+      },
+      {
+        "node_id": "node_0ac69757f0a5",
+        "label": "haneumlee99/Economic-Forecasts-for-Japan",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://github.com/haneumlee99/Economic-Forecasts-for-Japan"
+        ]
+      },
+      {
+        "node_id": "node_5ab4e5e61af9",
+        "label": "Srakawichi/park-whisperer-ai",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://github.com/Srakawichi/park-whisperer-ai"
+        ]
+      },
+      {
+        "node_id": "node_9ba49886d180",
+        "label": "gregfontaine/jobs",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://github.com/gregfontaine/jobs"
+        ]
+      },
+      {
+        "node_id": "node_a8c19617f84e",
+        "label": "maiko326/japan-portfolio-resources",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://github.com/maiko326/japan-portfolio-resources"
+        ]
+      },
+      {
+        "node_id": "node_1667715183e7",
+        "label": "live-github-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-2",
+          "9243bc6f794e30834957d0d55950af12@1.0.0#live-github-2"
+        ]
+      },
+      {
+        "node_id": "node_f965949bed7b",
+        "label": "live-github-3",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-3",
+          "9243bc6f794e30834957d0d55950af12@1.0.0#live-github-3"
+        ]
+      },
+      {
+        "node_id": "node_21ba642fa70c",
+        "label": "live-github-5",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-5",
+          "9243bc6f794e30834957d0d55950af12@1.0.0#live-github-5"
+        ]
+      },
+      {
+        "node_id": "node_139d87ef1ad7",
+        "label": "live-github-7",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-7",
+          "9243bc6f794e30834957d0d55950af12@1.0.0#live-github-7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_92984fc436e1",
+        "from": "node_08bc82af1bf7",
+        "to": "node_0a0e9ce683c8",
+        "relation": "decides",
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_b174376bc0e3",
+        "from": "node_373e81b9cec8",
+        "to": "node_75715adcbb5d",
+        "relation": "created_from",
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_25d21bc1f6cd",
+        "from": "node_75715adcbb5d",
+        "to": "node_08bc82af1bf7",
+        "relation": "produced",
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_c0439620a47a",
+        "from": "node_75715adcbb5d",
+        "to": "node_e31811b3cd5a",
+        "relation": "approved_by",
+        "provenance": [
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_37d812b8636c",
+        "from": "node_1667715183e7",
+        "to": "node_08bc82af1bf7",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-github-2"
+        ]
+      },
+      {
+        "edge_id": "edge_1ad5af8b3940",
+        "from": "node_1667715183e7",
+        "to": "node_08bc82af1bf7",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-2"
+        ]
+      },
+      {
+        "edge_id": "edge_645bda5a145e",
+        "from": "node_1667715183e7",
+        "to": "node_08bc82af1bf7",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-2",
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_56a0eb013b98",
+        "from": "node_1667715183e7",
+        "to": "node_0ac69757f0a5",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-github-2",
+          "source:https://github.com/haneumlee99/Economic-Forecasts-for-Japan"
+        ]
+      },
+      {
+        "edge_id": "edge_24e18fca4a79",
+        "from": "node_f965949bed7b",
+        "to": "node_08bc82af1bf7",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-github-3"
+        ]
+      },
+      {
+        "edge_id": "edge_e7fdbfe158ba",
+        "from": "node_f965949bed7b",
+        "to": "node_08bc82af1bf7",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-3"
+        ]
+      },
+      {
+        "edge_id": "edge_d2ce49014994",
+        "from": "node_f965949bed7b",
+        "to": "node_08bc82af1bf7",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-3",
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_403c50f42d89",
+        "from": "node_f965949bed7b",
+        "to": "node_5ab4e5e61af9",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-github-3",
+          "source:https://github.com/Srakawichi/park-whisperer-ai"
+        ]
+      },
+      {
+        "edge_id": "edge_3b0bf97337f4",
+        "from": "node_21ba642fa70c",
+        "to": "node_08bc82af1bf7",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-github-5"
+        ]
+      },
+      {
+        "edge_id": "edge_52bda0b2f3f1",
+        "from": "node_21ba642fa70c",
+        "to": "node_08bc82af1bf7",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-5"
+        ]
+      },
+      {
+        "edge_id": "edge_1715b4dffb6c",
+        "from": "node_21ba642fa70c",
+        "to": "node_08bc82af1bf7",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-5",
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_d67a67456ca2",
+        "from": "node_21ba642fa70c",
+        "to": "node_9ba49886d180",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-github-5",
+          "source:https://github.com/gregfontaine/jobs"
+        ]
+      },
+      {
+        "edge_id": "edge_787e4c997b10",
+        "from": "node_139d87ef1ad7",
+        "to": "node_08bc82af1bf7",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-github-7"
+        ]
+      },
+      {
+        "edge_id": "edge_770f358643f4",
+        "from": "node_139d87ef1ad7",
+        "to": "node_08bc82af1bf7",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-7"
+        ]
+      },
+      {
+        "edge_id": "edge_b9c934d38d26",
+        "from": "node_139d87ef1ad7",
+        "to": "node_08bc82af1bf7",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-7",
+          "37104c5032bc9a21575025922f250af2#title"
+        ]
+      },
+      {
+        "edge_id": "edge_26775a58195c",
+        "from": "node_139d87ef1ad7",
+        "to": "node_a8c19617f84e",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-github-7",
+          "source:https://github.com/maiko326/japan-portfolio-resources"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "9243bc6f794e30834957d0d55950af12@1.0.0",
+      "evidenceIds": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "taskId": "TA-SHOULD-I-BUILD-AN-AI-STA",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "37104c5032bc9a21575025922f250af2",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 13,
+      "edgeCount": 20,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "QG-SMOKE-STARTUP-EMP-001",
+  "user_id": "qg-smoke-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "constraints": {},
+  "desired_outcome": "Record a clear human-approved career/startup tradeoff",
+  "user_intent": "Should I build an AI startup in Tokyo or continue employment?",
+  "workspace_id": "ws-web-qg-smoke-user"
+}

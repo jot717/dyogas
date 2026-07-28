@@ -1,0 +1,118 @@
+{
+  "dna_id": "dna-db5febfc014a",
+  "tenant_id": "validation-tokyo-2026",
+  "model_refs": [
+    "dm-447e33aab02c"
+  ],
+  "decision_patterns": [
+    {
+      "pattern_id": "pat-chosen-opt-package-approve",
+      "description": "Chosen option pattern: opt-package-approve — Human approved Decision Asset package as decision-ready (no automated ranking)",
+      "frequency": 1,
+      "model_refs": [
+        "dm-447e33aab02c"
+      ]
+    }
+  ],
+  "preference_signals": [
+    {
+      "signal_id": "sig-61c1016f5213",
+      "key": "actor_id",
+      "value": "real-user-founder",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-6bd942f21d7c",
+      "key": "capital",
+      "value": "limited personal runway",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-610ede760d35",
+      "key": "desired_outcome",
+      "value": "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-b4c633ea4ece",
+      "key": "location",
+      "value": "Tokyo",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-bf750bde3ad6",
+      "key": "risk_tolerance",
+      "value": "moderate",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-3b0d4f40d153",
+      "key": "timeframe",
+      "value": "2026",
+      "frequency": 1
+    }
+  ],
+  "constraint_patterns": [
+    {
+      "pattern_id": "cpat-capital",
+      "constraint_key": "capital",
+      "observed_values": [
+        "limited personal runway"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-desired_outcome",
+      "constraint_key": "desired_outcome",
+      "observed_values": [
+        "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-location",
+      "constraint_key": "location",
+      "observed_values": [
+        "Tokyo"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-risk_tolerance",
+      "constraint_key": "risk_tolerance",
+      "observed_values": [
+        "moderate"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-timeframe",
+      "constraint_key": "timeframe",
+      "observed_values": [
+        "2026"
+      ],
+      "frequency": 1
+    }
+  ],
+  "risk_profile": {
+    "profile_id": "risk-a6ae8e5f8972",
+    "signals": [
+      "human_package_approval_path",
+      "time_bounded:2026"
+    ],
+    "summary": "Descriptive risk profile from recorded Decision Model constraints and approval path. Not a prediction."
+  },
+  "created_at": "2026-07-27T10:48:15.808Z",
+  "version": "0.1.0",
+  "decision_domains": [
+    "career-mobility:tokyo"
+  ],
+  "lineage_refs": [
+    {
+      "model_id": "dm-447e33aab02c",
+      "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "graph_update_ref": "gu-316a33c04ca239ceae1064fd7c70a1c0@1.0.0"
+    }
+  ]
+}

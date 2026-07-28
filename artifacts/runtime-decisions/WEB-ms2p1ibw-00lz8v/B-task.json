@@ -1,0 +1,55 @@
+{
+  "task_id": "TA-HOW-TO-MAKE-ITLIAN-COFFE",
+  "task_plan": {
+    "plan_id": "tp-16d474d579",
+    "task_id": "TA-HOW-TO-MAKE-ITLIAN-COFFE",
+    "title": "Research: how to make itlian coffee",
+    "objective": "how to make itlian coffee",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "0640bf5144a60ad0698d9d34dca04b99",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "how to make itlian coffee"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-HOW-TO-MAKE-ITLIAN-COFFE.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "how to make itlian coffee",
+      "scope": "how to make itlian coffee; research_intents=decision context and constraints|upside opportunities|downside risks and unknowns; constraints={\"location\":\"Tokyo\",\"timeframe\":\"2026\",\"desired_outcome\":\"make nice itlian coffee\"}",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 8,
+        "max_seconds": 45
+      }
+    }
+  },
+  "execution_package": {
+    "taskId": "TA-HOW-TO-MAKE-ITLIAN-COFFE",
+    "routed_agent_ids": [
+      "research-agent"
+    ]
+  }
+}

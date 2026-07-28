@@ -1,0 +1,19 @@
+{
+  "requestId": "USER-REQUEST-003",
+  "userIntent": "I want to decide whether to spend the next year building my own startup or continue employment in Tokyo",
+  "decisionQuestion": "Should I invest my next year building my own startup or continue employment?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "goal": "maximize long term entrepreneurial opportunity"
+  },
+  "requiredEvidence": [
+    "startup opportunity signals",
+    "employment stability",
+    "opportunity cost",
+    "skill leverage"
+  ],
+  "tenant_id": "validation-tokyo-2026",
+  "workspace_id": "ws-tokyo-path",
+  "owner_id": "founder"
+}

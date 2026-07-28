@@ -1,0 +1,15 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "BROWSER-TOKYO-STARTUP-001",
+  "user_id": "tokyo-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "founder": "solo"
+  },
+  "desired_outcome": "Maximize long-term entrepreneurial optionality",
+  "user_intent": "Should I build an AI startup in Tokyo or continue employment?",
+  "workspace_id": "ws-web-tokyo-founder"
+}

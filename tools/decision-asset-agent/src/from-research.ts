@@ -31,6 +31,9 @@ export function decisionAssetFromResearchEvidence(
     evidence: input.evidence.map((e) => ({
       evidenceId: e.evidenceId,
       excerpt: e.excerpt,
+      extractedClaim: (e as { extractedClaim?: string }).extractedClaim,
+      relevanceReason: (e as { relevanceReason?: string }).relevanceReason,
+      confidence: (e as { confidence?: number }).confidence,
       metadata: {
         title: e.metadata.title,
         pointer: e.metadata.pointer,

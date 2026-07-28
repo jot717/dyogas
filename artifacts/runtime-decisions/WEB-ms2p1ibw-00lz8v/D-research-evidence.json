@@ -1,0 +1,241 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 3,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making",
+      "source_class": "web",
+      "title": "Decision-making",
+      "timestamp": "2026-07-27T03:55:08.687Z",
+      "extracted_claim": "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevance_reason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+      "source_class": "web",
+      "title": "Decision-making under deep uncertainty",
+      "timestamp": "2026-07-27T03:55:08.687Z",
+      "extracted_claim": "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevance_reason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making_software",
+      "source_class": "web",
+      "title": "Decision-making software",
+      "timestamp": "2026-07-27T03:55:08.687Z",
+      "extracted_claim": "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevance_reason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_software",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making",
+      "sourceClass": "web",
+      "title": "Decision-making",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Decision-making — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+      "matched_intents": [
+        "decision context and constraints",
+        "downside risks and unknowns"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+      "sourceClass": "web",
+      "title": "Decision-making under deep uncertainty",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Decision-making under deep uncertainty — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+      "matched_intents": [
+        "decision context and constraints",
+        "downside risks and unknowns"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making_software",
+      "sourceClass": "web",
+      "title": "Decision-making software",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_software",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Decision-making software — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+      "matched_intents": [
+        "decision context and constraints",
+        "downside risks and unknowns"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "decision context and constraints",
+      "upside opportunities",
+      "downside risks and unknowns"
+    ],
+    "key_findings": [
+      "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]"
+    ],
+    "market_signals": [
+      "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]"
+    ],
+    "risks": [
+      "Investigate further: decision context and constraints.",
+      "Investigate further: downside risks and unknowns.",
+      "Evidence coverage is Stage-1 only — verify before irreversible career moves."
+    ],
+    "decision_options_preview": [
+      "Act on the decision now using current evidence",
+      "Gather more evidence before committing"
+    ],
+    "evidence_count": 3,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Decision-making",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Decision-making under deep uncertainty",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Decision-making_software",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Decision-making_software",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Decision-making software",
+      "retrievedAt": "2026-07-27T03:55:08.687Z",
+      "extractedClaim": "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "relevanceReason": "Relevant to research intent: decision context and constraints.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Decision-making_software",
+        "retrieved_at": "2026-07-27T03:55:08.687Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-WEB-ms2p1ibw-00lz8v",
+      "question": "how to make itlian coffee\n[research-intents: make | itlian | coffee]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Decision-making",
+        "excerpt": "Decision-making — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Decision-making",
+          "retrieved_at": "2026-07-27T03:55:08.687Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Decision-making under deep uncertainty",
+        "excerpt": "Decision-making under deep uncertainty — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Decision-making_under_deep_uncertainty",
+          "retrieved_at": "2026-07-27T03:55:08.687Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Decision-making software",
+        "excerpt": "Decision-making software — public reference related to: how to make itlian coffee\n[research-intents: make | itlian | coffee]",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Decision-making_software",
+          "retrieved_at": "2026-07-27T03:55:08.687Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class github",
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

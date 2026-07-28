@@ -1,0 +1,165 @@
+{
+  "persisted": true,
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "taskId": "TA-SHOULD-I-INVEST-MY-NEXT-",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "752c3004ac98871ab05effc16f8762b0",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 5,
+      "edgeCount": 7,
+      "consistencyOk": true
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "node_acf098ce0705",
+      "label": "Decision Asset: Should I invest my next year building my own startup or continue employment?",
+      "types": [
+        "Knowledge"
+      ],
+      "provenance": [
+        "752c3004ac98871ab05effc16f8762b0#title",
+        "752c3004ac98871ab05effc16f8762b0#body"
+      ]
+    },
+    {
+      "node_id": "node_4b4f3751a5a1",
+      "label": "Decision from Decision Asset: Should I invest my next year building my own start",
+      "types": [
+        "Decision"
+      ],
+      "provenance": [
+        "752c3004ac98871ab05effc16f8762b0#title"
+      ]
+    },
+    {
+      "node_id": "node_c3eb52163ae7",
+      "label": "live-web-0",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-0",
+        "dd840ebe41e9988334e0460cf8efe86a@1.0.0#live-web-0"
+      ]
+    },
+    {
+      "node_id": "node_926cb1a64def",
+      "label": "live-web-1",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-1",
+        "dd840ebe41e9988334e0460cf8efe86a@1.0.0#live-web-1"
+      ]
+    },
+    {
+      "node_id": "node_714a8a79458a",
+      "label": "live-web-2",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-2",
+        "dd840ebe41e9988334e0460cf8efe86a@1.0.0#live-web-2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_11a85a25669e",
+      "from": "node_acf098ce0705",
+      "to": "node_4b4f3751a5a1",
+      "relation": "decides",
+      "provenance": [
+        "752c3004ac98871ab05effc16f8762b0#title"
+      ]
+    },
+    {
+      "edge_id": "edge_a99991cc8f6e",
+      "from": "node_c3eb52163ae7",
+      "to": "node_acf098ce0705",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-0"
+      ]
+    },
+    {
+      "edge_id": "edge_7c7804f7b6a5",
+      "from": "node_c3eb52163ae7",
+      "to": "node_acf098ce0705",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-0",
+        "752c3004ac98871ab05effc16f8762b0#title"
+      ]
+    },
+    {
+      "edge_id": "edge_b29c8ca8aa9f",
+      "from": "node_926cb1a64def",
+      "to": "node_acf098ce0705",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-1"
+      ]
+    },
+    {
+      "edge_id": "edge_a9600b16714b",
+      "from": "node_926cb1a64def",
+      "to": "node_acf098ce0705",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-1",
+        "752c3004ac98871ab05effc16f8762b0#title"
+      ]
+    },
+    {
+      "edge_id": "edge_41ba06e0beab",
+      "from": "node_714a8a79458a",
+      "to": "node_acf098ce0705",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-2"
+      ]
+    },
+    {
+      "edge_id": "edge_af98ee525070",
+      "from": "node_714a8a79458a",
+      "to": "node_acf098ce0705",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-2",
+        "752c3004ac98871ab05effc16f8762b0#title"
+      ]
+    }
+  ]
+}

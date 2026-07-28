@@ -1,0 +1,11 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "DEMO-TOKYO-STARTUP-COUNT-FIX-001",
+  "user_id": "demo-tokyo-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "constraints": {},
+  "desired_outcome": "Human-approved Decision Asset for startup vs employment",
+  "user_intent": "Should I build an AI startup in Tokyo or continue employment?",
+  "workspace_id": "ws-web-demo-tokyo-founder"
+}

@@ -1,0 +1,210 @@
+{
+  "asset_id": "da-2d817ce6ab55",
+  "title": "Decision Asset: Should I invest my next year building my own startup or continue employment?",
+  "question": "Should I invest my next year building my own startup or continue employment?",
+  "summary": "Decision support for: Should I invest my next year building my own startup or continue employment? 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Startup company — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Sydney Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Nikola Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-2"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Evidence supports exploration: Startup company — reference for decision research. Founding conditions in the target market influence whether a build-fi",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "benefits": [
+        "Evidence supports exploration: Startup company — reference for decision research. Founding conditions in the target market influence whether a build-fi",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Sydney Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-fir"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "benefits": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Sydney Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-fir"
+      ],
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "research_artifact_id": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-INVEST-MY-NEXT-",
+  "execution_package_task_id": "TA-SHOULD-I-INVEST-MY-NEXT-",
+  "status": "pending_approval",
+  "requires_human_approval": true,
+  "domain": "startup_decision",
+  "user_goal": "make_decision",
+  "decision_context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "research_plan": {
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "local ecosystem",
+      "personal constraints"
+    ],
+    "source_requirements": [
+      "industry_reports",
+      "technical_ecosystem",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "research_factors": [
+    "market opportunity",
+    "financial risk",
+    "opportunity cost",
+    "local ecosystem",
+    "personal constraints"
+  ],
+  "evidence_items": [
+    {
+      "source": "Startup company",
+      "fact": "Startup company — reference for decision research.",
+      "relevance": "Addresses decision factor “startup opportunity landscape”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "startup opportunity landscape",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Startup_company",
+        "retrieved_at": "2026-07-27T11:37:54.133Z"
+      }
+    },
+    {
+      "source": "Sydney Aistrup",
+      "fact": "Sydney Aistrup — reference for decision research.",
+      "relevance": "Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Sydney_Aistrup",
+        "retrieved_at": "2026-07-27T11:37:54.133Z"
+      }
+    },
+    {
+      "source": "Nikola Aistrup",
+      "fact": "Nikola Aistrup — reference for decision research.",
+      "relevance": "Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Nikola_Aistrup",
+        "retrieved_at": "2026-07-27T11:37:54.133Z"
+      }
+    }
+  ],
+  "confidence_level": "MEDIUM",
+  "evidence_gaps": [
+    "financial risk",
+    "local ecosystem",
+    "personal constraints"
+  ],
+  "unknowns": [
+    "Who pays first, and for what concrete job-to-be-done?",
+    "Regulatory / data constraints for the chosen niche",
+    "Personal runway vs time-to-first-revenue",
+    "How long validation should run before a go/no-go",
+    "Whether consulting demand maps to a product wedge"
+  ],
+  "approval_target": {
+    "knowledge_title": "Tokyo AI startup vs employment decision",
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval."
+  },
+  "provenance": {
+    "research_artifact_id": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+    "research_brief_ref": "brief-USER-REQUEST-003@1.0.0",
+    "collector_adapter_id": "live-stage1-v1",
+    "evidence_ids": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "lineage": {
+    "task_id": "TA-SHOULD-I-INVEST-MY-NEXT-",
+    "execution_package_task_id": "TA-SHOULD-I-INVEST-MY-NEXT-",
+    "run_id": "d19ee4250e3c7b1f0fa18b0f3bdbef4e",
+    "request_id": "USER-REQUEST-003"
+  }
+}

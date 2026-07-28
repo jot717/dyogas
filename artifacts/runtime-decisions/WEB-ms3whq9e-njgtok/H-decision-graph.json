@@ -1,0 +1,504 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "79c03c2fc68fbc8ef87921be467949c7",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_1c87c9913fb6",
+        "label": "Decision Asset: how to make italian coffee",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title",
+          "79c03c2fc68fbc8ef87921be467949c7#body"
+        ]
+      },
+      {
+        "node_id": "node_aa14b3f95554",
+        "label": "Decision from Decision Asset: how to make italian coffee",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "node_id": "node_bdd339a80a96",
+        "label": "how to make italian coffee",
+        "types": [
+          "Question"
+        ],
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title",
+          "question:how to make italian coffee"
+        ]
+      },
+      {
+        "node_id": "node_9feaa5776674",
+        "label": "da-93d3dc2a0559",
+        "types": [
+          "DecisionAsset"
+        ],
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title",
+          "decision_asset:da-93d3dc2a0559"
+        ]
+      },
+      {
+        "node_id": "node_f801aa403b39",
+        "label": "ha-3d3330875e62",
+        "types": [
+          "HumanApproval"
+        ],
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title",
+          "human_approval:ha-3d3330875e62"
+        ]
+      },
+      {
+        "node_id": "node_eca8443b87ac",
+        "label": "Espresso",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Espresso"
+        ]
+      },
+      {
+        "node_id": "node_5d65a3519612",
+        "label": "Cappuccino",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Cappuccino"
+        ]
+      },
+      {
+        "node_id": "node_e6981dabf896",
+        "label": "Cappuccino Jones",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Cappuccino_Jones"
+        ]
+      },
+      {
+        "node_id": "node_10dd8643153f",
+        "label": "Naomi Cappuccino",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Naomi_Cappuccino"
+        ]
+      },
+      {
+        "node_id": "node_04e04dec74c4",
+        "label": "Italian coffee culture",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Italian_coffee_culture"
+        ]
+      },
+      {
+        "node_id": "node_6bda49920723",
+        "label": "Coffee preparation",
+        "types": [
+          "Source"
+        ],
+        "provenance": [
+          "source:https://en.wikipedia.org/wiki/Coffee_preparation"
+        ]
+      },
+      {
+        "node_id": "node_c3eb52163ae7",
+        "label": "live-web-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-0",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-0"
+        ]
+      },
+      {
+        "node_id": "node_926cb1a64def",
+        "label": "live-web-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-1",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-1"
+        ]
+      },
+      {
+        "node_id": "node_714a8a79458a",
+        "label": "live-web-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-2",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-2"
+        ]
+      },
+      {
+        "node_id": "node_dea292703f5b",
+        "label": "live-web-3",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-3",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-3"
+        ]
+      },
+      {
+        "node_id": "node_fecc94c72637",
+        "label": "live-web-4",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-4",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-4"
+        ]
+      },
+      {
+        "node_id": "node_8e64a8d71d27",
+        "label": "live-web-5",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-5",
+          "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0#live-web-5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_36a3bbb24052",
+        "from": "node_1c87c9913fb6",
+        "to": "node_aa14b3f95554",
+        "relation": "decides",
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_d601d5eb799b",
+        "from": "node_bdd339a80a96",
+        "to": "node_9feaa5776674",
+        "relation": "created_from",
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_73bba7645124",
+        "from": "node_9feaa5776674",
+        "to": "node_1c87c9913fb6",
+        "relation": "produced",
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_e484a97647c8",
+        "from": "node_9feaa5776674",
+        "to": "node_f801aa403b39",
+        "relation": "approved_by",
+        "provenance": [
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_5b0270cfe9cd",
+        "from": "node_c3eb52163ae7",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_7a13807e3965",
+        "from": "node_c3eb52163ae7",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_fe196a76b29c",
+        "from": "node_c3eb52163ae7",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-0",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_d071b49ecd1a",
+        "from": "node_c3eb52163ae7",
+        "to": "node_eca8443b87ac",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-0",
+          "source:https://en.wikipedia.org/wiki/Espresso"
+        ]
+      },
+      {
+        "edge_id": "edge_725754cde14e",
+        "from": "node_926cb1a64def",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_b4f4ffb75b31",
+        "from": "node_926cb1a64def",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_76a7781cbdd4",
+        "from": "node_926cb1a64def",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-1",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_463dcec62365",
+        "from": "node_926cb1a64def",
+        "to": "node_5d65a3519612",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-1",
+          "source:https://en.wikipedia.org/wiki/Cappuccino"
+        ]
+      },
+      {
+        "edge_id": "edge_56db143f3510",
+        "from": "node_714a8a79458a",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-2"
+        ]
+      },
+      {
+        "edge_id": "edge_0646ad7dea79",
+        "from": "node_714a8a79458a",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-2"
+        ]
+      },
+      {
+        "edge_id": "edge_eb2eaf4fb7cb",
+        "from": "node_714a8a79458a",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-2",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_74facfe02f7f",
+        "from": "node_714a8a79458a",
+        "to": "node_e6981dabf896",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-2",
+          "source:https://en.wikipedia.org/wiki/Cappuccino_Jones"
+        ]
+      },
+      {
+        "edge_id": "edge_709b87ac2929",
+        "from": "node_dea292703f5b",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-3"
+        ]
+      },
+      {
+        "edge_id": "edge_d11d4dc06c84",
+        "from": "node_dea292703f5b",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-3"
+        ]
+      },
+      {
+        "edge_id": "edge_ccf7c4f4158e",
+        "from": "node_dea292703f5b",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-3",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_c357314f1640",
+        "from": "node_dea292703f5b",
+        "to": "node_10dd8643153f",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-3",
+          "source:https://en.wikipedia.org/wiki/Naomi_Cappuccino"
+        ]
+      },
+      {
+        "edge_id": "edge_4940bc503ae4",
+        "from": "node_fecc94c72637",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-4"
+        ]
+      },
+      {
+        "edge_id": "edge_1c067eb3c37a",
+        "from": "node_fecc94c72637",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-4"
+        ]
+      },
+      {
+        "edge_id": "edge_81e4c5c798e9",
+        "from": "node_fecc94c72637",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-4",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_44261c71b705",
+        "from": "node_fecc94c72637",
+        "to": "node_04e04dec74c4",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-4",
+          "source:https://en.wikipedia.org/wiki/Italian_coffee_culture"
+        ]
+      },
+      {
+        "edge_id": "edge_dc35301cd0e4",
+        "from": "node_8e64a8d71d27",
+        "to": "node_1c87c9913fb6",
+        "relation": "supported_by",
+        "provenance": [
+          "evidence:live-web-5"
+        ]
+      },
+      {
+        "edge_id": "edge_c5f8b35fd638",
+        "from": "node_8e64a8d71d27",
+        "to": "node_1c87c9913fb6",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-5"
+        ]
+      },
+      {
+        "edge_id": "edge_7f502f48759e",
+        "from": "node_8e64a8d71d27",
+        "to": "node_1c87c9913fb6",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-5",
+          "79c03c2fc68fbc8ef87921be467949c7#title"
+        ]
+      },
+      {
+        "edge_id": "edge_634c69685553",
+        "from": "node_8e64a8d71d27",
+        "to": "node_6bda49920723",
+        "relation": "derived_from",
+        "provenance": [
+          "evidence:live-web-5",
+          "source:https://en.wikipedia.org/wiki/Coffee_preparation"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "cc4a4d0bb9d66450f71d00352c1b5a34@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ],
+      "taskId": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "79c03c2fc68fbc8ef87921be467949c7",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 17,
+      "edgeCount": 28,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

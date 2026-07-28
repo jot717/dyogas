@@ -1,0 +1,55 @@
+{
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "task_plan": {
+    "plan_id": "tp-0a6d0e6d04",
+    "task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+    "title": "Research: Should I change my career in Japan?",
+    "objective": "Should I change my career in Japan?",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "e1bd055367d45fbdffea526a207bbf4f",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "Should I change my career in Japan?"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-CHANGE-MY-CAREE.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "Should I change my career in Japan?",
+      "scope": "Should I change my career in Japan?; constraints={\"location\":\"Tokyo\",\"timeframe\":\"2026\",\"desired_outcome\":\"job for 46 years Taiwanese in Tokyo\"}",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 6,
+        "max_seconds": 30
+      }
+    }
+  },
+  "execution_package": {
+    "taskId": "TA-SHOULD-I-CHANGE-MY-CAREE",
+    "routed_agent_ids": [
+      "research-agent"
+    ]
+  }
+}

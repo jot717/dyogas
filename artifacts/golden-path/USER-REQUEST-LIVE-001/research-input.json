@@ -1,0 +1,13 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ],
+  "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026?",
+  "research_brief_ref": "brief-USER-REQUEST-LIVE-001@1.0.0",
+  "research_report_ref": "014e0a1d5bc4b79c638ad88244f233aa@1.0.0",
+  "research_started_at": "2026-07-27T02:19:53.241Z",
+  "research_elapsed_ms": 426
+}

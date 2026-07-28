@@ -1,0 +1,21 @@
+{
+  "request_id": "BROWSER-TOKYO-HOUSE-001",
+  "execution_id": "c167edd84efde37f4a02fa37c0f7deb8",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 3,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\BROWSER-TOKYO-HOUSE-001",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T11:38:15.376Z"
+}

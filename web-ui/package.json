@@ -1,8 +1,8 @@
 {
   "name": "@dyogas/web-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "DYOGAS Experience Plane minimal approval console (MOD-WEB-UI / SPEC-UI-001)",
+  "description": "DYOGAS Experience Plane — Decision Intelligence browser MVP + approval console",
   "type": "module",
   "engines": { "node": ">=22" },
   "exports": {
@@ -14,13 +14,17 @@
   "files": ["dist", "README.md", "API.md", "public"],
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "tsx --test tests/**/*.test.ts",
-    "start": "node dist/server.js"
+    "test": "tsx --import ./tests/preload-mock-research.ts --test tests/**/*.test.ts",
+    "test:browser-path": "tsx --test --test-concurrency=1 tests/browser-path-italian-coffee.e2e.ts tests/browser-path-tokyo-startup.e2e.ts tests/browser-path-career-japan.e2e.ts tests/browser-path-tokyo-house.e2e.ts",
+    "start": "tsx src/cli.ts",
+    "golden:web-mvp": "tsx --import ./tests/preload-mock-research.ts scripts/user-web-mvp-001.ts",
+    "golden:live-001": "tsx scripts/user-request-live-001.ts"
   },
   "dependencies": {
     "@dyogas/kernel": "file:../kernel",
     "@dyogas/trust": "file:../trust",
-    "@dyogas/human-gate": "file:../human-gate"
+    "@dyogas/human-gate": "file:../human-gate",
+    "@dyogas/personal-brain": "file:../personal-brain"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

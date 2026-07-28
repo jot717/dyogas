@@ -1,0 +1,52 @@
+{
+  "root": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\golden-path\\USER-REQUEST-REAL-001\\decision-memory",
+  "path": "decision-memory/validation-tokyo-2026/real-user-founder/",
+  "history": [
+    {
+      "model_id": "dm-447e33aab02c",
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "chosen_option": {
+        "option_id": "opt-package-approve",
+        "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ]
+      },
+      "rationale": "Real-user alpha validation approval",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "outcome_status": "recorded",
+      "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "created_at": "2026-07-27T10:48:15.752Z",
+      "decision_id": "da-9f94c43456db"
+    }
+  ],
+  "other_user_history_count": 0,
+  "registry_entries": [
+    {
+      "model_id": "dm-447e33aab02c",
+      "tenant_id": "validation-tokyo-2026",
+      "user_id": "real-user-founder",
+      "decision_domain": "career-mobility:tokyo",
+      "decision_id": "da-9f94c43456db",
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "graph_update_ref": "gu-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "created_at": "2026-07-27T10:48:15.752Z",
+      "path": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\golden-path\\USER-REQUEST-REAL-001\\decision-memory\\validation-tokyo-2026\\real-user-founder\\models\\dm-447e33aab02c.json"
+    }
+  ]
+}

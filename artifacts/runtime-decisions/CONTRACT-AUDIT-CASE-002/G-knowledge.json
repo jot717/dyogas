@@ -1,0 +1,47 @@
+{
+  "item": {
+    "knowledgeId": "91f66e3391706d8c1e664ea2c4f40426",
+    "tenantId": "validation-tokyo-2026",
+    "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+    "body": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 4 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: ffb7bb4038fa36278e24919f94b50088@1.0.0\n\nquestion: Should I build an AI startup in Tokyo or continue employment?\nasset_id: da-e9d1bf6de513\nexecution_package_task_id: TA-SHOULD-I-BUILD-AN-AI-STA\n\n## Claims\n### claim-000\nevidenceId: live-github-2\n\nTime-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-github-3\n\nSpark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-002\nevidenceId: live-github-5\n\nAI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-003\nevidenceId: live-github-7\n\nUI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n\n## Options (human chooses — no automatic recommendation)\n### opt-pursue-build: Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi; Solo-founder path can stay small until distribution is proven; Tokyo timing may capture local AI adoption momentum\nrisks: Market may already be crowded in AI tooling; Distribution and customer acquisition remain unproven; Capital and attention risk if validation is skipped\nunknowns: Who pays first, and for what concrete job-to-be-done?; Regulatory / data constraints for the chosen niche; Personal runway vs time-to-first-revenue\n### opt-validate-first: Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Reduces irreversible commitment while learning demand; Keeps optionality if evidence quality is still uneven; Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found\nrisks: Opportunity window may narrow while validating; Part-time validation can dilute focus\nunknowns: How long validation should run before a go/no-go; Whether consulting demand maps to a product wedge",
+    "version": 1,
+    "approvalState": "applied",
+    "provenance": {
+      "researchArtifactId": "ffb7bb4038fa36278e24919f94b50088@1.0.0",
+      "taskId": "TA-SHOULD-I-BUILD-AN-AI-STA",
+      "evidenceIds": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "capturedAt": "2026-07-27T05:30:31.462Z"
+    },
+    "createdAt": "2026-07-27T05:30:31.462Z",
+    "updatedAt": "2026-07-27T05:30:31.462Z"
+  },
+  "graphRetrieval": {
+    "contractVersion": "1.0.0",
+    "tenantId": "validation-tokyo-2026",
+    "knowledgeId": "91f66e3391706d8c1e664ea2c4f40426",
+    "version": 1,
+    "evidenceIds": [
+      "live-github-2",
+      "live-github-3",
+      "live-github-5",
+      "live-github-7"
+    ],
+    "researchArtifactId": "ffb7bb4038fa36278e24919f94b50088@1.0.0",
+    "graphMaterialized": false
+  },
+  "markdownHandoff": {
+    "contractVersion": "1.0.0",
+    "tenantId": "validation-tokyo-2026",
+    "knowledgeId": "91f66e3391706d8c1e664ea2c4f40426",
+    "version": 1,
+    "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+    "body": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 4 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: ffb7bb4038fa36278e24919f94b50088@1.0.0\n\nquestion: Should I build an AI startup in Tokyo or continue employment?\nasset_id: da-e9d1bf6de513\nexecution_package_task_id: TA-SHOULD-I-BUILD-AN-AI-STA\n\n## Claims\n### claim-000\nevidenceId: live-github-2\n\nTime-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-github-3\n\nSpark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-002\nevidenceId: live-github-5\n\nAI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-003\nevidenceId: live-github-7\n\nUI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n\n## Options (human chooses — no automatic recommendation)\n### opt-pursue-build: Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi; Solo-founder path can stay small until distribution is proven; Tokyo timing may capture local AI adoption momentum\nrisks: Market may already be crowded in AI tooling; Distribution and customer acquisition remain unproven; Capital and attention risk if validation is skipped\nunknowns: Who pays first, and for what concrete job-to-be-done?; Regulatory / data constraints for the chosen niche; Personal runway vs time-to-first-revenue\n### opt-validate-first: Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Reduces irreversible commitment while learning demand; Keeps optionality if evidence quality is still uneven; Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found\nrisks: Opportunity window may narrow while validating; Part-time validation can dilute focus\nunknowns: How long validation should run before a go/no-go; Whether consulting demand maps to a product wedge",
+    "rendered": false
+  },
+  "audit": {}
+}

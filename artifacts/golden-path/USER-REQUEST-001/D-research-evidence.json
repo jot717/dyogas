@@ -1,71 +1,93 @@
 {
-  "research_report_ref": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "research_report_ref": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
   "research_brief_ref": "brief-USER-REQUEST-001@1.0.0",
   "evidence": [
     {
-      "evidenceId": "mock-web-0",
-      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "metadata": {
-        "sourceClass": "web",
-        "title": "Mock web result 1",
-        "pointer": "mock://web/0",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
-      }
-    },
-    {
-      "evidenceId": "mock-web-1",
-      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "metadata": {
-        "sourceClass": "web",
-        "title": "Mock web result 2",
-        "pointer": "mock://web/1",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
-      }
-    },
-    {
-      "evidenceId": "mock-github-0",
-      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidenceId": "live-github-0",
+      "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
       "metadata": {
         "sourceClass": "github",
-        "title": "Mock github result 1",
-        "pointer": "mock://github/0",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
+        "title": "Srakawichi/park-whisperer-ai",
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
       }
     },
     {
-      "evidenceId": "mock-github-1",
-      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidenceId": "live-github-1",
+      "excerpt": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
       "metadata": {
         "sourceClass": "github",
-        "title": "Mock github result 2",
-        "pointer": "mock://github/1",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
+        "title": "OneRedOak/claude-code-workflows",
+        "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
       }
     },
     {
-      "evidenceId": "mock-reddit-0",
-      "excerpt": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidenceId": "live-github-2",
+      "excerpt": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. If you are excited about democratizing AI access & AI agents, please star ⭐️ this repository and apply using the link in the readme to join our open source AI research team.",
       "metadata": {
-        "sourceClass": "reddit",
-        "title": "Mock reddit result 1",
-        "pointer": "mock://reddit/0",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
+        "sourceClass": "github",
+        "title": "sahibzada-allahyar/YC-Killer",
+        "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
       }
     },
     {
-      "evidenceId": "mock-reddit-1",
-      "excerpt": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+      "evidenceId": "live-github-3",
+      "excerpt": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills",
       "metadata": {
-        "sourceClass": "reddit",
-        "title": "Mock reddit result 2",
-        "pointer": "mock://reddit/1",
-        "retrievedAt": "2026-07-26T11:56:38.348Z",
-        "adapter": "execution-host-stage1"
+        "sourceClass": "github",
+        "title": "erupts/erupt",
+        "pointer": "https://github.com/erupts/erupt",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-github-4",
+      "excerpt": "AI-first knowledge base and startup OS",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "cabinetai/cabinet",
+        "pointer": "https://github.com/cabinetai/cabinet",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-github-5",
+      "excerpt": "Building Startups with an AI Co-Founder",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "jtmuller5/The-HustleGPT-Challenge",
+        "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-github-6",
+      "excerpt": "Community list of startups working with AI in audio and music technology",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "csteinmetz1/ai-audio-startups",
+        "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-github-7",
+      "excerpt": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary",
+      "metadata": {
+        "sourceClass": "github",
+        "title": "lorryjovens-hub/claude-code-rust",
+        "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "retrievedAt": "2026-07-27T11:37:43.509Z",
+        "adapter": "live-stage1-v1"
       }
     }
   ]

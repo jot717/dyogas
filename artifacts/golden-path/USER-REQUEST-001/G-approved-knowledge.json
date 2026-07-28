@@ -1,23 +1,25 @@
 {
-  "knowledgeId": "f46996422948e0fdfd56a5f9b1a3f943",
+  "knowledgeId": "7824737c43d65dc09c6606d92e05b6e3",
   "tenantId": "validation-tokyo-2026",
   "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
-  "body": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0\n\nquestion: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?\nasset_id: da-49f88e2c4a99\nexecution_package_task_id: TA-WHICH-AI-STARTUP-OPPORTU\n\n## Claims\n### claim-000\nevidenceId: mock-web-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-001\nevidenceId: mock-web-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-002\nevidenceId: mock-github-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-003\nevidenceId: mock-github-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-004\nevidenceId: mock-reddit-0\n\nMock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f\n### claim-005\nevidenceId: mock-reddit-1\n\nMock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
+  "body": "Decision support for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0\n\nquestion: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?\nasset_id: da-e2ea1ca58a04\nexecution_package_task_id: TA-WHICH-AI-STARTUP-OPPORTU\n\n## Claims\n### claim-000\nevidenceId: live-github-0\n\nSpark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-github-1\n\nThe best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.\n### claim-002\nevidenceId: live-github-2\n\nA library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility\n### claim-003\nevidenceId: live-github-3\n\nOne class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-004\nevidenceId: live-github-4\n\nAI-first knowledge base and startup OS. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.\n### claim-005\nevidenceId: live-github-5\n\nBuilding Startups with an AI Co-Founder. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-006\nevidenceId: live-github-6\n\nCommunity list of startups working with AI in audio and music technology. Founding conditions in the target market influence whether a build-first path is viable now. Informs technical and market-demand feasibility for the path you are weighing.\n### claim-007\nevidenceId: live-github-7\n\n🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in t\n\n## Options (human chooses — no automatic recommendation)\n### opt-pursue-build: Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.\nsupporting_evidence: live-github-0, live-github-1, live-github-2, live-github-3, live-github-4, live-github-5, live-github-6, live-github-7\nadvantages: Evidence supports exploration: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found; Solo-founder path can stay small until distribution is proven; Tokyo timing may capture local AI adoption momentum\nrisks: Market may already be crowded in AI tooling; Distribution and customer acquisition remain unproven; Capital and attention risk if validation is skipped\nunknowns: Who pays first, and for what concrete job-to-be-done?; Regulatory / data constraints for the chosen niche; Personal runway vs time-to-first-revenue\n### opt-validate-first: Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.\nsupporting_evidence: live-github-0, live-github-1, live-github-2, live-github-3, live-github-4, live-github-5, live-github-6, live-github-7\nadvantages: Reduces irreversible commitment while learning demand; Keeps optionality if evidence quality is still uneven; Can pressure-test signals such as: The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Fou\nrisks: Opportunity window may narrow while validating; Part-time validation can dilute focus\nunknowns: How long validation should run before a go/no-go; Whether consulting demand maps to a product wedge",
   "version": 1,
   "approvalState": "applied",
   "provenance": {
-    "researchArtifactId": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+    "researchArtifactId": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
     "taskId": "TA-WHICH-AI-STARTUP-OPPORTU",
     "evidenceIds": [
-      "mock-web-0",
-      "mock-web-1",
-      "mock-github-0",
-      "mock-github-1",
-      "mock-reddit-0",
-      "mock-reddit-1"
+      "live-github-0",
+      "live-github-1",
+      "live-github-2",
+      "live-github-3",
+      "live-github-4",
+      "live-github-5",
+      "live-github-6",
+      "live-github-7"
     ],
-    "capturedAt": "2026-07-26T11:56:38.353Z"
+    "capturedAt": "2026-07-27T11:37:46.754Z"
   },
-  "createdAt": "2026-07-26T11:56:38.353Z",
-  "updatedAt": "2026-07-26T11:56:38.353Z"
+  "createdAt": "2026-07-27T11:37:46.754Z",
+  "updatedAt": "2026-07-27T11:37:46.754Z"
 }

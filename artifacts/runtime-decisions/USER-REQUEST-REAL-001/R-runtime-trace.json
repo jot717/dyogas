@@ -1,0 +1,21 @@
+{
+  "request_id": "USER-REQUEST-REAL-001",
+  "execution_id": "f096a856f22ab91a4ec8aa580ef32060",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\USER-REQUEST-REAL-001",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T11:37:46.758Z"
+}

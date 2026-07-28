@@ -1,0 +1,122 @@
+{
+  "asset_id": "da-561001a945fb",
+  "title": "Decision Asset: Should I change my career in Japan?",
+  "question": "Should I change my career in Japan?",
+  "summary": "Decision support for: Should I change my career in Japan? 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 0ee85b36d62defa2d17ca6f9ed9a3836@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "evidence_id": "live-web-2"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?",
+      "evidence_id": "live-web-3"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Source “DevAnnafi/AI-Job-Market-Analyzer” indicates related activity for career market conditions: An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+      "evidence_id": "live-github-0"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Source “xxiixi/career-compass” indicates related activity for career market conditions: This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python.",
+      "evidence_id": "live-github-1"
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "Source “Dmayne1/Premium-job_market_salary_intelligence” indicates related activity for career market conditions: Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+      "evidence_id": "live-github-2"
+    },
+    {
+      "claim_id": "claim-007",
+      "text": "Source “shrutiii835/CareerLens-AI-Job-Analytics” indicates related activity for career market conditions: ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+      "evidence_id": "live-github-3"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-change-career",
+      "title": "Change career path now (staged transition)",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3"
+      ],
+      "advantages": [
+        "Supporting signal: Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change m",
+        "Can start with a staged move rather than an all-or-nothing jump",
+        "May improve long-term optionality if demand signals hold"
+      ],
+      "risks": [
+        "Income discontinuity during transition",
+        "Market timing or hiring-cycle mismatch",
+        "Skills gap versus target role requirements"
+      ],
+      "unknowns": [
+        "Target role compensation range in Japan for your profile",
+        "How portable current skills are to the destination path",
+        "Personal runway and household constraints"
+      ]
+    },
+    {
+      "option_id": "opt-stay-or-defer",
+      "title": "Stay / defer change and gather stronger evidence first",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3"
+      ],
+      "advantages": [
+        "Preserves current income stability while researching",
+        "Allows targeted upskilling before committing",
+        "Can validate weak spots such as: Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my "
+      ],
+      "risks": [
+        "Opportunity cost if the window for switching narrows",
+        "Staying too long in a declining fit"
+      ],
+      "unknowns": [
+        "How long to defer before a hard go/no-go date",
+        "Whether internal mobility is a better bridge than an external switch"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3"
+  ],
+  "research_artifact_id": "0ee85b36d62defa2d17ca6f9ed9a3836@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "execution_package_task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

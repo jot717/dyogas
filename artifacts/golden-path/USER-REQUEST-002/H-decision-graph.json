@@ -1,0 +1,165 @@
+{
+  "persisted": true,
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "taskId": "TA-SHOULD-I-CHANGE-MY-CURRE",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "384ed13a122569d69457a99694a05ffa",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 5,
+      "edgeCount": 7,
+      "consistencyOk": true
+    }
+  },
+  "nodes": [
+    {
+      "node_id": "node_fe9ef3f48635",
+      "label": "Decision Asset: Should I change my current job or stay?",
+      "types": [
+        "Knowledge"
+      ],
+      "provenance": [
+        "384ed13a122569d69457a99694a05ffa#title",
+        "384ed13a122569d69457a99694a05ffa#body"
+      ]
+    },
+    {
+      "node_id": "node_77d2597819df",
+      "label": "Decision from Decision Asset: Should I change my current job or stay?",
+      "types": [
+        "Decision"
+      ],
+      "provenance": [
+        "384ed13a122569d69457a99694a05ffa#title"
+      ]
+    },
+    {
+      "node_id": "node_c3eb52163ae7",
+      "label": "live-web-0",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-0",
+        "75c914c5b2132e5dbcab3541d43801bf@1.0.0#live-web-0"
+      ]
+    },
+    {
+      "node_id": "node_926cb1a64def",
+      "label": "live-web-1",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-1",
+        "75c914c5b2132e5dbcab3541d43801bf@1.0.0#live-web-1"
+      ]
+    },
+    {
+      "node_id": "node_714a8a79458a",
+      "label": "live-web-2",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-web-2",
+        "75c914c5b2132e5dbcab3541d43801bf@1.0.0#live-web-2"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "edge_id": "edge_a29d4827f540",
+      "from": "node_fe9ef3f48635",
+      "to": "node_77d2597819df",
+      "relation": "decides",
+      "provenance": [
+        "384ed13a122569d69457a99694a05ffa#title"
+      ]
+    },
+    {
+      "edge_id": "edge_bfbacb99b703",
+      "from": "node_c3eb52163ae7",
+      "to": "node_fe9ef3f48635",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-0"
+      ]
+    },
+    {
+      "edge_id": "edge_0d0d307b2a78",
+      "from": "node_c3eb52163ae7",
+      "to": "node_fe9ef3f48635",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-0",
+        "384ed13a122569d69457a99694a05ffa#title"
+      ]
+    },
+    {
+      "edge_id": "edge_75a1e69f43d6",
+      "from": "node_926cb1a64def",
+      "to": "node_fe9ef3f48635",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-1"
+      ]
+    },
+    {
+      "edge_id": "edge_08b4bdfcada9",
+      "from": "node_926cb1a64def",
+      "to": "node_fe9ef3f48635",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-1",
+        "384ed13a122569d69457a99694a05ffa#title"
+      ]
+    },
+    {
+      "edge_id": "edge_370e91276ad2",
+      "from": "node_714a8a79458a",
+      "to": "node_fe9ef3f48635",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-web-2"
+      ]
+    },
+    {
+      "edge_id": "edge_519d19853937",
+      "from": "node_714a8a79458a",
+      "to": "node_fe9ef3f48635",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-web-2",
+        "384ed13a122569d69457a99694a05ffa#title"
+      ]
+    }
+  ]
+}

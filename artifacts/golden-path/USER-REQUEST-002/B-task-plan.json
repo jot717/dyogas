@@ -1,0 +1,64 @@
+{
+  "taskPlan": {
+    "plan_id": "tp-83c9a79d46",
+    "task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+    "title": "Research: Should I change my current job or stay?",
+    "objective": "Should I change my current job or stay?",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "c2778b76b55b9c9ea8a33e75b9951625",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "Should I change my current job or stay?"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-CHANGE-MY-CURRE.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "Should I change my current job or stay?",
+      "scope": "I want to decide whether I should change my job in Tokyo in 2026; decision_domain=career_transition; decision_factors=market opportunity|income impact|skill demand|transition risk|local labor market constraints; research_intents=career market conditions|salary and compensation opportunity|industry hiring demand|professional mobility and transition risk|career change risk factors|opportunity cost of switching; constraints={\"location\":\"Tokyo Japan\",\"careerStage\":\"experienced technical professional\",\"goal\":\"maximize long term career value\"}; requiredEvidence=market opportunities|salary trend|career risks|skill growth",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 8,
+        "max_seconds": 45
+      }
+    }
+  },
+  "executionPackage": {
+    "taskId": "TA-SHOULD-I-CHANGE-MY-CURRE",
+    "title": "Research: Should I change my current job or stay?",
+    "objective": "Should I change my current job or stay?",
+    "dependencies": [],
+    "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+    "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+    "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+    "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+    "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-CHANGE-MY-CURRE.json",
+    "executionMode": "Implementation Mode",
+    "sprintId": "VALIDATION-USER-REQUEST-001",
+    "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+    "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+    "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE | BLOCKED"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "request_id": "WEB-ms2rcesa-wy3uvh",
+  "execution_id": "376e1bcab7e0e09a43dbb03bff86bc5d",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\WEB-ms2rcesa-wy3uvh",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T04:59:41.927Z"
+}

@@ -1,0 +1,119 @@
+{
+  "asset_id": "da-fb1ed6ddcd4b",
+  "title": "Decision Asset: how to apply japan highly skilled visa",
+  "question": "how to apply japan highly skilled visa",
+  "summary": "Decision support for: how to apply japan highly skilled visa 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 29c8b24f5f6a0cf24562936b5268e24d@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you sho",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-2"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Japan is an island country in East Asia. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-3"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable know",
+      "evidence_id": "live-web-4"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. This preparation detail changes how you should brew or serve",
+      "evidence_id": "live-web-5"
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "AIHawk aims to easy job hunt process by automating the job application process. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-github-0"
+    },
+    {
+      "claim_id": "claim-007",
+      "text": ":memo: An awesome Data Science repository to learn and apply for real world problems. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-github-1"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-record-method",
+      "title": "Record the researched method as Knowledge",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5",
+        "live-github-0",
+        "live-github-1"
+      ],
+      "advantages": [
+        "Method signal: Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which me",
+        "Creates reusable Knowledge with provenance for later recall",
+        "Keeps technique notes tied to cited sources"
+      ],
+      "risks": [
+        "Source methods may omit equipment or taste preferences",
+        "Regional Italian styles differ (espresso vs moka vs milk drinks)"
+      ],
+      "unknowns": [
+        "Which equipment you actually have available",
+        "Preferred strength / milk ratio for your taste"
+      ]
+    },
+    {
+      "option_id": "opt-try-alternate",
+      "title": "Try an alternate method / gather more technique evidence",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5",
+        "live-github-0",
+        "live-github-1"
+      ],
+      "advantages": [
+        "Lets you compare brew styles before committing to one recipe",
+        "Can explore: Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76t"
+      ],
+      "risks": [
+        "Delay recording useful knowledge you already researched",
+        "Too many variants can dilute a clear first method"
+      ],
+      "unknowns": [
+        "Whether home equipment can match cafe-style results",
+        "Which alternate method is most relevant next"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-web-4",
+    "live-web-5",
+    "live-github-0",
+    "live-github-1"
+  ],
+  "research_artifact_id": "29c8b24f5f6a0cf24562936b5268e24d@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-HOW-TO-APPLY-JAPAN-HIGHL",
+  "execution_package_task_id": "TA-HOW-TO-APPLY-JAPAN-HIGHL",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

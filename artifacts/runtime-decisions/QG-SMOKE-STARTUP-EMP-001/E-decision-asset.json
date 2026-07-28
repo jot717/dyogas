@@ -1,0 +1,122 @@
+{
+  "asset_id": "da-d94b2a60cc10",
+  "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "summary": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: da40adff727c95769ff8155b69756406@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. This source adds context that may shift the balance betwee",
+      "evidence_id": "live-github-0"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "This is a project on the effects of COVID-19 on labor markets in Japan. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-1"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-2"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-3"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. This source adds context that may shift the balance between acting now and waiting. Affects whether ",
+      "evidence_id": "live-github-4"
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "AI exposure analysis of Japanese job market (~556 occupations). This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-5"
+    },
+    {
+      "claim_id": "claim-007",
+      "text": "A web application for bilingual professionals navigating the Japanese international tech market. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-6"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Build / pursue the opportunity now",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6"
+      ],
+      "advantages": [
+        "Evidence supports exploration: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source ",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Validate first (consulting / employment / wedge) before full build",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: \"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Se"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5",
+    "live-github-6"
+  ],
+  "research_artifact_id": "da40adff727c95769ff8155b69756406@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

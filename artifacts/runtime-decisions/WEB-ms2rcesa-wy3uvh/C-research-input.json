@@ -1,0 +1,34 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms2rcesa-wy3uvh@1.0.0",
+  "research_report_ref": "29c8b24f5f6a0cf24562936b5268e24d@1.0.0",
+  "research_started_at": "2026-07-27T04:59:36.546Z",
+  "research_elapsed_ms": 5353,
+  "question": "how to apply japan highly skilled visa",
+  "decision_domain": "how_to_topic",
+  "user_goal": "learn_how_to",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision"
+  ],
+  "decision_factors": [
+    "method steps",
+    "common mistakes",
+    "equipment or ingredients"
+  ],
+  "research_intents": [
+    "method steps",
+    "common mistakes",
+    "equipment or ingredients"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

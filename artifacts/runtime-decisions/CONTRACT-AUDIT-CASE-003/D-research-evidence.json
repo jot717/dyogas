@@ -1,0 +1,950 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 6,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Espresso",
+      "source_class": "web",
+      "title": "Espresso",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “brewing method”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.73,
+      "authority_score": 0.62,
+      "relevance_score": 0.78,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Espresso",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+      "source_class": "web",
+      "title": "Cappuccino",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usa",
+      "relevance_reason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.62,
+      "relevance_score": 0.73,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+      "source_class": "web",
+      "title": "Cappuccino Jones",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+      "source_class": "web",
+      "title": "Naomi Cappuccino",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-4",
+      "source_url": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+      "source_class": "web",
+      "title": "Italian coffee culture",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Italian coffee culture — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.72,
+      "authority_score": 0.66,
+      "relevance_score": 0.71,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Italian coffee culture — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-5",
+      "source_url": "https://en.wikipedia.org/wiki/Coffee_preparation",
+      "source_class": "web",
+      "title": "Coffee preparation",
+      "timestamp": "2026-07-27T05:30:31.494Z",
+      "extracted_claim": "Coffee preparation — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Coffee preparation — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Coffee_preparation",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Espresso",
+      "sourceClass": "web",
+      "title": "Espresso",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “brewing method”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.73,
+      "authority_score": 0.62,
+      "relevance_score": 0.78,
+      "source_alignment_score": 0.71,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Espresso",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. Originating in Italy, espresso has become one of the most popular coffee-brewing methods worldwide. It is characterized by its small serving size, typically 25–30 ml, and its distinctive layers: a dark body topped with a lighter-colored foam call",
+      "matched_intents": [
+        "coffee recipes",
+        "Italian coffee preparation",
+        "barista methods"
+      ],
+      "matched_factors": [
+        "brewing method"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cappuccino",
+      "sourceClass": "web",
+      "title": "Cappuccino",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usa",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.62,
+      "relevance_score": 0.73,
+      "source_alignment_score": 0.65,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.\nVariations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cocoa powder (in Europe and Australasia) or cinnamon (in the United States and South Korea). It is typically s",
+      "matched_intents": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ],
+      "matched_factors": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+      "sourceClass": "web",
+      "title": "Cappuccino Jones",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. As of November 2024, he is signed to WWE, where he is part of the WWE ID program and performs on the Evolve brand. He is a former one-time and inaugural WWE ID Champion. He has also made appearances for All Elite Wrestling, Ring of Honor, and Game Changer Wrestling. He also makes appearances for Core Professional Wrestli",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-3",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+      "sourceClass": "web",
+      "title": "Naomi Cappuccino",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. Her research primarily focuses on population ecology and biological control of invasive species.",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-4",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+      "sourceClass": "web",
+      "title": "Italian coffee culture",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Italian coffee culture — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.72,
+      "authority_score": 0.66,
+      "relevance_score": 0.71,
+      "source_alignment_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Italian coffee culture — reference for decision research.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Italian coffee culture — reference for decision research.",
+      "matched_intents": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ],
+      "matched_factors": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ]
+    },
+    {
+      "evidence_id": "live-web-5",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_preparation",
+      "sourceClass": "web",
+      "title": "Coffee preparation",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Coffee preparation — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "source_alignment_score": 0.6,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Coffee preparation — reference for decision research.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Coffee_preparation",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Coffee preparation — reference for decision research.",
+      "matched_intents": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ],
+      "matched_factors": [
+        "coffee recipes",
+        "Italian coffee preparation"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "coffee recipes",
+      "Italian coffee preparation",
+      "barista methods"
+    ],
+    "decision_domain": "coffee_preparation",
+    "decision_factors": [
+      "brewing method",
+      "ingredients",
+      "equipment",
+      "technique"
+    ],
+    "key_findings": [
+      "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. → Affects which method steps and technique you should record as usable knowledge.",
+      "Italian coffee culture — reference for decision research. → Affects which method steps and technique you should record as usable knowledge.",
+      "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. → Affects which method steps and technique you should record as usable knowledge.",
+      "Coffee preparation — reference for decision research. → Affects which method steps and technique you should record as usable knowledge.",
+      "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "market_signals": [
+      "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. → Affects which method steps and technique you should record as usable knowledge.",
+      "Italian coffee culture — reference for decision research. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "risks": [
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+      "Create comparative Italian coffee technique knowledge before committing to one brew method."
+    ],
+    "evidence_count": 6,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "how to make italian coffee",
+    "context": "You asked a how-to question in domain \"coffee_preparation\". Approving creates Knowledge from researched evidence (DYOGAS will not decide for you).",
+    "decision_domain": "coffee_preparation",
+    "domain": "coffee_preparation",
+    "user_goal": "learn_how_to",
+    "decision_factors": [
+      "brewing method",
+      "ingredients",
+      "equipment",
+      "technique"
+    ],
+    "research_factors": [
+      "brewing method",
+      "ingredients",
+      "equipment",
+      "technique"
+    ],
+    "key_findings": [
+      "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "Italian coffee culture — reference for decision research. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. 竊・Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "key_factors": [
+      {
+        "factor": "brewing method",
+        "why_matters": "Determines the concrete steps and tools you will record as usable coffee knowledge.",
+        "evidence_ids": [
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "ingredients",
+        "why_matters": "Central to evaluating this coffee preparation question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-web-4"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "equipment",
+        "why_matters": "Determines the concrete steps and tools you will record as usable coffee knowledge.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-web-4"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Espresso",
+        "source_url": "https://en.wikipedia.org/wiki/Espresso",
+        "fact": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans.",
+        "why_relevant": "Addresses decision factor “brewing method”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.62,
+        "relevance_score": 0.78,
+        "confidence": 0.73
+      },
+      {
+        "evidence_id": "live-web-4",
+        "title": "Italian coffee culture",
+        "source_url": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "fact": "Italian coffee culture — reference for decision research.",
+        "why_relevant": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.71,
+        "confidence": 0.72
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Cappuccino",
+        "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+        "fact": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.",
+        "why_relevant": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.62,
+        "relevance_score": 0.73,
+        "confidence": 0.71
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Espresso",
+        "source_url": "https://en.wikipedia.org/wiki/Espresso",
+        "fact": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans.",
+        "why_relevant": "Addresses decision factor “brewing method”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.62,
+        "relevance_score": 0.78,
+        "confidence": 0.73
+      },
+      {
+        "evidence_id": "live-web-4",
+        "title": "Italian coffee culture",
+        "source_url": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "fact": "Italian coffee culture — reference for decision research.",
+        "why_relevant": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.71,
+        "confidence": 0.72
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Cappuccino",
+        "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+        "fact": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.",
+        "why_relevant": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.62,
+        "relevance_score": 0.73,
+        "confidence": 0.71
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-record-method",
+        "title": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+        "benefits": [
+          "Captures a reusable preparation method with provenance",
+          "Covers brewing method, ingredients, equipment, and technique factors"
+        ],
+        "risks": [
+          "Home equipment may differ from cafe results",
+          "Regional Italian styles vary"
+        ]
+      },
+      {
+        "option_id": "opt-try-alternate",
+        "title": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+        "benefits": [
+          "Preserves comparison notes before locking one method",
+          "Useful when evidence covers multiple brew styles"
+        ],
+        "risks": [
+          "Too many variants can dilute a clear first method",
+          "Delays committing useful knowledge you already have"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-record-method",
+        "title": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Captures a reusable preparation method with provenance",
+          "Covers brewing method, ingredients, equipment, and technique factors"
+        ],
+        "risks": [
+          "Home equipment may differ from cafe results",
+          "Regional Italian styles vary"
+        ],
+        "unknowns": [
+          "Equipment available at home",
+          "Preferred strength / milk ratio"
+        ]
+      },
+      {
+        "option_id": "opt-try-alternate",
+        "title": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+        "why_consider": "Useful if you want to compare methods before recording a preferred technique.",
+        "advantages": [
+          "Preserves comparison notes before locking one method",
+          "Useful when evidence covers multiple brew styles"
+        ],
+        "risks": [
+          "Too many variants can dilute a clear first method",
+          "Delays committing useful knowledge you already have"
+        ],
+        "unknowns": [
+          "Which alternate method matters most next",
+          "Whether equipment can support cafe-style drinks"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Equipment available at home",
+      "Preferred strength / milk ratio",
+      "Which alternate method matters most next",
+      "Whether equipment can support cafe-style drinks"
+    ],
+    "approval_question": "You are approving creation of: Italian coffee preparation (brewing method, ingredients, equipment, technique) Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Italian coffee preparation (brewing method, ingredients, equipment, technique) Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Italian coffee preparation (brewing method, ingredients, equipment, technique)",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "career",
+      "startup",
+      "labor market"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 6,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.68,
+      "avg_authority": 0.65,
+      "factor_coverage_ratio": 0.25,
+      "covered_factors": [
+        "brewing method"
+      ],
+      "gaps": [
+        "ingredients",
+        "equipment",
+        "technique"
+      ],
+      "source_classes": [
+        "web"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 6,
+      "warning": "Research factor coverage is incomplete (1/4). Gaps: ingredients, equipment, technique. Known evidence gaps remain for: ingredients, equipment, technique.",
+      "block_reason": null
+    },
+    "confidence_warning": "Research factor coverage is incomplete (1/4). Gaps: ingredients, equipment, technique. Known evidence gaps remain for: ingredients, equipment, technique.",
+    "evidence_gaps": [
+      "ingredients",
+      "equipment",
+      "technique"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Espresso",
+        "source_url": "https://en.wikipedia.org/wiki/Espresso",
+        "source_class": "web"
+      },
+      {
+        "title": "Cappuccino",
+        "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+        "source_class": "web"
+      },
+      {
+        "title": "Cappuccino Jones",
+        "source_url": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+        "source_class": "web"
+      },
+      {
+        "title": "Naomi Cappuccino",
+        "source_url": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+        "source_class": "web"
+      },
+      {
+        "title": "Italian coffee culture",
+        "source_url": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "source_class": "web"
+      },
+      {
+        "title": "Coffee preparation",
+        "source_url": "https://en.wikipedia.org/wiki/Coffee_preparation",
+        "source_class": "web"
+      }
+    ],
+    "missing_information": [
+      "ingredients",
+      "equipment",
+      "technique",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Espresso",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Espresso",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Espresso",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “brewing method”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.73,
+      "authority_score": 0.62,
+      "relevance_score": 0.78,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Espresso",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Cappuccino",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cappuccino",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Cappuccino",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usa",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.62,
+      "relevance_score": 0.73,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Cappuccino Jones",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Naomi Cappuccino",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.66,
+      "authority_score": 0.66,
+      "relevance_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “brewing method” (verify with primary sources before committing).",
+      "fact": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-4",
+      "source_url": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Italian coffee culture",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Italian coffee culture — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.72,
+      "authority_score": 0.66,
+      "relevance_score": 0.71,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Italian coffee culture — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-5",
+      "source_url": "https://en.wikipedia.org/wiki/Coffee_preparation",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Coffee_preparation",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Coffee preparation",
+      "retrievedAt": "2026-07-27T05:30:31.494Z",
+      "extractedClaim": "Coffee preparation — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “coffee recipes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “coffee recipes” (verify with primary sources before committing).",
+      "fact": "Coffee preparation — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Coffee_preparation",
+        "retrieved_at": "2026-07-27T05:30:31.494Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-CONTRACT-AUDIT-CASE-003",
+      "question": "how to make italian coffee\n[decision-plan: domain=coffee_preparation; goal=learn_how_to; factors=brewing method|ingredients|equipment|technique; queries=Espresso|Cappuccino|Italian coffee culture|Coffee preparation|how to make italian coffee|espresso at home; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Espresso",
+        "excerpt": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. Originating in Italy, espresso has become one of the most popular coffee-brewing methods worldwide. It is characterized by its small serving size, typically 25–30 ml, and its distinctive layers: a dark body topped with a lighter-colored foam call",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Espresso",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Cappuccino",
+        "excerpt": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam.\nVariations of the drink involve the use of cream instead of milk, using non-dairy milk substitutes and flavoring with cocoa powder (in Europe and Australasia) or cinnamon (in the United States and South Korea). It is typically s",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Cappuccino",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Cappuccino Jones",
+        "excerpt": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. As of November 2024, he is signed to WWE, where he is part of the WWE ID program and performs on the Evolve brand. He is a former one-time and inaugural WWE ID Champion. He has also made appearances for All Elite Wrestling, Ring of Honor, and Game Changer Wrestling. He also makes appearances for Core Professional Wrestli",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Cappuccino_Jones",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-3",
+        "source_class": "web",
+        "title": "Naomi Cappuccino",
+        "excerpt": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. Her research primarily focuses on population ecology and biological control of invasive species.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Naomi_Cappuccino",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-4",
+        "source_class": "web",
+        "title": "Italian coffee culture",
+        "excerpt": "Italian coffee culture — reference for decision research.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Italian_coffee_culture",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-5",
+        "source_class": "web",
+        "title": "Coffee preparation",
+        "excerpt": "Coffee preparation — reference for decision research.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Coffee_preparation",
+          "retrieved_at": "2026-07-27T05:30:31.494Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class github",
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

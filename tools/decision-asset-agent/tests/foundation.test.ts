@@ -45,6 +45,10 @@ test("DA-03: extractDecisionAsset builds claims from evidence", () => {
   assert.equal(asset.status, "draft");
   assert.equal(asset.claims.length, 1);
   assert.equal(asset.claims[0]!.evidence_id, "ev-1");
+  assert.ok(asset.options);
+  assert.ok(asset.options!.length >= 2);
+  assert.ok(asset.options![0]!.risks.length >= 1);
+  assert.ok(asset.options![0]!.unknowns.length >= 1);
 });
 
 test("DA-03: fail closed on empty evidence", () => {

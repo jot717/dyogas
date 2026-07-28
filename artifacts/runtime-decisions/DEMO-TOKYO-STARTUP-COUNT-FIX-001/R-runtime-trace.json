@@ -1,0 +1,21 @@
+{
+  "request_id": "DEMO-TOKYO-STARTUP-COUNT-FIX-001",
+  "execution_id": "f17c2d12379fa247d4a9eeae984e9b05",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "c:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\DEMO-TOKYO-STARTUP-COUNT-FIX-001",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T22:45:54.650Z"
+}

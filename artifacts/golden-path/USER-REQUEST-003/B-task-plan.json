@@ -1,0 +1,64 @@
+{
+  "taskPlan": {
+    "plan_id": "tp-33766150b2",
+    "task_id": "TA-SHOULD-I-INVEST-MY-NEXT-",
+    "title": "Research: Should I invest my next year building my own startup or continue employment?",
+    "objective": "Should I invest my next year building my own startup or continue employment?",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "d19ee4250e3c7b1f0fa18b0f3bdbef4e",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "Should I invest my next year building my own startup or continue employment?"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-INVEST-MY-NEXT-.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "Should I invest my next year building my own startup or continue employment?",
+      "scope": "I want to decide whether to spend the next year building my own startup or continue employment in Tokyo; decision_domain=startup_decision; decision_factors=market opportunity|financial risk|opportunity cost|local ecosystem|personal constraints; research_intents=career market conditions|salary and compensation opportunity|industry hiring demand|professional mobility and transition risk|startup opportunity landscape|solo founder feasibility|go-to-market and distribution risk; constraints={\"location\":\"Tokyo\",\"timeframe\":\"2026\",\"goal\":\"maximize long term entrepreneurial opportunity\"}; requiredEvidence=startup opportunity signals|employment stability|opportunity cost|skill leverage",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 8,
+        "max_seconds": 45
+      }
+    }
+  },
+  "executionPackage": {
+    "taskId": "TA-SHOULD-I-INVEST-MY-NEXT-",
+    "title": "Research: Should I invest my next year building my own startup or continue employment?",
+    "objective": "Should I invest my next year building my own startup or continue employment?",
+    "dependencies": [],
+    "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+    "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+    "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+    "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+    "expectedEvidence": "docs/task-agent/evidence/TA-SHOULD-I-INVEST-MY-NEXT-.json",
+    "executionMode": "Implementation Mode",
+    "sprintId": "VALIDATION-USER-REQUEST-001",
+    "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+    "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+    "statusTransition": "READY_FOR_EXECUTION → IN_PROGRESS → DONE | BLOCKED"
+  }
+}

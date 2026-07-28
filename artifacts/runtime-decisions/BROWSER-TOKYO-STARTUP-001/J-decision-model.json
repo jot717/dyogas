@@ -1,0 +1,101 @@
+{
+  "model_id": "dm-bb55d2264128",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-4e8474e34cfb",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "founder": "solo",
+    "desired_outcome": "Maximize long-term entrepreneurial optionality"
+  },
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "evidence_refs": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ]
+    }
+  ],
+  "approved_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-github-2",
+      "live-github-3",
+      "live-github-5",
+      "live-github-7"
+    ]
+  },
+  "alternative_options": [
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-github-2",
+      "live-github-3",
+      "live-github-5",
+      "live-github-7"
+    ]
+  },
+  "rationale": "Tokyo startup e2e human approve",
+  "evidence_refs": [
+    "live-github-2",
+    "live-github-3",
+    "live-github-5",
+    "live-github-7"
+  ],
+  "knowledge_refs": [
+    "kn-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0"
+  ],
+  "knowledge_ref": "kn-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0",
+  "approval_ref": "ha-f9db992f8540",
+  "actor_id": "tokyo-founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T22:44:52.019Z",
+  "version": "0.1.0",
+  "provenance": {
+    "decision_asset_id": "da-4e8474e34cfb",
+    "human_approval_id": "ha-f9db992f8540",
+    "research_artifact_id": "9243bc6f794e30834957d0d55950af12@1.0.0"
+  },
+  "decision_asset_ref": "da-4e8474e34cfb",
+  "user_id": "tokyo-founder",
+  "lineage": {
+    "correlation_id": "BROWSER-TOKYO-STARTUP-001",
+    "research_brief_ref": "brief-BROWSER-TOKYO-STARTUP-001@1.0.0",
+    "research_report_ref": "9243bc6f794e30834957d0d55950af12@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0",
+    "knowledge_ref": "kn-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0",
+    "graph_update_ref": "gu-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0"
+  },
+  "graph_update_ref": "gu-7aa3dcfbace0d0b7268ea57d3ec20686@1.0.0"
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/decision-request-input.schema.json",
+  "title": "DecisionRequestInput",
+  "description": "Real-user Decision Request boundary v0.2 (SPRINT-DECISION-INTELLIGENCE-ALPHA-REAL-USER-001). Maps into existing Personal Brain decision façade.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "request_id",
+    "user_id",
+    "tenant_id",
+    "question",
+    "constraints",
+    "desired_outcome"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "type": "string", "const": "0.2.0" },
+    "request_id": { "type": "string", "minLength": 1 },
+    "user_id": { "type": "string", "minLength": 1 },
+    "tenant_id": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "desired_outcome": { "type": "string", "minLength": 1 },
+    "user_intent": { "type": "string" },
+    "workspace_id": { "type": "string" },
+    "required_evidence": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

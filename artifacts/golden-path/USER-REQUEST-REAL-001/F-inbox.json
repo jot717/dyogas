@@ -1,0 +1,14 @@
+[
+  {
+    "requestId": "USER-REQUEST-REAL-001",
+    "proposalId": "da-9f94c43456db",
+    "decisionQuestion": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "status": "waiting_human",
+    "createdAt": "2026-07-27T10:48:15.732Z",
+    "requiredHumanAction": "approve_or_reject",
+    "tenant_id": "validation-tokyo-2026",
+    "user_id": "real-user-founder",
+    "executionId": "316a33c04ca239ceae1064fd7c70a1c0",
+    "autoApproved": false
+  }
+]

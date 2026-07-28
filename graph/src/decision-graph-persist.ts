@@ -8,7 +8,7 @@ import {
   DECISION_GRAPH_CONTRACT,
   type DecisionGraphFoundationRecord,
 } from "./decision-graph-contract.js";
-import { extractDecisionGraphDelta } from "./decision-graph-extract.js";
+import { extractDecisionGraphDelta, type ProductGraphLineage } from "./decision-graph-extract.js";
 import { resolveOntology, GraphError } from "./ontology.js";
 import { proposeGraphUpdate } from "./propose.js";
 import type { InMemoryGraphStore } from "./store.js";
@@ -20,6 +20,7 @@ export interface PersistDecisionGraphOptions {
   /** Required for apply; absent → propose only (no store mutation). */
   readonly mutationAuthorized?: boolean;
   readonly mode?: "propose" | "apply";
+  readonly lineage?: ProductGraphLineage;
 }
 
 export interface PersistDecisionGraphResult {
@@ -46,6 +47,7 @@ export function persistApprovedKnowledgeToDecisionGraph(
   const extracted = extractDecisionGraphDelta({
     knowledge: k,
     ontology,
+    ...(opts.lineage ? { lineage: opts.lineage } : {}),
   });
 
   const requested = opts.mode ?? "apply";

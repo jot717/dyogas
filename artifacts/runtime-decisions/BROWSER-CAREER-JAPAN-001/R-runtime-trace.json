@@ -1,0 +1,38 @@
+{
+  "request_id": "BROWSER-CAREER-JAPAN-001",
+  "execution_id": "a4185aecc5aed66e9f1f501d35d3528d",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human",
+    "HumanApproval|approved",
+    "Knowledge|apply",
+    "DecisionGraph|apply",
+    "DecisionModel|snapshot",
+    "DecisionMemory|record"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\BROWSER-CAREER-JAPAN-001",
+  "waiting_human": false,
+  "auto_approved": false,
+  "created_at": "2026-07-27T10:47:59.785Z",
+  "host_status_after_approve": "succeeded",
+  "lineage": {
+    "correlation_id": "BROWSER-CAREER-JAPAN-001",
+    "research_brief_ref": "brief-BROWSER-CAREER-JAPAN-001@1.0.0",
+    "research_report_ref": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+    "knowledge_ref": "kn-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+    "graph_update_ref": "gu-a4185aecc5aed66e9f1f501d35d3528d@1.0.0"
+  },
+  "approved_at": "2026-07-27T10:47:59.855Z"
+}

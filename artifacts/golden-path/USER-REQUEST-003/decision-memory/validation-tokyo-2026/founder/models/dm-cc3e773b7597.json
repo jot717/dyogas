@@ -1,0 +1,94 @@
+{
+  "model_id": "dm-cc3e773b7597",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-4e6f622b619f",
+  "question": "Should I change my current job or stay?",
+  "context": "You asked a decision question in domain \"career_transition\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "careerStage": "experienced technical professional",
+    "goal": "maximize long term career value"
+  },
+  "options": [
+    {
+      "option_id": "opt-change-career",
+      "statement": "Change career path now (staged transition)",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    },
+    {
+      "option_id": "opt-stay-or-defer",
+      "statement": "Stay / defer change and gather stronger evidence first",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "approved_option": {
+    "option_id": "opt-change-career",
+    "statement": "Change career path now (staged transition)",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "alternative_options": [
+    {
+      "option_id": "opt-stay-or-defer",
+      "statement": "Stay / defer change and gather stronger evidence first",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-change-career",
+    "statement": "Change career path now (staged transition)",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "rationale": "Human selected option opt-change-career — no automatic recommendation.",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "knowledge_refs": [
+    "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0"
+  ],
+  "knowledge_ref": "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+  "approval_ref": "ha-72e9e88b2b83",
+  "actor_id": "founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T11:37:48.486Z",
+  "version": "0.1.0",
+  "provenance": {
+    "decision_asset_id": "da-4e6f622b619f",
+    "human_approval_id": "ha-72e9e88b2b83",
+    "research_artifact_id": "75c914c5b2132e5dbcab3541d43801bf@1.0.0"
+  },
+  "decision_asset_ref": "da-4e6f622b619f",
+  "user_id": "founder",
+  "lineage": {
+    "correlation_id": "USER-REQUEST-002",
+    "research_brief_ref": "brief-USER-REQUEST-002@1.0.0",
+    "research_report_ref": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+    "knowledge_ref": "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+    "graph_update_ref": "gu-c2778b76b55b9c9ea8a33e75b9951625@1.0.0"
+  },
+  "graph_update_ref": "gu-c2778b76b55b9c9ea8a33e75b9951625@1.0.0"
+}

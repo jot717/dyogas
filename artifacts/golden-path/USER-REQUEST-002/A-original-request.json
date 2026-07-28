@@ -1,0 +1,19 @@
+{
+  "requestId": "USER-REQUEST-002",
+  "userIntent": "I want to decide whether I should change my job in Tokyo in 2026",
+  "decisionQuestion": "Should I change my current job or stay?",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "careerStage": "experienced technical professional",
+    "goal": "maximize long term career value"
+  },
+  "requiredEvidence": [
+    "market opportunities",
+    "salary trend",
+    "career risks",
+    "skill growth"
+  ],
+  "tenant_id": "validation-tokyo-2026",
+  "workspace_id": "ws-tokyo-career",
+  "owner_id": "founder"
+}

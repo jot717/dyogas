@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "WEB-ms3whq9e-njgtok",
+  "user_id": "demo-tokyo-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "how to make italian coffee",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "italian coffee",
+  "user_intent": "how to make italian coffee",
+  "workspace_id": "ws-web-demo-tokyo-founder"
+}

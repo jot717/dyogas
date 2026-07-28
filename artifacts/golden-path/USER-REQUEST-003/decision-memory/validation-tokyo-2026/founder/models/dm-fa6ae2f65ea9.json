@@ -1,0 +1,126 @@
+{
+  "model_id": "dm-fa6ae2f65ea9",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-e2ea1ca58a04",
+  "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+  "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "founderType": "solo technical founder",
+    "timeframe": "2026",
+    "budget": "limited",
+    "goal": "find billion-dollar potential opportunity"
+  },
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ]
+    }
+  ],
+  "approved_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-github-0",
+      "live-github-1",
+      "live-github-2",
+      "live-github-3",
+      "live-github-4",
+      "live-github-5",
+      "live-github-6",
+      "live-github-7"
+    ]
+  },
+  "alternative_options": [
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-pursue-build",
+    "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+    "evidence_refs": [
+      "live-github-0",
+      "live-github-1",
+      "live-github-2",
+      "live-github-3",
+      "live-github-4",
+      "live-github-5",
+      "live-github-6",
+      "live-github-7"
+    ]
+  },
+  "rationale": "Human selected option opt-pursue-build — no automatic recommendation.",
+  "evidence_refs": [
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5",
+    "live-github-6",
+    "live-github-7"
+  ],
+  "knowledge_refs": [
+    "kn-56b36b0c95105b942d37797381e93794@1.0.0"
+  ],
+  "knowledge_ref": "kn-56b36b0c95105b942d37797381e93794@1.0.0",
+  "approval_ref": "ha-c0e6b4d0ea4d",
+  "actor_id": "founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T11:37:46.760Z",
+  "version": "0.1.0",
+  "provenance": {
+    "decision_asset_id": "da-e2ea1ca58a04",
+    "human_approval_id": "ha-c0e6b4d0ea4d",
+    "research_artifact_id": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0"
+  },
+  "decision_asset_ref": "da-e2ea1ca58a04",
+  "user_id": "founder",
+  "lineage": {
+    "correlation_id": "USER-REQUEST-001",
+    "research_brief_ref": "brief-USER-REQUEST-001@1.0.0",
+    "research_report_ref": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-56b36b0c95105b942d37797381e93794@1.0.0",
+    "knowledge_ref": "kn-56b36b0c95105b942d37797381e93794@1.0.0",
+    "graph_update_ref": "gu-56b36b0c95105b942d37797381e93794@1.0.0"
+  },
+  "graph_update_ref": "gu-56b36b0c95105b942d37797381e93794@1.0.0"
+}

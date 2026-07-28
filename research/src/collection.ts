@@ -6,6 +6,22 @@
 import type { ResearchBrief, SourceClass } from "./task.js";
 import type { EvidenceItem, SourceCollector } from "./sources.js";
 
+/** Rejection audit entry from Retrieval Contract v4 (live collector). */
+export type RetrievalRejectionRecord = {
+  readonly source: string;
+  readonly rejected: true;
+  readonly reason: readonly string[];
+};
+
+function readCollectorRejectionAudit(
+  collector: SourceCollector,
+): RetrievalRejectionRecord[] {
+  const withAudit = collector as SourceCollector & {
+    getRejectionAudit?: () => readonly RetrievalRejectionRecord[];
+  };
+  return withAudit.getRejectionAudit ? [...withAudit.getRejectionAudit()] : [];
+}
+
 export type BudgetOutcome = {
   readonly maxItems: number;
   readonly maxSeconds?: number;
@@ -34,6 +50,12 @@ export type CollectionRunEvidence = {
     readonly title?: string;
     readonly adapter?: string;
     readonly trustDecision?: string;
+  }[];
+  /** Sources rejected by Retrieval Contract v4 before quality scoring. */
+  readonly rejected_sources?: readonly {
+    readonly source: string;
+    readonly rejected: true;
+    readonly reason: readonly string[];
   }[];
 };
 
@@ -95,6 +117,7 @@ export type CollectUnderBudgetResult = {
   readonly coverageGaps: readonly string[];
   readonly openQuestions: readonly string[];
   readonly budget: BudgetOutcome;
+  readonly rejected_sources: readonly RetrievalRejectionRecord[];
 };
 
 /**
@@ -111,6 +134,7 @@ export async function collectUnderBudget(
   const gaps: string[] = [];
   const openQuestions: string[] = [];
   const collected: EvidenceItem[] = [];
+  const rejected_sources: RetrievalRejectionRecord[] = [];
   let truncatedByItems = false;
   let truncatedByTime = false;
 
@@ -137,11 +161,15 @@ export async function collectUnderBudget(
       limit: remaining(),
       nowIso: input.nowIso,
     });
+    rejected_sources.push(...readCollectorRejectionAudit(input.collector));
     const { kept, gaps: batchGaps } = sanitizeBatch(
       batch,
       input.brief.allowedSourceClasses,
     );
     gaps.push(...batchGaps);
+    if (kept.length === 0) {
+      gaps.push(`no evidence from source class ${sourceClass}`);
+    }
 
     for (const item of kept) {
       if (remaining() <= 0) {
@@ -182,6 +210,7 @@ export async function collectUnderBudget(
       truncatedByTime,
       elapsedMs,
     },
+    rejected_sources,
   };
 }
 
@@ -194,6 +223,7 @@ export function buildCollectionRunEvidence(input: {
   coverageGaps: readonly string[];
   openQuestions: readonly string[];
   budget: BudgetOutcome;
+  rejected_sources?: readonly RetrievalRejectionRecord[];
 }): CollectionRunEvidence {
   return {
     kind: "research-collection-run-evidence",
@@ -214,5 +244,13 @@ export function buildCollectionRunEvidence(input: {
       adapter: e.metadata.adapter,
       trustDecision: e.metadata.trust?.decision,
     })),
+    rejected_sources:
+      input.rejected_sources && input.rejected_sources.length > 0
+        ? input.rejected_sources.map((r) => ({
+            source: r.source,
+            rejected: true as const,
+            reason: [...r.reason],
+          }))
+        : undefined,
   };
 }

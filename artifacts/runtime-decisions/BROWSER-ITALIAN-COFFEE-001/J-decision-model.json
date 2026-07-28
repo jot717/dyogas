@@ -1,0 +1,77 @@
+{
+  "model_id": "dm-519aace8269c",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-5b200d9abb96",
+  "question": "how to make italian coffee",
+  "constraints": {
+    "topic": "coffee",
+    "cuisine": "italian",
+    "desired_outcome": "Learn a correct method for Italian coffee"
+  },
+  "options": [
+    {
+      "option_id": "opt-record-method",
+      "statement": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ]
+    },
+    {
+      "option_id": "opt-try-alternate",
+      "statement": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-record-method",
+    "statement": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2",
+      "live-web-3",
+      "live-web-4",
+      "live-web-5"
+    ]
+  },
+  "rationale": "browser-path italian coffee approve method knowledge",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-web-4",
+    "live-web-5"
+  ],
+  "knowledge_ref": "kn-e73667d003ccb844580143eacdf413b2@1.0.0",
+  "approval_ref": "hrd-e73667d003ccb844580143eacdf413b2@1.0.0",
+  "actor_id": "browser-e2e-user",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T11:42:05.685Z",
+  "version": "0.1.0",
+  "decision_asset_ref": "da-5b200d9abb96",
+  "user_id": "browser-e2e-user",
+  "lineage": {
+    "correlation_id": "BROWSER-ITALIAN-COFFEE-001",
+    "research_brief_ref": "brief-BROWSER-ITALIAN-COFFEE-001@1.0.0",
+    "research_report_ref": "0caa09862064200f8d5b8595d5058d8d@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-e73667d003ccb844580143eacdf413b2@1.0.0",
+    "knowledge_ref": "kn-e73667d003ccb844580143eacdf413b2@1.0.0",
+    "graph_update_ref": "gu-e73667d003ccb844580143eacdf413b2@1.0.0"
+  },
+  "graph_update_ref": "gu-e73667d003ccb844580143eacdf413b2@1.0.0"
+}

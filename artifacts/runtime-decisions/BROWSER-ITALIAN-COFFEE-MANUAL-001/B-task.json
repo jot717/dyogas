@@ -1,0 +1,55 @@
+{
+  "task_id": "TA-HOW-TO-MAKE-A-ITALIAN-CO",
+  "task_plan": {
+    "plan_id": "tp-ea178cd834",
+    "task_id": "TA-HOW-TO-MAKE-A-ITALIAN-CO",
+    "title": "Research: how to make a italian coffee",
+    "objective": "how to make a italian coffee",
+    "tenant_id": "validation-tokyo-2026",
+    "run_id": "2361229252e8f920ac9df29383a05b6f",
+    "sprint_id": "VALIDATION-USER-REQUEST-001",
+    "steps": [
+      {
+        "step_id": "step-research-01",
+        "title": "Collect research evidence",
+        "agent_id": "research-agent",
+        "depends_on": [],
+        "objective": "how to make a italian coffee"
+      }
+    ],
+    "package_fields": {
+      "acceptanceCriteria": "TaskPlan validates; research-agent routed; Execution Package emits; human approval required before execution",
+      "testRequirements": "tools/task-agent tests; plan→route→package→approve→evidence path green",
+      "allowedScope": "tools/task-agent/; contracts/agents/task-agent.md; schemas/agents/task-agent.schema.json; schemas/artifacts/task-plan.schema.json; docs/task-agent/",
+      "forbiddenScope": "Runtime; SDK; Harness Spec; Execution Host; Product modules; MOD-DEV-ORCH; product agent execution",
+      "expectedEvidence": "docs/task-agent/evidence/TA-HOW-TO-MAKE-A-ITALIAN-CO.json",
+      "ssotReferences": "contracts/agents/task-agent.md; DL-TASK-AGENT-FOUNDATION-001; SPRINT-TASK-AGENT-FOUNDATION-001",
+      "gapRegistry": "docs/backlog/BACKLOG-TASK-AGENT-FOUNDATION-001.md",
+      "executionMode": "Implementation Mode",
+      "dependencies": []
+    },
+    "requires_human_approval": true,
+    "routed_agent_ids": [
+      "research-agent"
+    ],
+    "research_brief": {
+      "question": "how to make a italian coffee",
+      "scope": "how to make a italian coffee; constraints={\"topic\":\"coffee\",\"desired_outcome\":\"Learn Italian coffee method\"}",
+      "allowed_source_classes": [
+        "web",
+        "github",
+        "reddit"
+      ],
+      "budget": {
+        "max_items": 6,
+        "max_seconds": 30
+      }
+    }
+  },
+  "execution_package": {
+    "taskId": "TA-HOW-TO-MAKE-A-ITALIAN-CO",
+    "routed_agent_ids": [
+      "research-agent"
+    ]
+  }
+}

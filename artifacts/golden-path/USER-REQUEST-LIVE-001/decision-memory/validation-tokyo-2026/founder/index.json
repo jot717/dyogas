@@ -1,0 +1,21 @@
+{
+  "version": "0.1.0",
+  "tenant_id": "validation-tokyo-2026",
+  "user_id": "founder",
+  "updated_at": "2026-07-27T02:19:53.676Z",
+  "entries": [
+    {
+      "model_id": "dm-30f882852c60",
+      "tenant_id": "validation-tokyo-2026",
+      "user_id": "founder",
+      "decision_domain": "startup-opportunity:tokyo",
+      "decision_id": "da-8525f1d8baed",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026?",
+      "knowledge_ref": "kn-98f9ffd236c93ee56092188440e94b37@1.0.0",
+      "approval_ref": "hrd-98f9ffd236c93ee56092188440e94b37@1.0.0",
+      "graph_update_ref": "gu-98f9ffd236c93ee56092188440e94b37@1.0.0",
+      "created_at": "2026-07-27T02:19:53.672Z",
+      "path": "c:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\golden-path\\USER-REQUEST-LIVE-001\\decision-memory\\validation-tokyo-2026\\founder\\models\\dm-30f882852c60.json"
+    }
+  ]
+}

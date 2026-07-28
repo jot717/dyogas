@@ -1,0 +1,82 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms40o717-m7v6yv@1.0.0",
+  "research_report_ref": "b1ee02e38ef3ee2093722007ce794b74@1.0.0",
+  "research_started_at": "2026-07-28T02:08:29.084Z",
+  "research_elapsed_ms": 4382,
+  "question": "how to apply for highly skilled visa in japan",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "japan_immigration",
+    "user_goal": "learn_how_to",
+    "research_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "source_requirements": [
+      "government_statistics",
+      "how_to_guides",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "Jamaica",
+      "football",
+      "soccer",
+      "politician",
+      "language learning",
+      "Japanese language",
+      "tourism",
+      "coffee",
+      "espresso",
+      "startup",
+      "career change"
+    ]
+  },
+  "decision_domain": "japan_immigration",
+  "user_goal": "learn_how_to",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "Jamaica",
+    "football",
+    "soccer",
+    "politician",
+    "language learning",
+    "Japanese language",
+    "tourism",
+    "coffee",
+    "espresso",
+    "startup",
+    "career change"
+  ],
+  "decision_factors": [
+    "eligibility",
+    "points_calculation",
+    "required_documents",
+    "application_procedure"
+  ],
+  "research_intents": [
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "visa and foreign professional constraints"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

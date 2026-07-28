@@ -1,0 +1,1198 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "title": "Labor market of Japan",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.65,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+      "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+      "source_class": "web",
+      "title": "Foreign workers in Japan",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan foreign professional constraints” (verify with primary sources before committing).",
+      "fact": "Foreign workers in Japan — reference for decision research.",
+      "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "source_class": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. Labor-market signals suggest skill and demand alignment should be validated before committing. Aff",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.62,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/rmakioka/COVID-labor-Japan",
+      "source_class": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "This is a project on the effects of COVID-19 on labor markets in Japan. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+      "source_class": "github",
+      "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan foreign professional constraints”.",
+      "fact": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "source_class": "github",
+      "title": "JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “skill demand”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “skill demand”.",
+      "fact": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "title": "gregfontaine/jobs",
+      "timestamp": "2026-07-27T10:47:56.033Z",
+      "extracted_claim": "AI exposure analysis of Japanese job market (~556 occupations). Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.65,
+      "source_alignment_score": 0.67,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Among them, 62.57 million were employed, while 3.34 million were unemployed, yielding an unemployment rate of 5.1%. The structure of Japan's labor market experienced gradual change in the late 1980s and continued this trend throughout the 1990s. The structure of the labor market is affected",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "career change risk factors"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+      "sourceClass": "web",
+      "title": "Foreign workers in Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "source_alignment_score": 0.33,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan foreign professional constraints” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Foreign workers in Japan — reference for decision research.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Foreign workers in Japan — reference for decision research.",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-0",
+      "sourceUrl": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "sourceClass": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. Labor-market signals suggest skill and demand alignment should be validated before committing. Aff",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.62,
+      "source_alignment_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, and competitive landscape. The market analysts and researchers have done extensive analysis of the global Clinical Laboratory Services market with the help of research methodologies",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "career change risk factors"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "income impact"
+      ]
+    },
+    {
+      "evidence_id": "live-github-1",
+      "sourceUrl": "https://github.com/rmakioka/COVID-labor-Japan",
+      "sourceClass": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "This is a project on the effects of COVID-19 on labor markets in Japan. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "source_alignment_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "This is a project on the effects of COVID-19 on labor markets in Japan",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-2",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "source_alignment_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-3",
+      "sourceUrl": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+      "sourceClass": "github",
+      "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "source_alignment_score": 0.33,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan foreign professional constraints”.",
+      "intelligence": {
+        "fact": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-4",
+      "sourceUrl": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "sourceClass": "github",
+      "title": "JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “skill demand”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "source_alignment_score": 0.4,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “skill demand”.",
+      "intelligence": {
+        "fact": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Reveals stakeholder, worker, and public perceptions to help organizations, employers, and policymakers address concerns, bridge communication gaps, and enhance foreign talent engagement.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "skill demand",
+        "Japan foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-5",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "source_alignment_score": 0.65,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "staged transition",
+          "defer and gather evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "Japan foreign professional constraints"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "career change risk factors",
+      "opportunity cost of switching"
+    ],
+    "decision_domain": "career_transition",
+    "decision_factors": [
+      "market opportunity",
+      "income impact",
+      "skill demand",
+      "transition risk",
+      "Japan foreign professional constraints"
+    ],
+    "key_findings": [
+      "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. → Affects whether timing favors acting now versus deferring.",
+      "Foreign workers in Japan — reference for decision research. → Affects feasibility of execution in the local context.",
+      "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. → Affects feasibility of execution in the local context.",
+      "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. → Affects whether timing favors acting now versus deferring.",
+      "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. → Affects whether timing favors acting now versus deferring."
+    ],
+    "market_signals": [
+      "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+      "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "Labor-market signals suggest skill and demand alignment should be validated before committing."
+    ],
+    "risks": [
+      "Factor to stress-test: transition risk.",
+      "Factor to stress-test: Japan foreign professional constraints.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Change career path now (staged transition)",
+      "Stay / defer change and gather stronger evidence first"
+    ],
+    "evidence_count": 8,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I change my career in Japan?",
+    "context": "You asked a decision question in domain \"career_transition\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+    "decision_domain": "career_transition",
+    "domain": "career_transition",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "market opportunity",
+      "income impact",
+      "skill demand",
+      "transition risk",
+      "Japan foreign professional constraints"
+    ],
+    "research_factors": [
+      "market opportunity",
+      "income impact",
+      "skill demand",
+      "transition risk",
+      "Japan foreign professional constraints"
+    ],
+    "key_findings": [
+      "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. 竊・Affects whether timing favors acting now versus deferring.",
+      "Foreign workers in Japan — reference for decision research. 竊・Affects feasibility of execution in the local context.",
+      "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. 竊・Affects feasibility of execution in the local context."
+    ],
+    "key_factors": [
+      {
+        "factor": "market opportunity",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-github-0"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "income impact",
+        "why_matters": "Directly affects cash flow, runway, and whether the choice is financially sustainable.",
+        "evidence_ids": [
+          "live-github-0"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring. Income trajectory is a primary swing factor."
+      },
+      {
+        "factor": "skill demand",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-4"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Labor market of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.66,
+        "relevance_score": 0.65,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Foreign workers in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "fact": "Foreign workers in Japan — reference for decision research.",
+        "why_relevant": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.66,
+        "relevance_score": 0.64,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-github-3",
+        "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+        "source_url": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "fact": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+        "why_relevant": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.52,
+        "relevance_score": 0.64,
+        "confidence": 0.63
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Labor market of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.66,
+        "relevance_score": 0.65,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Foreign workers in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "fact": "Foreign workers in Japan — reference for decision research.",
+        "why_relevant": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.66,
+        "relevance_score": 0.64,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-github-3",
+        "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+        "source_url": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "fact": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+        "why_relevant": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.52,
+        "relevance_score": 0.64,
+        "confidence": 0.63
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-change-career",
+        "title": "Change career path now (staged transition)",
+        "benefits": [
+          "Supporting signal: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility ha",
+          "Can start with a staged move rather than an all-or-nothing jump",
+          "May improve long-term optionality if demand signals hold"
+        ],
+        "risks": [
+          "Income discontinuity during transition",
+          "Market timing or hiring-cycle mismatch",
+          "Skills gap versus target role requirements"
+        ]
+      },
+      {
+        "option_id": "opt-stay-or-defer",
+        "title": "Stay / defer change and gather stronger evidence first",
+        "benefits": [
+          "Preserves current income stability while researching",
+          "Allows targeted upskilling before committing",
+          "Can validate weak spots such as: Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristic"
+        ],
+        "risks": [
+          "Opportunity cost if the window for switching narrows",
+          "Staying too long in a declining fit"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-change-career",
+        "title": "Change career path now (staged transition)",
+        "why_consider": "Consider if market signals and skill fit support a staged career move rather than indefinite delay.",
+        "advantages": [
+          "Supporting signal: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility ha",
+          "Can start with a staged move rather than an all-or-nothing jump",
+          "May improve long-term optionality if demand signals hold"
+        ],
+        "risks": [
+          "Income discontinuity during transition",
+          "Market timing or hiring-cycle mismatch",
+          "Skills gap versus target role requirements"
+        ],
+        "unknowns": [
+          "Target role compensation range in Japan for your profile",
+          "How portable current skills are to the destination path",
+          "Personal runway and household constraints"
+        ]
+      },
+      {
+        "option_id": "opt-stay-or-defer",
+        "title": "Stay / defer change and gather stronger evidence first",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Preserves current income stability while researching",
+          "Allows targeted upskilling before committing",
+          "Can validate weak spots such as: Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristic"
+        ],
+        "risks": [
+          "Opportunity cost if the window for switching narrows",
+          "Staying too long in a declining fit"
+        ],
+        "unknowns": [
+          "How long to defer before a hard go/no-go date",
+          "Whether internal mobility is a better bridge than an external switch"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Target role compensation range in Japan for your profile",
+      "How portable current skills are to the destination path",
+      "Personal runway and household constraints",
+      "How long to defer before a hard go/no-go date",
+      "Whether internal mobility is a better bridge than an external switch"
+    ],
+    "approval_question": "You are approving creation of: Career transition decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Career transition decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Career transition decision",
+    "excluded_patterns": [
+      "decision making software",
+      "decision making under deep uncertainty",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 8,
+    "evidence_quality_status": "HIGH",
+    "evidence_quality": {
+      "status": "HIGH",
+      "avg_relevance": 0.62,
+      "avg_authority": 0.56,
+      "factor_coverage_ratio": 0.8,
+      "covered_factors": [
+        "market opportunity",
+        "income impact",
+        "skill demand",
+        "Japan foreign professional constraints"
+      ],
+      "gaps": [
+        "transition risk"
+      ],
+      "source_classes": [
+        "web",
+        "github"
+      ],
+      "source_diversity": 2,
+      "evidence_count": 8,
+      "warning": null,
+      "block_reason": null
+    },
+    "confidence_warning": null,
+    "evidence_gaps": [
+      "transition risk"
+    ],
+    "confidence_level": "HIGH",
+    "evidence_sources": [
+      {
+        "title": "Labor market of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "source_class": "web"
+      },
+      {
+        "title": "Foreign workers in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "source_class": "web"
+      },
+      {
+        "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "source_url": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "source_class": "github"
+      },
+      {
+        "title": "rmakioka/COVID-labor-Japan",
+        "source_url": "https://github.com/rmakioka/COVID-labor-Japan",
+        "source_class": "github"
+      },
+      {
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "source_class": "github"
+      },
+      {
+        "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+        "source_url": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "source_class": "github"
+      },
+      {
+        "title": "JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "source_url": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "source_class": "github"
+      },
+      {
+        "title": "gregfontaine/jobs",
+        "source_url": "https://github.com/gregfontaine/jobs",
+        "source_class": "github"
+      }
+    ],
+    "missing_information": [
+      "transition risk"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.65,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+      "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Foreign workers in Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan foreign professional constraints” (verify with primary sources before committing).",
+      "fact": "Foreign workers in Japan — reference for decision research.",
+      "implication": "Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "sourceUrl": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. Labor-market signals suggest skill and demand alignment should be validated before committing. Aff",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.62,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/rmakioka/COVID-labor-Japan",
+      "sourceUrl": "https://github.com/rmakioka/COVID-labor-Japan",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "This is a project on the effects of COVID-19 on labor markets in Japan. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.61,
+      "authority_score": 0.52,
+      "relevance_score": 0.59,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+      "sourceUrl": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “Japan foreign professional constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan foreign professional constraints”.",
+      "fact": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "sourceUrl": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “skill demand”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “skill demand”.",
+      "fact": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions.",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T10:47:56.033Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "Labor-market signals suggest skill and demand alignment should be validated before committing.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "staged transition",
+        "defer and gather evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T10:47:56.033Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-BROWSER-CAREER-JAPAN-001",
+      "question": "Should I change my career in Japan?\n[decision-plan: domain=career_transition; goal=make_decision; factors=market opportunity|income impact|skill demand|transition risk|Japan foreign professional constraints; queries=Labor market of Japan|Foreign workers in Japan|Employment in Japan|japan job market analysis|japan career salary|career change Japan; exclude=decision making software|decision making under deep uncertainty|coffee|espresso]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Labor market of Japan",
+        "excerpt": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Among them, 62.57 million were employed, while 3.34 million were unemployed, yielding an unemployment rate of 5.1%. The structure of Japan's labor market experienced gradual change in the late 1980s and continued this trend throughout the 1990s. The structure of the labor market is affected ",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Foreign workers in Japan",
+        "excerpt": "Foreign workers in Japan — reference for decision research.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Foreign_workers_in_Japan",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "excerpt": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, and competitive landscape. The market analysts and researchers have done extensive analysis of the global Clinical Laboratory Services market with the help of research methodologies ",
+        "provenance": {
+          "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "rmakioka/COVID-labor-Japan",
+        "excerpt": "This is a project on the effects of COVID-19 on labor markets in Japan",
+        "provenance": {
+          "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+        "provenance": {
+          "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-3",
+        "source_class": "github",
+        "title": "zainqualitextradingllc-zain/japan-phrase-gen",
+        "excerpt": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation.",
+        "provenance": {
+          "pointer": "https://github.com/zainqualitextradingllc-zain/japan-phrase-gen",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-4",
+        "source_class": "github",
+        "title": "JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+        "excerpt": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Reveals stakeholder, worker, and public perceptions to help organizations, employers, and policymakers address concerns, bridge communication gaps, and enhance foreign talent engagement.",
+        "provenance": {
+          "pointer": "https://github.com/JunDeGuzman92/NLP-Driven-Sentiment-Insights-on-Japan-s-Specified-Skilled-Worker-Program",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-5",
+        "source_class": "github",
+        "title": "gregfontaine/jobs",
+        "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+        "provenance": {
+          "pointer": "https://github.com/gregfontaine/jobs",
+          "retrieved_at": "2026-07-27T10:47:56.033Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

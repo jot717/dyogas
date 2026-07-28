@@ -1,0 +1,71 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+  "research_report_ref": "c6850f291f69c89e943d6b7848645984@1.0.0",
+  "research_started_at": "2026-07-27T11:37:43.296Z",
+  "research_elapsed_ms": 3439,
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "source_requirements": [
+      "industry_reports",
+      "technical_ecosystem",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "decision_domain": "startup_decision",
+  "user_goal": "make_decision",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "multi-criteria decision",
+    "coffee",
+    "espresso"
+  ],
+  "decision_factors": [
+    "market opportunity",
+    "customer pain",
+    "competition",
+    "technology feasibility",
+    "Japan/Tokyo ecosystem maturity",
+    "capital and runway constraints"
+  ],
+  "research_intents": [
+    "career market conditions",
+    "salary and compensation opportunity",
+    "industry hiring demand",
+    "professional mobility and transition risk",
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "AI industry demand signals",
+    "technical ecosystem maturity"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

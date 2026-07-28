@@ -1,0 +1,14 @@
+{
+  "runtimeTrace": [
+    "configureDecisionProductMemory",
+    "seed prior USER-REQUEST-001/002 Decision Models (if present)",
+    "submitDecisionRequest(USER-REQUEST-003)",
+    "listPendingDecisions → waiting_human",
+    "approveDecisionRequest({ approved, actorId: founder })",
+    "Knowledge → Graph → Decision Model → product memory put",
+    "listDecisionHistory (multi-model)",
+    "extractDecisionDna / snapshotDecisionIntelligence",
+    "queryMyDecisionPatterns (assist only; no scores/recommendation)"
+  ],
+  "sprint": "SPRINT-DECISION-INTELLIGENCE-PRODUCT-ALPHA-001"
+}

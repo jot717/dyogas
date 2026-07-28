@@ -1,0 +1,26 @@
+{
+  "knowledge_id": "37104c5032bc9a21575025922f250af2",
+  "source_decision_asset": "da-4e8474e34cfb",
+  "original_question": "Should I build an AI startup in Tokyo or continue employment?",
+  "domain": "startup_decision",
+  "approved_option": {
+    "option_id": "opt-pursue-build",
+    "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline."
+  },
+  "rationale": "Tokyo startup e2e human approve",
+  "evidence_refs": [
+    "live-github-2",
+    "live-github-3",
+    "live-github-5",
+    "live-github-7"
+  ],
+  "provenance": {
+    "research_artifact_id": "9243bc6f794e30834957d0d55950af12@1.0.0",
+    "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "human_approval_id": "ha-f9db992f8540",
+    "captured_at": "2026-07-27T22:44:52.014Z"
+  },
+  "created_at": "2026-07-27T22:44:52.014Z",
+  "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+  "body": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 4 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 9243bc6f794e30834957d0d55950af12@1.0.0\n\nquestion: Should I build an AI startup in Tokyo or continue employment?\nasset_id: da-4e8474e34cfb\nexecution_package_task_id: TA-SHOULD-I-BUILD-AN-AI-STA\n\n## Claims\n### claim-000\nevidenceId: live-github-2\n\nTime-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-github-3\n\nSpark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-002\nevidenceId: live-github-5\n\nAI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-003\nevidenceId: live-github-7\n\nUI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n\n## Options (human chooses — no automatic recommendation)\n### opt-pursue-build: Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi; Solo-founder path can stay small until distribution is proven; Tokyo timing may capture local AI adoption momentum\nrisks: Market may already be crowded in AI tooling; Distribution and customer acquisition remain unproven; Capital and attention risk if validation is skipped\nunknowns: Who pays first, and for what concrete job-to-be-done?; Regulatory / data constraints for the chosen niche; Personal runway vs time-to-first-revenue\n### opt-validate-first: Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.\nsupporting_evidence: live-github-2, live-github-3, live-github-5, live-github-7\nadvantages: Reduces irreversible commitment while learning demand; Keeps optionality if evidence quality is still uneven; Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found\nrisks: Opportunity window may narrow while validating; Part-time validation can dilute focus\nunknowns: How long validation should run before a go/no-go; Whether consulting demand maps to a product wedge"
+}

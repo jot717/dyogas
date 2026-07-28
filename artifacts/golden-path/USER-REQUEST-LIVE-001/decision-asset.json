@@ -1,0 +1,28 @@
+{
+  "asset_id": "da-8525f1d8baed",
+  "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
+  "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026?",
+  "summary": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo in 2026? Derived from 2 evidence item(s); provenance retained. researchArtifactId: 014e0a1d5bc4b79c638ad88244f233aa@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge fo",
+      "evidence_id": "live-github-0"
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-github-0"
+  ],
+  "research_artifact_id": "014e0a1d5bc4b79c638ad88244f233aa@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+  "execution_package_task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

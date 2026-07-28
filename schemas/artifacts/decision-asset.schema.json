@@ -37,6 +37,55 @@
         }
       }
     },
+    "options": {
+      "type": "array",
+      "minItems": 2,
+      "description": "Human-choosable decision options. Assist only — never an automatic recommendation.",
+      "items": {
+        "type": "object",
+        "required": [
+          "option_id",
+          "title",
+          "supporting_evidence",
+          "risks",
+          "advantages",
+          "unknowns"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "option_id": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 },
+          "supporting_evidence": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "risks": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "advantages": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "unknowns": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "description": { "type": "string" },
+          "benefits": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
     "evidence_ids": {
       "type": "array",
       "minItems": 1,
@@ -50,6 +99,104 @@
       "type": "string",
       "enum": ["draft", "pending_approval", "approved", "rejected", "applied"]
     },
-    "requires_human_approval": { "const": true }
+    "requires_human_approval": { "const": true },
+    "domain": { "type": "string" },
+    "user_goal": { "type": "string" },
+    "decision_context": { "type": "string" },
+    "research_plan": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "domain": { "type": "string" },
+        "user_goal": { "type": "string" },
+        "research_factors": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "source_requirements": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "excluded_patterns": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "research_factors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "evidence_items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source", "fact", "relevance", "supported_factor", "decision_impact", "provenance"],
+        "properties": {
+          "source": { "type": "string" },
+          "fact": { "type": "string" },
+          "relevance": { "type": "string" },
+          "supported_factor": { "type": "string" },
+          "decision_impact": { "type": "string" },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["pointer"],
+            "properties": {
+              "pointer": { "type": "string" },
+              "retrieved_at": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "confidence_level": {
+      "type": "string",
+      "enum": ["HIGH", "MEDIUM", "LOW"]
+    },
+    "evidence_gaps": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "approval_target": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["knowledge_title", "approval_question", "knowledge_preview"],
+      "properties": {
+        "knowledge_title": { "type": "string" },
+        "approval_question": { "type": "string" },
+        "knowledge_preview": { "type": "string" }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["research_artifact_id", "evidence_ids"],
+      "properties": {
+        "research_artifact_id": { "type": "string" },
+        "research_brief_ref": { "type": "string" },
+        "collector_adapter_id": { "type": "string" },
+        "evidence_ids": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["task_id"],
+      "properties": {
+        "run_id": { "type": "string" },
+        "task_id": { "type": "string" },
+        "execution_package_task_id": { "type": "string" },
+        "request_id": { "type": "string" }
+      }
+    }
   }
 }

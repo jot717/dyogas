@@ -1,0 +1,63 @@
+{
+  "model_id": "dm-95515e1e4a95",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-a2e0b1a0f806",
+  "question": "how to apply japan highly skilled visa",
+  "constraints": {
+    "desired_outcome": "Contract audit CASE-001"
+  },
+  "options": [
+    {
+      "option_id": "opt-prepare-after-eligibility",
+      "statement": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    },
+    {
+      "option_id": "opt-calculate-points-first",
+      "statement": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-prepare-after-eligibility",
+    "statement": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "rationale": "CASE-001 human approve contract audit",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "knowledge_ref": "kn-08bb724bafd9e925b246a35424085b16@1.0.0",
+  "approval_ref": "hrd-08bb724bafd9e925b246a35424085b16@1.0.0",
+  "actor_id": "audit-case-001",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T05:30:29.346Z",
+  "version": "0.1.0",
+  "decision_asset_ref": "da-a2e0b1a0f806",
+  "user_id": "audit-case-001",
+  "lineage": {
+    "correlation_id": "CONTRACT-AUDIT-CASE-001",
+    "research_brief_ref": "brief-CONTRACT-AUDIT-CASE-001@1.0.0",
+    "research_report_ref": "91e4c809b501724af0e93cd0e60ea89f@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-08bb724bafd9e925b246a35424085b16@1.0.0",
+    "knowledge_ref": "kn-08bb724bafd9e925b246a35424085b16@1.0.0",
+    "graph_update_ref": "gu-08bb724bafd9e925b246a35424085b16@1.0.0"
+  },
+  "graph_update_ref": "gu-08bb724bafd9e925b246a35424085b16@1.0.0"
+}

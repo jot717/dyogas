@@ -1,0 +1,13 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-WEB-ms2n32au-l6df2o@1.0.0",
+  "research_report_ref": "ee4baea1cee6beb6eed64e2a0f7c1c3a@1.0.0",
+  "research_started_at": "2026-07-27T03:00:21.990Z",
+  "research_elapsed_ms": 1203,
+  "question": "Should I change my career in Japan?",
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

@@ -140,6 +140,7 @@ export async function execute(
     coverageGaps: collected.coverageGaps,
     openQuestions: collected.openQuestions,
     budget: collected.budget,
+    rejected_sources: collected.rejected_sources,
   });
 
   task = { ...task, status: "ready_for_review" };

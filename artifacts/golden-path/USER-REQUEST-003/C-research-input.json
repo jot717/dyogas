@@ -1,0 +1,19 @@
+{
+  "requestId": "USER-REQUEST-003",
+  "decisionQuestion": "Should I invest my next year building my own startup or continue employment?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "goal": "maximize long term entrepreneurial opportunity"
+  },
+  "requiredEvidence": [
+    "startup opportunity signals",
+    "employment stability",
+    "opportunity cost",
+    "skill leverage"
+  ],
+  "research_brief_ref": "brief-USER-REQUEST-003@1.0.0",
+  "routed_agent_ids": [
+    "research-agent"
+  ]
+}

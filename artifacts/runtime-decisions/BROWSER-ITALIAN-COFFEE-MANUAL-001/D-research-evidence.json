@@ -1,0 +1,160 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 4,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://example.com/?q=how%20to%20make%20italian%20coffee",
+      "source_class": "web",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://example.com/?q=how%20to%20make%20italian%20coffee",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/MarkipTheMudkip/in-class-project-2",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/MarkipTheMudkip/in-class-project-2",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/danderfer/Comp_Sci_Sem_2",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/danderfer/Comp_Sci_Sem_2",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://example.com/?q=how%20to%20make%20italian%20coffee",
+      "source_class": "web",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://example.com/?q=how%20to%20make%20italian%20coffee",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+      "title": "example.com live retrieval"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossibl",
+      "title": "Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/MarkipTheMudkip/in-class-project-2",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/MarkipTheMudkip/in-class-project-2",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "According to all known laws of aviation,     there is no way a bee should be able to fly.     Its wings are too small to get its fat little body off the ground.     The bee, of course, flies anyway     because bees don't care what humans th",
+      "title": "MarkipTheMudkip/in-class-project-2"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/danderfer/Comp_Sci_Sem_2",
+      "source_class": "github",
+      "timestamp": "2026-07-27T02:43:29.763Z",
+      "provenance": {
+        "pointer": "https://github.com/danderfer/Comp_Sci_Sem_2",
+        "retrieved_at": "2026-07-27T02:43:29.763Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway. Because bees don’t care what humans think is imp",
+      "title": "danderfer/Comp_Sci_Sem_2"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-BROWSER-ITALIAN-COFFEE-MANUAL-001",
+      "question": "how to make a italian coffee"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "example.com live retrieval",
+        "excerpt": "<!doctype html><html lang=\"en\"><head><title>Example Domain</title><link rel=\"icon\" href=\"data:,\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><style>body{background:#eee;width:60vw;margin:15vh auto;font-family:system-",
+        "provenance": {
+          "pointer": "https://example.com/?q=how%20to%20make%20italian%20coffee",
+          "retrieved_at": "2026-07-27T02:43:29.763Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+        "excerpt": "According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway because bees don't care what humans think is impossibl",
+        "provenance": {
+          "pointer": "https://github.com/Skattermuffin/hey-game-pepople-i-know-you-r-ment-to-like-make-these-long-but-come-on-its-fun-but-arrow-game-lol",
+          "retrieved_at": "2026-07-27T02:43:29.763Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "MarkipTheMudkip/in-class-project-2",
+        "excerpt": "According to all known laws of aviation,     there is no way a bee should be able to fly.     Its wings are too small to get its fat little body off the ground.     The bee, of course, flies anyway     because bees don't care what humans th",
+        "provenance": {
+          "pointer": "https://github.com/MarkipTheMudkip/in-class-project-2",
+          "retrieved_at": "2026-07-27T02:43:29.763Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "danderfer/Comp_Sci_Sem_2",
+        "excerpt": "According to all known laws of aviation, there is no way that a bee should be able to fly. Its wings are too small to get its fat little body off the ground. The bee, of course, flies anyway. Because bees don’t care what humans think is imp",
+        "provenance": {
+          "pointer": "https://github.com/danderfer/Comp_Sci_Sem_2",
+          "retrieved_at": "2026-07-27T02:43:29.763Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

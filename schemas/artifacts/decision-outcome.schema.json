@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/decision-outcome.schema.json",
+  "title": "DecisionOutcome",
+  "description": "DecisionOutcome v0.1 placeholder (SPRINT-DECISION-INTELLIGENCE-ALPHA-REAL-USER-001). Schema only — no learning algorithm.",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "expected_outcome",
+    "actual_outcome",
+    "feedback_status",
+    "version"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "decision_id": { "type": "string", "minLength": 1 },
+    "expected_outcome": { "type": "string", "minLength": 1 },
+    "actual_outcome": {
+      "type": ["string", "null"]
+    },
+    "feedback_status": {
+      "type": "string",
+      "enum": ["pending", "recorded", "deferred"]
+    },
+    "version": { "type": "string", "const": "0.1.0" },
+    "tenant_id": { "type": "string" },
+    "user_id": { "type": "string" },
+    "model_id": { "type": "string" },
+    "created_at": { "type": "string" },
+    "updated_at": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "model_id": "dm-9fd5578255a2",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "chosen_option": {
+      "option_id": "opt-package-approve",
+      "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ]
+    },
+    "rationale": "Actor web-mvp-user approved proposal da-c528c9370867. Decision Model v0.1 records the approved Decision Asset package snapshot. No prediction or recommendation engine involved.",
+    "evidence_refs": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+    "outcome_status": "recorded",
+    "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+    "created_at": "2026-07-27T01:05:20.250Z",
+    "decision_id": "da-c528c9370867"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "correlation_id": "USER-REQUEST-003",
+  "research_brief_ref": "brief-USER-REQUEST-003@1.0.0",
+  "research_report_ref": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+  "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+  "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+  "human_decision_ref": "hrd-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+  "knowledge_ref": "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+  "graph_update_ref": "gu-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0"
+}

@@ -1,0 +1,1071 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Apply",
+      "source_class": "web",
+      "title": "Apply",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Apply — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Apply",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+      "source_class": "web",
+      "title": "Dorcey Applyrs",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “common mistakes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.63,
+      "authority_score": 0.66,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “common mistakes” (verify with primary sources before committing).",
+      "fact": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+      "source_class": "web",
+      "title": "Applying Pressure: The Off-Season Documentary",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.66,
+      "relevance_score": 0.35,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Japan",
+      "source_class": "web",
+      "title": "Japan",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "Japan is an island country in East Asia. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Japan is an island country in East Asia.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-4",
+      "source_url": "https://en.wikipedia.org/wiki/Japanese_language",
+      "source_class": "web",
+      "title": "Japanese language",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japanese_language",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-5",
+      "source_url": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+      "source_class": "web",
+      "title": "Japan national football team",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which met",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "source_class": "github",
+      "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": "AIHawk aims to easy job hunt process by automating the job application process. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "fact": "AIHawk aims to easy job hunt process by automating the job application process.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/academic/awesome-datascience",
+      "source_class": "github",
+      "title": "academic/awesome-datascience",
+      "timestamp": "2026-07-27T04:59:36.557Z",
+      "extracted_claim": ":memo: An awesome Data Science repository to learn and apply for real world problems. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "fact": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/academic/awesome-datascience",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Apply",
+      "sourceClass": "web",
+      "title": "Apply",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Apply — reference for decision research.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Apply",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Apply — reference for decision research.",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+      "sourceClass": "web",
+      "title": "Dorcey Applyrs",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “common mistakes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.63,
+      "authority_score": 0.66,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “common mistakes” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. A member of the Democratic Party, she is the first Black person to hold the office and previously served as Albany's city auditor and as a member of the Albany Common Council.\nA native of Washington, D.C., Applyrs moved to New York's Capital District",
+      "matched_intents": [
+        "common mistakes"
+      ],
+      "matched_factors": [
+        "common mistakes"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+      "sourceClass": "web",
+      "title": "Applying Pressure: The Off-Season Documentary",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.66,
+      "relevance_score": 0.35,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. Cole's sixth studio album The Off-Season. It was released on May 10, 2021 by Dreamville on YouTube. It was directed by Dreamville Ventures' in-house director Scott Lazer, and produced by Tripp Kramer and David Peters.",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-3",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japan",
+      "sourceClass": "web",
+      "title": "Japan",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Japan is an island country in East Asia. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Japan is an island country in East Asia.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Japan is an island country in East Asia. Located in the Pacific Ocean off the northeast coast of the Asian mainland, it is bordered to the west by the Sea of Japan, the Sea of Okhotsk in the north, and the East China Sea in the south. The Japanese archipelago consists of four major islands alongside over 14,000 smaller islands. Japan is divided into 47 administrative prefectures and eight traditio",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-4",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japanese_language",
+      "sourceClass": "web",
+      "title": "Japanese language",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japanese_language",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. It has around 123 million speakers, primarily in Japan, the only country where it is the national language, and within the Japanese diaspora worldwide.\nThe Japonic family also includes the Ryukyuan languages and the variously classified Hachijō language. There have been many",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-web-5",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+      "sourceClass": "web",
+      "title": "Japan national football team",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which met",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. It is controlled by the Japan Football Association (JFA), the governing body for football in Japan.\nPrior to the late 1980s, Japan's national football team was largely amateur, wit",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-github-0",
+      "sourceUrl": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "sourceClass": "github",
+      "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "AIHawk aims to easy job hunt process by automating the job application process. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "intelligence": {
+        "fact": "AIHawk aims to easy job hunt process by automating the job application process.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-github-1",
+      "sourceUrl": "https://github.com/academic/awesome-datascience",
+      "sourceClass": "github",
+      "title": "academic/awesome-datascience",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": ":memo: An awesome Data Science repository to learn and apply for real world problems. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "intelligence": {
+        "fact": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/academic/awesome-datascience",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+      "matched_intents": [],
+      "matched_factors": []
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "method steps",
+      "common mistakes",
+      "equipment or ingredients"
+    ],
+    "decision_domain": "how_to_topic",
+    "decision_factors": [
+      "method steps",
+      "common mistakes",
+      "equipment or ingredients"
+    ],
+    "key_findings": [
+      "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. → Affects which method steps and technique you should record as usable knowledge.",
+      "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. → Affects which method steps and technique you should record as usable knowledge.",
+      "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. → Affects which method steps and technique you should record as usable knowledge.",
+      "Apply — reference for decision research. → Affects which method steps and technique you should record as usable knowledge.",
+      "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "market_signals": [
+      "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "This preparation detail changes how you should brew or serve Italian-style coffee."
+    ],
+    "risks": [
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves.",
+      "Some signals are weaker confidence and should not alone drive commitment."
+    ],
+    "decision_options_preview": [
+      "Record the researched method as Knowledge",
+      "Try an alternate method / gather more technique evidence"
+    ],
+    "evidence_count": 8,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "how to apply japan highly skilled visa",
+    "context": "You asked a how-to question in domain 窶・{plan.domain}窶・ Approving will record researched method evidence as Knowledge (not an automatic recommendation of what to do).",
+    "decision_domain": "how_to_topic",
+    "domain": "how_to_topic",
+    "user_goal": "learn_how_to",
+    "decision_factors": [
+      "method steps",
+      "common mistakes",
+      "equipment or ingredients"
+    ],
+    "research_factors": [
+      "method steps",
+      "common mistakes",
+      "equipment or ingredients"
+    ],
+    "key_findings": [
+      "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. 竊・Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "key_factors": [
+      {
+        "factor": "method steps",
+        "why_matters": "Determines the concrete steps and tools you will record as usable coffee knowledge.",
+        "evidence_ids": [
+          "live-web-1",
+          "live-web-4"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "common mistakes",
+        "why_matters": "Central to evaluating this how to topic question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-1"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "equipment or ingredients",
+        "why_matters": "Determines the concrete steps and tools you will record as usable coffee knowledge.",
+        "evidence_ids": [
+          "live-web-1",
+          "live-web-4"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-1",
+        "title": "Dorcey Applyrs",
+        "source_url": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+        "fact": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York.",
+        "why_relevant": "Addresses decision factor “common mistakes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.51,
+        "confidence": 0.63
+      },
+      {
+        "evidence_id": "live-web-4",
+        "title": "Japanese language",
+        "source_url": "https://en.wikipedia.org/wiki/Japanese_language",
+        "fact": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people.",
+        "why_relevant": "Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.39,
+        "confidence": 0.57
+      },
+      {
+        "evidence_id": "live-web-5",
+        "title": "Japan national football team",
+        "source_url": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+        "fact": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football.",
+        "why_relevant": "Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.39,
+        "confidence": 0.57
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-1",
+        "title": "Dorcey Applyrs",
+        "source_url": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+        "fact": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York.",
+        "why_relevant": "Addresses decision factor “common mistakes”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.51,
+        "confidence": 0.63
+      },
+      {
+        "evidence_id": "live-web-4",
+        "title": "Japanese language",
+        "source_url": "https://en.wikipedia.org/wiki/Japanese_language",
+        "fact": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people.",
+        "why_relevant": "Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.39,
+        "confidence": 0.57
+      },
+      {
+        "evidence_id": "live-web-5",
+        "title": "Japan national football team",
+        "source_url": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+        "fact": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football.",
+        "why_relevant": "Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.39,
+        "confidence": 0.57
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-record-method",
+        "title": "Record the researched method as Knowledge",
+        "benefits": [
+          "Method signal: Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which me",
+          "Creates reusable Knowledge with provenance for later recall",
+          "Keeps technique notes tied to cited sources"
+        ],
+        "risks": [
+          "Source methods may omit equipment or taste preferences",
+          "Regional Italian styles differ (espresso vs moka vs milk drinks)"
+        ]
+      },
+      {
+        "option_id": "opt-try-alternate",
+        "title": "Try an alternate method / gather more technique evidence",
+        "benefits": [
+          "Lets you compare brew styles before committing to one recipe",
+          "Can explore: Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76t"
+        ],
+        "risks": [
+          "Delay recording useful knowledge you already researched",
+          "Too many variants can dilute a clear first method"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-record-method",
+        "title": "Record the researched method as Knowledge",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Method signal: Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which me",
+          "Creates reusable Knowledge with provenance for later recall",
+          "Keeps technique notes tied to cited sources"
+        ],
+        "risks": [
+          "Source methods may omit equipment or taste preferences",
+          "Regional Italian styles differ (espresso vs moka vs milk drinks)"
+        ],
+        "unknowns": [
+          "Which equipment you actually have available",
+          "Preferred strength / milk ratio for your taste"
+        ]
+      },
+      {
+        "option_id": "opt-try-alternate",
+        "title": "Try an alternate method / gather more technique evidence",
+        "why_consider": "Useful if you want to compare methods before recording a preferred technique.",
+        "advantages": [
+          "Lets you compare brew styles before committing to one recipe",
+          "Can explore: Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76t"
+        ],
+        "risks": [
+          "Delay recording useful knowledge you already researched",
+          "Too many variants can dilute a clear first method"
+        ],
+        "unknowns": [
+          "Whether home equipment can match cafe-style results",
+          "Which alternate method is most relevant next"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Which equipment you actually have available",
+      "Preferred strength / milk ratio for your taste",
+      "Whether home equipment can match cafe-style results",
+      "Which alternate method is most relevant next"
+    ],
+    "approval_question": "Do you want to record this researched method as Knowledge based on the evidence below?",
+    "knowledge_preview": "Knowledge entry summarizing: how to apply japan highly skilled visa 窶・with cited preparation evidence and method tradeoffs.",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 8,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.4,
+      "avg_authority": 0.62,
+      "factor_coverage_ratio": 0.33,
+      "covered_factors": [
+        "common mistakes"
+      ],
+      "gaps": [
+        "method steps",
+        "equipment or ingredients"
+      ],
+      "source_classes": [
+        "web",
+        "github"
+      ],
+      "source_diversity": 2,
+      "evidence_count": 8,
+      "warning": "Average relevance is limited (0.40). Evidence confidence is constrained. Research factor coverage is incomplete (1/3). Gaps: method steps, equipment or ingredients. Known evidence gaps remain for: method steps, equipment or ingredients.",
+      "block_reason": null
+    },
+    "confidence_warning": "Average relevance is limited (0.40). Evidence confidence is constrained. Research factor coverage is incomplete (1/3). Gaps: method steps, equipment or ingredients. Known evidence gaps remain for: method steps, equipment or ingredients.",
+    "evidence_gaps": [
+      "method steps",
+      "equipment or ingredients"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Apply",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Apply",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Apply",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Apply — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Apply — reference for decision research.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Apply",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Dorcey Applyrs",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “common mistakes”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.63,
+      "authority_score": 0.66,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “common mistakes” (verify with primary sources before committing).",
+      "fact": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Applying Pressure: The Off-Season Documentary",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.66,
+      "relevance_score": 0.35,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Japan",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Japan is an island country in East Asia. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.56,
+      "authority_score": 0.62,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Japan is an island country in East Asia.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-4",
+      "source_url": "https://en.wikipedia.org/wiki/Japanese_language",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japanese_language",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Japanese language",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japanese_language",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-5",
+      "source_url": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Japan national football team",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which met",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.57,
+      "authority_score": 0.66,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “method steps” (verify with primary sources before committing).",
+      "fact": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "sourceUrl": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": "AIHawk aims to easy job hunt process by automating the job application process. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "fact": "AIHawk aims to easy job hunt process by automating the job application process.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/academic/awesome-datascience",
+      "sourceUrl": "https://github.com/academic/awesome-datascience",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "academic/awesome-datascience",
+      "retrievedAt": "2026-07-27T04:59:36.557Z",
+      "extractedClaim": ":memo: An awesome Data Science repository to learn and apply for real world problems. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.52,
+      "authority_score": 0.52,
+      "relevance_score": 0.39,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “method steps”.",
+      "fact": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/academic/awesome-datascience",
+        "retrieved_at": "2026-07-27T04:59:36.557Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-WEB-ms2rcesa-wy3uvh",
+      "question": "how to apply japan highly skilled visa\n[decision-plan: domain=how_to_topic; goal=learn_how_to; factors=method steps|common mistakes|equipment or ingredients; queries=apply japan highly skilled|apply|japan|how to apply japan highly skilled|apply japan highly skilled; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Apply",
+        "excerpt": "Apply — reference for decision research.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Apply",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Dorcey Applyrs",
+        "excerpt": "Dorcey Lanier Applyrs (born 1982) is an American politician and public health professional serving since 2026 as the 76th mayor of Albany, New York. A member of the Democratic Party, she is the first Black person to hold the office and previously served as Albany's city auditor and as a member of the Albany Common Council.\nA native of Washington, D.C., Applyrs moved to New York's Capital District ",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Dorcey_Applyrs",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Applying Pressure: The Off-Season Documentary",
+        "excerpt": "Applying Pressure: The Off-Season Documentary is a 2021 documentary short film based on creation of J. Cole's sixth studio album The Off-Season. It was released on May 10, 2021 by Dreamville on YouTube. It was directed by Dreamville Ventures' in-house director Scott Lazer, and produced by Tripp Kramer and David Peters.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Applying_Pressure:_The_Off-Season_Documentary",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-3",
+        "source_class": "web",
+        "title": "Japan",
+        "excerpt": "Japan is an island country in East Asia. Located in the Pacific Ocean off the northeast coast of the Asian mainland, it is bordered to the west by the Sea of Japan, the Sea of Okhotsk in the north, and the East China Sea in the south. The Japanese archipelago consists of four major islands alongside over 14,000 smaller islands. Japan is divided into 47 administrative prefectures and eight traditio",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Japan",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-4",
+        "source_class": "web",
+        "title": "Japanese language",
+        "excerpt": "Japanese (日本語, Nihongo; [ɲihoŋɡo] ) is the principal language of the Japonic language family spoken by the Japanese people. It has around 123 million speakers, primarily in Japan, the only country where it is the national language, and within the Japanese diaspora worldwide.\nThe Japonic family also includes the Ryukyuan languages and the variously classified Hachijō language. There have been many ",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Japanese_language",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-5",
+        "source_class": "web",
+        "title": "Japan national football team",
+        "excerpt": "The Japan national football team (Japanese: サッカー日本代表, Hepburn: Sakkā Nippon Daihyō), also known by the nickname Samurai Blue (Japanese: サムライ・ブルー, Hepburn: Samurai Burū), represents Japan in men's international football. It is controlled by the Japan Football Association (JFA), the governing body for football in Japan.\nPrior to the late 1980s, Japan's national football team was largely amateur, wit",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Japan_national_football_team",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+        "excerpt": "AIHawk aims to easy job hunt process by automating the job application process. Utilizing artificial intelligence, it enables users to apply for multiple jobs in a tailored way.",
+        "provenance": {
+          "pointer": "https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "academic/awesome-datascience",
+        "excerpt": ":memo: An awesome Data Science repository to learn and apply for real world problems.",
+        "provenance": {
+          "pointer": "https://github.com/academic/awesome-datascience",
+          "retrieved_at": "2026-07-27T04:59:36.557Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

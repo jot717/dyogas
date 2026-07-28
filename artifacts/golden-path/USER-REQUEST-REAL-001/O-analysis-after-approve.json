@@ -1,0 +1,158 @@
+{
+  "proposalId": "da-9f94c43456db",
+  "requestId": "USER-REQUEST-REAL-001",
+  "user_id": "real-user-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "status": "approved",
+  "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+  "decision_asset_id": "da-9f94c43456db",
+  "evidence_refs": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "patterns": {
+    "query_id": "diq-c16076937762",
+    "tenant_id": "validation-tokyo-2026",
+    "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "constraints": {
+      "location": "Tokyo",
+      "timeframe": "2026",
+      "capital": "limited personal runway",
+      "risk_tolerance": "moderate"
+    },
+    "similar_past_decisions": [
+      {
+        "model_id": "dm-447e33aab02c",
+        "decision_id": "da-9f94c43456db",
+        "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ],
+        "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+        "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0"
+      }
+    ],
+    "dna_signals": [
+      {
+        "signal_type": "decision_pattern",
+        "description": "Chosen option pattern: opt-package-approve — Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "ref": "pat-chosen-opt-package-approve"
+      },
+      {
+        "signal_type": "preference",
+        "description": "actor_id=real-user-founder (freq 1)",
+        "ref": "sig-61c1016f5213"
+      },
+      {
+        "signal_type": "preference",
+        "description": "capital=limited personal runway (freq 1)",
+        "ref": "sig-6bd942f21d7c"
+      },
+      {
+        "signal_type": "preference",
+        "description": "location=Tokyo (freq 1)",
+        "ref": "sig-b4c633ea4ece"
+      },
+      {
+        "signal_type": "preference",
+        "description": "risk_tolerance=moderate (freq 1)",
+        "ref": "sig-bf750bde3ad6"
+      },
+      {
+        "signal_type": "preference",
+        "description": "timeframe=2026 (freq 1)",
+        "ref": "sig-3b0d4f40d153"
+      },
+      {
+        "signal_type": "constraint",
+        "description": "capital observed: limited personal runway",
+        "ref": "cpat-capital"
+      },
+      {
+        "signal_type": "constraint",
+        "description": "location observed: Tokyo",
+        "ref": "cpat-location"
+      },
+      {
+        "signal_type": "constraint",
+        "description": "risk_tolerance observed: moderate",
+        "ref": "cpat-risk_tolerance"
+      },
+      {
+        "signal_type": "constraint",
+        "description": "timeframe observed: 2026",
+        "ref": "cpat-timeframe"
+      },
+      {
+        "signal_type": "risk",
+        "description": "human_package_approval_path",
+        "ref": "risk-a6ae8e5f8972"
+      },
+      {
+        "signal_type": "risk",
+        "description": "time_bounded:2026",
+        "ref": "risk-a6ae8e5f8972"
+      }
+    ],
+    "evidence_refs": [
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1",
+      "mock-web-0",
+      "mock-web-1"
+    ],
+    "dna_ref": "dna-db5febfc014a",
+    "human_approval_required": true,
+    "automatic_decision": false,
+    "recommendation": false,
+    "created_at": "2026-07-27T10:48:15.817Z",
+    "version": "0.1.0"
+  },
+  "history": [
+    {
+      "model_id": "dm-447e33aab02c",
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+      "chosen_option": {
+        "option_id": "opt-package-approve",
+        "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ]
+      },
+      "rationale": "Real-user alpha validation approval",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "outcome_status": "recorded",
+      "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+      "created_at": "2026-07-27T10:48:15.752Z",
+      "decision_id": "da-9f94c43456db"
+    }
+  ],
+  "human_approval_required": true,
+  "automatic_decision": false,
+  "recommendation": false
+}

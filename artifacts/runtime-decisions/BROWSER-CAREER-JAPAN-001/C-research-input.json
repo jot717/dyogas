@@ -1,0 +1,61 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-BROWSER-CAREER-JAPAN-001@1.0.0",
+  "research_report_ref": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+  "research_started_at": "2026-07-27T10:47:56.026Z",
+  "research_elapsed_ms": 3738,
+  "question": "Should I change my career in Japan?",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "career_transition",
+    "goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "income impact",
+      "skill demand",
+      "transition risk",
+      "Japan foreign professional constraints"
+    ],
+    "source_requirements_note": "Stage-1 collectors receive [decision-plan] annotation with domain/factors/queries/exclude",
+    "constraints": {
+      "location": "Japan",
+      "decision_type": "career"
+    },
+    "excluded_patterns": [
+      "decision making software",
+      "decision making under deep uncertainty",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "decision_domain": "career_transition",
+  "user_goal": "make_decision",
+  "excluded_patterns": [
+    "decision making software",
+    "decision making under deep uncertainty",
+    "coffee",
+    "espresso"
+  ],
+  "decision_factors": [
+    "market opportunity",
+    "income impact",
+    "skill demand",
+    "transition risk",
+    "Japan foreign professional constraints"
+  ],
+  "research_intents": [
+    "career market conditions",
+    "salary and compensation opportunity",
+    "industry hiring demand",
+    "professional mobility and transition risk",
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "career change risk factors",
+    "opportunity cost of switching"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

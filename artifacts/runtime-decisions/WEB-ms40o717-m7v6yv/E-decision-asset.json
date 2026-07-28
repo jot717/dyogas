@@ -1,0 +1,171 @@
+{
+  "asset_id": "da-ac7a4c073951",
+  "title": "Decision Asset: how to apply for highly skilled visa in japan",
+  "question": "how to apply for highly skilled visa in japan",
+  "summary": "Decision support for: how to apply for highly skilled visa in japan 1 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: b1ee02e38ef3ee2093722007ce794b74@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-0"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-prepare-after-eligibility",
+      "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "supporting_evidence": [
+        "live-web-0"
+      ],
+      "advantages": [
+        "Confirms eligibility before investing time in full documentation",
+        "Eligibility signal: According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail ch",
+        "Creates a clear Knowledge record of the next procedural step"
+      ],
+      "risks": [
+        "Eligibility interpretation can still be incomplete without primary ISA guidance",
+        "Document checklists vary by category and points table updates"
+      ],
+      "unknowns": [
+        "Exact points score for your education/experience profile",
+        "Whether supporting documents are already obtainable"
+      ],
+      "description": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "benefits": [
+        "Confirms eligibility before investing time in full documentation",
+        "Eligibility signal: According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail ch",
+        "Creates a clear Knowledge record of the next procedural step"
+      ],
+      "evidence_refs": [
+        "live-web-0"
+      ]
+    },
+    {
+      "option_id": "opt-calculate-points-first",
+      "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+      "supporting_evidence": [
+        "live-web-0"
+      ],
+      "advantages": [
+        "Focuses effort on the points table and document gaps before filing",
+        "Surfaces missing evidence before application packaging",
+        "Reduces risk of filing with insufficient points or paperwork"
+      ],
+      "risks": [
+        "Delay if document collection takes longer than expected",
+        "Points rules may change while gathering materials"
+      ],
+      "unknowns": [
+        "Which documents are hardest to obtain for your case",
+        "Whether a different status of residence is a better fit"
+      ],
+      "description": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+      "benefits": [
+        "Focuses effort on the points table and document gaps before filing",
+        "Surfaces missing evidence before application packaging",
+        "Reduces risk of filing with insufficient points or paperwork"
+      ],
+      "evidence_refs": [
+        "live-web-0"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0"
+  ],
+  "research_artifact_id": "b1ee02e38ef3ee2093722007ce794b74@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-HOW-TO-APPLY-FOR-HIGHLY-",
+  "execution_package_task_id": "TA-HOW-TO-APPLY-FOR-HIGHLY-",
+  "status": "pending_approval",
+  "requires_human_approval": true,
+  "domain": "japan_immigration",
+  "user_goal": "learn_how_to",
+  "decision_context": "You asked a how-to question in domain \"japan_immigration\". Approving creates Knowledge from researched evidence (DYOGAS will not decide for you).",
+  "research_plan": {
+    "domain": "japan_immigration",
+    "user_goal": "learn_how_to",
+    "research_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "source_requirements": [
+      "government_statistics",
+      "how_to_guides",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "Jamaica",
+      "football",
+      "soccer",
+      "politician",
+      "language learning",
+      "Japanese language",
+      "tourism",
+      "coffee",
+      "espresso",
+      "startup",
+      "career change"
+    ]
+  },
+  "research_factors": [
+    "eligibility",
+    "points_calculation",
+    "required_documents",
+    "application_procedure"
+  ],
+  "evidence_items": [
+    {
+      "source": "Immigration to Japan",
+      "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+      "relevance": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "supported_factor": "Japan local labor market context",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-28T02:08:29.087Z"
+      }
+    }
+  ],
+  "confidence_level": "MEDIUM",
+  "evidence_gaps": [
+    "eligibility",
+    "points_calculation",
+    "required_documents",
+    "application_procedure"
+  ],
+  "unknowns": [
+    "Exact points score for your education/experience profile",
+    "Whether supporting documents are already obtainable",
+    "Which documents are hardest to obtain for your case",
+    "Whether a different status of residence is a better fit"
+  ],
+  "approval_target": {
+    "knowledge_title": "Japan HSP visa application (ISA requirements, points calculation, documents)",
+    "approval_question": "You are approving creation of: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval."
+  },
+  "provenance": {
+    "research_artifact_id": "b1ee02e38ef3ee2093722007ce794b74@1.0.0",
+    "research_brief_ref": "brief-WEB-ms40o717-m7v6yv@1.0.0",
+    "collector_adapter_id": "live-stage1-v1",
+    "evidence_ids": [
+      "live-web-0"
+    ]
+  },
+  "lineage": {
+    "task_id": "TA-HOW-TO-APPLY-FOR-HIGHLY-",
+    "execution_package_task_id": "TA-HOW-TO-APPLY-FOR-HIGHLY-",
+    "run_id": "9f25e6079995be93c8e4dd39de8b1295",
+    "request_id": "WEB-ms40o717-m7v6yv"
+  }
+}

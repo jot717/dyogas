@@ -1,0 +1,82 @@
+{
+  "asset_id": "da-c2a48fb3c0fc",
+  "title": "Decision Asset: Should I buy a house in Tokyo?",
+  "question": "Should I buy a house in Tokyo?",
+  "summary": "Decision support for: Should I buy a house in Tokyo? 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 7e2faa4cbc026d680f7759df23ac9302@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Housing in Panama — reference for decision research. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "evidence_id": "live-web-2"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-buy-now",
+      "title": "Purchase property now",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Market signal: The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now",
+        "Locks in housing if affordability and rates are favorable",
+        "Builds equity if hold horizon is long enough"
+      ],
+      "risks": [
+        "Price correction or liquidity risk if you need to sell early",
+        "Mortgage rate exposure and maintenance cost surprises",
+        "Neighborhood fit may be hard to reverse quickly"
+      ],
+      "unknowns": [
+        "Total cost of ownership for your target area and property type",
+        "How long you expect to stay versus break-even horizon",
+        "Financing terms available for your profile"
+      ]
+    },
+    {
+      "option_id": "opt-defer-purchase",
+      "title": "Defer purchase and continue renting / saving",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Preserves flexibility if job or location plans are uncertain",
+        "Allows more time to improve down payment and rate options",
+        "Can monitor signals such as: Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying no"
+      ],
+      "risks": [
+        "Rent inflation and missed equity if prices rise faster than savings",
+        "Opportunity cost if favorable financing windows close"
+      ],
+      "unknowns": [
+        "Whether local prices are near a cycle peak or still rising",
+        "Your minimum savings target before committing"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "research_artifact_id": "7e2faa4cbc026d680f7759df23ac9302@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-BUY-A-HOUSE-IN-",
+  "execution_package_task_id": "TA-SHOULD-I-BUY-A-HOUSE-IN-",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

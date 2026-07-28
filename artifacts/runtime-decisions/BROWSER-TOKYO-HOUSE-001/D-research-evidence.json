@@ -1,0 +1,652 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 3,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+      "source_class": "web",
+      "title": "Real estate in Panama",
+      "timestamp": "2026-07-27T11:38:12.258Z",
+      "extracted_claim": "The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevance_reason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "fact": "The Republic of Panama's real estate industry relies on foreign investment.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supported_options": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+      "source_class": "web",
+      "title": "Housing in Japan",
+      "timestamp": "2026-07-27T11:38:12.258Z",
+      "extracted_claim": "Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevance_reason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.67,
+      "authority_score": 0.66,
+      "relevance_score": 0.6,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "fact": "Housing in Japan includes modern and traditional styles.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supported_options": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+      "source_class": "web",
+      "title": "Housing in Panama",
+      "timestamp": "2026-07-27T11:38:12.258Z",
+      "extracted_claim": "Housing in Panama — reference for decision research. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevance_reason": "Addresses decision factor “housing affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.65,
+      "authority_score": 0.66,
+      "relevance_score": 0.55,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “housing affordability and financing” (verify with primary sources before committing).",
+      "fact": "Housing in Panama — reference for decision research.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supported_options": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+      "sourceClass": "web",
+      "title": "Real estate in Panama",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "source_alignment_score": 0.81,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "The Republic of Panama's real estate industry relies on foreign investment.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+        "supportedOptions": [
+          "buy now",
+          "defer purchase"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "The Republic of Panama's real estate industry relies on foreign investment. The sector has grown since 2006, as such investment has helped to fuel Panama's economy and housing market.\nIn spite of the economic and housing market growth, poverty is a problem in Panama. Most indigenous people live in extreme poverty while others located in rural areas live in basic poverty. Lack of sanitation, electr",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "housing affordability and financing",
+        "local property market conditions",
+        "long-term ownership risk and liquidity"
+      ],
+      "matched_factors": [
+        "affordability and financing",
+        "property market timing",
+        "liquidity and resale risk"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+      "sourceClass": "web",
+      "title": "Housing in Japan",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.67,
+      "authority_score": 0.66,
+      "relevance_score": 0.6,
+      "source_alignment_score": 0.72,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Housing in Japan includes modern and traditional styles.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+        "supportedOptions": [
+          "buy now",
+          "defer purchase"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Housing in Japan includes modern and traditional styles. Two patterns of residences are predominant in contemporary Japan: the single-family detached house and the multiple-unit building, either owned by an individual or corporation and rented as apartments to tenants, or owned by occupants. Additional kinds of housing, especially for unmarried people, include boarding houses (which are popular am",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "housing affordability and financing",
+        "long-term ownership risk and liquidity"
+      ],
+      "matched_factors": [
+        "affordability and financing",
+        "liquidity and resale risk",
+        "interest rate and mortgage exposure"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+      "sourceClass": "web",
+      "title": "Housing in Panama",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "Housing in Panama — reference for decision research. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “housing affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.65,
+      "authority_score": 0.66,
+      "relevance_score": 0.55,
+      "source_alignment_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “housing affordability and financing” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Housing in Panama — reference for decision research.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+        "supportedOptions": [
+          "buy now",
+          "defer purchase"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Housing in Panama — reference for decision research.",
+      "matched_intents": [
+        "housing affordability and financing"
+      ],
+      "matched_factors": [
+        "housing affordability and financing"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "housing affordability and financing",
+      "local property market conditions",
+      "long-term ownership risk and liquidity"
+    ],
+    "decision_domain": "real_estate",
+    "decision_factors": [
+      "affordability and financing",
+      "property market timing",
+      "liquidity and resale risk",
+      "Tokyo neighborhood price dynamics",
+      "interest rate and mortgage exposure"
+    ],
+    "key_findings": [
+      "The Republic of Panama's real estate industry relies on foreign investment. → Affects whether the choice is financially sustainable for your timeline.",
+      "Housing in Japan includes modern and traditional styles. → Affects whether the choice is financially sustainable for your timeline.",
+      "Housing in Panama — reference for decision research. → Affects whether the choice is financially sustainable for your timeline."
+    ],
+    "market_signals": [
+      "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "Housing market and financing conditions shape whether buying now locks in affordability or exposure."
+    ],
+    "risks": [
+      "Factor to stress-test: liquidity and resale risk.",
+      "Factor to stress-test: interest rate and mortgage exposure.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Purchase property now",
+      "Defer purchase and continue renting / saving"
+    ],
+    "evidence_count": 3,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I buy a house in Tokyo?",
+    "context": "You asked a decision question in domain \"real_estate\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+    "decision_domain": "real_estate",
+    "domain": "real_estate",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "affordability and financing",
+      "property market timing",
+      "liquidity and resale risk",
+      "Tokyo neighborhood price dynamics",
+      "interest rate and mortgage exposure"
+    ],
+    "research_factors": [
+      "affordability and financing",
+      "property market timing",
+      "liquidity and resale risk",
+      "Tokyo neighborhood price dynamics",
+      "interest rate and mortgage exposure"
+    ],
+    "key_findings": [
+      "The Republic of Panama's real estate industry relies on foreign investment. 竊・Affects whether the choice is financially sustainable for your timeline.",
+      "Housing in Japan includes modern and traditional styles. 竊・Affects whether the choice is financially sustainable for your timeline.",
+      "Housing in Panama — reference for decision research. 竊・Affects whether the choice is financially sustainable for your timeline."
+    ],
+    "key_factors": [
+      {
+        "factor": "affordability and financing",
+        "why_matters": "Directly affects cash flow, runway, and whether the choice is financially sustainable.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-web-1"
+        ],
+        "impact": "Affects whether the choice is financially sustainable for your timeline."
+      },
+      {
+        "factor": "property market timing",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-web-0"
+        ],
+        "impact": "Affects whether the choice is financially sustainable for your timeline."
+      },
+      {
+        "factor": "liquidity and resale risk",
+        "why_matters": "Determines downside exposure if the decision goes wrong or takes longer than expected.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-web-1"
+        ],
+        "impact": "Affects whether the choice is financially sustainable for your timeline. Transition risk should be staged, not binary."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Real estate in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "fact": "The Republic of Panama's real estate industry relies on foreign investment.",
+        "why_relevant": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.64,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Housing in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "fact": "Housing in Japan includes modern and traditional styles.",
+        "why_relevant": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.6,
+        "confidence": 0.67
+      },
+      {
+        "evidence_id": "live-web-2",
+        "title": "Housing in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "fact": "Housing in Panama — reference for decision research.",
+        "why_relevant": "Addresses decision factor “housing affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.55,
+        "confidence": 0.65
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Real estate in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "fact": "The Republic of Panama's real estate industry relies on foreign investment.",
+        "why_relevant": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.64,
+        "confidence": 0.69
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Housing in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "fact": "Housing in Japan includes modern and traditional styles.",
+        "why_relevant": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.6,
+        "confidence": 0.67
+      },
+      {
+        "evidence_id": "live-web-2",
+        "title": "Housing in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "fact": "Housing in Panama — reference for decision research.",
+        "why_relevant": "Addresses decision factor “housing affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+        "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+        "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+        "authority_score": 0.66,
+        "relevance_score": 0.55,
+        "confidence": 0.65
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-buy-now",
+        "title": "Purchase property now",
+        "benefits": [
+          "Market signal: The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now",
+          "Locks in housing if affordability and rates are favorable",
+          "Builds equity if hold horizon is long enough"
+        ],
+        "risks": [
+          "Price correction or liquidity risk if you need to sell early",
+          "Mortgage rate exposure and maintenance cost surprises",
+          "Neighborhood fit may be hard to reverse quickly"
+        ]
+      },
+      {
+        "option_id": "opt-defer-purchase",
+        "title": "Defer purchase and continue renting / saving",
+        "benefits": [
+          "Preserves flexibility if job or location plans are uncertain",
+          "Allows more time to improve down payment and rate options",
+          "Can monitor signals such as: Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying no"
+        ],
+        "risks": [
+          "Rent inflation and missed equity if prices rise faster than savings",
+          "Opportunity cost if favorable financing windows close"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-buy-now",
+        "title": "Purchase property now",
+        "why_consider": "Consider if affordability, financing, and market timing align with your hold horizon.",
+        "advantages": [
+          "Market signal: The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now",
+          "Locks in housing if affordability and rates are favorable",
+          "Builds equity if hold horizon is long enough"
+        ],
+        "risks": [
+          "Price correction or liquidity risk if you need to sell early",
+          "Mortgage rate exposure and maintenance cost surprises",
+          "Neighborhood fit may be hard to reverse quickly"
+        ],
+        "unknowns": [
+          "Total cost of ownership for your target area and property type",
+          "How long you expect to stay versus break-even horizon",
+          "Financing terms available for your profile"
+        ]
+      },
+      {
+        "option_id": "opt-defer-purchase",
+        "title": "Defer purchase and continue renting / saving",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Preserves flexibility if job or location plans are uncertain",
+          "Allows more time to improve down payment and rate options",
+          "Can monitor signals such as: Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying no"
+        ],
+        "risks": [
+          "Rent inflation and missed equity if prices rise faster than savings",
+          "Opportunity cost if favorable financing windows close"
+        ],
+        "unknowns": [
+          "Whether local prices are near a cycle peak or still rising",
+          "Your minimum savings target before committing"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Total cost of ownership for your target area and property type",
+      "How long you expect to stay versus break-even horizon",
+      "Financing terms available for your profile",
+      "Whether local prices are near a cycle peak or still rising",
+      "Your minimum savings target before committing"
+    ],
+    "approval_question": "You are approving creation of: Real estate purchase decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Real estate purchase decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Real estate purchase decision",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 3,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.6,
+      "avg_authority": 0.66,
+      "factor_coverage_ratio": 0.8,
+      "covered_factors": [
+        "affordability and financing",
+        "property market timing",
+        "liquidity and resale risk",
+        "interest rate and mortgage exposure"
+      ],
+      "gaps": [
+        "Tokyo neighborhood price dynamics"
+      ],
+      "source_classes": [
+        "web"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 3,
+      "warning": "Source diversity is limited (classes: web). Evidence is Wikipedia-heavy — treat as directional and verify with primary sources. Known evidence gaps remain for: Tokyo neighborhood price dynamics.",
+      "block_reason": null
+    },
+    "confidence_warning": "Source diversity is limited (classes: web). Evidence is Wikipedia-heavy — treat as directional and verify with primary sources. Known evidence gaps remain for: Tokyo neighborhood price dynamics.",
+    "evidence_gaps": [
+      "Tokyo neighborhood price dynamics"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Real estate in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "source_class": "web"
+      },
+      {
+        "title": "Housing in Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "source_class": "web"
+      },
+      {
+        "title": "Housing in Panama",
+        "source_url": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "source_class": "web"
+      }
+    ],
+    "missing_information": [
+      "Tokyo neighborhood price dynamics",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Real estate in Panama",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "The Republic of Panama's real estate industry relies on foreign investment. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.69,
+      "authority_score": 0.66,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "fact": "The Republic of Panama's real estate industry relies on foreign investment.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supportedOptions": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Housing in Japan",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "Housing in Japan includes modern and traditional styles. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.67,
+      "authority_score": 0.66,
+      "relevance_score": 0.6,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “affordability and financing” (verify with primary sources before committing).",
+      "fact": "Housing in Japan includes modern and traditional styles.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supportedOptions": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Housing in Panama",
+      "retrievedAt": "2026-07-27T11:38:12.258Z",
+      "extractedClaim": "Housing in Panama — reference for decision research. Housing market and financing conditions shape whether buying now locks in affordability or exposure. Affects whether the choice is financially sustainable for your timeline.",
+      "relevanceReason": "Addresses decision factor “housing affordability and financing”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.65,
+      "authority_score": 0.66,
+      "relevance_score": 0.55,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “housing affordability and financing” (verify with primary sources before committing).",
+      "fact": "Housing in Panama — reference for decision research.",
+      "implication": "Housing market and financing conditions shape whether buying now locks in affordability or exposure.",
+      "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supportedOptions": [
+        "buy now",
+        "defer purchase"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+        "retrieved_at": "2026-07-27T11:38:12.258Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-BROWSER-TOKYO-HOUSE-001",
+      "question": "Should I buy a house in Tokyo?\n[decision-plan: domain=real_estate; goal=make_decision; factors=affordability and financing|property market timing|liquidity and resale risk|Tokyo neighborhood price dynamics|interest rate and mortgage exposure; queries=Real estate in Japan|Housing in Japan|Economy of Tokyo|Demographics of Japan|Interest rates in Japan|buy house Tokyo; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Real estate in Panama",
+        "excerpt": "The Republic of Panama's real estate industry relies on foreign investment. The sector has grown since 2006, as such investment has helped to fuel Panama's economy and housing market.\nIn spite of the economic and housing market growth, poverty is a problem in Panama. Most indigenous people live in extreme poverty while others located in rural areas live in basic poverty. Lack of sanitation, electr",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Real_estate_in_Panama",
+          "retrieved_at": "2026-07-27T11:38:12.258Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Housing in Japan",
+        "excerpt": "Housing in Japan includes modern and traditional styles. Two patterns of residences are predominant in contemporary Japan: the single-family detached house and the multiple-unit building, either owned by an individual or corporation and rented as apartments to tenants, or owned by occupants. Additional kinds of housing, especially for unmarried people, include boarding houses (which are popular am",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Housing_in_Japan",
+          "retrieved_at": "2026-07-27T11:38:12.258Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Housing in Panama",
+        "excerpt": "Housing in Panama — reference for decision research.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Housing_in_Panama",
+          "retrieved_at": "2026-07-27T11:38:12.258Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class github",
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

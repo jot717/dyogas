@@ -1,0 +1,12 @@
+{
+  "decision_id": "da-9f94c43456db",
+  "expected_outcome": "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside",
+  "actual_outcome": null,
+  "feedback_status": "pending",
+  "version": "0.1.0",
+  "tenant_id": "validation-tokyo-2026",
+  "user_id": "real-user-founder",
+  "created_at": "2026-07-27T10:48:15.732Z",
+  "updated_at": "2026-07-27T10:48:15.732Z",
+  "model_id": "dm-447e33aab02c"
+}

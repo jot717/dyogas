@@ -1,0 +1,179 @@
+{
+  "dna_id": "dna-71c490fadfe7",
+  "tenant_id": "validation-tokyo-2026",
+  "model_refs": [
+    "dm-9460dc3d183a",
+    "dm-cc3e773b7597",
+    "dm-fa6ae2f65ea9"
+  ],
+  "decision_patterns": [
+    {
+      "pattern_id": "pat-chosen-opt-pursue-build",
+      "description": "Chosen option pattern: opt-pursue-build — Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "frequency": 2,
+      "model_refs": [
+        "dm-9460dc3d183a",
+        "dm-fa6ae2f65ea9"
+      ]
+    },
+    {
+      "pattern_id": "pat-chosen-opt-change-career",
+      "description": "Chosen option pattern: opt-change-career — Change career path now (staged transition)",
+      "frequency": 1,
+      "model_refs": [
+        "dm-cc3e773b7597"
+      ]
+    }
+  ],
+  "preference_signals": [
+    {
+      "signal_id": "sig-5bcd1317dc19",
+      "key": "actor_id",
+      "value": "founder",
+      "frequency": 3
+    },
+    {
+      "signal_id": "sig-aba16e38888f",
+      "key": "location",
+      "value": "Tokyo Japan",
+      "frequency": 2
+    },
+    {
+      "signal_id": "sig-3b0d4f40d153",
+      "key": "timeframe",
+      "value": "2026",
+      "frequency": 2
+    },
+    {
+      "signal_id": "sig-a0e23ecb95c5",
+      "key": "budget",
+      "value": "limited",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-3ee6926188ba",
+      "key": "careerStage",
+      "value": "experienced technical professional",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-3b0e1917129e",
+      "key": "founderType",
+      "value": "solo technical founder",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-ab7d25dc6bc6",
+      "key": "goal",
+      "value": "find billion-dollar potential opportunity",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-1a4d93515807",
+      "key": "goal",
+      "value": "maximize long term career value",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-7b56f5c978ab",
+      "key": "goal",
+      "value": "maximize long term entrepreneurial opportunity",
+      "frequency": 1
+    },
+    {
+      "signal_id": "sig-b4c633ea4ece",
+      "key": "location",
+      "value": "Tokyo",
+      "frequency": 1
+    }
+  ],
+  "constraint_patterns": [
+    {
+      "pattern_id": "cpat-goal",
+      "constraint_key": "goal",
+      "observed_values": [
+        "find billion-dollar potential opportunity",
+        "maximize long term career value",
+        "maximize long term entrepreneurial opportunity"
+      ],
+      "frequency": 3
+    },
+    {
+      "pattern_id": "cpat-location",
+      "constraint_key": "location",
+      "observed_values": [
+        "Tokyo",
+        "Tokyo Japan"
+      ],
+      "frequency": 3
+    },
+    {
+      "pattern_id": "cpat-timeframe",
+      "constraint_key": "timeframe",
+      "observed_values": [
+        "2026"
+      ],
+      "frequency": 2
+    },
+    {
+      "pattern_id": "cpat-budget",
+      "constraint_key": "budget",
+      "observed_values": [
+        "limited"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-careerStage",
+      "constraint_key": "careerStage",
+      "observed_values": [
+        "experienced technical professional"
+      ],
+      "frequency": 1
+    },
+    {
+      "pattern_id": "cpat-founderType",
+      "constraint_key": "founderType",
+      "observed_values": [
+        "solo technical founder"
+      ],
+      "frequency": 1
+    }
+  ],
+  "risk_profile": {
+    "profile_id": "risk-cb1ca7189008",
+    "signals": [
+      "capital_constrained",
+      "solo_founder_capacity",
+      "time_bounded:2026"
+    ],
+    "summary": "Descriptive risk profile from recorded Decision Model constraints and approval path. Not a prediction."
+  },
+  "created_at": "2026-07-27T11:37:56.494Z",
+  "version": "0.1.0",
+  "decision_domains": [
+    "career-mobility:tokyo-japan",
+    "startup-opportunity:tokyo",
+    "startup-opportunity:tokyo-japan"
+  ],
+  "lineage_refs": [
+    {
+      "model_id": "dm-9460dc3d183a",
+      "knowledge_ref": "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+      "approval_ref": "ha-ef3855d1ea23",
+      "graph_update_ref": "gu-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0"
+    },
+    {
+      "model_id": "dm-cc3e773b7597",
+      "knowledge_ref": "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+      "approval_ref": "ha-72e9e88b2b83",
+      "graph_update_ref": "gu-c2778b76b55b9c9ea8a33e75b9951625@1.0.0"
+    },
+    {
+      "model_id": "dm-fa6ae2f65ea9",
+      "knowledge_ref": "kn-56b36b0c95105b942d37797381e93794@1.0.0",
+      "approval_ref": "ha-c0e6b4d0ea4d",
+      "graph_update_ref": "gu-56b36b0c95105b942d37797381e93794@1.0.0"
+    }
+  ]
+}

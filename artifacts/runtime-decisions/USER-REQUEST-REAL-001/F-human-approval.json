@@ -1,0 +1,13 @@
+{
+  "proposalId": "da-91bbd4a58d02",
+  "gateId": "23be391702045f75084f92ce49bdab12",
+  "decision": "pending",
+  "autoApproved": false,
+  "host_status": "waiting_human",
+  "requiredHumanAction": "approve_or_reject",
+  "forbidden": [
+    "auto_approve",
+    "skip_gate",
+    "fake_completion"
+  ]
+}

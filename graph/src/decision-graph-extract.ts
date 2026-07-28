@@ -1,5 +1,5 @@
 /**
- * Decision Graph extraction — Evidence / Knowledge / Decision nodes with provenance.
+ * Decision Graph extraction — full Golden Path lineage nodes with provenance.
  */
 
 import { createHash } from "node:crypto";
@@ -12,9 +12,21 @@ function stableId(prefix: string, seed: string): string {
   return `${prefix}_${h}`;
 }
 
+export type ProductGraphLineage = {
+  readonly question: string;
+  readonly decisionAssetId: string;
+  readonly humanApprovalId?: string;
+  readonly evidenceSources?: readonly {
+    readonly evidenceId: string;
+    readonly sourceUrl: string;
+    readonly title: string;
+  }[];
+};
+
 export function extractDecisionGraphDelta(opts: {
   readonly knowledge: KnowledgeItem;
   readonly ontology: OntologyProfile;
+  readonly lineage?: ProductGraphLineage;
 }): { nodes: GraphNode[]; edges: GraphEdge[]; issues: string[] } {
   const issues: string[] = [];
   const k = opts.knowledge;
@@ -51,6 +63,72 @@ export function extractDecisionGraphDelta(opts: {
     },
   ];
 
+  if (opts.lineage) {
+    const lg = opts.lineage;
+    const questionNodeId = stableId("node", `question:${lg.question}`);
+    nodes.push({
+      node_id: questionNodeId,
+      label: lg.question.slice(0, 120),
+      types: ["Question"],
+      provenance: [titleProv, `question:${lg.question}`],
+    });
+
+    const assetNodeId = stableId("node", `decision_asset:${lg.decisionAssetId}`);
+    nodes.push({
+      node_id: assetNodeId,
+      label: lg.decisionAssetId,
+      types: ["DecisionAsset"],
+      provenance: [titleProv, `decision_asset:${lg.decisionAssetId}`],
+    });
+
+    edges.push({
+      edge_id: stableId("edge", `${questionNodeId}->${assetNodeId}:created_from`),
+      from: questionNodeId,
+      to: assetNodeId,
+      relation: "created_from",
+      provenance: [titleProv],
+    });
+
+    edges.push({
+      edge_id: stableId("edge", `${assetNodeId}->${knowledgeNodeId}:produced`),
+      from: assetNodeId,
+      to: knowledgeNodeId,
+      relation: "produced",
+      provenance: [titleProv],
+    });
+
+    if (lg.humanApprovalId?.trim()) {
+      const approvalNodeId = stableId("node", `human_approval:${lg.humanApprovalId}`);
+      nodes.push({
+        node_id: approvalNodeId,
+        label: lg.humanApprovalId,
+        types: ["HumanApproval"],
+        provenance: [titleProv, `human_approval:${lg.humanApprovalId}`],
+      });
+      edges.push({
+        edge_id: stableId("edge", `${assetNodeId}->${approvalNodeId}:approved_by`),
+        from: assetNodeId,
+        to: approvalNodeId,
+        relation: "approved_by",
+        provenance: [titleProv],
+      });
+    }
+  }
+
+  const sourceIndex = new Map<string, string>();
+  for (const src of opts.lineage?.evidenceSources ?? []) {
+    const sourceNodeId = stableId("node", `source:${src.sourceUrl}`);
+    if (!sourceIndex.has(src.sourceUrl)) {
+      sourceIndex.set(src.sourceUrl, sourceNodeId);
+      nodes.push({
+        node_id: sourceNodeId,
+        label: src.title.slice(0, 80) || src.sourceUrl.slice(0, 80),
+        types: ["Source"],
+        provenance: [`source:${src.sourceUrl}`],
+      });
+    }
+  }
+
   for (const evidenceId of k.provenance.evidenceIds) {
     const evidenceNodeId = stableId("node", `evidence:${evidenceId}`);
     const evidProv = `evidence:${evidenceId}`;
@@ -59,6 +137,13 @@ export function extractDecisionGraphDelta(opts: {
       label: evidenceId,
       types: ["Evidence"],
       provenance: [evidProv, `${k.provenance.researchArtifactId}#${evidenceId}`],
+    });
+    edges.push({
+      edge_id: stableId("edge", `${evidenceNodeId}->${knowledgeNodeId}:supported_by`),
+      from: evidenceNodeId,
+      to: knowledgeNodeId,
+      relation: "supported_by",
+      provenance: [evidProv],
     });
     edges.push({
       edge_id: stableId("edge", `${evidenceNodeId}->${knowledgeNodeId}:supports`),
@@ -77,6 +162,25 @@ export function extractDecisionGraphDelta(opts: {
       relation: "approved_as",
       provenance: [evidProv, titleProv],
     });
+
+    const srcMeta = opts.lineage?.evidenceSources?.find(
+      (s) => s.evidenceId === evidenceId,
+    );
+    if (srcMeta) {
+      const sourceNodeId = sourceIndex.get(srcMeta.sourceUrl);
+      if (sourceNodeId) {
+        edges.push({
+          edge_id: stableId(
+            "edge",
+            `${evidenceNodeId}->${sourceNodeId}:derived_from`,
+          ),
+          from: evidenceNodeId,
+          to: sourceNodeId,
+          relation: "derived_from",
+          provenance: [evidProv, `source:${srcMeta.sourceUrl}`],
+        });
+      }
+    }
   }
 
   const nodeIds = new Set(nodes.map((n) => n.node_id));

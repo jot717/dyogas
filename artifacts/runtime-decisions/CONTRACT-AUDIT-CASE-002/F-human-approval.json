@@ -1,0 +1,9 @@
+{
+  "proposalId": "da-e9d1bf6de513",
+  "decision": "approved",
+  "actorId": "audit-case-002",
+  "rationale": "CASE-002 human approve contract audit",
+  "host_status": "succeeded",
+  "autoApproved": false,
+  "gate_complete": true
+}

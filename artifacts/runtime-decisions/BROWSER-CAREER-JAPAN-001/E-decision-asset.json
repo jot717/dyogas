@@ -1,0 +1,122 @@
+{
+  "asset_id": "da-5051fdfd1a11",
+  "title": "Decision Asset: Should I change my career in Japan?",
+  "question": "Should I change my career in Japan?",
+  "summary": "Decision support for: Should I change my career in Japan? 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 279435c6e6bee24982fcd36dc4511311@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects feasibility of execution in the local context.",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. Labor-market signals suggest skill and demand alignment sh",
+      "evidence_id": "live-github-0"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "This is a project on the effects of COVID-19 on labor markets in Japan. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-1"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-2"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "A mobile-first web app that helps foreign workers, international students, and professionals in Japan find the perfect Japanese business phrase for any situation. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects feasibility of",
+      "evidence_id": "live-github-3"
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "NLTK-based NLP analysis of sentiment/themes in Japan's Specified Skilled Worker Program discussions. Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-4"
+    },
+    {
+      "claim_id": "claim-007",
+      "text": "AI exposure analysis of Japanese job market (~556 occupations). Labor-market signals suggest skill and demand alignment should be validated before committing. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-5"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-change-career",
+      "title": "Change career path now (staged transition)",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5"
+      ],
+      "advantages": [
+        "Supporting signal: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Japan employment and mobility ha",
+        "Can start with a staged move rather than an all-or-nothing jump",
+        "May improve long-term optionality if demand signals hold"
+      ],
+      "risks": [
+        "Income discontinuity during transition",
+        "Market timing or hiring-cycle mismatch",
+        "Skills gap versus target role requirements"
+      ],
+      "unknowns": [
+        "Target role compensation range in Japan for your profile",
+        "How portable current skills are to the destination path",
+        "Personal runway and household constraints"
+      ]
+    },
+    {
+      "option_id": "opt-stay-or-defer",
+      "title": "Stay / defer change and gather stronger evidence first",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5"
+      ],
+      "advantages": [
+        "Preserves current income stability while researching",
+        "Allows targeted upskilling before committing",
+        "Can validate weak spots such as: Foreign workers in Japan — reference for decision research. Japan employment and mobility have structural characteristic"
+      ],
+      "risks": [
+        "Opportunity cost if the window for switching narrows",
+        "Staying too long in a declining fit"
+      ],
+      "unknowns": [
+        "How long to defer before a hard go/no-go date",
+        "Whether internal mobility is a better bridge than an external switch"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5"
+  ],
+  "research_artifact_id": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "execution_package_task_id": "TA-SHOULD-I-CHANGE-MY-CAREE",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

@@ -1,0 +1,208 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "91f66e3391706d8c1e664ea2c4f40426",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_7986c5a8331e",
+        "label": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "91f66e3391706d8c1e664ea2c4f40426#title",
+          "91f66e3391706d8c1e664ea2c4f40426#body"
+        ]
+      },
+      {
+        "node_id": "node_f3c2a111db81",
+        "label": "Decision from Decision Asset: Should I build an AI startup in Tokyo or continue ",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      },
+      {
+        "node_id": "node_1667715183e7",
+        "label": "live-github-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-2",
+          "ffb7bb4038fa36278e24919f94b50088@1.0.0#live-github-2"
+        ]
+      },
+      {
+        "node_id": "node_f965949bed7b",
+        "label": "live-github-3",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-3",
+          "ffb7bb4038fa36278e24919f94b50088@1.0.0#live-github-3"
+        ]
+      },
+      {
+        "node_id": "node_21ba642fa70c",
+        "label": "live-github-5",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-5",
+          "ffb7bb4038fa36278e24919f94b50088@1.0.0#live-github-5"
+        ]
+      },
+      {
+        "node_id": "node_139d87ef1ad7",
+        "label": "live-github-7",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-7",
+          "ffb7bb4038fa36278e24919f94b50088@1.0.0#live-github-7"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_38cd5bab9dd3",
+        "from": "node_7986c5a8331e",
+        "to": "node_f3c2a111db81",
+        "relation": "decides",
+        "provenance": [
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      },
+      {
+        "edge_id": "edge_0f527b535d5b",
+        "from": "node_1667715183e7",
+        "to": "node_7986c5a8331e",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-2"
+        ]
+      },
+      {
+        "edge_id": "edge_b45a65866b06",
+        "from": "node_1667715183e7",
+        "to": "node_7986c5a8331e",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-2",
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      },
+      {
+        "edge_id": "edge_7f6ea84a8f6a",
+        "from": "node_f965949bed7b",
+        "to": "node_7986c5a8331e",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-3"
+        ]
+      },
+      {
+        "edge_id": "edge_811954c51992",
+        "from": "node_f965949bed7b",
+        "to": "node_7986c5a8331e",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-3",
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      },
+      {
+        "edge_id": "edge_172c538480d3",
+        "from": "node_21ba642fa70c",
+        "to": "node_7986c5a8331e",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-5"
+        ]
+      },
+      {
+        "edge_id": "edge_95a0ba0ec542",
+        "from": "node_21ba642fa70c",
+        "to": "node_7986c5a8331e",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-5",
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      },
+      {
+        "edge_id": "edge_872f9ab10404",
+        "from": "node_139d87ef1ad7",
+        "to": "node_7986c5a8331e",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-7"
+        ]
+      },
+      {
+        "edge_id": "edge_ed8d5125ad5c",
+        "from": "node_139d87ef1ad7",
+        "to": "node_7986c5a8331e",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-7",
+          "91f66e3391706d8c1e664ea2c4f40426#title"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "ffb7bb4038fa36278e24919f94b50088@1.0.0",
+      "evidenceIds": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "taskId": "TA-SHOULD-I-BUILD-AN-AI-STA",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "91f66e3391706d8c1e664ea2c4f40426",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 6,
+      "edgeCount": 9,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

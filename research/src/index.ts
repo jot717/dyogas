@@ -23,8 +23,13 @@ export {
   type LiveFetch,
   type LiveStage1CollectorOptions,
   type TrustEgressMeta,
+  type RetrievalRejectionRecord,
+  type RetrievalRejectionReason,
+  type LiveSourceCollectorWithAudit,
   createLiveStage1SourceCollector,
   isLiveStage1AdapterId,
+  isLiveSourceCollectorWithAudit,
+  evaluateRetrievalContract,
 } from "./live-sources.js";
 
 export {
@@ -32,6 +37,7 @@ export {
   type CollectionRunEvidence,
   type CollectUnderBudgetInput,
   type CollectUnderBudgetResult,
+  type RetrievalRejectionRecord,
   CollectionGuardError,
   isResolvablePointer,
   assertAllowedSourceClass,

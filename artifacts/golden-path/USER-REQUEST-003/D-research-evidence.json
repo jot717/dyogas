@@ -1,0 +1,38 @@
+{
+  "research_report_ref": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+  "evidence": [
+    {
+      "evidenceId": "live-web-0",
+      "excerpt": "Startup company — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Startup company",
+        "pointer": "https://en.wikipedia.org/wiki/Startup_company",
+        "retrievedAt": "2026-07-27T11:37:54.133Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-web-1",
+      "excerpt": "Sydney Aistrup — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Sydney Aistrup",
+        "pointer": "https://en.wikipedia.org/wiki/Sydney_Aistrup",
+        "retrievedAt": "2026-07-27T11:37:54.133Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-web-2",
+      "excerpt": "Nikola Aistrup — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Nikola Aistrup",
+        "pointer": "https://en.wikipedia.org/wiki/Nikola_Aistrup",
+        "retrievedAt": "2026-07-27T11:37:54.133Z",
+        "adapter": "live-stage1-v1"
+      }
+    }
+  ]
+}

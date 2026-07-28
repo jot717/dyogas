@@ -1,0 +1,8 @@
+{
+  "connected": true,
+  "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+  "evidence_count": 6,
+  "adapter": "execution-host-stage1-research-agent",
+  "collector_adapter_id": "mock-source-v1"
+}

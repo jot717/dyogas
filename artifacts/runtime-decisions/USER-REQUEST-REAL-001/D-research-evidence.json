@@ -1,0 +1,1188 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.66,
+      "authority_score": 0.52,
+      "relevance_score": 0.71,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/OneRedOak/claude-code-workflows",
+      "source_class": "github",
+      "title": "OneRedOak/claude-code-workflows",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/sahibzada-allahyar/YC-Killer",
+      "source_class": "github",
+      "title": "sahibzada-allahyar/YC-Killer",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/erupts/erupt",
+      "source_class": "github",
+      "title": "erupts/erupt",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.56,
+      "authority_score": 0.48,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/erupts/erupt",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/cabinetai/cabinet",
+      "source_class": "github",
+      "title": "cabinetai/cabinet",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "AI-first knowledge base and startup OS. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "AI-first knowledge base and startup OS.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/cabinetai/cabinet",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+      "source_class": "github",
+      "title": "jtmuller5/The-HustleGPT-Challenge",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "Building Startups with an AI Co-Founder. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Building Startups with an AI Co-Founder.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-6",
+      "source_url": "https://github.com/csteinmetz1/ai-audio-startups",
+      "source_class": "github",
+      "title": "csteinmetz1/ai-audio-startups",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "Community list of startups working with AI in audio and music technology. Founding conditions in the target market influence whether a build-first path is viable now. Informs technical and market-demand feasibility for the path you are weighing.",
+      "relevance_reason": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “technology feasibility”.",
+      "fact": "Community list of startups working with AI in audio and music technology.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Informs technical and market-demand feasibility for the path you are weighing.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-7",
+      "source_url": "https://github.com/lorryjovens-hub/claude-code-rust",
+      "source_class": "github",
+      "title": "lorryjovens-hub/claude-code-rust",
+      "timestamp": "2026-07-27T11:37:43.305Z",
+      "extracted_claim": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevance_reason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "supported_options": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-github-0",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.66,
+      "authority_score": 0.52,
+      "relevance_score": 0.71,
+      "source_alignment_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "intelligence": {
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "Japan/Tokyo ecosystem maturity",
+        "capital and runway constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-1",
+      "sourceUrl": "https://github.com/OneRedOak/claude-code-workflows",
+      "sourceClass": "github",
+      "title": "OneRedOak/claude-code-workflows",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "intelligence": {
+        "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "capital and runway constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-2",
+      "sourceUrl": "https://github.com/sahibzada-allahyar/YC-Killer",
+      "sourceClass": "github",
+      "title": "sahibzada-allahyar/YC-Killer",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "source_alignment_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "intelligence": {
+        "fact": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. If you are excited about democratizing AI access & AI agents, please star ⭐️ this repository and apply using the link in the readme to join our open source AI research team.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "capital and runway constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-3",
+      "sourceUrl": "https://github.com/erupts/erupt",
+      "sourceClass": "github",
+      "title": "erupts/erupt",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.56,
+      "authority_score": 0.48,
+      "relevance_score": 0.51,
+      "source_alignment_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/erupts/erupt",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-github-4",
+      "sourceUrl": "https://github.com/cabinetai/cabinet",
+      "sourceClass": "github",
+      "title": "cabinetai/cabinet",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "AI-first knowledge base and startup OS. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "intelligence": {
+        "fact": "AI-first knowledge base and startup OS.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/cabinetai/cabinet",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "AI-first knowledge base and startup OS",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "capital and runway constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-5",
+      "sourceUrl": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+      "sourceClass": "github",
+      "title": "jtmuller5/The-HustleGPT-Challenge",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Building Startups with an AI Co-Founder. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "source_alignment_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "Building Startups with an AI Co-Founder.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Building Startups with an AI Co-Founder",
+      "matched_intents": [],
+      "matched_factors": []
+    },
+    {
+      "evidence_id": "live-github-6",
+      "sourceUrl": "https://github.com/csteinmetz1/ai-audio-startups",
+      "sourceClass": "github",
+      "title": "csteinmetz1/ai-audio-startups",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Community list of startups working with AI in audio and music technology. Founding conditions in the target market influence whether a build-first path is viable now. Informs technical and market-demand feasibility for the path you are weighing.",
+      "relevanceReason": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “technology feasibility”.",
+      "intelligence": {
+        "fact": "Community list of startups working with AI in audio and music technology.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Informs technical and market-demand feasibility for the path you are weighing.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Community list of startups working with AI in audio and music technology",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "technology feasibility",
+        "capital and runway constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-github-7",
+      "sourceUrl": "https://github.com/lorryjovens-hub/claude-code-rust",
+      "sourceClass": "github",
+      "title": "lorryjovens-hub/claude-code-rust",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "source_alignment_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "intelligence": {
+        "fact": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decisionImpact": "Affects feasibility of execution in the local context.",
+        "supportedOptions": [
+          "build now",
+          "validate first"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "capital and runway constraints"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "AI industry demand signals",
+      "technical ecosystem maturity"
+    ],
+    "decision_domain": "startup_decision",
+    "decision_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "key_findings": [
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. → Affects whether timing favors acting now versus deferring.",
+      "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. → Affects feasibility of execution in the local context.",
+      "AI-first knowledge base and startup OS. → Affects feasibility of execution in the local context.",
+      "Community list of startups working with AI in audio and music technology. → Informs technical and market-demand feasibility for the path you are weighing.",
+      "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. → Affects feasibility of execution in the local context."
+    ],
+    "market_signals": [
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "Founding conditions in the target market influence whether a build-first path is viable now."
+    ],
+    "risks": [
+      "Factor to stress-test: capital and runway constraints.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build."
+    ],
+    "evidence_count": 8,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+    "context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+    "decision_domain": "startup_decision",
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "research_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "key_findings": [
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. 竊・Affects whether timing favors acting now versus deferring.",
+      "Community list of startups working with AI in audio and music technology. 竊・Informs technical and market-demand feasibility for the path you are weighing.",
+      "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. 竊・Affects feasibility of execution in the local context."
+    ],
+    "key_factors": [
+      {
+        "factor": "market opportunity",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-6"
+        ],
+        "impact": "Informs technical and market-demand feasibility for the path you are weighing."
+      },
+      {
+        "factor": "customer pain",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-0",
+          "live-github-6"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "competition",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-github-0",
+          "live-github-6"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-github-0",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.71,
+        "confidence": 0.66
+      },
+      {
+        "evidence_id": "live-github-6",
+        "title": "csteinmetz1/ai-audio-startups",
+        "source_url": "https://github.com/csteinmetz1/ai-audio-startups",
+        "fact": "Community list of startups working with AI in audio and music technology.",
+        "why_relevant": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Informs technical and market-demand feasibility for the path you are weighing.",
+        "authority_score": 0.52,
+        "relevance_score": 0.64,
+        "confidence": 0.63
+      },
+      {
+        "evidence_id": "live-github-1",
+        "title": "OneRedOak/claude-code-workflows",
+        "source_url": "https://github.com/OneRedOak/claude-code-workflows",
+        "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+        "why_relevant": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.52,
+        "relevance_score": 0.63,
+        "confidence": 0.63
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-github-0",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.71,
+        "confidence": 0.66
+      },
+      {
+        "evidence_id": "live-github-6",
+        "title": "csteinmetz1/ai-audio-startups",
+        "source_url": "https://github.com/csteinmetz1/ai-audio-startups",
+        "fact": "Community list of startups working with AI in audio and music technology.",
+        "why_relevant": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Informs technical and market-demand feasibility for the path you are weighing.",
+        "authority_score": 0.52,
+        "relevance_score": 0.64,
+        "confidence": 0.63
+      },
+      {
+        "evidence_id": "live-github-1",
+        "title": "OneRedOak/claude-code-workflows",
+        "source_url": "https://github.com/OneRedOak/claude-code-workflows",
+        "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+        "why_relevant": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+        "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+        "decision_impact": "Affects feasibility of execution in the local context.",
+        "authority_score": 0.52,
+        "relevance_score": 0.63,
+        "confidence": 0.63
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "benefits": [
+          "Evidence supports exploration: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found",
+          "Solo-founder path can stay small until distribution is proven",
+          "Tokyo timing may capture local AI adoption momentum"
+        ],
+        "risks": [
+          "Market may already be crowded in AI tooling",
+          "Distribution and customer acquisition remain unproven",
+          "Capital and attention risk if validation is skipped"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "benefits": [
+          "Reduces irreversible commitment while learning demand",
+          "Keeps optionality if evidence quality is still uneven",
+          "Can pressure-test signals such as: The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Fou"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Part-time validation can dilute focus"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+        "why_consider": "Consider if ecosystem signals and founder fit justify committing build cycles now.",
+        "advantages": [
+          "Evidence supports exploration: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found",
+          "Solo-founder path can stay small until distribution is proven",
+          "Tokyo timing may capture local AI adoption momentum"
+        ],
+        "risks": [
+          "Market may already be crowded in AI tooling",
+          "Distribution and customer acquisition remain unproven",
+          "Capital and attention risk if validation is skipped"
+        ],
+        "unknowns": [
+          "Who pays first, and for what concrete job-to-be-done?",
+          "Regulatory / data constraints for the chosen niche",
+          "Personal runway vs time-to-first-revenue"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Reduces irreversible commitment while learning demand",
+          "Keeps optionality if evidence quality is still uneven",
+          "Can pressure-test signals such as: The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Fou"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Part-time validation can dilute focus"
+        ],
+        "unknowns": [
+          "How long validation should run before a go/no-go",
+          "Whether consulting demand maps to a product wedge"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Who pays first, and for what concrete job-to-be-done?",
+      "Regulatory / data constraints for the chosen niche",
+      "Personal runway vs time-to-first-revenue",
+      "How long validation should run before a go/no-go",
+      "Whether consulting demand maps to a product wedge"
+    ],
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Tokyo AI startup vs employment decision",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 8,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.61,
+      "avg_authority": 0.52,
+      "avg_alignment": 0.53,
+      "avg_freshness": 0.9,
+      "factor_coverage_ratio": 0.5,
+      "covered_factors": [
+        "technology feasibility",
+        "Japan/Tokyo ecosystem maturity",
+        "capital and runway constraints"
+      ],
+      "gaps": [
+        "market opportunity",
+        "customer pain",
+        "competition"
+      ],
+      "source_classes": [
+        "github"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 8,
+      "warning": "Source authority is limited (0.52) — verify with primary sources. Source diversity is limited (classes: github). Known evidence gaps remain for: market opportunity, customer pain, competition.",
+      "block_reason": null
+    },
+    "confidence_warning": "Source authority is limited (0.52) — verify with primary sources. Source diversity is limited (classes: github). Known evidence gaps remain for: market opportunity, customer pain, competition.",
+    "evidence_gaps": [
+      "market opportunity",
+      "customer pain",
+      "competition"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "source_class": "github"
+      },
+      {
+        "title": "OneRedOak/claude-code-workflows",
+        "source_url": "https://github.com/OneRedOak/claude-code-workflows",
+        "source_class": "github"
+      },
+      {
+        "title": "sahibzada-allahyar/YC-Killer",
+        "source_url": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "source_class": "github"
+      },
+      {
+        "title": "erupts/erupt",
+        "source_url": "https://github.com/erupts/erupt",
+        "source_class": "github"
+      },
+      {
+        "title": "cabinetai/cabinet",
+        "source_url": "https://github.com/cabinetai/cabinet",
+        "source_class": "github"
+      },
+      {
+        "title": "jtmuller5/The-HustleGPT-Challenge",
+        "source_url": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "source_class": "github"
+      },
+      {
+        "title": "csteinmetz1/ai-audio-startups",
+        "source_url": "https://github.com/csteinmetz1/ai-audio-startups",
+        "source_class": "github"
+      },
+      {
+        "title": "lorryjovens-hub/claude-code-rust",
+        "source_url": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "source_class": "github"
+      }
+    ],
+    "missing_information": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.66,
+      "authority_score": 0.52,
+      "relevance_score": 0.71,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Japan/Tokyo ecosystem maturity”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/OneRedOak/claude-code-workflows",
+      "sourceUrl": "https://github.com/OneRedOak/claude-code-workflows",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "OneRedOak/claude-code-workflows",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/sahibzada-allahyar/YC-Killer",
+      "sourceUrl": "https://github.com/sahibzada-allahyar/YC-Killer",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "sahibzada-allahyar/YC-Killer",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.62,
+      "authority_score": 0.52,
+      "relevance_score": 0.61,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/erupts/erupt",
+      "sourceUrl": "https://github.com/erupts/erupt",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "erupts/erupt",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.56,
+      "authority_score": 0.48,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/erupts/erupt",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/cabinetai/cabinet",
+      "sourceUrl": "https://github.com/cabinetai/cabinet",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "cabinetai/cabinet",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "AI-first knowledge base and startup OS. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "AI-first knowledge base and startup OS.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/cabinetai/cabinet",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+      "sourceUrl": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "jtmuller5/The-HustleGPT-Challenge",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Building Startups with an AI Co-Founder. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Building Startups with an AI Co-Founder.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-6",
+      "source_url": "https://github.com/csteinmetz1/ai-audio-startups",
+      "sourceUrl": "https://github.com/csteinmetz1/ai-audio-startups",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "csteinmetz1/ai-audio-startups",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "Community list of startups working with AI in audio and music technology. Founding conditions in the target market influence whether a build-first path is viable now. Informs technical and market-demand feasibility for the path you are weighing.",
+      "relevanceReason": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.64,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “technology feasibility”.",
+      "fact": "Community list of startups working with AI in audio and music technology.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Informs technical and market-demand feasibility for the path you are weighing.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-7",
+      "source_url": "https://github.com/lorryjovens-hub/claude-code-rust",
+      "sourceUrl": "https://github.com/lorryjovens-hub/claude-code-rust",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "lorryjovens-hub/claude-code-rust",
+      "retrievedAt": "2026-07-27T11:37:43.305Z",
+      "extractedClaim": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "relevanceReason": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "confidence": 0.63,
+      "authority_score": 0.52,
+      "relevance_score": 0.63,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “capital and runway constraints”.",
+      "fact": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary.",
+      "implication": "Founding conditions in the target market influence whether a build-first path is viable now.",
+      "decisionImpact": "Affects feasibility of execution in the local context.",
+      "supportedOptions": [
+        "build now",
+        "validate first"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "retrieved_at": "2026-07-27T11:37:43.305Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-USER-REQUEST-REAL-001",
+      "question": "Should I leave my Tokyo employment this year to start a solo AI product company?\n[decision-plan: domain=startup_decision; goal=make_decision; factors=market opportunity|customer pain|competition|technology feasibility|Japan/Tokyo ecosystem maturity|capital and runway constraints; queries=Startup ecosystem in Japan|Venture capital in Japan|Economy of Tokyo|tokyo AI startup|japan machine learning|tokyo startup founder; preferred=startup ecosystem|venture capital|Tokyo market|AI startup funding; classes=web|github|reddit; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|multi-criteria decision|coffee|espresso]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "Srakawichi/park-whisperer-ai",
+        "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+        "provenance": {
+          "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "OneRedOak/claude-code-workflows",
+        "excerpt": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Workflows are based off applied learnings from our AI-native startup.",
+        "provenance": {
+          "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "sahibzada-allahyar/YC-Killer",
+        "excerpt": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. If you are excited about democratizing AI access & AI agents, please star ⭐️ this repository and apply using the link in the readme to join our open source AI research team.",
+        "provenance": {
+          "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-3",
+        "source_class": "github",
+        "title": "erupts/erupt",
+        "excerpt": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills",
+        "provenance": {
+          "pointer": "https://github.com/erupts/erupt",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-4",
+        "source_class": "github",
+        "title": "cabinetai/cabinet",
+        "excerpt": "AI-first knowledge base and startup OS",
+        "provenance": {
+          "pointer": "https://github.com/cabinetai/cabinet",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-5",
+        "source_class": "github",
+        "title": "jtmuller5/The-HustleGPT-Challenge",
+        "excerpt": "Building Startups with an AI Co-Founder",
+        "provenance": {
+          "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-6",
+        "source_class": "github",
+        "title": "csteinmetz1/ai-audio-startups",
+        "excerpt": "Community list of startups working with AI in audio and music technology",
+        "provenance": {
+          "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-7",
+        "source_class": "github",
+        "title": "lorryjovens-hub/claude-code-rust",
+        "excerpt": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary",
+        "provenance": {
+          "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+          "retrieved_at": "2026-07-27T11:37:43.305Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class web",
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

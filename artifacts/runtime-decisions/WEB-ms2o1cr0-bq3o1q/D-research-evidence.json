@@ -1,0 +1,571 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "title": "Labor market of Japan",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Employment",
+      "source_class": "web",
+      "title": "Employment",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Employment_discrimination",
+      "source_class": "web",
+      "title": "Employment discrimination",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Employment_contract",
+      "source_class": "web",
+      "title": "Employment contract",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+      "source_class": "github",
+      "title": "DevAnnafi/AI-Job-Market-Analyzer",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Source “DevAnnafi/AI-Job-Market-Analyzer” indicates related activity for career market conditions: An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/xxiixi/career-compass",
+      "source_class": "github",
+      "title": "xxiixi/career-compass",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Source “xxiixi/career-compass” indicates related activity for career market conditions: This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python.",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/xxiixi/career-compass",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+      "source_class": "github",
+      "title": "Dmayne1/Premium-job_market_salary_intelligence",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Source “Dmayne1/Premium-job_market_salary_intelligence” indicates related activity for career market conditions: Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+      "source_class": "github",
+      "title": "shrutiii835/CareerLens-AI-Job-Analytics",
+      "timestamp": "2026-07-27T03:27:01.847Z",
+      "extracted_claim": "Source “shrutiii835/CareerLens-AI-Job-Analytics” indicates related activity for career market conditions: ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+      "relevance_reason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Labor market of Japan — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment",
+      "sourceClass": "web",
+      "title": "Employment",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Employment — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment_discrimination",
+      "sourceClass": "web",
+      "title": "Employment discrimination",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Employment discrimination — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ]
+    },
+    {
+      "evidence_id": "live-web-3",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment_contract",
+      "sourceClass": "web",
+      "title": "Employment contract",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Employment contract — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ]
+    },
+    {
+      "evidence_id": "live-github-0",
+      "sourceUrl": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+      "sourceClass": "github",
+      "title": "DevAnnafi/AI-Job-Market-Analyzer",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “DevAnnafi/AI-Job-Market-Analyzer” indicates related activity for career market conditions: An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "industry hiring demand"
+      ]
+    },
+    {
+      "evidence_id": "live-github-1",
+      "sourceUrl": "https://github.com/xxiixi/career-compass",
+      "sourceClass": "github",
+      "title": "xxiixi/career-compass",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “xxiixi/career-compass” indicates related activity for career market conditions: This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/xxiixi/career-compass",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python. The app visualizes job market trends and provides predictive analyses of job salaries u",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ]
+    },
+    {
+      "evidence_id": "live-github-2",
+      "sourceUrl": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+      "sourceClass": "github",
+      "title": "Dmayne1/Premium-job_market_salary_intelligence",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “Dmayne1/Premium-job_market_salary_intelligence” indicates related activity for career market conditions: Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "industry hiring demand"
+      ]
+    },
+    {
+      "evidence_id": "live-github-3",
+      "sourceUrl": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+      "sourceClass": "github",
+      "title": "shrutiii835/CareerLens-AI-Job-Analytics",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “shrutiii835/CareerLens-AI-Job-Analytics” indicates related activity for career market conditions: ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "industry hiring demand"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "career change risk factors",
+      "opportunity cost of switching"
+    ],
+    "key_findings": [
+      "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?",
+      "Source “DevAnnafi/AI-Job-Market-Analyzer” indicates related activity for career market conditions: An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP."
+    ],
+    "market_signals": [
+      "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?"
+    ],
+    "risks": [
+      "Investigate further: professional mobility and transition risk.",
+      "Investigate further: foreign professional mobility in Japan.",
+      "Evidence coverage is Stage-1 only — verify before irreversible career moves."
+    ],
+    "decision_options_preview": [
+      "Change career path now (staged transition)",
+      "Stay / defer change and gather stronger evidence first"
+    ],
+    "evidence_count": 8,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Labor market of Japan” regarding career market conditions: Labor market of Japan — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Employment",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Employment",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment” regarding career market conditions: Employment — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Employment_discrimination",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment_discrimination",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Employment discrimination",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment discrimination” regarding career market conditions: Employment discrimination — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-3",
+      "source_url": "https://en.wikipedia.org/wiki/Employment_contract",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Employment_contract",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Employment contract",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Reference “Employment contract” regarding career market conditions: Employment contract — public reference related to: Should I change my career in Japan?",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+      "sourceUrl": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "DevAnnafi/AI-Job-Market-Analyzer",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “DevAnnafi/AI-Job-Market-Analyzer” indicates related activity for career market conditions: An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/xxiixi/career-compass",
+      "sourceUrl": "https://github.com/xxiixi/career-compass",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "xxiixi/career-compass",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “xxiixi/career-compass” indicates related activity for career market conditions: This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/xxiixi/career-compass",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+      "sourceUrl": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "Dmayne1/Premium-job_market_salary_intelligence",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “Dmayne1/Premium-job_market_salary_intelligence” indicates related activity for career market conditions: Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+      "sourceUrl": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "shrutiii835/CareerLens-AI-Job-Analytics",
+      "retrievedAt": "2026-07-27T03:27:01.847Z",
+      "extractedClaim": "Source “shrutiii835/CareerLens-AI-Job-Analytics” indicates related activity for career market conditions: ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+      "relevanceReason": "Relevant to research intent: career market conditions.",
+      "confidence": 0.95,
+      "provenance": {
+        "pointer": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+        "retrieved_at": "2026-07-27T03:27:01.847Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-WEB-ms2o1cr0-bq3o1q",
+      "question": "Should I change my career in Japan?\n[research-intents: career | job market | salary | employment | Japan | Tokyo]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Labor market of Japan",
+        "excerpt": "Labor market of Japan — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Employment",
+        "excerpt": "Employment — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Employment",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Employment discrimination",
+        "excerpt": "Employment discrimination — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-3",
+        "source_class": "web",
+        "title": "Employment contract",
+        "excerpt": "Employment contract — public reference related to: Should I change my career in Japan?\n[research-intents: career | job market | sal",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "DevAnnafi/AI-Job-Market-Analyzer",
+        "excerpt": "An AI-powered data science project that analyzes real-world job listings to uncover in-demand tech skills, salary trends, and career insights using Machine Learning and NLP.",
+        "provenance": {
+          "pointer": "https://github.com/DevAnnafi/AI-Job-Market-Analyzer",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "xxiixi/career-compass",
+        "excerpt": "This project is part of the CSE6242 course at Georgia Tech and involves developing a full-stack data visualization app using React, Node.js, and Python. The app visualizes job market trends and provides predictive analyses of job salaries u",
+        "provenance": {
+          "pointer": "https://github.com/xxiixi/career-compass",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "Dmayne1/Premium-job_market_salary_intelligence",
+        "excerpt": "Advanced job market analysis with salary trends, skill demands, and career opportunity insights",
+        "provenance": {
+          "pointer": "https://github.com/Dmayne1/Premium-job_market_salary_intelligence",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-3",
+        "source_class": "github",
+        "title": "shrutiii835/CareerLens-AI-Job-Analytics",
+        "excerpt": "ML-powered career intelligence platform for salary prediction, skill demand forecasting, and job market analytics.",
+        "provenance": {
+          "pointer": "https://github.com/shrutiii835/CareerLens-AI-Job-Analytics",
+          "retrieved_at": "2026-07-27T03:27:01.847Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

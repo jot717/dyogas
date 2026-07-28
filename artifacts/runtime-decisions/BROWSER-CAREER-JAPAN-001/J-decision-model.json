@@ -1,0 +1,85 @@
+{
+  "model_id": "dm-d20e45d493a0",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-5051fdfd1a11",
+  "question": "Should I change my career in Japan?",
+  "constraints": {
+    "location": "Japan",
+    "decision_type": "career",
+    "desired_outcome": "Choose a career path with durable optionality"
+  },
+  "options": [
+    {
+      "option_id": "opt-change-career",
+      "statement": "Change career path now (staged transition)",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5"
+      ]
+    },
+    {
+      "option_id": "opt-stay-or-defer",
+      "statement": "Stay / defer change and gather stronger evidence first",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-change-career",
+    "statement": "Change career path now (staged transition)",
+    "evidence_refs": [
+      "live-web-0",
+      "live-web-1",
+      "live-github-0",
+      "live-github-1",
+      "live-github-2",
+      "live-github-3",
+      "live-github-4",
+      "live-github-5"
+    ]
+  },
+  "rationale": "career Japan e2e approve",
+  "evidence_refs": [
+    "live-web-0",
+    "live-web-1",
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5"
+  ],
+  "knowledge_ref": "kn-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+  "approval_ref": "hrd-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+  "actor_id": "career-user",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T10:47:59.833Z",
+  "version": "0.1.0",
+  "decision_asset_ref": "da-5051fdfd1a11",
+  "user_id": "career-user",
+  "lineage": {
+    "correlation_id": "BROWSER-CAREER-JAPAN-001",
+    "research_brief_ref": "brief-BROWSER-CAREER-JAPAN-001@1.0.0",
+    "research_report_ref": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+    "knowledge_ref": "kn-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+    "graph_update_ref": "gu-a4185aecc5aed66e9f1f501d35d3528d@1.0.0"
+  },
+  "graph_update_ref": "gu-a4185aecc5aed66e9f1f501d35d3528d@1.0.0"
+}

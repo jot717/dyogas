@@ -1,0 +1,80 @@
+{
+  "asset_id": "da-cacc36b793e3",
+  "title": "Decision Asset: how to apply japan highly skilled visa",
+  "question": "how to apply japan highly skilled visa",
+  "summary": "Decision support for: how to apply japan highly skilled visa 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: d1a0e0311d5eeb761f279af1e5513102@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should r",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and ",
+      "evidence_id": "live-web-2"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-prepare-after-eligibility",
+      "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Confirms eligibility before investing time in full documentation",
+        "Eligibility signal: According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail ch",
+        "Creates a clear Knowledge record of the next procedural step"
+      ],
+      "risks": [
+        "Eligibility interpretation can still be incomplete without primary ISA guidance",
+        "Document checklists vary by category and points table updates"
+      ],
+      "unknowns": [
+        "Exact points score for your education/experience profile",
+        "Whether supporting documents are already obtainable"
+      ]
+    },
+    {
+      "option_id": "opt-calculate-points-first",
+      "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Focuses effort on the points table and document gaps before filing",
+        "Document/points signal: Immigration to Jamaica has historically affected the country in large ways as a result of the history of European coloni",
+        "Reduces risk of filing with insufficient points or paperwork"
+      ],
+      "risks": [
+        "Delay if document collection takes longer than expected",
+        "Points rules may change while gathering materials"
+      ],
+      "unknowns": [
+        "Which documents are hardest to obtain for your case",
+        "Whether a different status of residence is a better fit"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "research_artifact_id": "d1a0e0311d5eeb761f279af1e5513102@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-HOW-TO-APPLY-JAPAN-HIGHL",
+  "execution_package_task_id": "TA-HOW-TO-APPLY-JAPAN-HIGHL",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

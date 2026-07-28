@@ -1,0 +1,23 @@
+{
+  "requestId": "USER-REQUEST-002",
+  "decisionQuestion": "Should I change my current job or stay?",
+  "userIntent": "I want to decide whether I should change my job in Tokyo in 2026",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "careerStage": "experienced technical professional",
+    "goal": "maximize long term career value"
+  },
+  "requiredEvidence": [
+    "market opportunities",
+    "salary trend",
+    "career risks",
+    "skill growth"
+  ],
+  "research_brief_ref": "brief-USER-REQUEST-002@1.0.0",
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+  "routed_agent_ids": [
+    "research-agent"
+  ],
+  "executionId": "c2778b76b55b9c9ea8a33e75b9951625",
+  "hostStatusOnSubmit": "waiting_human"
+}

@@ -10,16 +10,27 @@
     "HumanGate validated → Knowledge SoR apply",
     "Decision Graph persist",
     "Host.resumeHuman → applyKnowledgeAuthorized → applyGraphAuthorized",
-    "Host seal complete (status=succeeded)"
+    "Host seal complete (status=succeeded)",
+    "DecisionModel v0.1 snapshot (Approved Asset + Human Approval)",
+    "DecisionModelRegistry.put (file-backed)",
+    "extractDecisionDna → Decision DNA v0.1",
+    "queryDecisionIntelligence (assist only; no recommendation)"
   ],
   "apiBoundary": {
     "submit": "personal-brain/src/bridge/decision-request.ts#submitDecisionRequest",
     "approve": "personal-brain/src/bridge/decision-request.ts#approveDecisionRequest",
+    "decisionModel": "personal-brain/src/bridge/decision-model.ts#buildDecisionModelSnapshot",
+    "decisionDna": "personal-brain/src/bridge/decision-dna.ts#extractDecisionDna",
+    "decisionIntelligenceQuery": "personal-brain/src/bridge/decision-intelligence-query.ts#queryDecisionIntelligence",
+    "registry": "personal-brain/src/bridge/decision-model-registry.ts#createFileDecisionModelRegistry",
     "host": "@dyogas/execution-host",
     "forbidden": [
       "direct graph write without approval",
       "knowledge SoR write without approval",
-      "auto-approve on submit"
+      "auto-approve on submit",
+      "decision model without approval",
+      "Decision Agent / prediction / recommendation engine",
+      "automatic decision from Decision Intelligence Query"
     ]
   }
 }

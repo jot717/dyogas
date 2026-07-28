@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/decision-model.schema.json",
+  "title": "DecisionModel",
+  "description": "Decision Model v0.1 snapshot from approved Decision Asset + Human Approval (SPRINT-DECISION-MODEL-FOUNDATION-001 / DI-01). Not a Decision Agent; not a prediction engine.",
+  "type": "object",
+  "required": [
+    "model_id",
+    "tenant_id",
+    "decision_id",
+    "question",
+    "constraints",
+    "options",
+    "chosen_option",
+    "rationale",
+    "evidence_refs",
+    "knowledge_ref",
+    "approval_ref",
+    "actor_id",
+    "outcome_status",
+    "created_at",
+    "version"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "model_id": { "type": "string", "minLength": 1 },
+    "tenant_id": { "type": "string", "minLength": 1 },
+    "decision_id": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "options": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["option_id", "statement", "evidence_refs"],
+        "additionalProperties": false,
+        "properties": {
+          "option_id": { "type": "string", "minLength": 1 },
+          "statement": { "type": "string", "minLength": 1 },
+          "claim_id": { "type": "string" },
+          "evidence_refs": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "minItems": 1
+          }
+        }
+      }
+    },
+    "chosen_option": {
+      "type": "object",
+      "required": ["option_id", "statement", "evidence_refs"],
+      "additionalProperties": false,
+      "properties": {
+        "option_id": { "type": "string", "minLength": 1 },
+        "statement": { "type": "string", "minLength": 1 },
+        "claim_id": { "type": "string" },
+        "evidence_refs": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        }
+      }
+    },
+    "rationale": { "type": "string", "minLength": 1 },
+    "evidence_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "knowledge_ref": { "type": "string", "minLength": 1 },
+    "approval_ref": { "type": "string", "minLength": 1 },
+    "actor_id": { "type": "string", "minLength": 1 },
+    "outcome_status": {
+      "type": "string",
+      "enum": ["recorded", "rejected"]
+    },
+    "created_at": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "const": "0.1.0" },
+    "decision_asset_ref": { "type": "string" },
+    "user_id": { "type": "string", "minLength": 1 },
+    "lineage": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "graph_update_ref": { "type": "string" }
+  }
+}

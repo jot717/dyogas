@@ -1,0 +1,78 @@
+{
+  "asset_id": "da-d8eff9f13a16",
+  "title": "Decision Asset: how to make itlian coffee",
+  "question": "how to make itlian coffee",
+  "summary": "Decision support for: how to make itlian coffee 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 103f4db15c7df0cbafe81887441e2d4d@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Reference “Decision-making under deep uncertainty” regarding decision context and constraints: Decision-making under deep uncertainty — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Reference “Decision-making software” regarding decision context and constraints: Decision-making software — public reference related to: how to make itlian coffee [research-intents: make | itlian | coffee]",
+      "evidence_id": "live-web-2"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-act-now",
+      "title": "Act on the decision now using current evidence",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Reference “Decision-making” regarding decision context and constraints: Decision-making — public reference related to: how to make itlian co",
+        "Preserves momentum while signals are fresh"
+      ],
+      "risks": [
+        "Evidence coverage may still be incomplete",
+        "Acting now may foreclose alternative paths"
+      ],
+      "unknowns": [
+        "Whether additional sources would change the trade-off",
+        "Second-order costs not yet captured in evidence"
+      ]
+    },
+    {
+      "option_id": "opt-gather-more",
+      "title": "Gather more evidence before committing",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Improves confidence before irreversible commitment",
+        "Allows targeting higher-signal sources"
+      ],
+      "risks": [
+        "Delay cost / opportunity cost",
+        "Analysis paralysis if the bar keeps rising"
+      ],
+      "unknowns": [
+        "Which missing source class matters most next",
+        "Time budget available for further research"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "research_artifact_id": "103f4db15c7df0cbafe81887441e2d4d@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-HOW-TO-MAKE-ITLIAN-COFFE",
+  "execution_package_task_id": "TA-HOW-TO-MAKE-ITLIAN-COFFE",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

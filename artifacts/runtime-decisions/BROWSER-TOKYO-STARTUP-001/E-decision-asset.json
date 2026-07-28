@@ -1,0 +1,230 @@
+{
+  "asset_id": "da-4e8474e34cfb",
+  "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "summary": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 4 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 9243bc6f794e30834957d0d55950af12@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-2"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-3"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "AI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-5"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-7"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "supporting_evidence": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "benefits": [
+        "Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "evidence_refs": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "supporting_evidence": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "benefits": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found"
+      ],
+      "evidence_refs": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-github-2",
+    "live-github-3",
+    "live-github-5",
+    "live-github-7"
+  ],
+  "research_artifact_id": "9243bc6f794e30834957d0d55950af12@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "status": "pending_approval",
+  "requires_human_approval": true,
+  "domain": "startup_decision",
+  "user_goal": "make_decision",
+  "decision_context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "research_plan": {
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "source_requirements": [
+      "industry_reports",
+      "technical_ecosystem",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "research_factors": [
+    "market opportunity",
+    "financial risk",
+    "opportunity cost",
+    "Tokyo ecosystem",
+    "personal constraints"
+  ],
+  "evidence_items": [
+    {
+      "source": "haneumlee99/Economic-Forecasts-for-Japan",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "relevance": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T22:44:47.871Z"
+      }
+    },
+    {
+      "source": "Srakawichi/park-whisperer-ai",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "relevance": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "Tokyo ecosystem",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T22:44:47.871Z"
+      }
+    },
+    {
+      "source": "gregfontaine/jobs",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "relevance": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T22:44:47.871Z"
+      }
+    },
+    {
+      "source": "maiko326/japan-portfolio-resources",
+      "fact": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料.",
+      "relevance": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/maiko326/japan-portfolio-resources",
+        "retrieved_at": "2026-07-27T22:44:47.871Z"
+      }
+    }
+  ],
+  "confidence_level": "MEDIUM",
+  "evidence_gaps": [
+    "personal constraints"
+  ],
+  "unknowns": [
+    "Who pays first, and for what concrete job-to-be-done?",
+    "Regulatory / data constraints for the chosen niche",
+    "Personal runway vs time-to-first-revenue",
+    "How long validation should run before a go/no-go",
+    "Whether consulting demand maps to a product wedge"
+  ],
+  "approval_target": {
+    "knowledge_title": "Tokyo AI startup vs employment decision",
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval."
+  },
+  "provenance": {
+    "research_artifact_id": "9243bc6f794e30834957d0d55950af12@1.0.0",
+    "research_brief_ref": "brief-BROWSER-TOKYO-STARTUP-001@1.0.0",
+    "collector_adapter_id": "live-stage1-v1",
+    "evidence_ids": [
+      "live-github-2",
+      "live-github-3",
+      "live-github-5",
+      "live-github-7"
+    ]
+  },
+  "lineage": {
+    "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "run_id": "7aa3dcfbace0d0b7268ea57d3ec20686",
+    "request_id": "BROWSER-TOKYO-STARTUP-001"
+  }
+}

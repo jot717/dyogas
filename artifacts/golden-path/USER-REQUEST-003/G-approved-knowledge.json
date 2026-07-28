@@ -1,0 +1,20 @@
+{
+  "knowledgeId": "752c3004ac98871ab05effc16f8762b0",
+  "tenantId": "validation-tokyo-2026",
+  "title": "Decision Asset: Should I invest my next year building my own startup or continue employment?",
+  "body": "Decision support for: Should I invest my next year building my own startup or continue employment? 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: dd840ebe41e9988334e0460cf8efe86a@1.0.0\n\nquestion: Should I invest my next year building my own startup or continue employment?\nasset_id: da-2d817ce6ab55\nexecution_package_task_id: TA-SHOULD-I-INVEST-MY-NEXT-\n\n## Claims\n### claim-000\nevidenceId: live-web-0\n\nStartup company — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-web-1\n\nSydney Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n### claim-002\nevidenceId: live-web-2\n\nNikola Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.\n\n## Options (human chooses — no automatic recommendation)\n### opt-pursue-build: Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.\nsupporting_evidence: live-web-0, live-web-1, live-web-2\nadvantages: Evidence supports exploration: Startup company — reference for decision research. Founding conditions in the target market influence whether a build-fi; Solo-founder path can stay small until distribution is proven; Tokyo timing may capture local AI adoption momentum\nrisks: Market may already be crowded in AI tooling; Distribution and customer acquisition remain unproven; Capital and attention risk if validation is skipped\nunknowns: Who pays first, and for what concrete job-to-be-done?; Regulatory / data constraints for the chosen niche; Personal runway vs time-to-first-revenue\n### opt-validate-first: Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.\nsupporting_evidence: live-web-0, live-web-1, live-web-2\nadvantages: Reduces irreversible commitment while learning demand; Keeps optionality if evidence quality is still uneven; Can pressure-test signals such as: Sydney Aistrup — reference for decision research. Founding conditions in the target market influence whether a build-fir\nrisks: Opportunity window may narrow while validating; Part-time validation can dilute focus\nunknowns: How long validation should run before a go/no-go; Whether consulting demand maps to a product wedge",
+  "version": 1,
+  "approvalState": "applied",
+  "provenance": {
+    "researchArtifactId": "dd840ebe41e9988334e0460cf8efe86a@1.0.0",
+    "taskId": "TA-SHOULD-I-INVEST-MY-NEXT-",
+    "evidenceIds": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ],
+    "capturedAt": "2026-07-27T11:37:56.425Z"
+  },
+  "createdAt": "2026-07-27T11:37:56.425Z",
+  "updatedAt": "2026-07-27T11:37:56.425Z"
+}

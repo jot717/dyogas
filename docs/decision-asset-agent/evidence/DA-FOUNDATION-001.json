@@ -1,7 +1,7 @@
 {
   "sprintId": "SPRINT-DECISION-ASSET-AGENT-FOUNDATION-001",
   "trace": "TRACE-DECISION-ASSET-AGENT-FOUNDATION-001",
-  "generatedAt": "2026-07-26T11:56:53.999Z",
+  "generatedAt": "2026-07-27T11:37:42.190Z",
   "asset": {
     "asset_id": "da-ab199a343cf6",
     "status": "applied",
@@ -11,7 +11,7 @@
     ],
     "execution_package_task_id": "TA-SHOULD-WE-SHIP-DECISION-"
   },
-  "knowledgeId": "8f22a3d2937b15e02b146e4b886dbad5",
+  "knowledgeId": "dcb0eac800f2b2a47c9abae0ef9d9208",
   "graph": {
     "persisted": true,
     "nodeCount": 4,

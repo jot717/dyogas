@@ -1,0 +1,91 @@
+{
+  "model_id": "dm-447e33aab02c",
+  "tenant_id": "validation-tokyo-2026",
+  "decision_id": "da-9f94c43456db",
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "capital": "limited personal runway",
+    "risk_tolerance": "moderate",
+    "desired_outcome": "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside"
+  },
+  "options": [
+    {
+      "option_id": "opt-package-approve",
+      "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ]
+    },
+    {
+      "option_id": "opt-pursue-build",
+      "statement": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "statement": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ]
+    }
+  ],
+  "chosen_option": {
+    "option_id": "opt-package-approve",
+    "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+    "evidence_refs": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ]
+  },
+  "rationale": "Real-user alpha validation approval",
+  "evidence_refs": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+  "approval_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+  "actor_id": "real-user-founder",
+  "outcome_status": "recorded",
+  "created_at": "2026-07-27T10:48:15.752Z",
+  "version": "0.1.0",
+  "decision_asset_ref": "da-9f94c43456db",
+  "user_id": "real-user-founder",
+  "lineage": {
+    "correlation_id": "USER-REQUEST-REAL-001",
+    "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+    "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+    "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+    "graph_update_ref": "gu-316a33c04ca239ceae1064fd7c70a1c0@1.0.0"
+  },
+  "graph_update_ref": "gu-316a33c04ca239ceae1064fd7c70a1c0@1.0.0"
+}

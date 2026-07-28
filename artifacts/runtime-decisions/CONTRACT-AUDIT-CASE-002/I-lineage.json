@@ -1,0 +1,10 @@
+{
+  "correlation_id": "CONTRACT-AUDIT-CASE-002",
+  "research_brief_ref": "brief-CONTRACT-AUDIT-CASE-002@1.0.0",
+  "research_report_ref": "ffb7bb4038fa36278e24919f94b50088@1.0.0",
+  "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+  "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+  "human_decision_ref": "hrd-fe502a1ea298ca762ac59fec2a23c3aa@1.0.0",
+  "knowledge_ref": "kn-fe502a1ea298ca762ac59fec2a23c3aa@1.0.0",
+  "graph_update_ref": "gu-fe502a1ea298ca762ac59fec2a23c3aa@1.0.0"
+}

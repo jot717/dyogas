@@ -1,0 +1,43 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-QG-SMOKE-STARTUP-EMP-001@1.0.0",
+  "research_report_ref": "da40adff727c95769ff8155b69756406@1.0.0",
+  "research_started_at": "2026-07-27T04:55:01.266Z",
+  "research_elapsed_ms": 2698,
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "decision_domain": "startup_career_decision",
+  "user_goal": "make_decision",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "coffee",
+    "espresso"
+  ],
+  "decision_factors": [
+    "market opportunity",
+    "financial risk",
+    "opportunity cost",
+    "Tokyo ecosystem",
+    "personal constraints"
+  ],
+  "research_intents": [
+    "career market conditions",
+    "salary and compensation opportunity",
+    "industry hiring demand",
+    "professional mobility and transition risk",
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "startup opportunity landscape",
+    "solo founder feasibility"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

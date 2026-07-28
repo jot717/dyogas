@@ -1,0 +1,21 @@
+{
+  "runtimeTrace": [
+    "configureDecisionProductMemory (file-backed)",
+    "createDecisionRequest(DecisionRequestInput v0.2)",
+    "Execution Host → Research Agent → Evidence (assertResearchConnected)",
+    "getDecisionInbox(user scope) → waiting_human",
+    "getDecisionAnalysis → human_approval_required",
+    "approveDecision(actor=user)",
+    "Decision Model → user-scoped decision-memory/{tenant}/{user}/",
+    "listDecisionHistory(user) persists; other user empty",
+    "extractUserDecisionDna"
+  ],
+  "sprint": "SPRINT-DECISION-INTELLIGENCE-ALPHA-REAL-USER-001",
+  "productApi": [
+    "createDecisionRequest",
+    "getDecisionInbox",
+    "getDecisionAnalysis",
+    "approveDecision",
+    "rejectDecision"
+  ]
+}

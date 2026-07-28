@@ -1,0 +1,125 @@
+{
+  "proposalId": "da-c528c9370867",
+  "requestId": "USER-WEB-MVP-001",
+  "user_id": "web-mvp-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "Maximize long-term entrepreneurial optionality without catastrophic downside",
+  "status": "waiting_human",
+  "createdAt": "2026-07-27T01:05:20.236Z",
+  "research_report_ref": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+  "research_brief_ref": "brief-USER-WEB-MVP-001@1.0.0",
+  "evidence_count": 6,
+  "evidence_ids": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "decision_asset": {
+    "asset_id": "da-c528c9370867",
+    "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "summary": "Decision-ready synthesis for: Should I build an AI startup in Tokyo or continue employment? Derived from 6 evidence item(s); provenance retained. researchArtifactId: 94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "claims": [
+      {
+        "claim_id": "claim-000",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-web-0"
+      },
+      {
+        "claim_id": "claim-001",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-web-1"
+      },
+      {
+        "claim_id": "claim-002",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-github-0"
+      },
+      {
+        "claim_id": "claim-003",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-github-1"
+      },
+      {
+        "claim_id": "claim-004",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-reddit-0"
+      },
+      {
+        "claim_id": "claim-005",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-reddit-1"
+      }
+    ],
+    "evidence_ids": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "research_artifact_id": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "tenant_id": "validation-tokyo-2026",
+    "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "status": "pending_approval",
+    "requires_human_approval": true
+  },
+  "stages_completed": [
+    "request",
+    "research",
+    "evidence",
+    "decision_asset",
+    "human_approval"
+  ],
+  "autoApproved": false,
+  "host_status": "waiting_human",
+  "analysis": {
+    "proposalId": "da-c528c9370867",
+    "requestId": "USER-WEB-MVP-001",
+    "user_id": "web-mvp-user",
+    "tenant_id": "validation-tokyo-2026",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "status": "waiting_human",
+    "research_report_ref": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "research_brief_ref": "brief-USER-WEB-MVP-001@1.0.0",
+    "decision_asset_id": "da-c528c9370867",
+    "evidence_refs": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "patterns": {
+      "query_id": "diq-b865e8011801",
+      "tenant_id": "validation-tokyo-2026",
+      "question": "Should I build an AI startup in Tokyo or continue employment?",
+      "constraints": {
+        "location": "Tokyo",
+        "timeframe": "2026"
+      },
+      "similar_past_decisions": [],
+      "dna_signals": [],
+      "evidence_refs": [],
+      "human_approval_required": true,
+      "automatic_decision": false,
+      "recommendation": false,
+      "created_at": "2026-07-27T01:05:20.242Z",
+      "version": "0.1.0"
+    },
+    "human_approval_required": true,
+    "automatic_decision": false,
+    "recommendation": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "proposalId": "da-5b200d9abb96",
+  "decision": "approved",
+  "actorId": "browser-e2e-user",
+  "rationale": "browser-path italian coffee approve method knowledge",
+  "host_status": "succeeded",
+  "autoApproved": false,
+  "gate_complete": true
+}

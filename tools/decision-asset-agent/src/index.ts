@@ -6,6 +6,7 @@ export {
   DecisionAssetError,
   type DecisionAssetStatus,
   type DecisionAssetClaim,
+  type DecisionAssetOption,
   type DecisionAsset,
   type ExtractDecisionAssetInput,
 } from "./types.js";

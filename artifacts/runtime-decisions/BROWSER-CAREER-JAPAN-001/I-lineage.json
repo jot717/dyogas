@@ -1,0 +1,10 @@
+{
+  "correlation_id": "BROWSER-CAREER-JAPAN-001",
+  "research_brief_ref": "brief-BROWSER-CAREER-JAPAN-001@1.0.0",
+  "research_report_ref": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+  "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+  "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+  "human_decision_ref": "hrd-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+  "knowledge_ref": "kn-a4185aecc5aed66e9f1f501d35d3528d@1.0.0",
+  "graph_update_ref": "gu-a4185aecc5aed66e9f1f501d35d3528d@1.0.0"
+}

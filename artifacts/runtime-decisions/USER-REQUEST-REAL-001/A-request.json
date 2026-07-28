@@ -1,0 +1,21 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "USER-REQUEST-REAL-001",
+  "user_id": "real-user-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "capital": "limited personal runway",
+    "risk_tolerance": "moderate"
+  },
+  "desired_outcome": "Choose a path that maximizes long-term entrepreneurial optionality without catastrophic downside",
+  "user_intent": "I need a researched, human-approved decision on employment vs founding in Tokyo",
+  "workspace_id": "ws-tokyo-real-user",
+  "required_evidence": [
+    "market demand signals",
+    "solo founder risk factors",
+    "employment opportunity cost"
+  ]
+}

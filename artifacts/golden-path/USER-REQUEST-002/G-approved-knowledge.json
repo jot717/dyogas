@@ -1,0 +1,20 @@
+{
+  "knowledgeId": "384ed13a122569d69457a99694a05ffa",
+  "tenantId": "validation-tokyo-2026",
+  "title": "Decision Asset: Should I change my current job or stay?",
+  "body": "Decision support for: Should I change my current job or stay? 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 75c914c5b2132e5dbcab3541d43801bf@1.0.0\n\nquestion: Should I change my current job or stay?\nasset_id: da-4e6f622b619f\nexecution_package_task_id: TA-SHOULD-I-CHANGE-MY-CURRE\n\n## Claims\n### claim-000\nevidenceId: live-web-0\n\nEmployment — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.\n### claim-001\nevidenceId: live-web-1\n\nEmployment discrimination — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.\n### claim-002\nevidenceId: live-web-2\n\nEmployment contract — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.\n\n## Options (human chooses — no automatic recommendation)\n### opt-change-career: Change career path now (staged transition)\nsupporting_evidence: live-web-0, live-web-1, live-web-2\nadvantages: Supporting signal: Employment — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career; Can start with a staged move rather than an all-or-nothing jump; May improve long-term optionality if demand signals hold\nrisks: Income discontinuity during transition; Market timing or hiring-cycle mismatch; Skills gap versus target role requirements\nunknowns: Target role compensation range in Japan for your profile; How portable current skills are to the destination path; Personal runway and household constraints\n### opt-stay-or-defer: Stay / defer change and gather stronger evidence first\nsupporting_evidence: live-web-0, live-web-1, live-web-2\nadvantages: Preserves current income stability while researching; Allows targeted upskilling before committing; Can validate weak spots such as: Employment discrimination — reference for decision research. Japan employment and mobility have structural characteristi\nrisks: Opportunity cost if the window for switching narrows; Staying too long in a declining fit\nunknowns: How long to defer before a hard go/no-go date; Whether internal mobility is a better bridge than an external switch",
+  "version": 1,
+  "approvalState": "applied",
+  "provenance": {
+    "researchArtifactId": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+    "taskId": "TA-SHOULD-I-CHANGE-MY-CURRE",
+    "evidenceIds": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ],
+    "capturedAt": "2026-07-27T11:37:48.482Z"
+  },
+  "createdAt": "2026-07-27T11:37:48.482Z",
+  "updatedAt": "2026-07-27T11:37:48.483Z"
+}

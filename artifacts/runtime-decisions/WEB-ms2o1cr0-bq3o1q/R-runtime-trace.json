@@ -1,0 +1,21 @@
+{
+  "request_id": "WEB-ms2o1cr0-bq3o1q",
+  "execution_id": "a2373484426a608e45eff1dd9b317ec9",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\WEB-ms2o1cr0-bq3o1q",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T03:27:02.841Z"
+}

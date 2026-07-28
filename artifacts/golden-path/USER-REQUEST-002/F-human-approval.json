@@ -1,0 +1,15 @@
+{
+  "onSubmit": {
+    "proposalId": "da-4e6f622b619f",
+    "gateId": "240d3cb629e3a7d430852a7b74d811f3",
+    "decision": "pending",
+    "autoApproved": false,
+    "hostStatus": "waiting_human"
+  },
+  "onApprove": {
+    "proposalId": "da-4e6f622b619f",
+    "decision": "approved",
+    "actorId": "founder",
+    "hostStatus": "succeeded"
+  }
+}

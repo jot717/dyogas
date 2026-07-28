@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dyogas.local/schemas/artifacts/decision-intelligence-query.schema.json",
+  "title": "DecisionIntelligenceQueryResult",
+  "description": "Decision Intelligence Query v0.1 result. Assist only — no automatic decision, no recommendation.",
+  "type": "object",
+  "required": [
+    "query_id",
+    "tenant_id",
+    "question",
+    "constraints",
+    "similar_decisions",
+    "dna_signals",
+    "evidence_refs",
+    "human_approval_required",
+    "automatic_decision",
+    "recommendation",
+    "created_at",
+    "version"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "query_id": { "type": "string", "minLength": 1 },
+    "tenant_id": { "type": "string", "minLength": 1 },
+    "question": { "type": "string", "minLength": 1 },
+    "constraints": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "similar_decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["model_id", "decision_id", "question", "overlap_score", "evidence_refs"],
+        "additionalProperties": false,
+        "properties": {
+          "model_id": { "type": "string", "minLength": 1 },
+          "decision_id": { "type": "string", "minLength": 1 },
+          "question": { "type": "string", "minLength": 1 },
+          "decision_domain": { "type": "string" },
+          "overlap_score": { "type": "number", "minimum": 0 },
+          "evidence_refs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "knowledge_ref": { "type": "string" },
+          "approval_ref": { "type": "string" }
+        }
+      }
+    },
+    "dna_signals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["signal_type", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "signal_type": {
+            "type": "string",
+            "enum": ["decision_pattern", "preference", "constraint", "risk"]
+          },
+          "description": { "type": "string", "minLength": 1 },
+          "ref": { "type": "string" }
+        }
+      }
+    },
+    "evidence_refs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "dna_ref": { "type": "string" },
+    "human_approval_required": { "type": "boolean", "const": true },
+    "automatic_decision": { "type": "boolean", "const": false },
+    "recommendation": { "type": "boolean", "const": false },
+    "created_at": { "type": "string", "minLength": 1 },
+    "version": { "type": "string", "const": "0.1.0" }
+  }
+}

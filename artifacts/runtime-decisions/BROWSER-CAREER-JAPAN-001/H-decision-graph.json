@@ -1,0 +1,332 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "d26b773e7168c00317b7830bb35d42d3",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_0570abb2f911",
+        "label": "Decision Asset: Should I change my career in Japan?",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "d26b773e7168c00317b7830bb35d42d3#title",
+          "d26b773e7168c00317b7830bb35d42d3#body"
+        ]
+      },
+      {
+        "node_id": "node_abc28a9b5ddc",
+        "label": "Decision from Decision Asset: Should I change my career in Japan?",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "node_id": "node_c3eb52163ae7",
+        "label": "live-web-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-0",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-web-0"
+        ]
+      },
+      {
+        "node_id": "node_926cb1a64def",
+        "label": "live-web-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-1",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-web-1"
+        ]
+      },
+      {
+        "node_id": "node_3d877af1de97",
+        "label": "live-github-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-0",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-0"
+        ]
+      },
+      {
+        "node_id": "node_6f22db0d0cc5",
+        "label": "live-github-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-1",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-1"
+        ]
+      },
+      {
+        "node_id": "node_1667715183e7",
+        "label": "live-github-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-2",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-2"
+        ]
+      },
+      {
+        "node_id": "node_f965949bed7b",
+        "label": "live-github-3",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-3",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-3"
+        ]
+      },
+      {
+        "node_id": "node_9aaa6e36d017",
+        "label": "live-github-4",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-4",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-4"
+        ]
+      },
+      {
+        "node_id": "node_21ba642fa70c",
+        "label": "live-github-5",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-github-5",
+          "279435c6e6bee24982fcd36dc4511311@1.0.0#live-github-5"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_11aad016908b",
+        "from": "node_0570abb2f911",
+        "to": "node_abc28a9b5ddc",
+        "relation": "decides",
+        "provenance": [
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_91617b75364e",
+        "from": "node_c3eb52163ae7",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_442ec8a898f3",
+        "from": "node_c3eb52163ae7",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-0",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_033bc70c7f88",
+        "from": "node_926cb1a64def",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_464458c2e535",
+        "from": "node_926cb1a64def",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-1",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_aa406dedb06f",
+        "from": "node_3d877af1de97",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-0"
+        ]
+      },
+      {
+        "edge_id": "edge_917adeae2ce4",
+        "from": "node_3d877af1de97",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-0",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_23bc91288287",
+        "from": "node_6f22db0d0cc5",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-1"
+        ]
+      },
+      {
+        "edge_id": "edge_97aca911ed25",
+        "from": "node_6f22db0d0cc5",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-1",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_0a4061d36804",
+        "from": "node_1667715183e7",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-2"
+        ]
+      },
+      {
+        "edge_id": "edge_494b9ec750f7",
+        "from": "node_1667715183e7",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-2",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_162c0b6d1af1",
+        "from": "node_f965949bed7b",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-3"
+        ]
+      },
+      {
+        "edge_id": "edge_a6e747e056b9",
+        "from": "node_f965949bed7b",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-3",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_4438963c190d",
+        "from": "node_9aaa6e36d017",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-4"
+        ]
+      },
+      {
+        "edge_id": "edge_59e2c9dd9577",
+        "from": "node_9aaa6e36d017",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-4",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      },
+      {
+        "edge_id": "edge_cae139ae690c",
+        "from": "node_21ba642fa70c",
+        "to": "node_0570abb2f911",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-github-5"
+        ]
+      },
+      {
+        "edge_id": "edge_6560daab73ab",
+        "from": "node_21ba642fa70c",
+        "to": "node_0570abb2f911",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-github-5",
+          "d26b773e7168c00317b7830bb35d42d3#title"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "279435c6e6bee24982fcd36dc4511311@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5"
+      ],
+      "taskId": "TA-SHOULD-I-CHANGE-MY-CAREE",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "d26b773e7168c00317b7830bb35d42d3",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 10,
+      "edgeCount": 17,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

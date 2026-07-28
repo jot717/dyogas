@@ -1,0 +1,149 @@
+{
+  "query_id": "diq-8b18a3103336",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Given Tokyo constraints in 2026, should I prioritize building a startup or continue employment for long-term entrepreneurial opportunity?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026",
+    "goal": "maximize long term entrepreneurial opportunity"
+  },
+  "similar_past_decisions": [
+    {
+      "model_id": "dm-9460dc3d183a",
+      "decision_id": "da-2d817ce6ab55",
+      "question": "Should I invest my next year building my own startup or continue employment?",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "knowledge_ref": "kn-d19ee4250e3c7b1f0fa18b0f3bdbef4e@1.0.0",
+      "approval_ref": "ha-ef3855d1ea23"
+    },
+    {
+      "model_id": "dm-fa6ae2f65ea9",
+      "decision_id": "da-e2ea1ca58a04",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ],
+      "knowledge_ref": "kn-56b36b0c95105b942d37797381e93794@1.0.0",
+      "approval_ref": "ha-c0e6b4d0ea4d"
+    },
+    {
+      "model_id": "dm-cc3e773b7597",
+      "decision_id": "da-4e6f622b619f",
+      "question": "Should I change my current job or stay?",
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "knowledge_ref": "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+      "approval_ref": "ha-72e9e88b2b83"
+    }
+  ],
+  "dna_signals": [
+    {
+      "signal_type": "decision_pattern",
+      "description": "Chosen option pattern: opt-pursue-build — Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "ref": "pat-chosen-opt-pursue-build"
+    },
+    {
+      "signal_type": "decision_pattern",
+      "description": "Chosen option pattern: opt-change-career — Change career path now (staged transition)",
+      "ref": "pat-chosen-opt-change-career"
+    },
+    {
+      "signal_type": "preference",
+      "description": "actor_id=founder (freq 3)",
+      "ref": "sig-5bcd1317dc19"
+    },
+    {
+      "signal_type": "preference",
+      "description": "location=Tokyo Japan (freq 2)",
+      "ref": "sig-aba16e38888f"
+    },
+    {
+      "signal_type": "preference",
+      "description": "timeframe=2026 (freq 2)",
+      "ref": "sig-3b0d4f40d153"
+    },
+    {
+      "signal_type": "preference",
+      "description": "goal=find billion-dollar potential opportunity (freq 1)",
+      "ref": "sig-ab7d25dc6bc6"
+    },
+    {
+      "signal_type": "preference",
+      "description": "goal=maximize long term career value (freq 1)",
+      "ref": "sig-1a4d93515807"
+    },
+    {
+      "signal_type": "preference",
+      "description": "goal=maximize long term entrepreneurial opportunity (freq 1)",
+      "ref": "sig-7b56f5c978ab"
+    },
+    {
+      "signal_type": "preference",
+      "description": "location=Tokyo (freq 1)",
+      "ref": "sig-b4c633ea4ece"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "goal observed: find billion-dollar potential opportunity, maximize long term career value, maximize long term entrepreneurial opportunity",
+      "ref": "cpat-goal"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "location observed: Tokyo, Tokyo Japan",
+      "ref": "cpat-location"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "timeframe observed: 2026",
+      "ref": "cpat-timeframe"
+    },
+    {
+      "signal_type": "risk",
+      "description": "capital_constrained",
+      "ref": "risk-cb1ca7189008"
+    },
+    {
+      "signal_type": "risk",
+      "description": "solo_founder_capacity",
+      "ref": "risk-cb1ca7189008"
+    },
+    {
+      "signal_type": "risk",
+      "description": "time_bounded:2026",
+      "ref": "risk-cb1ca7189008"
+    }
+  ],
+  "evidence_refs": [
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5",
+    "live-github-6",
+    "live-github-7",
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "dna_ref": "dna-71c490fadfe7",
+  "human_approval_required": true,
+  "automatic_decision": false,
+  "recommendation": false,
+  "created_at": "2026-07-27T11:37:56.507Z",
+  "version": "0.1.0"
+}

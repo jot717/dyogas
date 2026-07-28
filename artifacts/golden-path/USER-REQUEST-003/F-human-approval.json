@@ -1,0 +1,22 @@
+{
+  "inboxBeforeApprove": [
+    {
+      "requestId": "USER-REQUEST-003",
+      "proposalId": "da-2d817ce6ab55",
+      "decisionQuestion": "Should I invest my next year building my own startup or continue employment?",
+      "status": "waiting_human",
+      "createdAt": "2026-07-27T11:37:56.424Z",
+      "requiredHumanAction": "approve_or_reject",
+      "tenant_id": "validation-tokyo-2026",
+      "user_id": "founder",
+      "executionId": "d19ee4250e3c7b1f0fa18b0f3bdbef4e",
+      "autoApproved": false
+    }
+  ],
+  "onApprove": {
+    "proposalId": "da-2d817ce6ab55",
+    "decision": "approved",
+    "actorId": "founder",
+    "rationale": "Product Alpha validation — founder approved startup vs employment package"
+  }
+}

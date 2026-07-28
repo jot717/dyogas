@@ -1,0 +1,38 @@
+{
+  "request_id": "CONTRACT-AUDIT-CASE-003",
+  "execution_id": "3ccc2e9796831926aad075478632a81d",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human",
+    "HumanApproval|approved",
+    "Knowledge|apply",
+    "DecisionGraph|apply",
+    "DecisionModel|snapshot",
+    "DecisionMemory|record"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 6,
+  "artifact_dir": "C:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\CONTRACT-AUDIT-CASE-003",
+  "waiting_human": false,
+  "auto_approved": false,
+  "created_at": "2026-07-27T05:30:35.243Z",
+  "host_status_after_approve": "succeeded",
+  "lineage": {
+    "correlation_id": "CONTRACT-AUDIT-CASE-003",
+    "research_brief_ref": "brief-CONTRACT-AUDIT-CASE-003@1.0.0",
+    "research_report_ref": "e82d1166efcb112316e936f9d179d3b3@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-3ccc2e9796831926aad075478632a81d@1.0.0",
+    "knowledge_ref": "kn-3ccc2e9796831926aad075478632a81d@1.0.0",
+    "graph_update_ref": "gu-3ccc2e9796831926aad075478632a81d@1.0.0"
+  },
+  "approved_at": "2026-07-27T05:30:35.325Z"
+}

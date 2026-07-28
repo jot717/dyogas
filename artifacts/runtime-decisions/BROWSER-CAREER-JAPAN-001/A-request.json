@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "BROWSER-CAREER-JAPAN-001",
+  "user_id": "career-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I change my career in Japan?",
+  "constraints": {
+    "location": "Japan",
+    "decision_type": "career"
+  },
+  "desired_outcome": "Choose a career path with durable optionality",
+  "user_intent": "Should I change my career in Japan?",
+  "workspace_id": "ws-web-career-user"
+}

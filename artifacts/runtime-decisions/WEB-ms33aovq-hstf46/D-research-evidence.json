@@ -1,0 +1,645 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 3,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "source_class": "web",
+      "title": "Immigration to Japan",
+      "timestamp": "2026-07-27T10:34:11.707Z",
+      "extracted_claim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+      "source_class": "web",
+      "title": "Immigration to Jamaica",
+      "timestamp": "2026-07-27T10:34:11.707Z",
+      "extracted_claim": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “visa and foreign professional constraints”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “visa and foreign professional constraints” (verify with primary sources before committing).",
+      "fact": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+      "source_class": "web",
+      "title": "Visa policy of Japan",
+      "timestamp": "2026-07-27T10:34:11.707Z",
+      "extracted_claim": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable kn",
+      "relevance_reason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.7,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "sourceClass": "web",
+      "title": "Immigration to Japan",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. \nIn December 2025, there were more than 4.12 million foreign residents, accounting for approximately 3.35% of Japan's estimated population of 123.2 million.",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ],
+      "matched_factors": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-web-1",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+      "sourceClass": "web",
+      "title": "Immigration to Jamaica",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “visa and foreign professional constraints”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “visa and foreign professional constraints” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. In the modern age, immigration is the responsibility of the Passport, Immigration and Citizenship Agency (PICA), an agency of the Government of Jamaica. By the late 2010s emigration continued to be greatly in excess of immigration.",
+      "matched_intents": [
+        "visa and foreign professional constraints"
+      ],
+      "matched_factors": [
+        "visa and foreign professional constraints"
+      ]
+    },
+    {
+      "evidence_id": "live-web-2",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+      "sourceClass": "web",
+      "title": "Visa policy of Japan",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable kn",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.7,
+      "source_alignment_score": 0.59,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ],
+      "matched_factors": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "visa and foreign professional constraints"
+    ],
+    "decision_domain": "japan_immigration",
+    "decision_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "key_findings": [
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. → Affects which method steps and technique you should record as usable knowledge.",
+      "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. → Affects which method steps and technique you should record as usable knowledge.",
+      "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "market_signals": [
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. → Affects which method steps and technique you should record as usable knowledge.",
+      "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "risks": [
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "Create Japan HSP points-and-documents checklist knowledge before filing the application."
+    ],
+    "evidence_count": 3,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "how to apply japan highly skilled visa",
+    "context": "You asked a how-to question in domain \"japan_immigration\". Approving creates Knowledge from researched evidence (DYOGAS will not decide for you).",
+    "decision_domain": "japan_immigration",
+    "domain": "japan_immigration",
+    "user_goal": "learn_how_to",
+    "decision_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "research_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "key_findings": [
+      "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. 竊・Affects which method steps and technique you should record as usable knowledge.",
+      "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. 竊・Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "key_factors": [
+      {
+        "factor": "eligibility",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-2",
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "points_calculation",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-2",
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "required_documents",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-2",
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-2",
+        "title": "Visa policy of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "fact": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.7,
+        "confidence": 0.71
+      },
+      {
+        "evidence_id": "live-web-0",
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Immigration to Jamaica",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "fact": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas.",
+        "why_relevant": "Addresses decision factor “visa and foreign professional constraints”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-2",
+        "title": "Visa policy of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "fact": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.7,
+        "confidence": 0.71
+      },
+      {
+        "evidence_id": "live-web-0",
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      },
+      {
+        "evidence_id": "live-web-1",
+        "title": "Immigration to Jamaica",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "fact": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas.",
+        "why_relevant": "Addresses decision factor “visa and foreign professional constraints”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-prepare-after-eligibility",
+        "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+        "benefits": [
+          "Confirms eligibility before full documentation work",
+          "Uses Immigration Services Agency–aligned research"
+        ],
+        "risks": [
+          "Eligibility reading may still need primary ISA confirmation",
+          "Checklist can vary by points category"
+        ]
+      },
+      {
+        "option_id": "opt-calculate-points-first",
+        "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+        "benefits": [
+          "Focuses on points calculation and document gaps first",
+          "Reduces incomplete application risk"
+        ],
+        "risks": [
+          "Document collection may delay filing",
+          "Points table updates can change eligibility mid-process"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-prepare-after-eligibility",
+        "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Confirms eligibility before full documentation work",
+          "Uses Immigration Services Agency–aligned research"
+        ],
+        "risks": [
+          "Eligibility reading may still need primary ISA confirmation",
+          "Checklist can vary by points category"
+        ],
+        "unknowns": [
+          "Exact points for your profile",
+          "Which documents are still missing"
+        ]
+      },
+      {
+        "option_id": "opt-calculate-points-first",
+        "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Focuses on points calculation and document gaps first",
+          "Reduces incomplete application risk"
+        ],
+        "risks": [
+          "Document collection may delay filing",
+          "Points table updates can change eligibility mid-process"
+        ],
+        "unknowns": [
+          "Hardest documents to obtain for your case",
+          "Whether another residence status fits better"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Exact points for your profile",
+      "Which documents are still missing",
+      "Hardest documents to obtain for your case",
+      "Whether another residence status fits better"
+    ],
+    "approval_question": "You are approving creation of: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Japan HSP visa application (ISA requirements, points calculation, documents)",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "football",
+      "soccer",
+      "politician",
+      "language learning",
+      "coffee",
+      "espresso",
+      "startup",
+      "career change"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 3,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.69,
+      "avg_authority": 0.66,
+      "factor_coverage_ratio": 0,
+      "covered_factors": [],
+      "gaps": [
+        "eligibility",
+        "points_calculation",
+        "required_documents",
+        "application_procedure"
+      ],
+      "source_classes": [
+        "web"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 3,
+      "warning": "Research factor coverage is incomplete (0/4). Gaps: eligibility, points_calculation, required_documents. Known evidence gaps remain for: eligibility, points_calculation, required_documents, application_procedure.",
+      "block_reason": null
+    },
+    "confidence_warning": "Research factor coverage is incomplete (0/4). Gaps: eligibility, points_calculation, required_documents. Known evidence gaps remain for: eligibility, points_calculation, required_documents, application_procedure.",
+    "evidence_gaps": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "source_class": "web"
+      },
+      {
+        "title": "Immigration to Jamaica",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "source_class": "web"
+      },
+      {
+        "title": "Visa policy of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "source_class": "web"
+      }
+    ],
+    "missing_information": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Immigration to Japan",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-1",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Immigration to Jamaica",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “visa and foreign professional constraints”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “visa and foreign professional constraints” (verify with primary sources before committing).",
+      "fact": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-web-2",
+      "source_url": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Visa policy of Japan",
+      "retrievedAt": "2026-07-27T10:34:11.707Z",
+      "extractedClaim": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable kn",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.7,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+        "retrieved_at": "2026-07-27T10:34:11.707Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-WEB-ms33aovq-hstf46",
+      "question": "how to apply japan highly skilled visa\n[decision-plan: domain=japan_immigration; goal=learn_how_to; factors=eligibility|points_calculation|required_documents|application_procedure; queries=Immigration Services Agency|Japanese residency system|Permanent residency in Japan|Immigration to Japan|Highly Skilled Professional points calculation|Highly Skilled Professional required documents; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Immigration to Japan",
+        "excerpt": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. \nIn December 2025, there were more than 4.12 million foreign residents, accounting for approximately 3.35% of Japan's estimated population of 123.2 million.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+          "retrieved_at": "2026-07-27T10:34:11.707Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-1",
+        "source_class": "web",
+        "title": "Immigration to Jamaica",
+        "excerpt": "Immigration to Jamaica has historically affected the country in large ways as a result of the history of European colonization of the Americas. In the modern age, immigration is the responsibility of the Passport, Immigration and Citizenship Agency (PICA), an agency of the Government of Jamaica. By the late 2010s emigration continued to be greatly in excess of immigration.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Jamaica",
+          "retrieved_at": "2026-07-27T10:34:11.707Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-web-2",
+        "source_class": "web",
+        "title": "Visa policy of Japan",
+        "excerpt": "Visitors to Japan must obtain a visa from one of the Japanese diplomatic missions, unless they come from one of the visa-exempt countries or transit within 72 hours.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Visa_policy_of_Japan",
+          "retrieved_at": "2026-07-27T10:34:11.707Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class github",
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

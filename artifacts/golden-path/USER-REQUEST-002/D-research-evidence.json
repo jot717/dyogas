@@ -1,0 +1,39 @@
+{
+  "research_report_ref": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+  "research_brief_ref": "brief-USER-REQUEST-002@1.0.0",
+  "evidence": [
+    {
+      "evidenceId": "live-web-0",
+      "excerpt": "Employment — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Employment",
+        "pointer": "https://en.wikipedia.org/wiki/Employment",
+        "retrievedAt": "2026-07-27T11:37:46.566Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-web-1",
+      "excerpt": "Employment discrimination — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Employment discrimination",
+        "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+        "retrievedAt": "2026-07-27T11:37:46.566Z",
+        "adapter": "live-stage1-v1"
+      }
+    },
+    {
+      "evidenceId": "live-web-2",
+      "excerpt": "Employment contract — reference for decision research.",
+      "metadata": {
+        "sourceClass": "web",
+        "title": "Employment contract",
+        "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+        "retrievedAt": "2026-07-27T11:37:46.566Z",
+        "adapter": "live-stage1-v1"
+      }
+    }
+  ]
+}

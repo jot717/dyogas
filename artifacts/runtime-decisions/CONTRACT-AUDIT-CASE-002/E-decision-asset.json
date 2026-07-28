@@ -1,0 +1,90 @@
+{
+  "asset_id": "da-e9d1bf6de513",
+  "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "summary": "Decision support for: Should I build an AI startup in Tokyo or continue employment? 4 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: ffb7bb4038fa36278e24919f94b50088@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-2"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-3"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "AI exposure analysis of Japanese job market (~556 occupations). Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-5"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "UI/UX Portfolio resources and case studies for Japan job market - カナダ留学経験を活かした日本向けポートフォリオ資料. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-7"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "supporting_evidence": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Evidence supports exploration: Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. Founding condi",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "supporting_evidence": [
+        "live-github-2",
+        "live-github-3",
+        "live-github-5",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-github-2",
+    "live-github-3",
+    "live-github-5",
+    "live-github-7"
+  ],
+  "research_artifact_id": "ffb7bb4038fa36278e24919f94b50088@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

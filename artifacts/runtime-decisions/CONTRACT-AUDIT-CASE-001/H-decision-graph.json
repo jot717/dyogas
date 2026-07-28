@@ -1,0 +1,177 @@
+{
+  "update": {
+    "knowledge_ref": {
+      "artifact_id": "2fb197e1557731302711a9642915f700",
+      "artifact_version": "1"
+    },
+    "ontology_profile_id": "ontology-decision-graph-1.0.0",
+    "nodes": [
+      {
+        "node_id": "node_a4f123dd6e86",
+        "label": "Decision Asset: how to apply japan highly skilled visa",
+        "types": [
+          "Knowledge"
+        ],
+        "provenance": [
+          "2fb197e1557731302711a9642915f700#title",
+          "2fb197e1557731302711a9642915f700#body"
+        ]
+      },
+      {
+        "node_id": "node_6b3754e3f38d",
+        "label": "Decision from Decision Asset: how to apply japan highly skilled visa",
+        "types": [
+          "Decision"
+        ],
+        "provenance": [
+          "2fb197e1557731302711a9642915f700#title"
+        ]
+      },
+      {
+        "node_id": "node_c3eb52163ae7",
+        "label": "live-web-0",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-0",
+          "91e4c809b501724af0e93cd0e60ea89f@1.0.0#live-web-0"
+        ]
+      },
+      {
+        "node_id": "node_926cb1a64def",
+        "label": "live-web-1",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-1",
+          "91e4c809b501724af0e93cd0e60ea89f@1.0.0#live-web-1"
+        ]
+      },
+      {
+        "node_id": "node_714a8a79458a",
+        "label": "live-web-2",
+        "types": [
+          "Evidence"
+        ],
+        "provenance": [
+          "evidence:live-web-2",
+          "91e4c809b501724af0e93cd0e60ea89f@1.0.0#live-web-2"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "edge_id": "edge_57e90da2d0b1",
+        "from": "node_a4f123dd6e86",
+        "to": "node_6b3754e3f38d",
+        "relation": "decides",
+        "provenance": [
+          "2fb197e1557731302711a9642915f700#title"
+        ]
+      },
+      {
+        "edge_id": "edge_c85fc22b3d71",
+        "from": "node_c3eb52163ae7",
+        "to": "node_a4f123dd6e86",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-0"
+        ]
+      },
+      {
+        "edge_id": "edge_05cd6270ca8a",
+        "from": "node_c3eb52163ae7",
+        "to": "node_a4f123dd6e86",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-0",
+          "2fb197e1557731302711a9642915f700#title"
+        ]
+      },
+      {
+        "edge_id": "edge_ad0ba0994ccc",
+        "from": "node_926cb1a64def",
+        "to": "node_a4f123dd6e86",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-1"
+        ]
+      },
+      {
+        "edge_id": "edge_518950ac7ca6",
+        "from": "node_926cb1a64def",
+        "to": "node_a4f123dd6e86",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-1",
+          "2fb197e1557731302711a9642915f700#title"
+        ]
+      },
+      {
+        "edge_id": "edge_ec7cb6248a05",
+        "from": "node_714a8a79458a",
+        "to": "node_a4f123dd6e86",
+        "relation": "supports",
+        "provenance": [
+          "evidence:live-web-2"
+        ]
+      },
+      {
+        "edge_id": "edge_3598cbbc9449",
+        "from": "node_714a8a79458a",
+        "to": "node_a4f123dd6e86",
+        "relation": "approved_as",
+        "provenance": [
+          "evidence:live-web-2",
+          "2fb197e1557731302711a9642915f700#title"
+        ]
+      }
+    ],
+    "consistency_report": {
+      "ok": true,
+      "issues": []
+    },
+    "mode": "apply"
+  },
+  "foundation": {
+    "meta": {
+      "contractId": "decision-graph-foundation",
+      "contractVersion": "1.0.0",
+      "stages": [
+        "evidence",
+        "knowledge",
+        "decision"
+      ],
+      "requiresHumanApproval": true,
+      "researchMayWriteSoR": false,
+      "ontologyProfileId": "ontology-decision-graph-1.0.0"
+    },
+    "evidence": {
+      "stage": "evidence",
+      "researchArtifactId": "91e4c809b501724af0e93cd0e60ea89f@1.0.0",
+      "evidenceIds": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "taskId": "TA-HOW-TO-APPLY-JAPAN-HIGHL",
+      "tenantId": "validation-tokyo-2026"
+    },
+    "knowledge": {
+      "stage": "knowledge",
+      "knowledgeId": "2fb197e1557731302711a9642915f700",
+      "version": 1,
+      "approvalState": "applied"
+    },
+    "decision": {
+      "stage": "decision",
+      "graphUpdateMode": "apply",
+      "nodeCount": 5,
+      "edgeCount": 7,
+      "consistencyOk": true
+    }
+  },
+  "persisted": true
+}

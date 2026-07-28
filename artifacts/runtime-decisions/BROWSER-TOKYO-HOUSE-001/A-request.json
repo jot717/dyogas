@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "BROWSER-TOKYO-HOUSE-001",
+  "user_id": "house-buyer",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I buy a house in Tokyo?",
+  "constraints": {
+    "location": "Tokyo",
+    "decision_type": "real_estate"
+  },
+  "desired_outcome": "Make a financially sound housing decision",
+  "user_intent": "Should I buy a house in Tokyo?",
+  "workspace_id": "ws-web-house-buyer"
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "WEB-ms2n32au-l6df2o",
+  "user_id": "browser-manual",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I change my career in Japan?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "job for 46 years Taiwanese in Tokyo",
+  "user_intent": "Should I change my career in Japan?",
+  "workspace_id": "ws-web-browser-manual"
+}

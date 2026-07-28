@@ -1,0 +1,21 @@
+{
+  "request_id": "BROWSER-ITALIAN-COFFEE-MANUAL-001",
+  "execution_id": "2361229252e8f920ac9df29383a05b6f",
+  "path": [
+    "BrowserUser|API",
+    "web-ui|/decision/request",
+    "personal-brain|createDecisionRequest",
+    "ExecutionHost|createRun",
+    "ResearchAgent|stage1",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "HumanApproval|waiting_human"
+  ],
+  "host_status": "waiting_human",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 4,
+  "artifact_dir": "c:\\Users\\juiyu\\OneDrive\\Desktop\\dyogas\\artifacts\\runtime-decisions\\BROWSER-ITALIAN-COFFEE-MANUAL-001",
+  "waiting_human": true,
+  "auto_approved": false,
+  "created_at": "2026-07-27T02:43:30.443Z"
+}

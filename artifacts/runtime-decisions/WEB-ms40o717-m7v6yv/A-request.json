@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "WEB-ms40o717-m7v6yv",
+  "user_id": "demo-tokyo-founder",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "how to apply for highly skilled visa in japan",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "highly skilled visa in japan",
+  "user_intent": "how to apply for highly skilled visa in japan",
+  "workspace_id": "ws-web-demo-tokyo-founder"
+}

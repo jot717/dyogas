@@ -1,0 +1,36 @@
+{
+  "runtimeTrace": [
+    "submitDecisionRequest(USER-REQUEST-002)",
+    "ExecutionHost.createRun → waiting_human",
+    "TaskAgent.createTaskPlan + ExecutionPackage",
+    "Host.getSealedArtifact → Research Evidence",
+    "DecisionAsset.fromResearchEvidence",
+    "HumanGate pending (autoApproved=false)",
+    "approveDecisionRequest({ decision: approved, actorId: founder })",
+    "HumanGate validated → Knowledge SoR apply",
+    "Decision Graph persist",
+    "Host.resumeHuman → applyKnowledgeAuthorized → applyGraphAuthorized",
+    "Host seal complete (status=succeeded)",
+    "DecisionModel v0.1 snapshot",
+    "DecisionModelRegistry.put (+ optional USER-REQUEST-001 seed)",
+    "extractDecisionDna → Decision DNA v0.1",
+    "queryDecisionIntelligence (assist only; no recommendation)"
+  ],
+  "productValidation": "SPRINT-DECISION-INTELLIGENCE-MVP-PRODUCT-001",
+  "coexistence": {
+    "seededPriorUserRequest001": [
+      "dm-fa6ae2f65ea9"
+    ],
+    "registryModelCount": 2
+  },
+  "apiBoundary": {
+    "submit": "personal-brain/src/bridge/decision-request.ts#submitDecisionRequest",
+    "approve": "personal-brain/src/bridge/decision-request.ts#approveDecisionRequest",
+    "forbidden": [
+      "knowledge/graph/model/dna before human approval",
+      "auto-approve",
+      "automatic decision / recommendation",
+      "new Agent / MOD / Runtime / SDK / Host redesign / UI"
+    ]
+  }
+}

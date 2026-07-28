@@ -1,0 +1,459 @@
+{
+  "proposalId": "da-c528c9370867",
+  "requestId": "USER-WEB-MVP-001",
+  "user_id": "web-mvp-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "Maximize long-term entrepreneurial optionality without catastrophic downside",
+  "status": "approved",
+  "createdAt": "2026-07-27T01:05:20.236Z",
+  "research_report_ref": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+  "research_brief_ref": "brief-USER-WEB-MVP-001@1.0.0",
+  "evidence_count": 6,
+  "evidence_ids": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "decision_asset": {
+    "asset_id": "da-c528c9370867",
+    "title": "Decision Asset: Should I build an AI startup in Tokyo or continue employment?",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "summary": "Decision-ready synthesis for: Should I build an AI startup in Tokyo or continue employment? Derived from 6 evidence item(s); provenance retained. researchArtifactId: 94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "claims": [
+      {
+        "claim_id": "claim-000",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-web-0"
+      },
+      {
+        "claim_id": "claim-001",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-web-1"
+      },
+      {
+        "claim_id": "claim-002",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-github-0"
+      },
+      {
+        "claim_id": "claim-003",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-github-1"
+      },
+      {
+        "claim_id": "claim-004",
+        "text": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-reddit-0"
+      },
+      {
+        "claim_id": "claim-005",
+        "text": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "evidence_id": "mock-reddit-1"
+      }
+    ],
+    "evidence_ids": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "research_artifact_id": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "tenant_id": "validation-tokyo-2026",
+    "task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "execution_package_task_id": "TA-SHOULD-I-BUILD-AN-AI-STA",
+    "status": "pending_approval",
+    "requires_human_approval": true
+  },
+  "stages_completed": [
+    "request",
+    "research",
+    "evidence",
+    "decision_asset",
+    "human_approval",
+    "completed"
+  ],
+  "autoApproved": false,
+  "host_status": "succeeded",
+  "analysis": {
+    "proposalId": "da-c528c9370867",
+    "requestId": "USER-WEB-MVP-001",
+    "user_id": "web-mvp-user",
+    "tenant_id": "validation-tokyo-2026",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "status": "approved",
+    "research_report_ref": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+    "research_brief_ref": "brief-USER-WEB-MVP-001@1.0.0",
+    "decision_asset_id": "da-c528c9370867",
+    "evidence_refs": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "patterns": {
+      "query_id": "diq-b865e8011801",
+      "tenant_id": "validation-tokyo-2026",
+      "question": "Should I build an AI startup in Tokyo or continue employment?",
+      "constraints": {
+        "location": "Tokyo",
+        "timeframe": "2026"
+      },
+      "similar_past_decisions": [
+        {
+          "model_id": "dm-9fd5578255a2",
+          "decision_id": "da-c528c9370867",
+          "question": "Should I build an AI startup in Tokyo or continue employment?",
+          "evidence_refs": [
+            "mock-web-0",
+            "mock-web-1",
+            "mock-github-0",
+            "mock-github-1",
+            "mock-reddit-0",
+            "mock-reddit-1"
+          ],
+          "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+          "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0"
+        }
+      ],
+      "dna_signals": [
+        {
+          "signal_type": "decision_pattern",
+          "description": "Chosen option pattern: opt-package-approve — Human approved Decision Asset package as decision-ready (no automated ranking)",
+          "ref": "pat-chosen-opt-package-approve"
+        },
+        {
+          "signal_type": "preference",
+          "description": "actor_id=web-mvp-user (freq 1)",
+          "ref": "sig-74a40c907716"
+        },
+        {
+          "signal_type": "preference",
+          "description": "location=Tokyo (freq 1)",
+          "ref": "sig-b4c633ea4ece"
+        },
+        {
+          "signal_type": "preference",
+          "description": "timeframe=2026 (freq 1)",
+          "ref": "sig-3b0d4f40d153"
+        },
+        {
+          "signal_type": "constraint",
+          "description": "location observed: Tokyo",
+          "ref": "cpat-location"
+        },
+        {
+          "signal_type": "constraint",
+          "description": "timeframe observed: 2026",
+          "ref": "cpat-timeframe"
+        },
+        {
+          "signal_type": "risk",
+          "description": "human_package_approval_path",
+          "ref": "risk-a6ae8e5f8972"
+        },
+        {
+          "signal_type": "risk",
+          "description": "time_bounded:2026",
+          "ref": "risk-a6ae8e5f8972"
+        }
+      ],
+      "evidence_refs": [
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1",
+        "mock-web-0",
+        "mock-web-1"
+      ],
+      "dna_ref": "dna-33c7caae996b",
+      "human_approval_required": true,
+      "automatic_decision": false,
+      "recommendation": false,
+      "created_at": "2026-07-27T01:05:20.277Z",
+      "version": "0.1.0"
+    },
+    "history": [
+      {
+        "model_id": "dm-9fd5578255a2",
+        "question": "Should I build an AI startup in Tokyo or continue employment?",
+        "chosen_option": {
+          "option_id": "opt-package-approve",
+          "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+          "evidence_refs": [
+            "mock-web-0",
+            "mock-web-1",
+            "mock-github-0",
+            "mock-github-1",
+            "mock-reddit-0",
+            "mock-reddit-1"
+          ]
+        },
+        "rationale": "Actor web-mvp-user approved proposal da-c528c9370867. Decision Model v0.1 records the approved Decision Asset package snapshot. No prediction or recommendation engine involved.",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ],
+        "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+        "outcome_status": "recorded",
+        "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+        "created_at": "2026-07-27T01:05:20.250Z",
+        "decision_id": "da-c528c9370867"
+      }
+    ],
+    "human_approval_required": true,
+    "automatic_decision": false,
+    "recommendation": false
+  },
+  "decisionModel": {
+    "model_id": "dm-9fd5578255a2",
+    "tenant_id": "validation-tokyo-2026",
+    "decision_id": "da-c528c9370867",
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "constraints": {
+      "location": "Tokyo",
+      "timeframe": "2026",
+      "desired_outcome": "Maximize long-term entrepreneurial optionality without catastrophic downside"
+    },
+    "options": [
+      {
+        "option_id": "opt-package-approve",
+        "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ]
+      },
+      {
+        "option_id": "opt-claim-000",
+        "statement": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-000",
+        "evidence_refs": [
+          "mock-web-0"
+        ]
+      },
+      {
+        "option_id": "opt-claim-001",
+        "statement": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-001",
+        "evidence_refs": [
+          "mock-web-1"
+        ]
+      },
+      {
+        "option_id": "opt-claim-002",
+        "statement": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-002",
+        "evidence_refs": [
+          "mock-github-0"
+        ]
+      },
+      {
+        "option_id": "opt-claim-003",
+        "statement": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-003",
+        "evidence_refs": [
+          "mock-github-1"
+        ]
+      },
+      {
+        "option_id": "opt-claim-004",
+        "statement": "Mock evidence 1 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-004",
+        "evidence_refs": [
+          "mock-reddit-0"
+        ]
+      },
+      {
+        "option_id": "opt-claim-005",
+        "statement": "Mock evidence 2 for: Should I build an AI startup in Tokyo or continue employment?",
+        "claim_id": "claim-005",
+        "evidence_refs": [
+          "mock-reddit-1"
+        ]
+      }
+    ],
+    "chosen_option": {
+      "option_id": "opt-package-approve",
+      "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ]
+    },
+    "rationale": "Actor web-mvp-user approved proposal da-c528c9370867. Decision Model v0.1 records the approved Decision Asset package snapshot. No prediction or recommendation engine involved.",
+    "evidence_refs": [
+      "mock-web-0",
+      "mock-web-1",
+      "mock-github-0",
+      "mock-github-1",
+      "mock-reddit-0",
+      "mock-reddit-1"
+    ],
+    "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+    "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+    "actor_id": "web-mvp-user",
+    "outcome_status": "recorded",
+    "created_at": "2026-07-27T01:05:20.250Z",
+    "version": "0.1.0",
+    "decision_asset_ref": "da-c528c9370867",
+    "user_id": "web-mvp-user",
+    "lineage": {
+      "correlation_id": "USER-WEB-MVP-001",
+      "research_brief_ref": "brief-USER-WEB-MVP-001@1.0.0",
+      "research_report_ref": "94545245e92e9fecae432bf6d05e3416@1.0.0",
+      "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+      "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+      "human_decision_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+      "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+      "graph_update_ref": "gu-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0"
+    },
+    "graph_update_ref": "gu-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0"
+  },
+  "rationale": "USER-WEB-MVP-001 browser validation approve",
+  "dna": {
+    "dna_id": "dna-33c7caae996b",
+    "tenant_id": "validation-tokyo-2026",
+    "model_refs": [
+      "dm-9fd5578255a2"
+    ],
+    "decision_patterns": [
+      {
+        "pattern_id": "pat-chosen-opt-package-approve",
+        "description": "Chosen option pattern: opt-package-approve — Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "frequency": 1,
+        "model_refs": [
+          "dm-9fd5578255a2"
+        ]
+      }
+    ],
+    "preference_signals": [
+      {
+        "signal_id": "sig-74a40c907716",
+        "key": "actor_id",
+        "value": "web-mvp-user",
+        "frequency": 1
+      },
+      {
+        "signal_id": "sig-78d0e89954c6",
+        "key": "desired_outcome",
+        "value": "Maximize long-term entrepreneurial optionality without catastrophic downside",
+        "frequency": 1
+      },
+      {
+        "signal_id": "sig-b4c633ea4ece",
+        "key": "location",
+        "value": "Tokyo",
+        "frequency": 1
+      },
+      {
+        "signal_id": "sig-3b0d4f40d153",
+        "key": "timeframe",
+        "value": "2026",
+        "frequency": 1
+      }
+    ],
+    "constraint_patterns": [
+      {
+        "pattern_id": "cpat-desired_outcome",
+        "constraint_key": "desired_outcome",
+        "observed_values": [
+          "Maximize long-term entrepreneurial optionality without catastrophic downside"
+        ],
+        "frequency": 1
+      },
+      {
+        "pattern_id": "cpat-location",
+        "constraint_key": "location",
+        "observed_values": [
+          "Tokyo"
+        ],
+        "frequency": 1
+      },
+      {
+        "pattern_id": "cpat-timeframe",
+        "constraint_key": "timeframe",
+        "observed_values": [
+          "2026"
+        ],
+        "frequency": 1
+      }
+    ],
+    "risk_profile": {
+      "profile_id": "risk-a6ae8e5f8972",
+      "signals": [
+        "human_package_approval_path",
+        "time_bounded:2026"
+      ],
+      "summary": "Descriptive risk profile from recorded Decision Model constraints and approval path. Not a prediction."
+    },
+    "created_at": "2026-07-27T01:05:20.271Z",
+    "version": "0.1.0",
+    "decision_domains": [
+      "startup-opportunity:tokyo"
+    ],
+    "lineage_refs": [
+      {
+        "model_id": "dm-9fd5578255a2",
+        "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+        "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+        "graph_update_ref": "gu-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0"
+      }
+    ]
+  },
+  "history_snapshot": [
+    {
+      "model_id": "dm-9fd5578255a2",
+      "question": "Should I build an AI startup in Tokyo or continue employment?",
+      "chosen_option": {
+        "option_id": "opt-package-approve",
+        "statement": "Human approved Decision Asset package as decision-ready (no automated ranking)",
+        "evidence_refs": [
+          "mock-web-0",
+          "mock-web-1",
+          "mock-github-0",
+          "mock-github-1",
+          "mock-reddit-0",
+          "mock-reddit-1"
+        ]
+      },
+      "rationale": "Actor web-mvp-user approved proposal da-c528c9370867. Decision Model v0.1 records the approved Decision Asset package snapshot. No prediction or recommendation engine involved.",
+      "evidence_refs": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "approval_ref": "hrd-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+      "outcome_status": "recorded",
+      "knowledge_ref": "kn-6d4d0a1d2fa1ddaec05534fe555a16a5@1.0.0",
+      "created_at": "2026-07-27T01:05:20.250Z",
+      "decision_id": "da-c528c9370867"
+    }
+  ]
+}

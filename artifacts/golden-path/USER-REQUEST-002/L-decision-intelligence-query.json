@@ -1,0 +1,136 @@
+{
+  "query_id": "diq-ba2d9594a5a5",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "Given Tokyo career constraints, should an experienced technical professional change jobs or stay for long-term value?",
+  "constraints": {
+    "location": "Tokyo Japan",
+    "careerStage": "experienced technical professional",
+    "goal": "maximize long term career value"
+  },
+  "similar_decisions": [
+    {
+      "model_id": "dm-cc3e773b7597",
+      "decision_id": "da-4e6f622b619f",
+      "question": "Should I change my current job or stay?",
+      "decision_domain": "career-mobility:tokyo-japan",
+      "overlap_score": 1.05,
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "knowledge_ref": "kn-c2778b76b55b9c9ea8a33e75b9951625@1.0.0",
+      "approval_ref": "ha-72e9e88b2b83"
+    },
+    {
+      "model_id": "dm-fa6ae2f65ea9",
+      "decision_id": "da-e2ea1ca58a04",
+      "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
+      "decision_domain": "startup-opportunity:tokyo-japan",
+      "overlap_score": 0.3,
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ],
+      "knowledge_ref": "kn-56b36b0c95105b942d37797381e93794@1.0.0",
+      "approval_ref": "ha-c0e6b4d0ea4d"
+    }
+  ],
+  "dna_signals": [
+    {
+      "signal_type": "decision_pattern",
+      "description": "Chosen option pattern: opt-change-career — Change career path now (staged transition)",
+      "ref": "pat-chosen-opt-change-career"
+    },
+    {
+      "signal_type": "decision_pattern",
+      "description": "Chosen option pattern: opt-pursue-build — Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "ref": "pat-chosen-opt-pursue-build"
+    },
+    {
+      "signal_type": "preference",
+      "description": "actor_id=founder (freq 2)",
+      "ref": "sig-5bcd1317dc19"
+    },
+    {
+      "signal_type": "preference",
+      "description": "location=Tokyo Japan (freq 2)",
+      "ref": "sig-aba16e38888f"
+    },
+    {
+      "signal_type": "preference",
+      "description": "careerStage=experienced technical professional (freq 1)",
+      "ref": "sig-3ee6926188ba"
+    },
+    {
+      "signal_type": "preference",
+      "description": "founderType=solo technical founder (freq 1)",
+      "ref": "sig-3b0e1917129e"
+    },
+    {
+      "signal_type": "preference",
+      "description": "goal=find billion-dollar potential opportunity (freq 1)",
+      "ref": "sig-ab7d25dc6bc6"
+    },
+    {
+      "signal_type": "preference",
+      "description": "goal=maximize long term career value (freq 1)",
+      "ref": "sig-1a4d93515807"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "goal observed: find billion-dollar potential opportunity, maximize long term career value",
+      "ref": "cpat-goal"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "location observed: Tokyo Japan",
+      "ref": "cpat-location"
+    },
+    {
+      "signal_type": "constraint",
+      "description": "careerStage observed: experienced technical professional",
+      "ref": "cpat-careerStage"
+    },
+    {
+      "signal_type": "risk",
+      "description": "capital_constrained",
+      "ref": "risk-cb1ca7189008"
+    },
+    {
+      "signal_type": "risk",
+      "description": "solo_founder_capacity",
+      "ref": "risk-cb1ca7189008"
+    },
+    {
+      "signal_type": "risk",
+      "description": "time_bounded:2026",
+      "ref": "risk-cb1ca7189008"
+    }
+  ],
+  "evidence_refs": [
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5",
+    "live-github-6",
+    "live-github-7",
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "dna_ref": "dna-c6c77fcf465c",
+  "human_approval_required": true,
+  "automatic_decision": false,
+  "recommendation": false,
+  "created_at": "2026-07-27T11:37:48.526Z",
+  "version": "0.1.0"
+}

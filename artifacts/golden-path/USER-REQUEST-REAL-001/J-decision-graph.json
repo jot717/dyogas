@@ -1,0 +1,13 @@
+{
+  "persisted": true,
+  "lineage": {
+    "correlation_id": "USER-REQUEST-REAL-001",
+    "research_brief_ref": "brief-USER-REQUEST-REAL-001@1.0.0",
+    "research_report_ref": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+    "validation_report_ref": "knowledge-ingestion-stage-2@1.0.0",
+    "proposal_ref": "knowledge-ingestion-stage-3@1.0.0",
+    "human_decision_ref": "hrd-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+    "knowledge_ref": "kn-316a33c04ca239ceae1064fd7c70a1c0@1.0.0",
+    "graph_update_ref": "gu-316a33c04ca239ceae1064fd7c70a1c0@1.0.0"
+  }
+}

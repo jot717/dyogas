@@ -1,0 +1,12 @@
+{
+  "runtimeTrace": [
+    "Open browser → GET / (Decision Home SPA)",
+    "POST /session { user_id, tenant_id }",
+    "POST /decision/request — Should I build an AI startup in Tokyo or continue employment?",
+    "GET /decision/inbox — waiting_human",
+    "GET /decision/:id — progress + analysis (no auto decision)",
+    "POST /decision/:id/approve",
+    "GET /decision/history — Decision Memory saved"
+  ],
+  "sprint": "SPRINT-PERSONAL-BRAIN-WEB-MVP-001"
+}

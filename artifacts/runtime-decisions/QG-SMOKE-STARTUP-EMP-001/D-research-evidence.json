@@ -1,0 +1,1149 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 8,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "title": "Labor market of Japan",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.66,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "source_class": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. This source adds context that may shift the balance between acting now and waiting. Affects whethe",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/rmakioka/COVID-labor-Japan",
+      "source_class": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "This is a project on the effects of COVID-19 on labor markets in Japan. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.6,
+      "authority_score": 0.52,
+      "relevance_score": 0.56,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+      "source_class": "github",
+      "title": "Pragaty/Places-To-Visit-In-Dehradun",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. This source adds context that may shift the balance between acting now and waiting. Affects whether the choice is financially sustainable fo",
+      "relevance_reason": "Addresses decision factor “salary and compensation opportunity”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.45,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “salary and compensation opportunity”.",
+      "fact": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "title": "gregfontaine/jobs",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "AI exposure analysis of Japanese job market (~556 occupations). This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-6",
+      "source_url": "https://github.com/hall0-kitty/bilingual-job-navigator",
+      "source_class": "github",
+      "title": "hall0-kitty/bilingual-job-navigator",
+      "timestamp": "2026-07-27T04:55:01.274Z",
+      "extracted_claim": "A web application for bilingual professionals navigating the Japanese international tech market. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevance_reason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "A web application for bilingual professionals navigating the Japanese international tech market.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "supported_options": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/hall0-kitty/bilingual-job-navigator",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.66,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Among them, 62.57 million were employed, while 3.34 million were unemployed, yielding an unemployment rate of 5.1%. The structure of Japan's labor market experienced gradual change in the late 1980s and continued this trend throughout the 1990s. The structure of the labor market is affected",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    },
+    {
+      "evidence_id": "live-github-0",
+      "sourceUrl": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "sourceClass": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. This source adds context that may shift the balance between acting now and waiting. Affects whethe",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, and competitive landscape. The market analysts and researchers have done extensive analysis of the global Clinical Laboratory Services market with the help of research methodologies",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "startup opportunity landscape"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    },
+    {
+      "evidence_id": "live-github-1",
+      "sourceUrl": "https://github.com/rmakioka/COVID-labor-Japan",
+      "sourceClass": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "This is a project on the effects of COVID-19 on labor markets in Japan. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "This is a project on the effects of COVID-19 on labor markets in Japan",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    },
+    {
+      "evidence_id": "live-github-2",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+      "matched_intents": [
+        "career market conditions",
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity",
+        "financial risk"
+      ]
+    },
+    {
+      "evidence_id": "live-github-3",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.6,
+      "authority_score": 0.52,
+      "relevance_score": 0.56,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "intelligence": {
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "startup opportunity landscape"
+      ],
+      "matched_factors": [
+        "Tokyo ecosystem"
+      ]
+    },
+    {
+      "evidence_id": "live-github-4",
+      "sourceUrl": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+      "sourceClass": "github",
+      "title": "Pragaty/Places-To-Visit-In-Dehradun",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. This source adds context that may shift the balance between acting now and waiting. Affects whether the choice is financially sustainable fo",
+      "relevanceReason": "Addresses decision factor “salary and compensation opportunity”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.45,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “salary and compensation opportunity”.",
+      "intelligence": {
+        "fact": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "The Serene Doon Valley  In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. It is idyllically located in the Garhwal region which is bestowed with natural abundance. The city is located 236 kilometers north of India's capital New Delhi. Being located on the foothills of the Himalayas the city h",
+      "matched_intents": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ],
+      "matched_factors": [
+        "salary and compensation opportunity",
+        "professional mobility and transition risk"
+      ]
+    },
+    {
+      "evidence_id": "live-github-5",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+      "matched_intents": [
+        "career market conditions",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    },
+    {
+      "evidence_id": "live-github-6",
+      "sourceUrl": "https://github.com/hall0-kitty/bilingual-job-navigator",
+      "sourceClass": "github",
+      "title": "hall0-kitty/bilingual-job-navigator",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "A web application for bilingual professionals navigating the Japanese international tech market. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "intelligence": {
+        "fact": "A web application for bilingual professionals navigating the Japanese international tech market.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+        "supportedOptions": [
+          "act now",
+          "gather more evidence"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://github.com/hall0-kitty/bilingual-job-navigator",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "A web application for bilingual professionals navigating the Japanese international tech market.",
+      "matched_intents": [
+        "career market conditions",
+        "professional mobility and transition risk",
+        "Japan local labor market context",
+        "foreign professional mobility in Japan"
+      ],
+      "matched_factors": [
+        "market opportunity"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "career market conditions",
+      "salary and compensation opportunity",
+      "industry hiring demand",
+      "professional mobility and transition risk",
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "startup opportunity landscape",
+      "solo founder feasibility"
+    ],
+    "decision_domain": "startup_career_decision",
+    "decision_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "key_findings": [
+      "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. → Affects whether timing favors acting now versus deferring.",
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. → Affects whether timing favors acting now versus deferring.",
+      "AI exposure analysis of Japanese job market (~556 occupations). → Affects whether timing favors acting now versus deferring.",
+      "A web application for bilingual professionals navigating the Japanese international tech market. → Affects whether timing favors acting now versus deferring.",
+      "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. → Affects whether timing favors acting now versus deferring."
+    ],
+    "market_signals": [
+      "This source adds context that may shift the balance between acting now and waiting.",
+      "This source adds context that may shift the balance between acting now and waiting.",
+      "This source adds context that may shift the balance between acting now and waiting.",
+      "This source adds context that may shift the balance between acting now and waiting."
+    ],
+    "risks": [
+      "Factor to stress-test: financial risk.",
+      "Factor to stress-test: opportunity cost.",
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Build / pursue the opportunity now",
+      "Validate first (consulting / employment / wedge) before full build"
+    ],
+    "evidence_count": 8,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "Should I build an AI startup in Tokyo or continue employment?",
+    "context": "You asked a decision question in domain 窶・{plan.domain}窶・ Approving records which option you choose, with rationale, into Decision Model / Memory 窶・DYOGAS will not choose for you.",
+    "decision_domain": "startup_career_decision",
+    "domain": "startup_career_decision",
+    "user_goal": "make_decision",
+    "decision_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "research_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "key_findings": [
+      "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. 竊・Affects whether timing favors acting now versus deferring.",
+      "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. 竊・Affects whether timing favors acting now versus deferring.",
+      "AI exposure analysis of Japanese job market (~556 occupations). 竊・Affects whether timing favors acting now versus deferring."
+    ],
+    "key_factors": [
+      {
+        "factor": "market opportunity",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-github-5"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      },
+      {
+        "factor": "financial risk",
+        "why_matters": "Directly affects cash flow, runway, and whether the choice is financially sustainable.",
+        "evidence_ids": [
+          "live-github-2",
+          "live-github-4"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring. Transition risk should be staged, not binary."
+      },
+      {
+        "factor": "opportunity cost",
+        "why_matters": "Shapes whether timing favors acting now versus waiting for clearer signals.",
+        "evidence_ids": [
+          "live-web-0",
+          "live-github-3"
+        ],
+        "impact": "Affects whether timing favors acting now versus deferring."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Labor market of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.66,
+        "relevance_score": 0.53,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-3",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.56,
+        "confidence": 0.6
+      },
+      {
+        "evidence_id": "live-github-5",
+        "title": "gregfontaine/jobs",
+        "source_url": "https://github.com/gregfontaine/jobs",
+        "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.53,
+        "confidence": 0.58
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Labor market of Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.66,
+        "relevance_score": 0.53,
+        "confidence": 0.64
+      },
+      {
+        "evidence_id": "live-github-3",
+        "title": "Srakawichi/park-whisperer-ai",
+        "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+        "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+        "why_relevant": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.56,
+        "confidence": 0.6
+      },
+      {
+        "evidence_id": "live-github-5",
+        "title": "gregfontaine/jobs",
+        "source_url": "https://github.com/gregfontaine/jobs",
+        "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+        "why_relevant": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+        "implication": "This source adds context that may shift the balance between acting now and waiting.",
+        "decision_impact": "Affects whether timing favors acting now versus deferring.",
+        "authority_score": 0.52,
+        "relevance_score": 0.53,
+        "confidence": 0.58
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Build / pursue the opportunity now",
+        "benefits": [
+          "Evidence supports exploration: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source ",
+          "Solo-founder path can stay small until distribution is proven",
+          "Tokyo timing may capture local AI adoption momentum"
+        ],
+        "risks": [
+          "Market may already be crowded in AI tooling",
+          "Distribution and customer acquisition remain unproven",
+          "Capital and attention risk if validation is skipped"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Validate first (consulting / employment / wedge) before full build",
+        "benefits": [
+          "Reduces irreversible commitment while learning demand",
+          "Keeps optionality if evidence quality is still uneven",
+          "Can pressure-test signals such as: \"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Se"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Part-time validation can dilute focus"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-pursue-build",
+        "title": "Build / pursue the opportunity now",
+        "why_consider": "Consider if current evidence supports acting while preserving a reversible first step.",
+        "advantages": [
+          "Evidence supports exploration: In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source ",
+          "Solo-founder path can stay small until distribution is proven",
+          "Tokyo timing may capture local AI adoption momentum"
+        ],
+        "risks": [
+          "Market may already be crowded in AI tooling",
+          "Distribution and customer acquisition remain unproven",
+          "Capital and attention risk if validation is skipped"
+        ],
+        "unknowns": [
+          "Who pays first, and for what concrete job-to-be-done?",
+          "Regulatory / data constraints for the chosen niche",
+          "Personal runway vs time-to-first-revenue"
+        ]
+      },
+      {
+        "option_id": "opt-validate-first",
+        "title": "Validate first (consulting / employment / wedge) before full build",
+        "why_consider": "Useful when evidence quality or personal constraints still leave material unknowns.",
+        "advantages": [
+          "Reduces irreversible commitment while learning demand",
+          "Keeps optionality if evidence quality is still uneven",
+          "Can pressure-test signals such as: \"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Se"
+        ],
+        "risks": [
+          "Opportunity window may narrow while validating",
+          "Part-time validation can dilute focus"
+        ],
+        "unknowns": [
+          "How long validation should run before a go/no-go",
+          "Whether consulting demand maps to a product wedge"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Who pays first, and for what concrete job-to-be-done?",
+      "Regulatory / data constraints for the chosen niche",
+      "Personal runway vs time-to-first-revenue",
+      "How long validation should run before a go/no-go",
+      "Whether consulting demand maps to a product wedge"
+    ],
+    "approval_question": "Do you want to record this decision based on the above evidence?",
+    "knowledge_preview": "Decision Model + Knowledge recording your chosen option for: Should I build an AI startup in Tokyo or continue employment?",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 8,
+    "evidence_quality_status": "HIGH",
+    "evidence_quality": {
+      "status": "HIGH",
+      "avg_relevance": 0.51,
+      "avg_authority": 0.54,
+      "factor_coverage_ratio": 0.8,
+      "covered_factors": [
+        "market opportunity",
+        "financial risk",
+        "opportunity cost",
+        "Tokyo ecosystem"
+      ],
+      "gaps": [
+        "personal constraints"
+      ],
+      "source_classes": [
+        "web",
+        "github"
+      ],
+      "source_diversity": 2,
+      "evidence_count": 8,
+      "warning": null,
+      "block_reason": null
+    },
+    "confidence_warning": null,
+    "evidence_gaps": [
+      "personal constraints"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Labor market of Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.64,
+      "authority_score": 0.66,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “market opportunity” (verify with primary sources before committing).",
+      "fact": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-0",
+      "source_url": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "sourceUrl": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an. This source adds context that may shift the balance between acting now and waiting. Affects whethe",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, an.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-1",
+      "source_url": "https://github.com/rmakioka/COVID-labor-Japan",
+      "sourceUrl": "https://github.com/rmakioka/COVID-labor-Japan",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "rmakioka/COVID-labor-Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "This is a project on the effects of COVID-19 on labor markets in Japan. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.47,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "This is a project on the effects of COVID-19 on labor markets in Japan.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-2",
+      "source_url": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "sourceUrl": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "haneumlee99/Economic-Forecasts-for-Japan",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.57,
+      "authority_score": 0.52,
+      "relevance_score": 0.51,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-3",
+      "source_url": "https://github.com/Srakawichi/park-whisperer-ai",
+      "sourceUrl": "https://github.com/Srakawichi/park-whisperer-ai",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "Srakawichi/park-whisperer-ai",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “Tokyo ecosystem”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.6,
+      "authority_score": 0.52,
+      "relevance_score": 0.56,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “Tokyo ecosystem”.",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-4",
+      "source_url": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+      "sourceUrl": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "Pragaty/Places-To-Visit-In-Dehradun",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. This source adds context that may shift the balance between acting now and waiting. Affects whether the choice is financially sustainable fo",
+      "relevanceReason": "Addresses decision factor “salary and compensation opportunity”: Affects whether the choice is financially sustainable for your timeline.",
+      "confidence": 0.55,
+      "authority_score": 0.52,
+      "relevance_score": 0.45,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “salary and compensation opportunity”.",
+      "fact": "The Serene Doon Valley In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether the choice is financially sustainable for your timeline.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-5",
+      "source_url": "https://github.com/gregfontaine/jobs",
+      "sourceUrl": "https://github.com/gregfontaine/jobs",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "gregfontaine/jobs",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "AI exposure analysis of Japanese job market (~556 occupations). This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "AI exposure analysis of Japanese job market (~556 occupations).",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/gregfontaine/jobs",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    },
+    {
+      "evidence_id": "live-github-6",
+      "source_url": "https://github.com/hall0-kitty/bilingual-job-navigator",
+      "sourceUrl": "https://github.com/hall0-kitty/bilingual-job-navigator",
+      "source_class": "github",
+      "sourceClass": "github",
+      "title": "hall0-kitty/bilingual-job-navigator",
+      "retrievedAt": "2026-07-27T04:55:01.274Z",
+      "extractedClaim": "A web application for bilingual professionals navigating the Japanese international tech market. This source adds context that may shift the balance between acting now and waiting. Affects whether timing favors acting now versus deferring.",
+      "relevanceReason": "Addresses decision factor “market opportunity”: Affects whether timing favors acting now versus deferring.",
+      "confidence": 0.58,
+      "authority_score": 0.52,
+      "relevance_score": 0.53,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as technical/job-market signal for “market opportunity”.",
+      "fact": "A web application for bilingual professionals navigating the Japanese international tech market.",
+      "implication": "This source adds context that may shift the balance between acting now and waiting.",
+      "decisionImpact": "Affects whether timing favors acting now versus deferring.",
+      "supportedOptions": [
+        "act now",
+        "gather more evidence"
+      ],
+      "provenance": {
+        "pointer": "https://github.com/hall0-kitty/bilingual-job-navigator",
+        "retrieved_at": "2026-07-27T04:55:01.274Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-QG-SMOKE-STARTUP-EMP-001",
+      "question": "Should I build an AI startup in Tokyo or continue employment?\n[decision-plan: domain=startup_career_decision; goal=make_decision; factors=market opportunity|financial risk|opportunity cost|Tokyo ecosystem|personal constraints; queries=Startup ecosystem in Japan|Venture capital in Japan|Labor market of Japan|tokyo AI startup|japan job market|quit job startup Tokyo; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Labor market of Japan",
+        "excerpt": "In 2010, Japan had a labor force of 65.9 million people, representing 59.6% of the aged 15 years and older. Among them, 62.57 million were employed, while 3.34 million were unemployed, yielding an unemployment rate of 5.1%. The structure of Japan's labor market experienced gradual change in the late 1980s and continued this trend throughout the 1990s. The structure of the labor market is affected ",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Labor_market_of_Japan",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-0",
+        "source_class": "github",
+        "title": "sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+        "excerpt": "\"This report gives a significant enumerating and intensive systematic investigation of the global Clinical Laboratory Services Market taking into account the growth factors, recent trends, developments, opportunities, and competitive landscape. The market analysts and researchers have done extensive analysis of the global Clinical Laboratory Services market with the help of research methodologies ",
+        "provenance": {
+          "pointer": "https://github.com/sam5051/COVID-19-Pandemic-Impact-on-Clinical-Laboratory-Services-MARKET-SIZE-ANALYTICAL-OVERVIEW-GROWTH-FA",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-1",
+        "source_class": "github",
+        "title": "rmakioka/COVID-labor-Japan",
+        "excerpt": "This is a project on the effects of COVID-19 on labor markets in Japan",
+        "provenance": {
+          "pointer": "https://github.com/rmakioka/COVID-labor-Japan",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-2",
+        "source_class": "github",
+        "title": "haneumlee99/Economic-Forecasts-for-Japan",
+        "excerpt": "Time-series forecasting in labor, goods and services, and financial markets of Japan using ARIMA methods",
+        "provenance": {
+          "pointer": "https://github.com/haneumlee99/Economic-Forecasts-for-Japan",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-3",
+        "source_class": "github",
+        "title": "Srakawichi/park-whisperer-ai",
+        "excerpt": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. It was created during the DMZ × JVA Startup Hackathon held in Tokyo, Japan (Oct 11–12, 2025) — a two-day startup challenge focused on innovation, sustainability, and business impact.",
+        "provenance": {
+          "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-4",
+        "source_class": "github",
+        "title": "Pragaty/Places-To-Visit-In-Dehradun",
+        "excerpt": "The Serene Doon Valley  In the northern part of India lies a picturesque city called Dehradun with it's enchanting environs and salubrious weather the city is an epitome of beauty. It is idyllically located in the Garhwal region which is bestowed with natural abundance. The city is located 236 kilometers north of India's capital New Delhi. Being located on the foothills of the Himalayas the city h",
+        "provenance": {
+          "pointer": "https://github.com/Pragaty/Places-To-Visit-In-Dehradun",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-5",
+        "source_class": "github",
+        "title": "gregfontaine/jobs",
+        "excerpt": "AI exposure analysis of Japanese job market (~556 occupations)",
+        "provenance": {
+          "pointer": "https://github.com/gregfontaine/jobs",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      },
+      {
+        "evidence_id": "live-github-6",
+        "source_class": "github",
+        "title": "hall0-kitty/bilingual-job-navigator",
+        "excerpt": "A web application for bilingual professionals navigating the Japanese international tech market.",
+        "provenance": {
+          "pointer": "https://github.com/hall0-kitty/bilingual-job-navigator",
+          "retrieved_at": "2026-07-27T04:55:01.274Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "budget max_items=8 reached; collection truncated"
+    ],
+    "open_questions": []
+  }
+}

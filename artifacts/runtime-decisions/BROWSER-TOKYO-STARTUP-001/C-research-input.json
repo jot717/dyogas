@@ -1,0 +1,71 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "research_brief_ref": "brief-BROWSER-TOKYO-STARTUP-001@1.0.0",
+  "research_report_ref": "9243bc6f794e30834957d0d55950af12@1.0.0",
+  "research_started_at": "2026-07-27T22:44:47.866Z",
+  "research_elapsed_ms": 4119,
+  "question": "Should I build an AI startup in Tokyo or continue employment?",
+  "host_receives_research_plan": true,
+  "research_plan": {
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "financial risk",
+      "opportunity cost",
+      "Tokyo ecosystem",
+      "personal constraints"
+    ],
+    "source_requirements": [
+      "industry_reports",
+      "technical_ecosystem",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "decision_domain": "startup_decision",
+  "user_goal": "make_decision",
+  "excluded_patterns": [
+    "decision making",
+    "decision-making",
+    "decision making under deep uncertainty",
+    "decision making software",
+    "business decision",
+    "career decision",
+    "multi-criteria decision",
+    "coffee",
+    "espresso"
+  ],
+  "decision_factors": [
+    "market opportunity",
+    "financial risk",
+    "opportunity cost",
+    "Tokyo ecosystem",
+    "personal constraints"
+  ],
+  "research_intents": [
+    "career market conditions",
+    "salary and compensation opportunity",
+    "industry hiring demand",
+    "professional mobility and transition risk",
+    "Japan local labor market context",
+    "foreign professional mobility in Japan",
+    "startup opportunity landscape",
+    "solo founder feasibility"
+  ],
+  "allowed_source_classes": [
+    "web",
+    "github",
+    "reddit"
+  ]
+}

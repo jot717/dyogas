@@ -1,0 +1,207 @@
+{
+  "asset_id": "da-4e6f622b619f",
+  "title": "Decision Asset: Should I change my current job or stay?",
+  "question": "Should I change my current job or stay?",
+  "summary": "Decision support for: Should I change my current job or stay? 3 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Employment — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Employment discrimination — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Employment contract — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career switch can happen. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-web-2"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-change-career",
+      "title": "Change career path now (staged transition)",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Supporting signal: Employment — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career",
+        "Can start with a staged move rather than an all-or-nothing jump",
+        "May improve long-term optionality if demand signals hold"
+      ],
+      "risks": [
+        "Income discontinuity during transition",
+        "Market timing or hiring-cycle mismatch",
+        "Skills gap versus target role requirements"
+      ],
+      "unknowns": [
+        "Target role compensation range in Japan for your profile",
+        "How portable current skills are to the destination path",
+        "Personal runway and household constraints"
+      ],
+      "description": "Change career path now (staged transition)",
+      "benefits": [
+        "Supporting signal: Employment — reference for decision research. Japan employment and mobility have structural characteristics that affect how quickly a career",
+        "Can start with a staged move rather than an all-or-nothing jump",
+        "May improve long-term optionality if demand signals hold"
+      ],
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    },
+    {
+      "option_id": "opt-stay-or-defer",
+      "title": "Stay / defer change and gather stronger evidence first",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ],
+      "advantages": [
+        "Preserves current income stability while researching",
+        "Allows targeted upskilling before committing",
+        "Can validate weak spots such as: Employment discrimination — reference for decision research. Japan employment and mobility have structural characteristi"
+      ],
+      "risks": [
+        "Opportunity cost if the window for switching narrows",
+        "Staying too long in a declining fit"
+      ],
+      "unknowns": [
+        "How long to defer before a hard go/no-go date",
+        "Whether internal mobility is a better bridge than an external switch"
+      ],
+      "description": "Stay / defer change and gather stronger evidence first",
+      "benefits": [
+        "Preserves current income stability while researching",
+        "Allows targeted upskilling before committing",
+        "Can validate weak spots such as: Employment discrimination — reference for decision research. Japan employment and mobility have structural characteristi"
+      ],
+      "evidence_refs": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2"
+  ],
+  "research_artifact_id": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+  "execution_package_task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+  "status": "pending_approval",
+  "requires_human_approval": true,
+  "domain": "career_transition",
+  "user_goal": "make_decision",
+  "decision_context": "You asked a decision question in domain \"career_transition\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "research_plan": {
+    "domain": "career_transition",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "income impact",
+      "skill demand",
+      "transition risk",
+      "local labor market constraints"
+    ],
+    "source_requirements": [
+      "labor_market_data",
+      "job_market_data",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making software",
+      "decision making under deep uncertainty",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "research_factors": [
+    "market opportunity",
+    "income impact",
+    "skill demand",
+    "transition risk",
+    "local labor market constraints"
+  ],
+  "evidence_items": [
+    {
+      "source": "Employment",
+      "fact": "Employment — reference for decision research.",
+      "relevance": "Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment",
+        "retrieved_at": "2026-07-27T11:37:46.566Z"
+      }
+    },
+    {
+      "source": "Employment discrimination",
+      "fact": "Employment discrimination — reference for decision research.",
+      "relevance": "Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_discrimination",
+        "retrieved_at": "2026-07-27T11:37:46.566Z"
+      }
+    },
+    {
+      "source": "Employment contract",
+      "fact": "Employment contract — reference for decision research.",
+      "relevance": "Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "market opportunity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Employment_contract",
+        "retrieved_at": "2026-07-27T11:37:46.566Z"
+      }
+    }
+  ],
+  "confidence_level": "MEDIUM",
+  "evidence_gaps": [
+    "market opportunity",
+    "income impact",
+    "skill demand",
+    "transition risk",
+    "local labor market constraints"
+  ],
+  "unknowns": [
+    "Target role compensation range in Japan for your profile",
+    "How portable current skills are to the destination path",
+    "Personal runway and household constraints",
+    "How long to defer before a hard go/no-go date",
+    "Whether internal mobility is a better bridge than an external switch"
+  ],
+  "approval_target": {
+    "knowledge_title": "Career transition decision",
+    "approval_question": "You are approving creation of: Career transition decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Career transition decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval."
+  },
+  "provenance": {
+    "research_artifact_id": "75c914c5b2132e5dbcab3541d43801bf@1.0.0",
+    "research_brief_ref": "brief-USER-REQUEST-002@1.0.0",
+    "collector_adapter_id": "live-stage1-v1",
+    "evidence_ids": [
+      "live-web-0",
+      "live-web-1",
+      "live-web-2"
+    ]
+  },
+  "lineage": {
+    "task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+    "execution_package_task_id": "TA-SHOULD-I-CHANGE-MY-CURRE",
+    "run_id": "c2778b76b55b9c9ea8a33e75b9951625",
+    "request_id": "USER-REQUEST-002"
+  }
+}

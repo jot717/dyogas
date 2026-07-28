@@ -1,52 +1,320 @@
 {
-  "asset_id": "da-49f88e2c4a99",
+  "asset_id": "da-e2ea1ca58a04",
   "title": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
   "question": "Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo?",
-  "summary": "Decision-ready synthesis for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? Derived from 6 evidence item(s); provenance retained. researchArtifactId: a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "summary": "Decision support for: Which AI startup opportunity has the highest probability of success for a solo founder in Tokyo? 8 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
   "claims": [
     {
       "claim_id": "claim-000",
-      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-web-0"
+      "text": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-0"
     },
     {
       "claim_id": "claim-001",
-      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-web-1"
+      "text": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "evidence_id": "live-github-1"
     },
     {
       "claim_id": "claim-002",
-      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-github-0"
+      "text": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility",
+      "evidence_id": "live-github-2"
     },
     {
       "claim_id": "claim-003",
-      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-github-1"
+      "text": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-3"
     },
     {
       "claim_id": "claim-004",
-      "text": "Mock evidence 1 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-reddit-0"
+      "text": "AI-first knowledge base and startup OS. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in the local context.",
+      "evidence_id": "live-github-4"
     },
     {
       "claim_id": "claim-005",
-      "text": "Mock evidence 2 for: Which AI startup opportunity has the highest probability of success for a solo f",
-      "evidence_id": "mock-reddit-1"
+      "text": "Building Startups with an AI Co-Founder. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "live-github-5"
+    },
+    {
+      "claim_id": "claim-006",
+      "text": "Community list of startups working with AI in audio and music technology. Founding conditions in the target market influence whether a build-first path is viable now. Informs technical and market-demand feasibility for the path you are weighing.",
+      "evidence_id": "live-github-6"
+    },
+    {
+      "claim_id": "claim-007",
+      "text": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary. Founding conditions in the target market influence whether a build-first path is viable now. Affects feasibility of execution in t",
+      "evidence_id": "live-github-7"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "supporting_evidence": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Evidence supports exploration: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "benefits": [
+        "Evidence supports exploration: Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions. Found",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "supporting_evidence": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Fou"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ],
+      "description": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "benefits": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release. Fou"
+      ],
+      "evidence_refs": [
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
+      ]
     }
   ],
   "evidence_ids": [
-    "mock-web-0",
-    "mock-web-1",
-    "mock-github-0",
-    "mock-github-1",
-    "mock-reddit-0",
-    "mock-reddit-1"
+    "live-github-0",
+    "live-github-1",
+    "live-github-2",
+    "live-github-3",
+    "live-github-4",
+    "live-github-5",
+    "live-github-6",
+    "live-github-7"
   ],
-  "research_artifact_id": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+  "research_artifact_id": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
   "tenant_id": "validation-tokyo-2026",
   "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
   "execution_package_task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
   "status": "pending_approval",
-  "requires_human_approval": true
+  "requires_human_approval": true,
+  "domain": "startup_decision",
+  "user_goal": "make_decision",
+  "decision_context": "You asked a decision question in domain \"startup_decision\". Approving creates Knowledge + Decision Model for your chosen option (DYOGAS will not choose for you).",
+  "research_plan": {
+    "domain": "startup_decision",
+    "user_goal": "make_decision",
+    "research_factors": [
+      "market opportunity",
+      "customer pain",
+      "competition",
+      "technology feasibility",
+      "Japan/Tokyo ecosystem maturity",
+      "capital and runway constraints"
+    ],
+    "source_requirements": [
+      "industry_reports",
+      "technical_ecosystem",
+      "community_signals"
+    ],
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "multi-criteria decision",
+      "coffee",
+      "espresso"
+    ]
+  },
+  "research_factors": [
+    "market opportunity",
+    "customer pain",
+    "competition",
+    "technology feasibility",
+    "Japan/Tokyo ecosystem maturity",
+    "capital and runway constraints"
+  ],
+  "evidence_items": [
+    {
+      "source": "Srakawichi/park-whisperer-ai",
+      "fact": "Spark is a prototype navigation app that helps drivers find available parking spaces using AI-powered predictions.",
+      "relevance": "Addresses decision factor “Japan/Tokyo ecosystem maturity”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "Japan/Tokyo ecosystem maturity",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/Srakawichi/park-whisperer-ai",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "OneRedOak/claude-code-workflows",
+      "fact": "The best workflows and configurations I've developed, having heavily used Claude Code since the day of it's release.",
+      "relevance": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "supported_factor": "capital and runway constraints",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "provenance": {
+        "pointer": "https://github.com/OneRedOak/claude-code-workflows",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "sahibzada-allahyar/YC-Killer",
+      "fact": "A library of enterprise-grade AI agents designed to democratize artificial intelligence and provide free, open-source alternatives to overvalued Y Combinator startups.",
+      "relevance": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "supported_factor": "capital and runway constraints",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "provenance": {
+        "pointer": "https://github.com/sahibzada-allahyar/YC-Killer",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "erupts/erupt",
+      "fact": "One class = one admin page · zero frontend · 2–5s startup · 50+ LLM · MCP· A2A · 70K+ skills.",
+      "relevance": "Addresses decision factor “startup opportunity landscape”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "startup opportunity landscape",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/erupts/erupt",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "cabinetai/cabinet",
+      "fact": "AI-first knowledge base and startup OS.",
+      "relevance": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "supported_factor": "capital and runway constraints",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "provenance": {
+        "pointer": "https://github.com/cabinetai/cabinet",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "jtmuller5/The-HustleGPT-Challenge",
+      "fact": "Building Startups with an AI Co-Founder.",
+      "relevance": "Addresses decision factor “startup opportunity landscape”: Affects whether timing favors acting now versus deferring.",
+      "supported_factor": "startup opportunity landscape",
+      "decision_impact": "Affects whether timing favors acting now versus deferring.",
+      "provenance": {
+        "pointer": "https://github.com/jtmuller5/The-HustleGPT-Challenge",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "csteinmetz1/ai-audio-startups",
+      "fact": "Community list of startups working with AI in audio and music technology.",
+      "relevance": "Addresses decision factor “technology feasibility”: Informs technical and market-demand feasibility for the path you are weighing.",
+      "supported_factor": "technology feasibility",
+      "decision_impact": "Informs technical and market-demand feasibility for the path you are weighing.",
+      "provenance": {
+        "pointer": "https://github.com/csteinmetz1/ai-audio-startups",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    },
+    {
+      "source": "lorryjovens-hub/claude-code-rust",
+      "fact": "🚀 Rust 全量重构的 Claude Code - 性能提升 2.5x，体积减少 97% | High-performance Rust implementation of Claude Code with 2.5x faster startup and 97% smaller binary.",
+      "relevance": "Addresses decision factor “capital and runway constraints”: Affects feasibility of execution in the local context.",
+      "supported_factor": "capital and runway constraints",
+      "decision_impact": "Affects feasibility of execution in the local context.",
+      "provenance": {
+        "pointer": "https://github.com/lorryjovens-hub/claude-code-rust",
+        "retrieved_at": "2026-07-27T11:37:43.509Z"
+      }
+    }
+  ],
+  "confidence_level": "MEDIUM",
+  "evidence_gaps": [
+    "customer pain",
+    "competition"
+  ],
+  "unknowns": [
+    "Who pays first, and for what concrete job-to-be-done?",
+    "Regulatory / data constraints for the chosen niche",
+    "Personal runway vs time-to-first-revenue",
+    "How long validation should run before a go/no-go",
+    "Whether consulting demand maps to a product wedge"
+  ],
+  "approval_target": {
+    "knowledge_title": "Tokyo AI startup vs employment decision",
+    "approval_question": "You are approving creation of: Tokyo AI startup vs employment decision Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Tokyo AI startup vs employment decision Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval."
+  },
+  "provenance": {
+    "research_artifact_id": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
+    "research_brief_ref": "brief-USER-REQUEST-001@1.0.0",
+    "collector_adapter_id": "live-stage1-v1",
+    "evidence_ids": [
+      "live-github-0",
+      "live-github-1",
+      "live-github-2",
+      "live-github-3",
+      "live-github-4",
+      "live-github-5",
+      "live-github-6",
+      "live-github-7"
+    ]
+  },
+  "lineage": {
+    "task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+    "execution_package_task_id": "TA-WHICH-AI-STARTUP-OPPORTU",
+    "run_id": "56b36b0c95105b942d37797381e93794",
+    "request_id": "USER-REQUEST-001"
+  }
 }

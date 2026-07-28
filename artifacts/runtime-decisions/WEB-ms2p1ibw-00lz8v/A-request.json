@@ -1,0 +1,14 @@
+{
+  "schema_version": "0.2.0",
+  "request_id": "WEB-ms2p1ibw-00lz8v",
+  "user_id": "web-mvp-user",
+  "tenant_id": "validation-tokyo-2026",
+  "question": "how to make itlian coffee",
+  "constraints": {
+    "location": "Tokyo",
+    "timeframe": "2026"
+  },
+  "desired_outcome": "make nice itlian coffee",
+  "user_intent": "how to make itlian coffee",
+  "workspace_id": "ws-web-web-mvp-user"
+}

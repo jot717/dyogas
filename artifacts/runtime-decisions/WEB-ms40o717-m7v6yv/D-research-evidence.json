@@ -1,0 +1,382 @@
+{
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 1,
+  "evidence_views": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "source_class": "web",
+      "title": "Immigration to Japan",
+      "timestamp": "2026-07-28T02:08:29.087Z",
+      "extracted_claim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevance_reason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supported_options": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-28T02:08:29.087Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "enriched_evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "sourceClass": "web",
+      "title": "Immigration to Japan",
+      "retrievedAt": "2026-07-28T02:08:29.087Z",
+      "extractedClaim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "source_alignment_score": 0.57,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "intelligence": {
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+        "supportedOptions": [
+          "record method knowledge",
+          "try alternate method"
+        ]
+      },
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-28T02:08:29.087Z"
+      },
+      "adapter": "live-stage1-v1",
+      "excerpt": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. \nIn December 2025, there were more than 4.12 million foreign residents, accounting for approximately 3.35% of Japan's estimated population of 123.2 million.",
+      "matched_intents": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ],
+      "matched_factors": [
+        "Japan local labor market context",
+        "foreign professional mobility in Japan",
+        "visa and foreign professional constraints"
+      ]
+    }
+  ],
+  "research_summary": {
+    "research_intents": [
+      "Japan local labor market context",
+      "foreign professional mobility in Japan",
+      "visa and foreign professional constraints"
+    ],
+    "decision_domain": "japan_immigration",
+    "decision_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "key_findings": [
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "market_signals": [
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. → Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "risks": [
+      "Stage-1 evidence is directional — verify with primary sources before irreversible moves."
+    ],
+    "decision_options_preview": [
+      "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+      "Create Japan HSP points-and-documents checklist knowledge before filing the application."
+    ],
+    "evidence_count": 1,
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false
+  },
+  "decision_brief": {
+    "question": "how to apply for highly skilled visa in japan",
+    "context": "You asked a how-to question in domain \"japan_immigration\". Approving creates Knowledge from researched evidence (DYOGAS will not decide for you).",
+    "decision_domain": "japan_immigration",
+    "domain": "japan_immigration",
+    "user_goal": "learn_how_to",
+    "decision_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "research_factors": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "key_findings": [
+      "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. 竊・Affects which method steps and technique you should record as usable knowledge."
+    ],
+    "key_factors": [
+      {
+        "factor": "eligibility",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "points_calculation",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      },
+      {
+        "factor": "required_documents",
+        "why_matters": "Central to evaluating this japan immigration question with proportionate caution.",
+        "evidence_ids": [
+          "live-web-0"
+        ],
+        "impact": "Affects which method steps and technique you should record as usable knowledge."
+      }
+    ],
+    "evidence_summary": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      }
+    ],
+    "strongest_evidence": [
+      {
+        "evidence_id": "live-web-0",
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+        "why_relevant": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+        "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+        "decision_impact": "Affects which method steps and technique you should record as usable knowledge.",
+        "authority_score": 0.66,
+        "relevance_score": 0.69,
+        "confidence": 0.71
+      }
+    ],
+    "tradeoffs": [
+      {
+        "option_id": "opt-prepare-after-eligibility",
+        "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+        "benefits": [
+          "Confirms eligibility before investing time in full documentation",
+          "Eligibility signal: According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail ch",
+          "Creates a clear Knowledge record of the next procedural step"
+        ],
+        "risks": [
+          "Eligibility interpretation can still be incomplete without primary ISA guidance",
+          "Document checklists vary by category and points table updates"
+        ]
+      },
+      {
+        "option_id": "opt-calculate-points-first",
+        "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+        "benefits": [
+          "Focuses effort on the points table and document gaps before filing",
+          "Surfaces missing evidence before application packaging",
+          "Reduces risk of filing with insufficient points or paperwork"
+        ],
+        "risks": [
+          "Delay if document collection takes longer than expected",
+          "Points rules may change while gathering materials"
+        ]
+      }
+    ],
+    "decision_options": [
+      {
+        "option_id": "opt-prepare-after-eligibility",
+        "title": "Create Japan HSP visa application knowledge based on ISA requirements, points calculation and documents.",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Confirms eligibility before investing time in full documentation",
+          "Eligibility signal: According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail ch",
+          "Creates a clear Knowledge record of the next procedural step"
+        ],
+        "risks": [
+          "Eligibility interpretation can still be incomplete without primary ISA guidance",
+          "Document checklists vary by category and points table updates"
+        ],
+        "unknowns": [
+          "Exact points score for your education/experience profile",
+          "Whether supporting documents are already obtainable"
+        ]
+      },
+      {
+        "option_id": "opt-calculate-points-first",
+        "title": "Create Japan HSP points-and-documents checklist knowledge before filing the application.",
+        "why_consider": "Records researched preparation steps as Knowledge you can reuse later.",
+        "advantages": [
+          "Focuses effort on the points table and document gaps before filing",
+          "Surfaces missing evidence before application packaging",
+          "Reduces risk of filing with insufficient points or paperwork"
+        ],
+        "risks": [
+          "Delay if document collection takes longer than expected",
+          "Points rules may change while gathering materials"
+        ],
+        "unknowns": [
+          "Which documents are hardest to obtain for your case",
+          "Whether a different status of residence is a better fit"
+        ]
+      }
+    ],
+    "unknowns": [
+      "Exact points score for your education/experience profile",
+      "Whether supporting documents are already obtainable",
+      "Which documents are hardest to obtain for your case",
+      "Whether a different status of residence is a better fit"
+    ],
+    "approval_question": "You are approving creation of: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge",
+    "knowledge_preview": "Proposed Knowledge artifact: Japan HSP visa application (ISA requirements, points calculation, documents) Knowledge. Provenance-linked evidence and chosen option/tradeoffs will be stored after human approval.",
+    "proposed_knowledge_artifact": "Japan HSP visa application (ISA requirements, points calculation, documents)",
+    "excluded_patterns": [
+      "decision making",
+      "decision-making",
+      "decision making under deep uncertainty",
+      "decision making software",
+      "business decision",
+      "career decision",
+      "multi-criteria decision",
+      "Jamaica",
+      "football",
+      "soccer",
+      "politician",
+      "language learning",
+      "Japanese language",
+      "tourism",
+      "coffee",
+      "espresso",
+      "startup",
+      "career change"
+    ],
+    "status": "WAITING_HUMAN",
+    "automatic_recommendation": false,
+    "evidence_count": 1,
+    "evidence_quality_status": "MEDIUM",
+    "evidence_quality": {
+      "status": "MEDIUM",
+      "avg_relevance": 0.69,
+      "avg_authority": 0.66,
+      "avg_alignment": 0.57,
+      "avg_freshness": 0.9,
+      "factor_coverage_ratio": 0,
+      "covered_factors": [],
+      "gaps": [
+        "eligibility",
+        "points_calculation",
+        "required_documents",
+        "application_procedure"
+      ],
+      "source_classes": [
+        "web"
+      ],
+      "source_diversity": 1,
+      "evidence_count": 1,
+      "warning": "Evidence volume is limited (1 usable item) — human approval is the confidence checkpoint. Research factor coverage is incomplete (0/4). Gaps: eligibility, points_calculation, required_documents. Known evidence gaps remain for: eligibility, points_calculation, required_documents, application_procedure.",
+      "block_reason": null
+    },
+    "confidence_warning": "Evidence volume is limited (1 usable item) — human approval is the confidence checkpoint. Research factor coverage is incomplete (0/4). Gaps: eligibility, points_calculation, required_documents. Known evidence gaps remain for: eligibility, points_calculation, required_documents, application_procedure.",
+    "evidence_gaps": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure"
+    ],
+    "confidence_level": "MEDIUM",
+    "evidence_sources": [
+      {
+        "title": "Immigration to Japan",
+        "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "source_class": "web"
+      }
+    ],
+    "missing_information": [
+      "eligibility",
+      "points_calculation",
+      "required_documents",
+      "application_procedure",
+      "Research confidence is limited — verify with primary sources"
+    ],
+    "human_actions": [
+      "approve_option",
+      "request_more_evidence",
+      "reject"
+    ]
+  },
+  "evidence": [
+    {
+      "evidence_id": "live-web-0",
+      "source_url": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+      "source_class": "web",
+      "sourceClass": "web",
+      "title": "Immigration to Japan",
+      "retrievedAt": "2026-07-28T02:08:29.087Z",
+      "extractedClaim": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "relevanceReason": "Addresses decision factor “Japan local labor market context”: Affects which method steps and technique you should record as usable knowledge.",
+      "confidence": 0.71,
+      "authority_score": 0.66,
+      "relevance_score": 0.69,
+      "freshness_score": 0.9,
+      "selection_reason": "Selected as structured reference for “Japan local labor market context” (verify with primary sources before committing).",
+      "fact": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949.",
+      "implication": "This preparation detail changes how you should brew or serve Italian-style coffee.",
+      "decisionImpact": "Affects which method steps and technique you should record as usable knowledge.",
+      "supportedOptions": [
+        "record method knowledge",
+        "try alternate method"
+      ],
+      "provenance": {
+        "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+        "retrieved_at": "2026-07-28T02:08:29.087Z"
+      },
+      "adapter": "live-stage1-v1"
+    }
+  ],
+  "sealed_payload": {
+    "brief_ref": {
+      "brief_id": "brief-WEB-ms40o717-m7v6yv",
+      "question": "how to apply for highly skilled visa in japan\n[decision-plan: domain=japan_immigration; goal=learn_how_to; factors=eligibility|points_calculation|required_documents|application_procedure; queries=Immigration Services Agency|Japanese residency system|Permanent residency in Japan|Immigration to Japan|Highly Skilled Professional points calculation|Highly Skilled Professional required documents; preferred=Immigration Services Agency Japan|MOJ Japan|Japan visa official|Highly Skilled Professional visa|points calculation|required documents|application procedure; classes=web|reddit; exclude=decision making|decision-making|decision making under deep uncertainty|decision making software|business decision|career decision|multi-criteria decision|Jamaica]"
+    },
+    "evidence_items": [
+      {
+        "evidence_id": "live-web-0",
+        "source_class": "web",
+        "title": "Immigration to Japan",
+        "excerpt": "According to the Ministry of Justice, the number of foreign residents in Japan has steadily increased since 1949. \nIn December 2025, there were more than 4.12 million foreign residents, accounting for approximately 3.35% of Japan's estimated population of 123.2 million.",
+        "provenance": {
+          "pointer": "https://en.wikipedia.org/wiki/Immigration_to_Japan",
+          "retrieved_at": "2026-07-28T02:08:29.087Z"
+        },
+        "signal_tier": "unknown"
+      }
+    ],
+    "coverage_gaps": [
+      "no evidence from source class github",
+      "no evidence from source class reddit"
+    ],
+    "open_questions": []
+  }
+}

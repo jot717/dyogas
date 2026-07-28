@@ -15,243 +15,305 @@
     },
     "evidence": {
       "stage": "evidence",
-      "researchArtifactId": "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0",
+      "researchArtifactId": "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0",
       "evidenceIds": [
-        "mock-web-0",
-        "mock-web-1",
-        "mock-github-0",
-        "mock-github-1",
-        "mock-reddit-0",
-        "mock-reddit-1"
+        "live-github-0",
+        "live-github-1",
+        "live-github-2",
+        "live-github-3",
+        "live-github-4",
+        "live-github-5",
+        "live-github-6",
+        "live-github-7"
       ],
       "taskId": "TA-WHICH-AI-STARTUP-OPPORTU",
       "tenantId": "validation-tokyo-2026"
     },
     "knowledge": {
       "stage": "knowledge",
-      "knowledgeId": "f46996422948e0fdfd56a5f9b1a3f943",
+      "knowledgeId": "7824737c43d65dc09c6606d92e05b6e3",
       "version": 1,
       "approvalState": "applied"
     },
     "decision": {
       "stage": "decision",
       "graphUpdateMode": "apply",
-      "nodeCount": 8,
-      "edgeCount": 13,
+      "nodeCount": 10,
+      "edgeCount": 17,
       "consistencyOk": true
     }
   },
   "nodes": [
     {
-      "node_id": "node_5ae8e2e2c546",
+      "node_id": "node_d9bf39a5878f",
       "label": "Decision Asset: Which AI startup opportunity has the highest probability of success for a solo f",
       "types": [
         "Knowledge"
       ],
       "provenance": [
-        "f46996422948e0fdfd56a5f9b1a3f943#title",
-        "f46996422948e0fdfd56a5f9b1a3f943#body"
+        "7824737c43d65dc09c6606d92e05b6e3#title",
+        "7824737c43d65dc09c6606d92e05b6e3#body"
       ]
     },
     {
-      "node_id": "node_53e4d29fcfb5",
+      "node_id": "node_a8864f8b5516",
       "label": "Decision from Decision Asset: Which AI startup opportunity has the highest proba",
       "types": [
         "Decision"
       ],
       "provenance": [
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "node_id": "node_a34089f256d3",
-      "label": "mock-web-0",
+      "node_id": "node_3d877af1de97",
+      "label": "live-github-0",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-web-0",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-web-0"
+        "evidence:live-github-0",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-0"
       ]
     },
     {
-      "node_id": "node_d646953263af",
-      "label": "mock-web-1",
+      "node_id": "node_6f22db0d0cc5",
+      "label": "live-github-1",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-web-1",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-web-1"
+        "evidence:live-github-1",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-1"
       ]
     },
     {
-      "node_id": "node_68be4bc526d4",
-      "label": "mock-github-0",
+      "node_id": "node_1667715183e7",
+      "label": "live-github-2",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-github-0",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-github-0"
+        "evidence:live-github-2",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-2"
       ]
     },
     {
-      "node_id": "node_497123146f3f",
-      "label": "mock-github-1",
+      "node_id": "node_f965949bed7b",
+      "label": "live-github-3",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-github-1",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-github-1"
+        "evidence:live-github-3",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-3"
       ]
     },
     {
-      "node_id": "node_ae25547b8c5b",
-      "label": "mock-reddit-0",
+      "node_id": "node_9aaa6e36d017",
+      "label": "live-github-4",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-reddit-0",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-reddit-0"
+        "evidence:live-github-4",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-4"
       ]
     },
     {
-      "node_id": "node_ebe0c843428a",
-      "label": "mock-reddit-1",
+      "node_id": "node_21ba642fa70c",
+      "label": "live-github-5",
       "types": [
         "Evidence"
       ],
       "provenance": [
-        "evidence:mock-reddit-1",
-        "a51869e12c9a0eb8c15b5c9e0f8ef5db@1.0.0#mock-reddit-1"
+        "evidence:live-github-5",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-5"
+      ]
+    },
+    {
+      "node_id": "node_4cf8581e0339",
+      "label": "live-github-6",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-github-6",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-6"
+      ]
+    },
+    {
+      "node_id": "node_139d87ef1ad7",
+      "label": "live-github-7",
+      "types": [
+        "Evidence"
+      ],
+      "provenance": [
+        "evidence:live-github-7",
+        "b1331df7dd2a7acc8e3f3069e3c79efa@1.0.0#live-github-7"
       ]
     }
   ],
   "edges": [
     {
-      "edge_id": "edge_c16d64a47255",
-      "from": "node_5ae8e2e2c546",
-      "to": "node_53e4d29fcfb5",
+      "edge_id": "edge_6ea84bccc1a8",
+      "from": "node_d9bf39a5878f",
+      "to": "node_a8864f8b5516",
       "relation": "decides",
       "provenance": [
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_d16688c7c996",
-      "from": "node_a34089f256d3",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_a6a3331a5170",
+      "from": "node_3d877af1de97",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-web-0"
+        "evidence:live-github-0"
       ]
     },
     {
-      "edge_id": "edge_0dd21efcddaf",
-      "from": "node_a34089f256d3",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_93601723c633",
+      "from": "node_3d877af1de97",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-web-0",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-0",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_b664f4441581",
-      "from": "node_d646953263af",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_136da19e5065",
+      "from": "node_6f22db0d0cc5",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-web-1"
+        "evidence:live-github-1"
       ]
     },
     {
-      "edge_id": "edge_8e13eba7b5ef",
-      "from": "node_d646953263af",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_c99ae5cda282",
+      "from": "node_6f22db0d0cc5",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-web-1",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-1",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_dee3a4f8259d",
-      "from": "node_68be4bc526d4",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_52e9f58ef7da",
+      "from": "node_1667715183e7",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-github-0"
+        "evidence:live-github-2"
       ]
     },
     {
-      "edge_id": "edge_8bf2923f1edf",
-      "from": "node_68be4bc526d4",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_9e4bca839fdc",
+      "from": "node_1667715183e7",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-github-0",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-2",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_fc26e6cdcd5a",
-      "from": "node_497123146f3f",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_7ad68596c33a",
+      "from": "node_f965949bed7b",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-github-1"
+        "evidence:live-github-3"
       ]
     },
     {
-      "edge_id": "edge_7e96cc2794cb",
-      "from": "node_497123146f3f",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_4547ad783eed",
+      "from": "node_f965949bed7b",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-github-1",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-3",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_0ed71d0de5ed",
-      "from": "node_ae25547b8c5b",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_173a2d25cdae",
+      "from": "node_9aaa6e36d017",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-reddit-0"
+        "evidence:live-github-4"
       ]
     },
     {
-      "edge_id": "edge_af041d415ddf",
-      "from": "node_ae25547b8c5b",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_c99a573c617b",
+      "from": "node_9aaa6e36d017",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-reddit-0",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-4",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     },
     {
-      "edge_id": "edge_aa6ea72c1b4f",
-      "from": "node_ebe0c843428a",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_9df75d2197d5",
+      "from": "node_21ba642fa70c",
+      "to": "node_d9bf39a5878f",
       "relation": "supports",
       "provenance": [
-        "evidence:mock-reddit-1"
+        "evidence:live-github-5"
       ]
     },
     {
-      "edge_id": "edge_1451e9792e1f",
-      "from": "node_ebe0c843428a",
-      "to": "node_5ae8e2e2c546",
+      "edge_id": "edge_843175b3905c",
+      "from": "node_21ba642fa70c",
+      "to": "node_d9bf39a5878f",
       "relation": "approved_as",
       "provenance": [
-        "evidence:mock-reddit-1",
-        "f46996422948e0fdfd56a5f9b1a3f943#title"
+        "evidence:live-github-5",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
+      ]
+    },
+    {
+      "edge_id": "edge_edfc456acd51",
+      "from": "node_4cf8581e0339",
+      "to": "node_d9bf39a5878f",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-github-6"
+      ]
+    },
+    {
+      "edge_id": "edge_60ca28ef01dc",
+      "from": "node_4cf8581e0339",
+      "to": "node_d9bf39a5878f",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-github-6",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
+      ]
+    },
+    {
+      "edge_id": "edge_f518b675ce7a",
+      "from": "node_139d87ef1ad7",
+      "to": "node_d9bf39a5878f",
+      "relation": "supports",
+      "provenance": [
+        "evidence:live-github-7"
+      ]
+    },
+    {
+      "edge_id": "edge_5ec4c402202c",
+      "from": "node_139d87ef1ad7",
+      "to": "node_d9bf39a5878f",
+      "relation": "approved_as",
+      "provenance": [
+        "evidence:live-github-7",
+        "7824737c43d65dc09c6606d92e05b6e3#title"
       ]
     }
   ]

@@ -7,6 +7,7 @@ import {
   persistApprovedKnowledgeToDecisionGraph,
   type InMemoryGraphStore,
   type PersistDecisionGraphResult,
+  type ProductGraphLineage,
 } from "@dyogas/graph-engine";
 import type { KnowledgeApplyResult } from "@dyogas/knowledge-engine";
 import type { HumanGateFlowResult } from "@dyogas/human-gate";
@@ -17,6 +18,7 @@ export interface PersistDecisionAssetInput {
   readonly gate: HumanGateFlowResult;
   readonly store?: InMemoryGraphStore;
   readonly mutationAuthorized?: boolean;
+  readonly graphLineage?: ProductGraphLineage;
 }
 
 export interface PersistDecisionAssetResult {
@@ -50,6 +52,7 @@ export function persistApprovedDecisionAsset(
     store,
     mutationAuthorized: opts.mutationAuthorized ?? true,
     mode: "apply",
+    ...(opts.graphLineage ? { lineage: opts.graphLineage } : {}),
   });
 
   if (!graph.persisted) {

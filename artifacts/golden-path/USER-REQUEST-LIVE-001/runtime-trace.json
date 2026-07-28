@@ -1,0 +1,37 @@
+{
+  "requestId": "USER-REQUEST-LIVE-001",
+  "path": [
+    "submitDecisionRequest",
+    "ExecutionHost.createRun",
+    "ResearchAgent.stage1",
+    "live-stage1-v1.collect",
+    "EvidenceArtifact",
+    "DecisionAsset",
+    "WaitingHumanApproval",
+    "approveDecisionRequest"
+  ],
+  "host_run_id": "98f9ffd236c93ee56092188440e94b37",
+  "host_status_after_research": "waiting_human",
+  "host_status_after_approve": "succeeded",
+  "collector_adapter_id": "live-stage1-v1",
+  "evidence_count": 2,
+  "live_urls": [
+    "https://example.com/?q=Which%20AI%20startup%20opportunity%20has%20the%20highest%20probability%20of%20success",
+    "https://github.com/Srakawichi/park-whisperer-ai"
+  ],
+  "source_classes_present": [
+    "web",
+    "github"
+  ],
+  "coverage_gaps": [
+    "no evidence from source class reddit"
+  ],
+  "research_elapsed_ms": 426,
+  "browser_flow": {
+    "researching": true,
+    "evidence_collected": true,
+    "waiting_human_approval": true
+  },
+  "remaining_mock_path": "Unit/golden harness only via DYOGAS_RESEARCH_COLLECTOR=mock or explicit researchCollector inject — product/web default is live-stage1-v1 with no fixture fallback",
+  "note_reddit": "Reddit HTTPS search currently returns HTTP 403 from this network (Cloudflare). Class soft-fails empty — no fabricated reddit evidence."
+}

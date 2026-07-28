@@ -1,0 +1,103 @@
+{
+  "asset_id": "da-5b200d9abb96",
+  "title": "Decision Asset: how to make italian coffee",
+  "question": "how to make italian coffee",
+  "summary": "Decision support for: how to make italian coffee 6 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: 0caa09862064200f8d5b8595d5058d8d@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground coffee beans. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique yo",
+      "evidence_id": "live-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared with steamed milk, including a layer of milk foam. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method step",
+      "evidence_id": "live-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Cappuccino Jones (born August 16, 2002) is an American professional wrestler. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-2"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Naomi Cappuccino is an associate professor of biology at Carleton University in Ottawa, Canada. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-3"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Italian coffee culture — reference for decision research. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-4"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Coffee preparation is the process of making liquid coffee using coffee beans. This preparation detail changes how you should brew or serve Italian-style coffee. Affects which method steps and technique you should record as usable knowledge.",
+      "evidence_id": "live-web-5"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-record-method",
+      "title": "Create Italian coffee preparation knowledge covering brewing method, ingredients, equipment and technique.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ],
+      "advantages": [
+        "Method signal: Espresso ( , Italian: [eˈsprɛsso]) is a concentrated form of coffee produced by forcing hot water under high pressure through finely ground ",
+        "Creates reusable Knowledge with provenance for later recall",
+        "Keeps technique notes tied to cited sources"
+      ],
+      "risks": [
+        "Source methods may omit equipment or taste preferences",
+        "Regional Italian styles differ (espresso vs moka vs milk drinks)"
+      ],
+      "unknowns": [
+        "Which equipment you actually have available",
+        "Preferred strength / milk ratio for your taste"
+      ]
+    },
+    {
+      "option_id": "opt-try-alternate",
+      "title": "Create comparative Italian coffee technique knowledge before committing to one brew method.",
+      "supporting_evidence": [
+        "live-web-0",
+        "live-web-1",
+        "live-web-2",
+        "live-web-3",
+        "live-web-4",
+        "live-web-5"
+      ],
+      "advantages": [
+        "Lets you compare brew styles before committing to one recipe",
+        "Can explore: Cappuccino ( , Italian: [kapputˈtʃiːno]; from German Kapuziner) is an espresso-based coffee drink traditionally prepared"
+      ],
+      "risks": [
+        "Delay recording useful knowledge you already researched",
+        "Too many variants can dilute a clear first method"
+      ],
+      "unknowns": [
+        "Whether home equipment can match cafe-style results",
+        "Which alternate method is most relevant next"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "live-web-0",
+    "live-web-1",
+    "live-web-2",
+    "live-web-3",
+    "live-web-4",
+    "live-web-5"
+  ],
+  "research_artifact_id": "0caa09862064200f8d5b8595d5058d8d@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+  "execution_package_task_id": "TA-HOW-TO-MAKE-ITALIAN-COFF",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}

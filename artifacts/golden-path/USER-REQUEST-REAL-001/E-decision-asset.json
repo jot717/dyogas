@@ -1,0 +1,106 @@
+{
+  "asset_id": "da-9f94c43456db",
+  "title": "Decision Asset: Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "question": "Should I leave my Tokyo employment this year to start a solo AI product company?",
+  "summary": "Decision support for: Should I leave my Tokyo employment this year to start a solo AI product company? 6 evidence claim(s); 2 human-choosable options (no automatic recommendation). researchArtifactId: c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "claims": [
+    {
+      "claim_id": "claim-000",
+      "text": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-web-0"
+    },
+    {
+      "claim_id": "claim-001",
+      "text": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-web-1"
+    },
+    {
+      "claim_id": "claim-002",
+      "text": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-github-0"
+    },
+    {
+      "claim_id": "claim-003",
+      "text": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-github-1"
+    },
+    {
+      "claim_id": "claim-004",
+      "text": "Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-reddit-0"
+    },
+    {
+      "claim_id": "claim-005",
+      "text": "Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditions in the target market influence whether a build-first path is viable now. Affects whether timing favors acting now versus deferring.",
+      "evidence_id": "mock-reddit-1"
+    }
+  ],
+  "options": [
+    {
+      "option_id": "opt-pursue-build",
+      "title": "Create Tokyo AI startup decision knowledge recording a build-now path versus employment baseline.",
+      "supporting_evidence": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "advantages": [
+        "Evidence supports exploration: Mock evidence 1 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditio",
+        "Solo-founder path can stay small until distribution is proven",
+        "Tokyo timing may capture local AI adoption momentum"
+      ],
+      "risks": [
+        "Market may already be crowded in AI tooling",
+        "Distribution and customer acquisition remain unproven",
+        "Capital and attention risk if validation is skipped"
+      ],
+      "unknowns": [
+        "Who pays first, and for what concrete job-to-be-done?",
+        "Regulatory / data constraints for the chosen niche",
+        "Personal runway vs time-to-first-revenue"
+      ]
+    },
+    {
+      "option_id": "opt-validate-first",
+      "title": "Create Tokyo AI startup decision knowledge recording continue-employment / validate-first before full build.",
+      "supporting_evidence": [
+        "mock-web-0",
+        "mock-web-1",
+        "mock-github-0",
+        "mock-github-1",
+        "mock-reddit-0",
+        "mock-reddit-1"
+      ],
+      "advantages": [
+        "Reduces irreversible commitment while learning demand",
+        "Keeps optionality if evidence quality is still uneven",
+        "Can pressure-test signals such as: Mock evidence 2 for: Should I leave my Tokyo employment this year to start a solo AI product company?. Founding conditio"
+      ],
+      "risks": [
+        "Opportunity window may narrow while validating",
+        "Part-time validation can dilute focus"
+      ],
+      "unknowns": [
+        "How long validation should run before a go/no-go",
+        "Whether consulting demand maps to a product wedge"
+      ]
+    }
+  ],
+  "evidence_ids": [
+    "mock-web-0",
+    "mock-web-1",
+    "mock-github-0",
+    "mock-github-1",
+    "mock-reddit-0",
+    "mock-reddit-1"
+  ],
+  "research_artifact_id": "c0cc041491ddbe17cb1ceca3244dfd32@1.0.0",
+  "tenant_id": "validation-tokyo-2026",
+  "task_id": "TA-SHOULD-I-LEAVE-MY-TOKYO-",
+  "execution_package_task_id": "TA-SHOULD-I-LEAVE-MY-TOKYO-",
+  "status": "pending_approval",
+  "requires_human_approval": true
+}
